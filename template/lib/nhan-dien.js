@@ -9,6 +9,15 @@
 import { W, H, clamp, prog, ease, rng, appear } from './common.js';
 import { demNhip, kiemNhip } from './nhip-hien.js';
 
+// ---------- nhận diện riêng của kênh ----------
+// kenh/thuong-hieu/nhan-dien-kenh.js do máy thương hiệu (tools/thuong-hieu/thuong_hieu.py, bước K2) sinh từ màu của kênh:
+// export default { mau: {…vai: '#rrggbb'}, logo: '<đường dẫn tính từ tệp đó>' }. Có thì đè lên bộ mặc định dưới đây.
+// la-kit.js chỉ có ở kit hội viên (máy xuất kit sinh): ở kit mà thiếu nhận diện riêng thì thẻ báo lỗi, không dùng màu kênh mẫu.
+const URL_KENH = new URL('../../kenh/thuong-hieu/nhan-dien-kenh.js', import.meta.url);
+const nhapNeuCo = async (u) => { try { return (await import(u)).default ?? {}; } catch { return null; } };
+export const KENH = await nhapNeuCo(URL_KENH.href);
+const LA_KIT = (await nhapNeuCo(new URL('./la-kit.js', import.meta.url).href)) !== null;
+
 // ---------- màu ----------
 export const MAU = {
   nen: '#303A22',        // olive than, nền chính của thẻ
@@ -24,6 +33,9 @@ export const MAU = {
   gach: '#E5432F',      // gạch xoá chữ cũ: ≥ 3:1 với chữ kem để chữ bị gạch vẫn đọc được
   ve: 'rgba(244,238,218,0.55)', // vạch mảnh dưới tiêu đề
   xanhDich: '#A9C4DC',  // ký hiệu, chữ phía đối phương (khi cần)
+  nenSau: '#0F1309',    // nền đặc khi thẻ không trong suốt mà không dùng vải rằn ri
+  khung: '#0B0D06',     // nền khung phim trong thẻ phim-panel
+  ...(KENH?.mau ?? {}),
 };
 // Màu cũ trong shot EP001 → màu mới đọc được trên nền olive (chữ đỏ son #c93b2b chỉ 2,3:1).
 const DOI_MAU = {
@@ -154,7 +166,12 @@ export function taoND(ctx, S) {
     /** nen: false cho loại thẻ không gọi nd.nen (hook, thẻ tên, overlay): khỏi dựng nền rằn ri. */
     async chuanBi({ kieu = 'sang', seed = S.seed ?? 5, logo = true, nen = true } = {}) {
       if (!TRONG && nen) BG = dungNen(seed, kieu);
-      if (logo) LOGO = await nap(new URL('./goha-logo-ngang.png', import.meta.url).href);
+      if (LA_KIT && !KENH) {
+        throw new Error('Chưa có nhận diện riêng của kênh (kenh/thuong-hieu/nhan-dien-kenh.js). Làm K2: chạy '
+          + 'tools/thuong-hieu/thuong_hieu.py với kenh/thuong-hieu/thuong-hieu.json, không dùng màu của kênh mẫu.');
+      }
+      const urlLogo = KENH?.logo ? new URL(KENH.logo, URL_KENH) : new URL('./goha-logo-ngang.png', import.meta.url);
+      if (logo) LOGO = await nap(urlLogo.href);
     },
     batDau() { log.length = 0; nhipMoc.length = 0; gachLog.length = 0; },
     /** Khai mốc hiện (giây) của các phần tử nội dung của thẻ; đầu thẻ, năm mờ, nguồn không tính. */

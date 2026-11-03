@@ -1,3 +1,3 @@
-Kit Goha Lịch Sử v1.0
-Sinh bởi tools/xuat-kit/xuat.py ngày 2026-11-04 từ commit b634222c0b89 của repo chủ kit; 536 tệp.
+Kit Goha Lịch Sử v1.0.1
+Sinh bởi tools/xuat-kit/xuat.py ngày 2026-11-04 từ commit c4426003808b của repo chủ kit; 537 tệp.
 Đừng sửa tay tệp trong kit: chủ kit sửa ở repo làm việc rồi xuất lại.

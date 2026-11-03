@@ -105,7 +105,7 @@ Khoá API của bạn (`.env`), `cau-hinh.toml`, `ho-so-kenh/`, các tập đã 
 
 ## Hỗ trợ
 
-Liên hệ chủ kit: <điền: kênh liên lạc, ví dụ nhóm chat của cộng đồng hoặc email hỗ trợ>.
+Hỏi trong **nhóm Zalo hội viên Goha** (link nhóm nhận khi bạn vào cộng đồng).
 Khi báo lỗi, gửi kèm: bước đang làm (K1, P4…), thông báo lỗi nguyên văn, và nội dung `kiem-may.md` nếu có. KHÔNG gửi `.env` hay bất kỳ khoá API nào.
 
 <!--

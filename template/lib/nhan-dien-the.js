@@ -236,7 +236,7 @@ export function taoCacThe(nd, ctx, S, ref = {}) {
 
   // ---------- hook ----------
   function hook(t) {
-    if (S.nen === 'trong') nd.nen(t); else { ctx.fillStyle = '#0F1309'; ctx.fillRect(0, 0, W, H); }
+    if (S.nen === 'trong') nd.nen(t); else { ctx.fillStyle = MAU.nenSau; ctx.fillRect(0, 0, W, H); }
     for (const f of S.glows || []) {
       const k = (t - f.at) / (f.len ?? 0.7); if (k < 0 || k > 1) continue;
       const g = ctx.createRadialGradient(f.x ?? W * 0.7, f.y ?? H * 0.8, 0, f.x ?? W * 0.7, f.y ?? H * 0.8, 520);

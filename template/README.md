@@ -21,7 +21,7 @@ Tốc độ đo được: map3d ≈ 4,6 s máy cho 1 s video 24 fps (RTX 2080 Ti
 | Đường dẫn | Nội dung |
 |---|---|
 | `lib/common.js` | easing, `keyframes()`, `rng(seed)`, `noise1()`, nhãn ngày góc trái trên, chú thích nguồn góc phải dưới, `mount()` |
-| `lib/nhan-dien.js`, `lib/nhan-dien-the.js`, `lib/nhip-hien.js`, `lib/goha-logo-ngang.png` | hệ nhận diện «bảng tác chiến» cho cards và overlay: màu, cỡ chữ, lưới, đầu thẻ, năm mờ, hộp từ khoá, nguồn + logo, nhịp hiện theo mốc lời (spec: `plans/261103-1756-he-nhan-dien-do-hoa/p1-spec.md`) |
+| `lib/nhan-dien.js`, `lib/nhan-dien-the.js`, `lib/nhip-hien.js`, `lib/goha-logo-ngang.png` | màu và logo đè bằng `kenh/thuong-hieu/nhan-dien-kenh.js` nếu có (máy thương hiệu sinh; không có thì dùng bộ mặc định dưới đây; kit hội viên có `lib/la-kit.js` nên bắt buộc có); hệ nhận diện «bảng tác chiến» cho cards và overlay: màu, cỡ chữ, lưới, đầu thẻ, năm mờ, hộp từ khoá, nguồn + logo, nhịp hiện theo mốc lời (spec: `plans/261103-1756-he-nhan-dien-do-hoa/p1-spec.md`) |
 | `cards/mau-moi.js` | năm mẫu thẻ «bằng chứng gốc» của P2 (`tai-lieu-dich`, `phim-panel`, `the-am-thanh`, `nhan-vat`, `bieu-do`); `tools/luat_cung.py` chặn vi phạm luật cứng khi dựng trang; spec `plans/261103-1756-he-nhan-dien-do-hoa/p2-spec.md` |
 | `lib/troops.js` | biểu tượng bộ đội QĐND 1954 + lựu pháo 105 ly (vẽ bằng code) |
 | `lib/fonts.css`, `fonts/` | font OFL: Oswald (tiêu đề, số), Be Vietnam Pro 400–800 (chữ thường), Lora (trích văn kiện), IBM Plex Mono (nhãn hồ sơ); giấy phép `fonts/OFL-*.txt` |

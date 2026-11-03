@@ -244,7 +244,8 @@ def test_chrome_khong_co_bao_loi_ro(tmp_path):
 
 def test_main_chrome_loi_ma_thoat_khac_0_khong_traceback(monkeypatch, tmp_path, capsys):
     monkeypatch.setattr(th.subprocess, "run", ChromeGia("loi"))
-    ma = th.main(["--cau-hinh", str(VI_DU), "--ra", str(tmp_path / "ra"), "--chrome", "chrome-gia"])
+    ma = th.main(["--cau-hinh", str(VI_DU), "--ra", str(tmp_path / "ra"), "--chrome", "chrome-gia",
+                  "--nhan-dien", str(tmp_path / "nd.js")])
     assert ma == 2
     assert "GPU process crashed" in capsys.readouterr().out
 
@@ -278,9 +279,12 @@ def test_dung_mot_huong_loi_giua_chung_don_tam_png(monkeypatch, fonts, tmp_path)
 
 
 def test_chay_vi_du_ba_huong_ra_anh_soi(chrome_gia, tmp_path, capsys):
-    ma = th.main(["--cau-hinh", str(VI_DU), "--ra", str(tmp_path), "--chrome", "chrome-gia"])
+    nd = tmp_path / "kenh" / "nhan-dien-kenh.js"
+    ma = th.main(["--cau-hinh", str(VI_DU), "--ra", str(tmp_path), "--chrome", "chrome-gia", "--nhan-dien", str(nd)])
     assert ma == 0, capsys.readouterr().out
     assert (tmp_path / "soi.jpg").stat().st_size > 0
+    js = nd.read_text(encoding="utf-8")
+    assert js.startswith("// Sinh bởi") and '"logo": "../vach/png/logo-ngang-toi.png"' in js
     assert (tmp_path / "soi-tron.jpg").exists() and (tmp_path / "soi-gach.jpg").exists()
     for bc in ("vach", "tron", "gach"):
         assert (tmp_path / bc / "youtube" / "banner-2560x1440.jpg").exists()
@@ -309,9 +313,57 @@ def test_chrome_that_ra_du_anh(tmp_path):
         pytest.skip(f"không có Chrome trong cấu hình: {e}")
     if not Path(chrome).exists():
         pytest.skip("Chrome không tồn tại")
-    ma = th.main(["--cau-hinh", str(VI_DU), "--ra", str(tmp_path), "--chrome", chrome])
+    ma = th.main(["--cau-hinh", str(VI_DU), "--ra", str(tmp_path), "--chrome", chrome,
+                  "--nhan-dien", str(tmp_path / "nhan-dien-kenh.js")])
     assert ma == 0
     for bc in ("vach", "tron", "gach"):
         for khoa, p in th.ke_hoach_dau_ra(tmp_path, bc).items():
             assert p.exists() and p.stat().st_size > 0, (bc, khoa)
     assert (tmp_path / "soi.jpg").exists()
+
+
+# ---------- nhận diện thẻ chữ ----------
+
+def test_mau_the_du_vai_va_dat_tuong_phan():
+    c = th.kiem_cau_hinh(json.loads(VI_DU.read_text(encoding="utf-8")))
+    m = th.mau_the(c)
+    vai_mac_dinh = {"nen", "nenToi", "camo", "kem", "kemPhu", "vang", "do", "doHop", "doChu", "than", "gach", "ve",
+                    "nenSau", "khung"}
+    assert set(m) == vai_mac_dinh
+    assert m["nen"] == c["mau"]["nen"].upper() and m["kem"] == c["mau"]["chu"].upper()
+    assert th.tuong_phan(m["kem"], m["doHop"]) >= 4.5
+    assert th.tuong_phan(m["doChu"], m["nen"]) >= 4.5
+    assert th.tuong_phan(m["than"], m["vang"]) >= 4.5
+
+
+def test_mau_the_nhan_toi_van_ra_chu_nho_doc_duoc():
+    c = {"mau": {"nen": "#101820", "chu": "#F5F5F0", "nhan": "#8A3B2E"}}
+    m = th.mau_the(c)
+    assert th.tuong_phan(m["doChu"], "#101820") >= 4.5
+
+
+def test_tron_mau_dau_cuoi():
+    assert th.tron_mau("#000000", "#FFFFFF", 0) == "#000000"
+    assert th.tron_mau("#000000", "#FFFFFF", 1) == "#FFFFFF"
+    assert th.tron_mau("#000000", "#FFFFFF", 0.5) == "#808080"
+
+
+def test_viet_nhan_dien_kenh_logo_tuong_doi(tmp_path):
+    c = th.kiem_cau_hinh(json.loads(VI_DU.read_text(encoding="utf-8")))
+    logo = tmp_path / "kenh" / "thuong-hieu" / "ra" / "vach" / "png" / "logo-ngang-toi.png"
+    dich = tmp_path / "kenh" / "thuong-hieu" / "nhan-dien-kenh.js"
+    th.viet_nhan_dien_kenh(c, logo, dich)
+    js = dich.read_text(encoding="utf-8")
+    assert '"logo": "ra/vach/png/logo-ngang-toi.png"' in js
+    assert json.loads(js.split("export default ", 1)[1].rstrip().rstrip(";"))["mau"]["vang"] == c["mau"]["nhan"].upper()
+
+
+def test_chrome_chup_duong_dan_tuong_doi_thanh_tuyet_doi(monkeypatch, tmp_path):
+    """Chrome ghi --screenshot theo thư mục làm việc của nó: phải truyền đường dẫn tuyệt đối (lệnh K2 dùng --ra tương đối)."""
+    gia = ChromeGia()
+    monkeypatch.setattr(th.subprocess, "run", gia)
+    monkeypatch.chdir(tmp_path)
+    th.chrome_chup("chrome-gia", "<svg/>", 100, 60, Path("ra/png/x.png"))
+    anh = next(a for a in gia.lenh[0] if a.startswith("--screenshot="))
+    assert Path(anh.split("=", 1)[1]).is_absolute()
+    assert (tmp_path / "ra/png/x.png").exists()

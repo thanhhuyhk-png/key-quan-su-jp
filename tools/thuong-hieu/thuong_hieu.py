@@ -9,6 +9,8 @@ Ra, với mỗi hướng bố cục <bc> (vach | tron | gach):
   <ra>/<bc>/png/      cùng tên, nền trong; logo-anh-bia.png (cao 176 px, đặt cao 44 px trên ảnh bìa 1280x720)
   <ra>/<bc>/youtube/  anh-dai-dien-800.png, banner-2560x1440.jpg (nội dung trong vùng an toàn 1546x423), dau-kenh-150.png
   <ra>/soi.jpg        ảnh soi hướng đầu (hướng khác: soi-<bc>.jpg)
+  kenh/thuong-hieu/nhan-dien-kenh.js   màu thẻ chữ, lớp chữ (template/lib/nhan-dien.js đọc) suy từ 3 màu + logo ngang
+                      nền tối của hướng đầu; đổi chỗ ghi bằng --nhan-dien <tệp .js>. Đường dẫn logo tính từ tệp này.
 Chữ dựng bằng font OFL trong template/fonts rồi đổi sang path, nên SVG không phụ thuộc font cài trên máy xem.
 Máy này không chứa logo hay chữ nào của kênh mẫu; bảng màu được kiểm bằng kiem-mau.py của skill goha-ho-so-kenh.
 """
@@ -18,6 +20,7 @@ import argparse
 import colorsys
 import importlib.util
 import json
+import os
 import re
 import subprocess
 import sys
@@ -151,6 +154,55 @@ def mau_trung_kenh_mau(cfg: dict, repo: Path) -> list[str]:
             if km.gan(m, ref):
                 ra.append(f"mau.{vai} = {m} gần {ten}")
     return ra
+
+
+# ---------- nhận diện thẻ chữ (template/lib/nhan-dien.js) ----------
+
+def tron_mau(a: str, b: str, t: float) -> str:
+    """Trộn hai màu #rrggbb: t = 0 ra a, t = 1 ra b."""
+    ca = [int(a[i:i + 2], 16) for i in (1, 3, 5)]
+    cb = [int(b[i:i + 2], 16) for i in (1, 3, 5)]
+    return "#" + "".join(f"{round(x + (y - x) * t):02X}" for x, y in zip(ca, cb))
+
+
+def _day_toi_khi_dat(goc: str, dich: str, dat) -> str:
+    """Trộn dần goc về dich (0 → 1, bước 5 %) tới khi dat(màu) đúng; không đạt thì trả chính dich."""
+    for i in range(21):
+        m = tron_mau(goc, dich, i / 20)
+        if dat(m):
+            return m
+    return tron_mau(goc, dich, 1)
+
+
+def mau_the(cfg: dict) -> dict:
+    """Vai màu của hệ nhận diện thẻ suy từ nen, chu, nhan. Ngưỡng tương phản như bộ mặc định (chữ ≥ 4,5:1, vạch ≥ 3:1)."""
+    n, c, a = (cfg["mau"][k].upper() for k in ("nen", "chu", "nhan"))
+    than = max(("#000000", "#FFFFFF", tron_mau(n, "#000000", 0.6)), key=lambda x: tuong_phan(x, a))
+    r, g, b = (int(c[i:i + 2], 16) for i in (1, 3, 5))
+    return {
+        "nen": n, "nenToi": tron_mau(n, "#000000", 0.25),
+        "camo": [tron_mau(n, "#000000", 0.12), tron_mau(n, "#FFFFFF", 0.06), tron_mau(n, "#000000", 0.05)],
+        "kem": c, "kemPhu": tron_mau(c, n, 0.15),
+        "vang": a, "do": a, "gach": a, "than": than,
+        "doHop": _day_toi_khi_dat(a, "#000000", lambda x: tuong_phan(c, x) >= 4.5),
+        "doChu": _day_toi_khi_dat(a, c, lambda x: tuong_phan(x, n) >= 4.5),
+        "ve": f"rgba({r},{g},{b},0.55)",
+        "nenSau": tron_mau(n, "#000000", 0.55), "khung": tron_mau(n, "#000000", 0.7),
+    }
+
+
+def viet_nhan_dien_kenh(cfg: dict, logo: Path, dich: Path) -> None:
+    """Ghi module ES cho template/lib/nhan-dien.js: màu thẻ và đường dẫn logo (tương đối từ tệp ghi ra)."""
+    dich = Path(dich).resolve()
+    try:
+        rel = Path(os.path.relpath(Path(logo).resolve(), dich.parent)).as_posix()
+    except ValueError as e:
+        raise CauHinhLoi(f"Logo {logo} và {dich} khác ổ đĩa; đặt --ra trong repo kênh (vd kenh/thuong-hieu/ra).") from e
+    noi_dung = {"mau": mau_the(cfg), "logo": rel}
+    dich.parent.mkdir(parents=True, exist_ok=True)
+    dich.write_text("// Sinh bởi tools/thuong-hieu/thuong_hieu.py từ thuong-hieu.json; chạy lại máy đó thay vì sửa tay.\n"
+                    "export default " + json.dumps(noi_dung, ensure_ascii=False, indent=2) + ";\n",
+                    encoding="utf-8", newline="\n")
 
 
 def ke_hoach_dau_ra(ra: Path, bc: str) -> dict[str, Path]:
@@ -411,7 +463,7 @@ CHROME_HET_GIO_GIAY = 60
 def chrome_chup(chrome: str, svg: str, w: int, h: int, ra: Path, nen_trong: bool = True) -> None:
     """Chụp SVG thành ảnh bằng Chrome headless với hồ sơ tạm riêng; lỗi thì ném CauHinhLoi kèm đuôi stderr."""
     from PIL import Image
-    ra = Path(ra)
+    ra = Path(ra).resolve()  # Chrome ghi theo cwd của nó: phải tuyệt đối
     ra.parent.mkdir(parents=True, exist_ok=True)
     ra.unlink(missing_ok=True)
     with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as t:
@@ -585,6 +637,9 @@ def chay(args: argparse.Namespace) -> int:
         soi = ra / ("soi.jpg" if i == 0 else f"soi-{bc}.jpg")
         ghep_soi(cfg, kh, font_dir, soi)
         print(f"[{bc}] xong, ảnh soi: {soi}")
+    nd_kenh = Path(args.nhan_dien) if args.nhan_dien else repo / "kenh/thuong-hieu/nhan-dien-kenh.js"
+    viet_nhan_dien_kenh(cfg, ke_hoach_dau_ra(ra, cfg["bo_cuc"][0])["png/logo-ngang-toi"], nd_kenh)
+    print(f"Nhận diện thẻ chữ (màu, logo hướng {cfg['bo_cuc'][0]}): {nd_kenh}")
     return 0
 
 
@@ -595,6 +650,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--chrome", help="Đường dẫn Chrome/Edge (mặc định: khoá chrome trong cau-hinh.toml)")
     ap.add_argument("--font-dir", help="Thư mục font (mặc định: template/fonts)")
     ap.add_argument("--bo-qua-kiem-mau", action="store_true", help="Bỏ qua kiểm trùng màu kênh mẫu")
+    ap.add_argument("--nhan-dien", help="Tệp nhận diện thẻ chữ ghi ra (mặc định kenh/thuong-hieu/nhan-dien-kenh.js)")
     args = ap.parse_args(argv)
     try:
         return chay(args)

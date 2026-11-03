@@ -45,4 +45,4 @@ template/data/mau-p2/phim-mau/f036.jpg	Dữ liệu giả, vẽ bằng code	templ
 template/data/mau-p2/trang-mau.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
 template/data/region_s2.jpg	CC BY 4.0	Sentinel-2 cloudless 2016, EOX IT Services; Contains modified Copernicus Sentinel data 2016
 template/data/valley_s2.jpg	CC BY 4.0	Sentinel-2 cloudless 2016, EOX IT Services; Contains modified Copernicus Sentinel data 2016
-template/lib/goha-logo-ngang.png	Ảnh giữ chỗ do máy xuất vẽ	Thay bằng logo ngang của kênh bạn (tools/thuong-hieu), giữ nguyên tên tệp
+template/lib/goha-logo-ngang.png	Ảnh giữ chỗ do máy xuất vẽ	Logo thật của kênh: K2 sinh kenh/thuong-hieu/nhan-dien-kenh.js trỏ tới logo của bạn

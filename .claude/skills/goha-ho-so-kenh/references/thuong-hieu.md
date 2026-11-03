@@ -16,7 +16,7 @@ Không chép máy dựng ở `kenh/thuong-hieu/ma-nguon/` của kênh mẫu (n�
    Tuỳ chọn: `--chrome <đường dẫn>`, `--font-dir <thư mục font>`.
 4. Đầu ra, mỗi hướng `<bc>` một thư mục: `svg/` (logo dọc, ngang; bản `toi`, `sang`, `mot-mau-chu`, `mot-mau-nen`; `bieu-tuong.svg`), `png/` (cùng bộ, nền trong; `logo-anh-bia.png`), `youtube/` (`anh-dai-dien-800.png`, `banner-2560x1440.jpg` có nội dung trong vùng an toàn 1546×423, `dau-kenh-150.png`). Cạnh đó có `soi.jpg` (hướng đầu) và `soi-<bc>.jpg` (hướng khác).
 5. Soi `soi.jpg` cỡ thật: banner với khung đỏ nét đứt là vùng an toàn, ảnh đại diện 400, 98 và 40 px, dấu kênh mờ 58 % trên khung phim, logo trên nền tối và sáng. Soi chữ tràn, dấu tiếng Việt bị cắt, chữ khó đọc. Sửa JSON rồi chạy lại tới khi sạch.
-6. Chọn một hướng, chép bản chốt về `kenh/thuong-hieu/` (hoặc ghi đường dẫn thư mục hướng đó vào `ho-so.md`), xoá các hướng không chọn.
+6. Chọn một hướng: sửa `bo_cuc` trong `thuong-hieu.json` chỉ còn hướng đó rồi chạy lại lệnh bước 3. Lần chạy cuối cũng ghi `kenh/thuong-hieu/nhan-dien-kenh.js`: màu thẻ chữ, lớp chữ suy từ `nen`, `chu`, `nhan` và đường dẫn logo ngang nền tối của hướng đó; `template/lib/nhan-dien.js` đọc tệp này khi dựng. Tệp này **bắt buộc** trước P5: kit thiếu nó thì mọi thẻ chữ báo lỗi, để kênh bạn không mang màu kênh mẫu. Giữ nguyên thư mục `--ra` (tệp trỏ tới logo trong đó), commit cả hai vào repo kênh. Đổi màu, đổi logo: sửa `thuong-hieu.json` rồi chạy lại máy, không sửa tay `nhan-dien-kenh.js`. Xoá các hướng không chọn ở lần chạy trước nếu còn.
 
 Muốn dáng khác hẳn các hướng có sẵn thì báo người dùng, không sửa tay SVG ra rồi bỏ máy dựng; thêm hướng mới vào `bieu_tuong()` trong `tools/thuong-hieu/thuong_hieu.py` kèm test.
 

@@ -387,7 +387,7 @@ export function taoCacTheMau(nd, ctx, S, ref) {
     const idx = P.lap ? ((Math.floor(idx0) % P.n) + P.n) % P.n : clamp(Math.floor(idx0), 0, P.n - 1);
     const im = khung[idx];
     ctx.save(); ctx.globalAlpha = a;
-    ctx.fillStyle = '#0B0D06'; ctx.fillRect(fx, fy, fw, fh);
+    ctx.fillStyle = MAU.khung; ctx.fillRect(fx, fy, fw, fh);
     const fit = P.fit === 'phu' ? Math.max(fw / im.width, fh / im.height) : Math.min(fw / im.width, fh / im.height);
     ctx.beginPath(); ctx.rect(fx, fy, fw, fh); ctx.clip();
     ctx.drawImage(im, fx + (fw - im.width * fit) / 2, fy + (fh - im.height * fit) / 2, im.width * fit, im.height * fit);
