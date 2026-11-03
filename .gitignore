@@ -1,0 +1,21 @@
+# Khoá API và cấu hình riêng từng máy: KHÔNG BAO GIỜ commit
+.env
+*.env
+cau-hinh.toml
+cookies/
+
+# Media nặng, đầu ra dựng (để ở thư mục <output> trong cau-hinh.toml)
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.wav
+*.m4a
+*.mp3
+
+# Rác máy
+node_modules/
+__pycache__/
+.pytest_cache/
+*.log
+.kit-dinh-cache.json

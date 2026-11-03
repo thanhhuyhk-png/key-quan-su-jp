@@ -1,0 +1,48 @@
+tep	giay_phep	nguon_goc
+template/data/ams-5551-1.jpg	Công cộng (PD-USGov-Military)	US Army Map Service, tờ 5551 I Ban Thin Toc 1968; Perry-Castañeda Library, Đại học Texas (xem template/data/ams-nguon.md)
+template/data/ams-5651-4.jpg	Công cộng (PD-USGov-Military)	US Army Map Service, tờ 5651 IV Dien Bien Phu 1966; Perry-Castañeda Library, Đại học Texas (xem template/data/ams-nguon.md)
+template/data/ams-5651-4.texture-mask.png	Công cộng (PD-USGov-Military)	Mặt nạ vùng phủ của hai tờ AMS, sinh bằng template/tools/ams_nan.py
+template/data/ams-5651-4.texture.jpg	Công cộng (PD-USGov-Military)	Nắn, ghép từ hai tờ AMS trên bằng template/tools/ams_nan.py
+template/data/mau-p2/giong-mau.mp3	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/nguoi-khung-mau.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/nguoi-nen-mau.png	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f001.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f002.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f003.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f004.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f005.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f006.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f007.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f008.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f009.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f010.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f011.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f012.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f013.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f014.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f015.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f016.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f017.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f018.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f019.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f020.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f021.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f022.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f023.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f024.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f025.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f026.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f027.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f028.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f029.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f030.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f031.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f032.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f033.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f034.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f035.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/phim-mau/f036.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/mau-p2/trang-mau.jpg	Dữ liệu giả, vẽ bằng code	template/tools/tao_du_lieu_mau_p2.py (Pillow, ffmpeg, seed cố định), có nhãn «MẪU»
+template/data/region_s2.jpg	CC BY 4.0	Sentinel-2 cloudless 2016, EOX IT Services; Contains modified Copernicus Sentinel data 2016
+template/data/valley_s2.jpg	CC BY 4.0	Sentinel-2 cloudless 2016, EOX IT Services; Contains modified Copernicus Sentinel data 2016
+template/lib/goha-logo-ngang.png	Ảnh giữ chỗ do máy xuất vẽ	Thay bằng logo ngang của kênh bạn (tools/thuong-hieu), giữ nguyên tên tệp

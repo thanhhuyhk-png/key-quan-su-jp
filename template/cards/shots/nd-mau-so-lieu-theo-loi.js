@@ -1,0 +1,14 @@
+// Mẫu dựng dần theo mốc lời: `moc` là mảng giây hiện của từng phần tử (ở đây 4 con số), lấy từ mốc chữ của giọng đã đo.
+// Thay bằng `nhip: {from: 0.8, to: 6}` để chia đều, hoặc bỏ cả hai để dùng `from` riêng từng phần tử.
+window.SHOT = {
+  type: 'so-lieu', duration: 8.5, seed: 411,
+  tag: '1954', kicker: 'BỐN CON SỐ CỦA CHIẾN DỊCH', title: 'ĐẾM BẰNG MỐC LỜI', layout: 'row',
+  items: [
+    { value: 55, unit: 'NGÀY ĐÊM', label: 'từ 13/3 đến 7/5/1954' },
+    { value: 3, unit: 'ĐỢT', label: 'tiến công liên tiếp' },
+    { value: 24, unit: 'LỰU PHÁO', label: '105 mm' },
+    { value: 16, unit: 'CỐI', label: '120 mm' },
+  ],
+  moc: [0.8, 2.6, 4.3, 6.0],
+  source: 'Minh họa cách dùng mốc lời · số liệu theo sổ',
+};

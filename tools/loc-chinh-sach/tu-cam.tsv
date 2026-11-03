@@ -1,0 +1,248 @@
+nhom	muc_do	pham_vi	mau	ly_do	thay_bang
+tuc_tiu	CHAN	tat_ca	(?<!\w)(địt|đụ|lồn|cặc|buồi|đéo|đcm|dcm|đm|vl|vcl|vkl|fuck\w*|f\*ck)(?!\w)	Chửi tục mạnh: tiêu đề, bìa bị tắt quảng cáo; trong lời đọc dùng nhiều cũng bị hạn chế	Bỏ
+tuc_tiu	CANH	tat_ca	(?<!\w)(mẹ kiếp|chó má|đồ chó|thằng chó|khốn nạn|vãi|shit|bitch|damn)(?!\w)	Chửi tục vừa: trong tiêu đề, bìa thì bị hạn chế quảng cáo	Bỏ, hoặc chỉ để trong câu trích có nguồn
+miet_thi	CHAN	tat_ca	(?<!\w)(khựa|chệt|ba tàu(?!\s+(?:sân|chiến|ngầm|khu|tuần|vận|chở|hàng|cá|biển|hoả|hỏa|đổ|phóng|lớn|nhỏ|mỹ|nhật|anh|pháp|đức|liên|địch|ta|bị|đã|của))|tàu khựa|nhật lùn|mọi rợ|bọn mọi|gook|chink|parky|3 que|ba que|bò đỏ|dư luận viên)(?!\w)	Lăng mạ dân tộc, vùng miền: tắt quảng cáo, có thể bị gỡ	Gọi đúng tên dân tộc, quốc gia, đơn vị
+miet_thi	CANH	tat_ca	(?<!\w)(bọn tây|thằng tây|lũ giặc|bọn giặc|quân cướp nước|lũ cướp)(?!\w)	Ngôn ngữ thù hằn (luật cứng: không thù hằn; phân biệt thực dân với nhân dân Pháp)	"thực dân Pháp", "quân viễn chinh", "quân xâm lược"
+he_tu	CANH	tat_ca	(?<!\w)(ngụy|việt cộng|vc|vnch|việt nam cộng hòa|việt nam cộng hoà)(?!\w)	Hệ từ kênh (khung-kenh.md): chỉ dùng trong câu trích có nguồn	"chính quyền Sài Gòn", "quân đội Sài Gòn", "Quân Giải phóng"
+he_tu	CANH	tat_ca	(?<!\w)(chiến tranh việt nam)(?!\w)	Hệ từ kênh: chỉ dùng trong tag	"kháng chiến chống Mỹ, cứu nước"
+he_tu	CANH	tat_ca	(?<!\w)(nam kỳ|bắc kỳ|trung kỳ)(?!\w)	Đúng khi là tên vùng thời Pháp thuộc; sai nếu dùng để miệt thị vùng miền	Giữ khi là địa danh lịch sử
+luat_cung	CANH	tat_ca	(?<!\w)(trung quốc|tàu cộng|bắc kinh)(?!\w)	Luật cứng: không nêu Trung Quốc trừ khi user yêu cầu	Tên triều đại lịch sử (Nam Hán, Tống, Nguyên Mông, Minh, Thanh)
+luat_cung	CANH	tat_ca	(đường lưỡi bò|đường 9 đoạn|nine-dash)	Luật cứng bản đồ	Bỏ
+bao_luc	CHAN	tieu_de	(?<!\w)(máu me|đẫm máu|chặt đầu|xử trảm|phanh thây|mổ bụng|moi gan|xác chết|thi thể|không che|không kiểm duyệt|uncensored|18\+|cấm chiếu|ảnh gốc chưa che)(?!\w)	Tiêu đề, bìa gợi máu me hoặc "không che": dấu hiệu "cố ý gây sốc", bị hạn chế hoặc tắt quảng cáo	Nói kết quả quân sự: "thất bại", "tan rã", "thương vong"
+bao_luc	CANH	tat_ca	(?<!\w)(tàn sát|thảm sát|hành quyết|xử tử|chặt đầu|phanh thây|đẫm máu|máu me|xác chết|kinh hoàng|rùng rợn|ghê rợn)(?!\w)	Trong lời đọc được nếu có ngữ cảnh giáo dục và không tả chi tiết thương tích; trong tiêu đề, bìa thì tránh	Kể sự kiện, con số có nguồn, không tả vết thương
+bao_luc	CANH	tieu_de	(?<!\w)(kinh hoàng|rùng rợn|ghê rợn|tàn sát|thảm sát|hành quyết)(?!\w)	Từ gây sốc trong tiêu đề, bìa: yếu tố bất lợi khi YouTube xét	Thay bằng câu hỏi, nghịch lý
+che_chu	CANH	tat_ca	(?<!\w)(?:\w\.){2,}\w(?!\w)	Viết lách luật kiểu "C.H.Ế.T", "D.Â.M": báo hiệu nội dung giật gân	Viết thẳng từ sạch hoặc bỏ
+tinh_duc	CHAN	tat_ca	(?<!\w)(khiêu dâm|dâm loạn|loạn luân|gợi dục|sex|khỏa thân|khoả thân|lõa thể|loã thể)(?!\w)	Nội dung tình dục: tắt quảng cáo	Bỏ
+tinh_duc	CANH	tat_ca	(?<!\w)(hiếp|cưỡng hiếp|hãm hiếp|mại dâm|dâm|cung tần mỹ nữ)(?!\w)	Vấn đề gây tranh cãi: chỉ nhắc ngắn, không tả, không làm trọng tâm	Nêu sự kiện bằng một câu có nguồn
+tu_hai	CANH	tat_ca	(?<!\w)(tự tử|tự sát|tự vẫn|mổ bụng tự sát|seppuku)(?!\w)	Vấn đề gây tranh cãi: không tả cách thức, không làm trọng tâm	Một câu nêu sự việc, không mô tả
+cuc_doan	CANH	tat_ca	(?<!\w)(hitler|quốc xã|phát xít|đức quốc xã|nazi|khmer đỏ|pol pot|isis|nhà nước hồi giáo|al-qaeda|bin laden|chữ vạn)(?!\w)	Nhóm cực đoan: được kể trong ngữ cảnh tài liệu, cấm ca ngợi; không đặt biểu tượng làm trọng tâm ảnh bìa	Kể trung tính, có ngữ cảnh ngay trong lời đọc
+nguy_hiem	CHAN	tat_ca	(cách chế tạo|cách làm bom|tự chế (bom|súng|mìn|thuốc nổ)|công thức thuốc nổ|hướng dẫn chế|cách cải tiến súng)	Hướng dẫn chế tạo, độ chế vũ khí, chất nổ: tắt quảng cáo, có thể bị gỡ	Chỉ kể vai trò lịch sử của vũ khí
+su_kien_nhay_cam	CANH	tat_ca	(?<!\w)(ukraine|gaza|hamas|hezbollah|houthi|dải gaza)(?!\w)	Chiến sự đang diễn ra: dễ bị coi là trục lợi sự kiện nhạy cảm (Ukraine bị tắt kiếm tiền nếu "khai thác" cuộc chiến)	Không làm đề tài đang diễn ra
+phu_nhan	CANH	tat_ca	(không hề có thảm sát|chưa từng có thảm sát|nạn nhân là diễn viên|holocaust là bịa)	Phủ nhận thảm kịch: tắt quảng cáo	Bỏ
+giat_tit	CANH	tieu_de	(?<!\w)(tái mặt|câm nín|chấn động|sốc|không thể tin|đứng ngồi không yên|bật đèn xanh)(?!\w)	Tiêu đề giật tít, dễ thành "gây hiểu lầm" nếu nội dung không trả đúng lời hứa	Câu hỏi "Vì sao…?" hoặc "Toàn cảnh…" trả lời được trong phim
+ai_persona	CHAN	tat_ca	(tôi là nhà sử học|tôi là chuyên gia|tôi là giáo sư|với tư cách nhà nghiên cứu)	Giọng tổng hợp tự nhận là chuyên gia người thật: chạm chính sách nhân vật AI	Người dẫn kể ngôi thứ ba
+yt_tuc_manh	CANH	tieu_de	(?<!\w)f\*ck(?!\w)	Chính thức: viết tắt/che trong tiêu đề vẫn có thể bị xét; tốt nhất bỏ	bỏ
+yt_tuc_manh	CANH	tat_ca	(?<!\w)motherfucker(?!\w)	Tục mạnh	bỏ
+yt_tuc_manh	CHAN	tieu_de	(?<!\w)motherfucker(?!\w)	Tục mạnh	bỏ
+yt_tuc_manh	CHAN	tat_ca	(?<!\w)cunt(?!\w)	Tục cực mạnh: không quảng cáo	bỏ
+yt_tuc_vua	CANH	tieu_de	(?<!\w)asshole(?!\w)	Tục vừa	kẻ đáng ghét
+yt_tuc_manh	CANH	tat_ca	(?<!\w)đmm(?!\w)	Tục mạnh	bỏ
+yt_tuc_manh	CHAN	tieu_de	(?<!\w)đmm(?!\w)	Tục mạnh	bỏ
+yt_tuc_vua	CANH	tieu_de	(?<!\w)clgt(?!\w)	Tục vừa	gì vậy trời
+yt_tuc_vua	CANH	tieu_de	(?<!\w)con\ mẹ\ nó(?!\w)	Tục vừa	trời đất ơi
+yt_bao_luc	CANH	tieu_de	(?<!\w)kill\w*(?!\w)	Chính thức: bạo lực không phản cảm trong bối cảnh giáo dục/tin tức được quảng cáo; tiêu đề nhấn bạo lực bị xét	defeat; take down; lost their life
+yt_bao_luc	CANH	tieu_de	(?<!\w)murder\w*(?!\w)	Bạo lực	death; case; crime story
+yt_bao_luc	CANH	tat_ca	(?<!\w)massacre(?!\w)	Sự kiện nhạy cảm: không khai thác để câu view	tragedy; mass killing (documentary context)
+yt_bao_luc	CHAN	tat_ca	(?<!\w)behead\w*(?!\w)	Ghê rợn: không quảng cáo nếu mô tả chi tiết	executed (historical, non-graphic)
+yt_bao_luc	CHAN	tat_ca	(?<!\w)decapitat\w*(?!\w)	Bạo lực	executed
+yt_bao_luc	CANH	tat_ca	(?<!\w)torture\w*(?!\w)	Bạo lực	cruelty; mistreatment
+yt_bao_luc	CHAN	tieu_de	(?<!\w)torture\w*(?!\w)	Bạo lực	cruelty; mistreatment
+yt_bao_luc	CANH	tat_ca	(?<!\w)gore(?!\w)	Chính thức: nội dung chỉ để gây sốc = không quảng cáo	bỏ
+yt_bao_luc	CANH	tieu_de	(?<!\w)bloody(?!\w)	Bạo lực	fierce; brutal → bỏ
+yt_bao_luc	CANH	tieu_de	(?<!\w)shooting(?!\w)	Bạo lực	incident; attack
+yt_bao_luc	CANH	tieu_de	(?<!\w)giết(?!\w)	Lịch sử chiến tranh: kể khách quan thì xanh; tiêu đề dùng «giết» dễ vàng	hạ; tiêu diệt (quân sự); mất mạng; hại
+yt_bao_luc	CANH	tat_ca	(?<!\w)giết\ người(?!\w)	Bạo lực	vụ án; án mạng (tin tức)
+yt_bao_luc	CANH	tieu_de	(?<!\w)sát\ hại(?!\w)	Bạo lực	hại; ra tay
+yt_bao_luc	CHAN	tat_ca	(?<!\w)mổ\ bụng(?!\w)	Bạo lực	bỏ
+yt_bao_luc	CANH	tat_ca	(?<!\w)tra\ tấn(?!\w)	Bạo lực	đày đoạ; ngược đãi
+yt_bao_luc	CHAN	tieu_de	(?<!\w)tra\ tấn(?!\w)	Bạo lực	đày đoạ; ngược đãi
+yt_bao_luc	CANH	tieu_de	(?<!\w)máu(?!\w)	Thumbnail có máu dễ vàng	(hình) bỏ máu; (chữ) vết thương
+yt_bao_luc	CANH	tat_ca	(?<!\w)bê\ bết\ máu(?!\w)	Bạo lực	bỏ
+yt_bao_luc	CHAN	tieu_de	(?<!\w)bê\ bết\ máu(?!\w)	Bạo lực	bỏ
+yt_gay_soc	CANH	tieu_de	(?<!\w)dead\ bod\w*(?!\w)	Gây sốc	remains; the deceased
+yt_gay_soc	CANH	tieu_de	(?<!\w)corpse\w*(?!\w)	Gây sốc	remains
+yt_gay_soc	CANH	tat_ca	(?<!\w)gruesome(?!\w)	Gây sốc	disturbing → mysterious
+yt_khung_bo	CANH	tieu_de	(?<!\w)terrorist\w*(?!\w)	Chính thức: tôn vinh/khắc hoạ khủng bố ghê rợn = không quảng cáo	armed group; attackers
+yt_khung_bo	CANH	tieu_de	(?<!\w)khủng\ bố(?!\w)	Khủng bố	vụ tấn công
+yt_tu_hai	CANH	tat_ca	(?<!\w)suicide(?!\w)	Chính thức: nhắc thoáng qua không tả = xanh; làm chủ đề = hạn chế; tả chi tiết = không	took their own life; lost to suicide (chỉ khi cần)
+yt_tu_hai	CHAN	tieu_de	(?<!\w)suicide(?!\w)	Chính thức: nhắc thoáng qua không tả = xanh; làm chủ đề = hạn chế; tả chi tiết = không	took their own life; lost to suicide (chỉ khi cần)
+yt_tu_hai	CANH	tat_ca	(?<!\w)treo\ cổ(?!\w)	Tự hại	qua đời
+yt_tu_hai	CHAN	tieu_de	(?<!\w)treo\ cổ(?!\w)	Tự hại	qua đời
+yt_tu_hai	CANH	tat_ca	(?<!\w)tự\ hại(?!\w)	Tự hại	khủng hoảng tinh thần
+yt_tu_hai	CHAN	tieu_de	(?<!\w)tự\ hại(?!\w)	Tự hại	khủng hoảng tinh thần
+yt_tu_hai	CANH	tat_ca	(?<!\w)cắt\ tay(?!\w)	Tự hại	bỏ
+yt_tu_hai	CHAN	tieu_de	(?<!\w)cắt\ tay(?!\w)	Tự hại	bỏ
+yt_tu_hai	CANH	tat_ca	(?<!\w)self\-harm(?!\w)	Tự hại	mental health struggle
+yt_tu_hai	CHAN	tieu_de	(?<!\w)self\-harm(?!\w)	Tự hại	mental health struggle
+yt_tu_hai	CANH	tat_ca	(?<!\w)kms(?!\w)	Tự hại	bỏ
+yt_tu_hai	CANH	tieu_de	(?<!\w)kms(?!\w)	Tự hại	bỏ
+yt_roi_loan_an_uong	CANH	tieu_de	(?<!\w)anorexi\w*(?!\w)	Rối loạn ăn uống	eating disorder recovery
+yt_roi_loan_an_uong	CANH	tat_ca	(?<!\w)nhịn\ ăn\ giảm\ cân(?!\w)	Đặc biệt cấm trong nội dung trẻ em	ăn uống lành mạnh
+yt_roi_loan_an_uong	CHAN	tieu_de	(?<!\w)nhịn\ ăn\ giảm\ cân(?!\w)	Đặc biệt cấm trong nội dung trẻ em	ăn uống lành mạnh
+yt_tinh_duc	CANH	tieu_de	(?<!\w)sexy(?!\w)	Tình dục	cuốn hút; quyến rũ
+yt_tinh_duc	CHAN	tat_ca	(?<!\w)porn\w*(?!\w)	Chính thức: «porn»/«18+» trong tiêu đề = không quảng cáo	bỏ
+yt_tinh_duc	CANH	tat_ca	(?<!\w)18\+(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CANH	tat_ca	(?<!\w)nude\w*(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CHAN	tieu_de	(?<!\w)nude\w*(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CANH	tat_ca	(?<!\w)naked(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CHAN	tieu_de	(?<!\w)naked(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CANH	tat_ca	(?<!\w)lột\ đồ(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CHAN	tieu_de	(?<!\w)lột\ đồ(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CANH	tat_ca	(?<!\w)làm\ tình(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CHAN	tieu_de	(?<!\w)làm\ tình(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CANH	tieu_de	(?<!\w)quan\ hệ\ tình\ dục(?!\w)	Tình dục	(giáo dục, nói trung tính)
+yt_tinh_duc	CANH	tieu_de	(?<!\w)nóng\ bỏng(?!\w)	Tiêu đề/thumbnail gợi dục kể cả gây hiểu lầm = không quảng cáo	nổi bật; cuốn hút
+yt_lam_dung	CANH	tat_ca	(?<!\w)rap(?:e|ed|es|ist|ists)(?!\w)	Lạm dụng	assault (non-descriptive)
+yt_lam_dung	CHAN	tieu_de	(?<!\w)rap(?:e|ed|es|ist|ists)(?!\w)	Lạm dụng	assault (non-descriptive)
+yt_lam_dung	CHAN	tat_ca	(?<!\w)pedophil\w*(?!\w)	Lạm dụng	child abuse (news only)
+yt_lam_dung	CANH	tieu_de	(?<!\w)bạo\ hành(?!\w)	Lạm dụng	bị đối xử tệ
+yt_ma_tuy	CANH	tieu_de	(?<!\w)cocaine(?!\w)	Chính thức: tài liệu/tin tức = xanh; cổ xuý, hướng dẫn mua/làm = không	illegal drugs
+yt_ma_tuy	CANH	tieu_de	(?<!\w)heroin(?!\w)	Ma tuý	illegal drugs
+yt_ma_tuy	CANH	tieu_de	(?<!\w)meth(?!\w)	Ma tuý	illegal drugs
+yt_ma_tuy	CANH	tieu_de	(?<!\w)methamphetamine(?!\w)	Ma tuý	illegal drugs
+yt_ma_tuy	CANH	tieu_de	(?<!\w)ma\ tuý(?!\w)	Ma tuý	chất cấm
+yt_ma_tuy	CANH	tieu_de	(?<!\w)ma\ túy(?!\w)	Ma tuý	chất cấm
+yt_ma_tuy	CANH	tieu_de	(?<!\w)thuốc\ lắc(?!\w)	Ma tuý	chất cấm
+yt_ma_tuy	CANH	tieu_de	(?<!\w)cần\ sa(?!\w)	Ma tuý	chất cấm
+yt_ma_tuy	CANH	tat_ca	(?<!\w)hút\ chích(?!\w)	Ma tuý	nghiện ngập
+yt_ma_tuy	CANH	tat_ca	(?<!\w)bay\ lắc(?!\w)	Cổ xuý dùng chất = không quảng cáo	bỏ
+yt_ma_tuy	CHAN	tieu_de	(?<!\w)bay\ lắc(?!\w)	Cổ xuý dùng chất = không quảng cáo	bỏ
+yt_ma_tuy	CANH	tieu_de	(?<!\w)weed(?!\w)	Ma tuý	cannabis (educational)
+yt_thuoc_la	CANH	tieu_de	(?<!\w)thuốc\ lá(?!\w)	Chính thức: quảng bá thuốc lá, vape = hạn chế/không	(không cổ xuý)
+yt_thuoc_la	CANH	tieu_de	(?<!\w)vape(?!\w)	Thuốc lá	bỏ
+yt_thuoc_la	CANH	tieu_de	(?<!\w)thuốc\ lá\ điện\ tử(?!\w)	Thuốc lá	bỏ
+yt_ruou	CANH	tieu_de	(?<!\w)nhậu\ say(?!\w)	Có rượu mà không cổ xuý uống vô độ = xanh	ăn uống
+yt_co_bac	CANH	tat_ca	(?<!\w)cá\ độ(?!\w)	2025: dẫn tới nhà cái chưa duyệt = vi phạm cộng đồng; cờ bạc trực tuyến bị giới hạn tuổi	dự đoán (không tiền)
+yt_co_bac	CHAN	tieu_de	(?<!\w)cá\ độ(?!\w)	2025: dẫn tới nhà cái chưa duyệt = vi phạm cộng đồng; cờ bạc trực tuyến bị giới hạn tuổi	dự đoán (không tiền)
+yt_co_bac	CANH	tat_ca	(?<!\w)nhà\ cái(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CHAN	tieu_de	(?<!\w)nhà\ cái(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CANH	tat_ca	(?<!\w)lô\ đề(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CHAN	tieu_de	(?<!\w)lô\ đề(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CANH	tat_ca	(?<!\w)soi\ cầu(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CHAN	tieu_de	(?<!\w)soi\ cầu(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CANH	tat_ca	(?<!\w)tài\ xỉu(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CHAN	tieu_de	(?<!\w)tài\ xỉu(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CANH	tat_ca	(?<!\w)casino(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CHAN	tieu_de	(?<!\w)casino(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CANH	tat_ca	(?<!\w)betting(?!\w)	Cờ bạc	predictions
+yt_co_bac	CHAN	tieu_de	(?<!\w)betting(?!\w)	Cờ bạc	predictions
+yt_co_bac	CANH	tieu_de	(?<!\w)gambling(?!\w)	Cờ bạc	(tài liệu, không quảng bá)
+yt_co_bac	CANH	tieu_de	(?<!\w)cờ\ bạc(?!\w)	Cờ bạc	(tài liệu, không quảng bá)
+yt_lua_dao_tien_nhanh	CANH	tat_ca	(?<!\w)kiếm\ tiền\ nhanh(?!\w)	Chính thức: hứa hẹn lợi nhuận chắc chắn = gian lận/lừa đảo	cách tăng thu nhập (có số liệu thật)
+yt_lua_dao_tien_nhanh	CHAN	tieu_de	(?<!\w)kiếm\ tiền\ nhanh(?!\w)	Chính thức: hứa hẹn lợi nhuận chắc chắn = gian lận/lừa đảo	cách tăng thu nhập (có số liệu thật)
+yt_lua_dao_tien_nhanh	CANH	tat_ca	(?<!\w)làm\ giàu\ nhanh(?!\w)	Lừa đảo/tiền nhanh	quản lý tài chính
+yt_lua_dao_tien_nhanh	CHAN	tieu_de	(?<!\w)làm\ giàu\ nhanh(?!\w)	Lừa đảo/tiền nhanh	quản lý tài chính
+yt_lua_dao_tien_nhanh	CHAN	tat_ca	(?<!\w)lợi\ nhuận\ cam\ kết(?!\w)	Lừa đảo/tiền nhanh	bỏ
+yt_lua_dao_tien_nhanh	CHAN	tat_ca	(?<!\w)bao\ lời(?!\w)	Lừa đảo/tiền nhanh	bỏ
+yt_lua_dao_tien_nhanh	CHAN	tat_ca	(?<!\w)nhân\ đôi\ tiền(?!\w)	Lừa đảo/tiền nhanh	bỏ
+yt_lua_dao_tien_nhanh	CANH	tat_ca	(?<!\w)tiền\ miễn\ phí(?!\w)	Lừa đảo/tiền nhanh	ưu đãi (nếu có thật)
+yt_lua_dao_tien_nhanh	CHAN	tieu_de	(?<!\w)tiền\ miễn\ phí(?!\w)	Lừa đảo/tiền nhanh	ưu đãi (nếu có thật)
+yt_lua_dao_tien_nhanh	CANH	tat_ca	(?<!\w)free\ money(?!\w)	Lừa đảo/tiền nhanh	bỏ
+yt_lua_dao_tien_nhanh	CHAN	tieu_de	(?<!\w)free\ money(?!\w)	Lừa đảo/tiền nhanh	bỏ
+yt_lua_dao_tien_nhanh	CANH	tat_ca	(?<!\w)get\ rich\ quick(?!\w)	Lừa đảo/tiền nhanh	financial basics
+yt_lua_dao_tien_nhanh	CHAN	tieu_de	(?<!\w)get\ rich\ quick(?!\w)	Lừa đảo/tiền nhanh	financial basics
+yt_lua_dao_tien_nhanh	CHAN	tat_ca	(?<!\w)guaranteed\ profit\w*(?!\w)	Lừa đảo/tiền nhanh	bỏ
+yt_lua_dao_tien_nhanh	CHAN	tat_ca	(?<!\w)hack\ tiền(?!\w)	Lừa đảo/tiền nhanh	bỏ
+yt_gian_lan	CHAN	tat_ca	(?<!\w)hack\ tài\ khoản(?!\w)	Chính thức: hướng dẫn truy cập trái phép = không quảng cáo	bảo mật tài khoản
+yt_y_te_sai	CHAN	tat_ca	(?<!\w)chữa\ khỏi\ ung\ thư(?!\w)	Chính thức: cổ xuý tuyên bố y tế có hại = không quảng cáo; Cộng đồng: thông tin y tế sai bị gỡ	hỗ trợ điều trị (có nguồn y khoa)
+yt_y_te_sai	CHAN	tat_ca	(?<!\w)chữa\ bách\ bệnh(?!\w)	Y tế sai	bỏ
+yt_y_te_sai	CANH	tat_ca	(?<!\w)thần\ dược(?!\w)	Y tế sai	bỏ
+yt_y_te_sai	CHAN	tieu_de	(?<!\w)thần\ dược(?!\w)	Y tế sai	bỏ
+yt_y_te_sai	CHAN	tat_ca	(?<!\w)cure\ cancer(?!\w)	Y tế sai	bỏ
+yt_y_te_sai	CHAN	tat_ca	(?<!\w)miracle\ cure(?!\w)	Y tế sai	bỏ
+yt_y_te_sai	CANH	tat_ca	(?<!\w)vắc\ xin\ gây(?!\w)	Y tế sai	(dẫn nguồn Bộ Y tế/WHO)
+yt_y_te_sai	CHAN	tieu_de	(?<!\w)vắc\ xin\ gây(?!\w)	Y tế sai	(dẫn nguồn Bộ Y tế/WHO)
+yt_vu_khi	CHAN	tat_ca	(?<!\w)chế\ súng(?!\w)	Vũ khí	bỏ
+yt_vu_khi	CHAN	tat_ca	(?<!\w)how\ to\ make\ a\ bomb(?!\w)	Vũ khí	bỏ
+yt_vu_khi	CANH	tieu_de	(?<!\w)bomb(?!\w)	Vũ khí	explosive (historical)
+yt_thu_ghet	CANH	tieu_de	(?<!\w)khỉ\ đột(?!\w)	Thù ghét	(cẩn thận khi chỉ người)
+yt_thu_ghet	CHAN	tat_ca	(?<!\w)mọi\ đen(?!\w)	Thù ghét	bỏ
+yt_thu_ghet	CHAN	tat_ca	(?<!\w)nigg\w*(?!\w)	Thù ghét	bỏ
+yt_thu_ghet	CHAN	tat_ca	(?<!\w)faggot(?!\w)	Thù ghét	bỏ
+yt_thu_ghet	CANH	tat_ca	(?<!\w)retard(?:ed|s)?(?!\w)	Thù ghét	bỏ
+yt_thu_ghet	CHAN	tieu_de	(?<!\w)retard(?:ed|s)?(?!\w)	Thù ghét	bỏ
+yt_thu_ghet	CANH	tat_ca	(?<!\w)bê\ đê(?!\w)	Thù ghét	người đồng tính
+yt_thu_ghet	CHAN	tieu_de	(?<!\w)bê\ đê(?!\w)	Thù ghét	người đồng tính
+yt_thu_ghet	CANH	tat_ca	(?<!\w)pê\ đê(?!\w)	Thù ghét	người đồng tính
+yt_thu_ghet	CHAN	tieu_de	(?<!\w)pê\ đê(?!\w)	Thù ghét	người đồng tính
+yt_xuc_pham	CANH	tieu_de	(?<!\w)óc\ chó(?!\w)	Chính thức: lăng mạ cá nhân/nhóm = hạn chế/không	bỏ
+yt_xuc_pham	CANH	tieu_de	(?<!\w)ngu\ như(?!\w)	Xúc phạm	bỏ
+yt_tuc_manh	CANH	tat_ca	(?<!\w)đkm(?!\w)	Tục mạnh	bỏ
+yt_tuc_manh	CHAN	tieu_de	(?<!\w)đkm(?!\w)	Tục mạnh	bỏ
+yt_tuc_manh	CANH	tat_ca	(?<!\w)con\ đĩ(?!\w)	Tục mạnh	kẻ xấu
+yt_tuc_manh	CHAN	tieu_de	(?<!\w)con\ đĩ(?!\w)	Tục mạnh	kẻ xấu
+yt_tuc_manh	CANH	tat_ca	(?<!\w)con\ phò(?!\w)	Tục mạnh	kẻ xấu
+yt_tuc_manh	CHAN	tieu_de	(?<!\w)con\ phò(?!\w)	Tục mạnh	kẻ xấu
+yt_tuc_manh	CANH	tat_ca	(?<!\w)chó\ đẻ(?!\w)	Tục mạnh	kẻ xấu; kẻ phản bội
+yt_tuc_manh	CHAN	tieu_de	(?<!\w)chó\ đẻ(?!\w)	Tục mạnh	kẻ xấu; kẻ phản bội
+yt_bao_luc	CANH	tat_ca	(?<!\w)tắm\ máu(?!\w)	Bạo lực	trận đánh khốc liệt; tổn thất nặng nề
+yt_bao_luc	CHAN	tieu_de	(?<!\w)tắm\ máu(?!\w)	Bạo lực	trận đánh khốc liệt; tổn thất nặng nề
+yt_bao_luc	CANH	tat_ca	(?<!\w)đồ\ sát(?!\w)	Bạo lực	thảm kịch
+yt_bao_luc	CHAN	tat_ca	(?<!\w)phân\ xác(?!\w)	Bạo lực	bỏ
+yt_bao_luc	CHAN	tat_ca	(?<!\w)chặt\ xác(?!\w)	Bạo lực	bỏ
+yt_bao_luc	CHAN	tat_ca	(?<!\w)xẻo\ thịt(?!\w)	Bạo lực	bỏ
+yt_bao_luc	CANH	tat_ca	(?<!\w)xả\ súng(?!\w)	Bạo lực	vụ tấn công
+yt_bao_luc	CHAN	tieu_de	(?<!\w)xả\ súng(?!\w)	Bạo lực	vụ tấn công
+yt_bao_luc	CANH	tieu_de	(?<!\w)bắn\ chết(?!\w)	Bạo lực	hạ; tiêu diệt (quân sự); tử trận
+yt_bao_luc	CANH	tat_ca	(?<!\w)đâm\ chết(?!\w)	Bạo lực	sát hại → vụ án
+yt_bao_luc	CHAN	tieu_de	(?<!\w)đâm\ chết(?!\w)	Bạo lực	sát hại → vụ án
+yt_bao_luc	CANH	tieu_de	(?<!\w)xử\ bắn(?!\w)	Bạo lực	xử án
+yt_bao_luc	CANH	tat_ca	(?<!\w)slaughter(?!\w)	Bạo lực	heavy losses
+yt_bao_luc	CHAN	tieu_de	(?<!\w)slaughter(?!\w)	Bạo lực	heavy losses
+yt_bao_luc	CANH	tat_ca	(?<!\w)bloodbath(?!\w)	Bạo lực	fierce battle; heavy losses
+yt_bao_luc	CHAN	tieu_de	(?<!\w)bloodbath(?!\w)	Bạo lực	fierce battle; heavy losses
+yt_bao_luc	CHAN	tat_ca	(?<!\w)mutilat\w*(?!\w)	Bạo lực	bỏ
+yt_bao_luc	CHAN	tat_ca	(?<!\w)dismember\w*(?!\w)	Bạo lực	bỏ
+yt_chien_tranh	CANH	tieu_de	(?<!\w)diệt\ chủng(?!\w)	Lịch sử: nói được trong thân phim tài liệu; tránh ở tiêu đề	tội ác chống loài người (tài liệu)
+yt_chien_tranh	CANH	tieu_de	(?<!\w)genocide(?!\w)	Chiến tranh	historical atrocity
+yt_khung_bo	CANH	tat_ca	(?<!\w)đánh\ bom\ liều\ chết(?!\w)	Khủng bố	vụ tấn công
+yt_khung_bo	CHAN	tieu_de	(?<!\w)đánh\ bom\ liều\ chết(?!\w)	Khủng bố	vụ tấn công
+yt_chien_tranh	CANH	tieu_de	(?<!\w)swastika(?!\w)	Chiến tranh	bỏ khỏi thumbnail
+yt_chinh_tri_nhay_cam	CANH	tieu_de	(?<!\w)ám\ sát(?!\w)	Chính trị nhạy cảm	âm mưu; mưu sát (ghi rõ năm, bối cảnh lịch sử)
+yt_chinh_tri_nhay_cam	CANH	tieu_de	(?<!\w)đảo\ chính(?!\w)	Chính trị nhạy cảm	biến động chính trị (lịch sử)
+yt_chinh_tri_nhay_cam	CANH	tieu_de	(?<!\w)bạo\ loạn(?!\w)	Chính trị nhạy cảm	biến động
+yt_chinh_tri_nhay_cam	CANH	tieu_de	(?<!\w)assassinat\w*(?!\w)	Chính trị nhạy cảm	plot; attack
+yt_ma_tuy	CANH	tieu_de	(?<!\w)bạch\ phiến(?!\w)	Ma tuý	chất cấm
+yt_ma_tuy	CANH	tieu_de	(?<!\w)ma\ tuý\ đá(?!\w)	Ma tuý	chất cấm
+yt_ma_tuy	CANH	tieu_de	(?<!\w)ma\ túy\ đá(?!\w)	Ma tuý	chất cấm
+yt_ma_tuy	CANH	tat_ca	(?<!\w)đập\ đá(?!\w)	Ma tuý	bỏ
+yt_ma_tuy	CHAN	tieu_de	(?<!\w)đập\ đá(?!\w)	Ma tuý	bỏ
+yt_ma_tuy	CANH	tieu_de	(?<!\w)bóng\ cười(?!\w)	Ma tuý	chất gây hại
+yt_ma_tuy	CANH	tieu_de	(?<!\w)fentanyl(?!\w)	Ma tuý	illegal drugs
+yt_ma_tuy	CANH	tieu_de	(?<!\w)overdose(?!\w)	Ma tuý	medical emergency
+yt_co_bac	CANH	tat_ca	(?<!\w)nổ\ hũ(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CHAN	tieu_de	(?<!\w)nổ\ hũ(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CANH	tat_ca	(?<!\w)xóc\ đĩa(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CHAN	tieu_de	(?<!\w)xóc\ đĩa(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CANH	tat_ca	(?<!\w)đá\ gà\ ăn\ tiền(?!\w)	Cờ bạc	bỏ
+yt_co_bac	CHAN	tieu_de	(?<!\w)đá\ gà\ ăn\ tiền(?!\w)	Cờ bạc	bỏ
+yt_tinh_duc	CANH	tat_ca	(?<!\w)gái\ gọi(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CHAN	tieu_de	(?<!\w)gái\ gọi(?!\w)	Tình dục	bỏ
+yt_tinh_duc	CHAN	tat_ca	(?<!\w)đánh\ ghen\ lột\ đồ(?!\w)	Tình dục	bi kịch ghen tuông
+yt_tu_hai	CANH	tat_ca	(?<!\w)nhảy\ lầu(?!\w)	Tự hại	qua đời
+yt_tu_hai	CHAN	tieu_de	(?<!\w)nhảy\ lầu(?!\w)	Tự hại	qua đời
+yt_tu_hai	CANH	tat_ca	(?<!\w)uống\ thuốc\ sâu(?!\w)	Tự hại	qua đời
+yt_tu_hai	CHAN	tieu_de	(?<!\w)uống\ thuốc\ sâu(?!\w)	Tự hại	qua đời
+yt_tu_hai	CANH	tat_ca	(?<!\w)rạch\ tay(?!\w)	Tự hại	bỏ
+yt_tu_hai	CHAN	tieu_de	(?<!\w)rạch\ tay(?!\w)	Tự hại	bỏ
+yt_tu_hai	CANH	tieu_de	(?<!\w)chán\ sống(?!\w)	Tự hại	bế tắc; khủng hoảng tâm lý
+yt_tu_hai	CANH	tieu_de	(?<!\w)muốn\ chết(?!\w)	Tự hại	bế tắc
+yt_san_pham_dich_vu_cam	CANH	tieu_de	(?<!\w)buôn\ người(?!\w)	Sản phẩm/dịch vụ cấm	đường dây tội phạm (tin tức)
+yt_san_pham_dich_vu_cam	CANH	tat_ca	(?<!\w)mổ\ cướp\ nội\ tạng(?!\w)	Sản phẩm/dịch vụ cấm	bỏ
+yt_san_pham_dich_vu_cam	CHAN	tieu_de	(?<!\w)mổ\ cướp\ nội\ tạng(?!\w)	Sản phẩm/dịch vụ cấm	bỏ
+yt_san_pham_dich_vu_cam	CANH	tieu_de	(?<!\w)tiền\ giả(?!\w)	Sản phẩm/dịch vụ cấm	vụ án làm giả
+yt_lua_dao_tien_nhanh	CANH	tieu_de	(?<!\w)lùa\ gà(?!\w)	Lừa đảo/tiền nhanh	bẫy đầu tư (bài học tài chính)
+yt_lua_dao_tien_nhanh	CANH	tieu_de	(?<!\w)đa\ cấp(?!\w)	Lừa đảo/tiền nhanh	mô hình kinh doanh rủi ro
+yt_lua_dao_tien_nhanh	CANH	tieu_de	(?<!\w)ponzi(?!\w)	Lừa đảo/tiền nhanh	financial bubble
+yt_gian_lan	CANH	tieu_de	(?<!\w)bẻ\ khoá(?!\w)	Gian lận	bản quyền chính hãng
+yt_gian_lan	CANH	tieu_de	(?<!\w)phần\ mềm\ lậu(?!\w)	Gian lận	phần mềm chính hãng
+yt_gian_lan	CANH	tieu_de	(?<!\w)phishing(?!\w)	Gian lận	cybersecurity awareness
+yt_gay_soc	CANH	tat_ca	(?<!\w)ăn\ thịt\ người(?!\w)	Truyện ma: dễ vàng nếu tả	truyền thuyết đen tối
+yt_gay_soc	CHAN	tieu_de	(?<!\w)ăn\ thịt\ người(?!\w)	Truyện ma: dễ vàng nếu tả	truyền thuyết đen tối
+yt_gay_soc	CANH	tat_ca	(?<!\w)uống\ máu(?!\w)	Gây sốc	nghi thức cấm kỵ
+yt_gay_soc	CHAN	tieu_de	(?<!\w)uống\ máu(?!\w)	Gây sốc	nghi thức cấm kỵ
+yt_gay_soc	CANH	tat_ca	(?<!\w)thối\ rữa(?!\w)	Gây sốc	bỏ
+yt_gay_soc	CHAN	tieu_de	(?<!\w)thối\ rữa(?!\w)	Gây sốc	bỏ
+yt_gay_soc	CANH	tieu_de	(?<!\w)hiến\ tế(?!\w)	Gây sốc	nghi thức cổ
+yt_gay_soc	CANH	tat_ca	(?<!\w)bùa\ ngải\ giết\ người(?!\w)	Gây sốc	cổ thuật; tín ngưỡng dân gian
+yt_gay_soc	CHAN	tieu_de	(?<!\w)bùa\ ngải\ giết\ người(?!\w)	Gây sốc	cổ thuật; tín ngưỡng dân gian
+yt_gay_soc	CANH	tat_ca	(?<!\w)cannibal\w*(?!\w)	Gây sốc	dark legend
+yt_gay_soc	CHAN	tieu_de	(?<!\w)cannibal\w*(?!\w)	Gây sốc	dark legend
+yt_tre_em	CANH	tat_ca	(?<!\w)bắt\ cóc\ trẻ\ em(?!\w)	Trẻ em	sự mất tích bí ẩn
+yt_tre_em	CHAN	tieu_de	(?<!\w)bắt\ cóc\ trẻ\ em(?!\w)	Trẻ em	sự mất tích bí ẩn
+yt_tre_em	CANH	tat_ca	(?<!\w)bạo\ hành\ trẻ\ em(?!\w)	Trẻ em	(tin tức, không tả)
+yt_tre_em	CHAN	tieu_de	(?<!\w)bạo\ hành\ trẻ\ em(?!\w)	Trẻ em	(tin tức, không tả)
+yt_tre_em	CANH	tat_ca	(?<!\w)xâm\ hại\ trẻ\ em(?!\w)	Trẻ em	(tin tức, không tả)
+yt_tre_em	CHAN	tieu_de	(?<!\w)xâm\ hại\ trẻ\ em(?!\w)	Trẻ em	(tin tức, không tả)
+yt_tre_em	CANH	tat_ca	(?<!\w)child\ abuse(?!\w)	Trẻ em	(news only, non-descriptive)
+yt_tre_em	CHAN	tieu_de	(?<!\w)child\ abuse(?!\w)	Trẻ em	(news only, non-descriptive)

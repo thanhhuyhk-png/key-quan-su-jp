@@ -1,0 +1,23 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><link rel="stylesheet" href="../lib/fonts.css"></head><body>
+<!-- Sinh tự động từ shots/shot-c-keo-phao.js bằng tools/build_shots.py. Sửa file .js rồi chạy lại, đừng sửa trang này. -->
+<script>window.READY = false;
+// Shot (c): hướng kéo pháo vẽ dần từ phía Đông Bắc, cuối tuyến chạm đúng TRẬN ĐỊA PHÁO H6; đoàn kéo lựu pháo 105 ly
+// đi theo đầu tuyến (người dẫn đầu tới H6 khi tuyến vẽ xong). Hình bộ đội là biểu tượng minh họa.
+window.SHOT = {
+  duration: 10,
+  date: 'THÁNG 1/1954',
+  credit: 'Địa hình: AWS Terrain Tiles (SRTM, công cộng) · Ảnh vệ tinh: Sentinel-2 cloudless 2016 (EOX, CC BY 4.0) · Vị trí: OpenStreetMap (ODbL) · Hướng kéo pháo, hình bộ đội: minh họa',
+  camera: [
+    { t: 0, lat: 21.478, lon: 103.100, dist: 13.5, heading: 316, pitch: 50, fov: 42 },
+    { t: 10, lat: 21.470, lon: 103.091, dist: 12.5, heading: 320, pitch: 48, fov: 42, ease: 'sine' },
+  ],
+  routes: [{
+    path: 'keo-phao', style: 'route', from: 0.4, dur: 8.2, ease: 'inOut', width: 60,
+    label: '15 KM', labelSub: 'hướng kéo pháo (minh họa)', labelAt: 0.3, labelDy: -110, labelFrom: 2.2, labelSize: 44,
+    troops: { kind: 'cannon', count: 6, size: 64, gap: 44, lag: 0 },
+  }],
+  points: [{ id: 'h6', from: 0.5, size: 28 }],
+};
+</script>
+<script type="module" src="map3d.js"></script>
+</body></html>

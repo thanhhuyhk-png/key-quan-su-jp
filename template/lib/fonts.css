@@ -1,0 +1,13 @@
+/* Font OFL đặt cạnh trang (template/fonts). Mọi khối dùng chung. */
+@font-face { font-family: "Oswald"; font-weight: 200 700; src: url("../fonts/Oswald-VF.ttf"); }
+@font-face { font-family: "BVP"; font-weight: 400; src: url("../fonts/BeVietnamPro-Regular.ttf"); }
+@font-face { font-family: "BVP"; font-weight: 500; src: url("../fonts/BeVietnamPro-Medium.ttf"); }
+@font-face { font-family: "BVP"; font-weight: 600; src: url("../fonts/BeVietnamPro-SemiBold.ttf"); }
+@font-face { font-family: "BVP"; font-weight: 800; src: url("../fonts/BeVietnamPro-ExtraBold.ttf"); }
+@font-face { font-family: "Lora"; font-weight: 400 700; font-style: normal; src: url("../fonts/Lora-VF.ttf"); }
+@font-face { font-family: "Lora"; font-weight: 400 700; font-style: italic; src: url("../fonts/Lora-Italic-VF.ttf"); }
+@font-face { font-family: "Plex Mono"; font-weight: 500; src: url("../fonts/IBMPlexMono-Medium.ttf"); }
+:root {
+  --giay: #d6c9a3; --giay-dam: #c4b48a; --muc: #1e1d1a; --toi: #0d0804; --do: #c93b2b; --vang: #e5a93b; --bien: #0e2f4f;
+}
+html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }

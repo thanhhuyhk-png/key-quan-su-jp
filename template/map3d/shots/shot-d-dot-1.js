@@ -1,0 +1,26 @@
+// Shot (d): đợt 1 — Him Lam, Độc Lập, Bản Kéo lần lượt chớp đỏ; mũi tên tiến công + hàng bộ đội (minh họa)
+window.SHOT = {
+  duration: 9,
+  date: '13 – 17/3/1954',
+  camera: [
+    { t: 0, lat: 21.400, lon: 103.010, dist: 9.5, heading: 352, pitch: 46, fov: 40 },
+    { t: 9, lat: 21.405, lon: 103.008, dist: 8, heading: 344, pitch: 44, fov: 40, ease: 'sine' },
+  ],
+  zones: [{ id: 'bac', from: 0, color: 'rgba(93,134,184,0.30)' }],
+  routes: [
+    { path: [[21.428, 103.052], [21.416, 103.040], [21.4068, 103.0268]], style: 'attack', from: 0.5, dur: 1.7, troops: { kind: 'file', count: 4, size: 30, gap: 26 } },
+    { path: [[21.447, 103.022], [21.434, 103.013], [21.4238, 103.0078]], style: 'attack', from: 2.9, dur: 1.7, troops: { kind: 'file', count: 4, size: 30, gap: 26 } },
+    { path: [[21.424, 102.972], [21.414, 102.983], [21.4068, 102.9912]], style: 'attack', from: 5.3, dur: 1.7, troops: { kind: 'file', count: 4, size: 30, gap: 26 } },
+  ],
+  points: [
+    { id: 'himlam', from: 0.2, hit: 2.3 },
+    { id: 'doclap', from: 0.2, hit: 4.7 },
+    { id: 'bankeo', from: 0.2, hit: 7.1, sub: 'bức hàng · vị trí minh họa' },
+  ],
+  flashes: [
+    { id: 'himlam', at: 2.1, count: 4, every: 0.22, size: 150 },
+    { id: 'doclap', at: 4.5, count: 4, every: 0.22, size: 150 },
+    { id: 'bankeo', at: 6.9, count: 3, every: 0.25, size: 130 },
+  ],
+  credit: 'Địa hình: AWS Terrain Tiles (SRTM, công cộng) · Ảnh vệ tinh: Sentinel-2 cloudless 2016 (EOX, CC BY 4.0) · Vị trí cứ điểm: OpenStreetMap (ODbL), một số vị trí minh họa · Mũi tên, hình bộ đội: minh họa',
+};

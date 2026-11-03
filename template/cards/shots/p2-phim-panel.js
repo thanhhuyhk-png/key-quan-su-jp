@@ -1,0 +1,11 @@
+// MẪU P2: phim 2/3 khung + panel số, chip hiện dần 1/3. Khung phim trích sẵn bằng ffmpeg (tools/trich_khung_phim.py); phim ở đây là phim giả.
+window.SHOT = {
+  type: 'phim-panel', duration: 3.6, seed: 22, mau: true, nam: 'MẪU',
+  kicker: 'PHIM TƯ LIỆU', title: 'PHIM VÀ SỐ ĐI CÙNG',
+  phim: { mau: '../data/mau-p2/phim-mau/f%03d.jpg', n: 36, fps: 12, batDau: 0.3 },
+  panelNhan: 'CHƯƠNG MẪU',
+  so: { value: 1234, unit: 'SỐ MẪU', label: 'Nhãn giải thích con số mẫu' },
+  chip: [{ text: 'CHIP A' }, { text: 'CHIP B' }, { text: 'CHIP C' }],
+  moc: [0.6, 1.4, 2.1, 2.8],
+  source: 'MẪU · phim giả sinh bằng ffmpeg, không phải tư liệu lịch sử',
+};

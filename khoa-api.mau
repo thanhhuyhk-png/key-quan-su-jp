@@ -1,0 +1,11 @@
+# Mẫu tệp khoá API cho kit Goha Lịch Sử.
+# Cách dùng: chép tệp này thành tệp tên ".env" ở gốc repo (cùng chỗ với tệp này), rồi dán khoá sau dấu "=".
+# Tệp ".env" không lên Git, không gửi cho ai. Không để dấu cách quanh "=", không cần ngoặc kép.
+
+# ElevenLabs: đọc giọng (kit.py giong), chép lời Scribe (kit.py chep-loi), tiếng động (kit.py tieng-dong).
+# Lấy khoá: đăng nhập elevenlabs.io → Developers → API Keys → Create API Key → chép.
+ELEVENLABS_API_KEY=
+
+# Deepgram: chép lời soi chéo (kit.py chep-loi --adapter deepgram). Tài khoản mới được tặng tín dụng dùng thử.
+# Lấy khoá: đăng ký console.deepgram.com → API Keys → Create a New API Key → chép.
+DEEPGRAM_API_KEY=

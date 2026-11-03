@@ -1,0 +1,12 @@
+// Shot (a): toàn cảnh bay vào lòng chảo, hiện nhãn ĐIỆN BIÊN PHỦ
+window.SHOT = {
+  duration: 8,
+  date: '1953 – 1954',
+  fadeIn: 0.6,
+  camera: [
+    { t: 0, lat: 21.30, lon: 103.06, dist: 62, heading: 10, pitch: 58, fov: 40 },
+    { t: 6.5, lat: 21.385, lon: 103.015, dist: 13, heading: 25, pitch: 34, fov: 40, ease: 'inOut' },
+    { t: 8, lat: 21.388, lon: 103.014, dist: 12, heading: 27, pitch: 33, fov: 40, ease: 'out' },
+  ],
+  points: [{ id: 'dbp', from: 4.6, size: 46, lift: 70 }],
+};

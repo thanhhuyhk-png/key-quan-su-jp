@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kho đồ hoạ quân sự — Điện Biên Phủ 1954</title>
+<style>
+@font-face{font-family:BVPBang;src:url("../../fonts/BeVietnamPro-ExtraBold.ttf") format("truetype");font-weight:700;font-display:block}
+@font-face{font-family:BVPBang;src:url("../../fonts/BeVietnamPro-Regular.ttf") format("truetype");font-weight:300;font-display:block}
+:root{--paper:#e8e1ce;--ink:#35382d}
+*{box-sizing:border-box}html,body{margin:0;background:var(--paper);color:var(--ink)}
+canvas{display:block;width:100vw;height:auto;aspect-ratio:4/3}
+</style>
+</head>
+<body>
+<canvas id="canvas" width="3200" height="2400" role="img" aria-label="Bảng duyệt ba món quân sự, trạng thái ngày đêm và hai cảnh lên dốc 12 độ."></canvas>
+<script src="../engine/kho.js"></script><script src="../engine/khung.js"></script>
+<script src="../engine/but.js"></script><script src="../engine/nguoi.js"></script>
+<script src="../vat-the/dbp-1954/ta/bo-doi.js"></script><script src="../vat-the/dbp-1954/ta/phao-37.js"></script><script src="../vat-the/dbp-1954/ta/xe-dap-tho.js"></script>
+<script>
+'use strict';
+window.SIZE="3200x2400";window.DURATION=4;window.READY=false;
+const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+const T={paper:'#e8e1ce',cell:'#f3eedf',ink:'#35382d',muted:'#75765f',rule:'#c5c2aa',night:'#17202d',nightInk:'#b9c5ca',nightRule:'#3e505c',accent:'#8d6944',margin:64,gap:16};
+function label(text,x,y,size,color,weight){ctx.fillStyle=color||T.ink;ctx.font=(weight||300)+' '+(size||18)+'px BVPBang, sans-serif';ctx.fillText(text,x,y);}
+function border(x,y,w,h,night){
+ ctx.fillStyle=night?T.night:T.cell;ctx.fillRect(x,y,w,h);
+ ctx.strokeStyle=night?T.nightRule:T.rule;ctx.lineWidth=1;ctx.strokeRect(x+.5,y+.5,w-1,h-1);
+}
+function ruler(x,y,s,night){
+ ctx.strokeStyle=night?T.nightInk:T.muted;ctx.lineWidth=1.4;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+s,y);ctx.moveTo(x,y-5);ctx.lineTo(x,y+5);ctx.moveTo(x+s,y-5);ctx.lineTo(x+s,y+5);ctx.stroke();
+ label('1 m',x+s+10,y+5,14,night?T.nightInk:T.muted);
+}
+function cell(x,y,w,h,ma,state,t,options,caption,preferred){
+ const par=Object.assign({trangThai:state,t,hat:29},options||{}),night=par.dem;
+ border(x,y,w,h,night);label(caption||state,x+22,y+31,19,night?T.nightInk:T.ink,700);
+ const b=Kho.doKhung(ma,par),s=Math.min(preferred,(w-70)/(b.phai-b.trai),(h-86)/(b.duoi-b.tren));
+ const gx=x+w/2-(b.trai+b.phai)*s/2,gy=y+h-43;
+ ctx.strokeStyle=night?T.nightRule:T.rule;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x+22,gy);ctx.lineTo(x+w-22,gy);ctx.stroke();
+ Kho.ve(ctx,ma,Object.assign({},par,{x:gx,y:gy,pxMoiMet:s}));
+ ruler(x+24,y+h-19,s,night);
+}
+function row(y,h,ma,items,t,preferred){
+ const width=(3200-2*T.margin-(items.length-1)*T.gap)/items.length;
+ items.forEach((entry,i)=>cell(T.margin+i*(width+T.gap),y,width,h,ma,entry.state,t,entry.options,entry.caption,preferred));
+}
+function terrain(w,h,base,deg){
+ const slope=Math.tan(deg*Math.PI/180);
+ ctx.fillStyle='#202e35';ctx.beginPath();ctx.moveTo(18,base);ctx.lineTo(w-18,base-(w-36)*slope);ctx.lineTo(w-18,h-18);ctx.lineTo(18,h-18);ctx.closePath();ctx.fill();
+ ctx.strokeStyle='#6d7778';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(18,base);ctx.lineTo(w-18,base-(w-36)*slope);ctx.stroke();
+ const rand=Kho.rng(1954);ctx.strokeStyle='#35454a';ctx.lineWidth=1;
+ for(let i=0;i<110;i++){const x=25+rand()*(w-50),ground=base-(x-18)*slope,y=ground+12+rand()*Math.max(5,h-35-ground);ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+6+rand()*14,y-3);ctx.stroke();}
+ return x=>base-(x-18)*slope;
+}
+// Target an actual scene anchor by solving a hand in the person's local frame.
+function human(x,ground,s,t,state,options,target){
+ const params=Object.assign({x,y:ground(x),pxMoiMet:s,t,trangThai:state,doc:12,dem:true,khongMat:true,hat:5,bienThe:{sung:'khong'}},options||{});
+ params.bienThe=Object.assign({sung:'khong'},params.bienThe||{});
+ if(target){
+  for(let i=0;i<3;i++){
+   const tt=Kho._tinh('bo-doi',params).tt,m=tt.maTranCanh;
+   const dx=(target[0]-params.x)/s,dy=(target[1]-params.y)/s;
+   const det=m[0]*m[3]-m[1]*m[2],lx=(m[3]*dx-m[2]*dy)/det,ly=(-m[1]*dx+m[0]*dy)/det;
+   params.bienThe.tay={Gan:[lx,ly-tt.doDoiY]};
+   if(params.bienThe.haiTay)params.bienThe.tay.Xa=[lx-.018,ly-tt.doDoiY-.015];
+  }
+ }
+ return Kho.ve(ctx,'bo-doi',params);
+}
+// Probe only the local anchors; the painter records geometry without drawing pixels.
+function anchors(ma,params){
+ const model=Kho._tinh(ma,params),tt=model.tt;
+ model.def.ve(Kho.but.tao(null,tt,model.def),tt);
+ const out={};
+ for(const name of Object.keys(tt.neo)){const q=Kho.khung.diem(tt.maTranCanh,...tt.neo[name]);out[name]=[tt.x+q[0]*tt.pxMoiMet,tt.y+q[1]*tt.pxMoiMet];}
+ return out;
+}
+function ropeLine(points,color,width){
+ for(let i=1;i<points.length;i++)Kho.but.day(ctx,points[i-1],points[i],{vong:0,mau:color,doDay:width});
+}
+function sceneGun(x,y,w,h,t){
+ border(x,y,w,h,true);ctx.save();ctx.translate(x,y);
+ label('KÉO PHÁO LÊN DỐC',25,35,23,T.nightInk,700);label('12°  ·  một dây mỗi hàng · cách người 0,96 m',25,62,16,'#8496a0');
+ const ground=terrain(w,h,515,12),s=110,motion=(t%4)*.30*s*Math.cos(12*Math.PI/180),gx=400+motion;
+ const gunParams={trangThai:'keo',t:t*.5,x:gx,y:ground(gx),doc:12,pxMoiMet:s,dem:true,hat:3};
+ const gunAnchor=anchors('phao-37',gunParams),farHands=[];
+ for(let i=0;i<6;i++){
+  const px=725+i*.96*s+motion+9;
+  const p=human(px,z=>ground(z)-.20*s,s,t+i*.035,'keo-day',{hat:i+70,bienThe:{sung:'khong',xa:true},vien:false});
+  farHands.push(p.neo.tayGan);
+ }
+ ropeLine([gunAnchor.mocKeo,...farHands],'#626e72',1.6);
+ const gun=Kho.ve(ctx,'phao-37',gunParams),hands=[];
+ for(let i=0;i<6;i++){
+  const p=human(725+i*.96*s+motion,ground,s,t+i*.035,'keo-day',{hat:i+1,bienThe:{sung:'khong'}});
+  hands.push(p.neo.tayGan);
+ }
+ ropeLine([gun.neo.mocKeo,...hands],'#a6a58b',2.1);
+ // The chock man stands downhill of the rear wheel, bent low, holding the block just behind the tyre.
+ const wheelX=gunAnchor.banhSau[0],r=.47*s,chockX=wheelX-r-.12*s;
+ const helper=human(chockX-.55*s,ground,s,t,'day',{hat:18,bienThe:{sung:'khong'}},[chockX,ground(chockX)-.14*s]);
+ const hand=helper.neo.tayGan;
+ ctx.save();ctx.translate(...hand);ctx.rotate(-12*Math.PI/180);ctx.fillStyle='#5d5948';ctx.strokeStyle='#8b8f85';ctx.lineWidth=1.3;
+ ctx.beginPath();ctx.moveTo(-22,-6);ctx.lineTo(20,-10);ctx.lineTo(27,5);ctx.lineTo(-18,10);ctx.closePath();ctx.fill();ctx.stroke();ctx.beginPath();ctx.moveTo(-15,-1);ctx.lineTo(16,-3);ctx.stroke();ctx.restore();
+ ruler(28,h-27,s,true);label('Bánh đen · nòng khoá về sau · không đèn',180,h-22,16,'#8c9ca4');ctx.restore();
+}
+function sceneBike(x,y,w,h,t){
+ border(x,y,w,h,true);ctx.save();ctx.translate(x,y);
+ label('XE ĐẠP THỒ LÊN DỐC',25,35,23,T.nightInk,700);label('12°  ·  tổ ba người, trang phục dân sự trơn',25,62,16,'#8496a0');
+ const ground=terrain(w,h,515,12),s=150,motion=(t%4)*.24*s*Math.cos(12*Math.PI/180),bx=740+motion;
+ const params={trangThai:'len-doc',t,x:bx,y:ground(bx),pxMoiMet:s,doc:12,dem:true,hat:11},bike=anchors('xe-dap-tho',params);
+ // Pusher stays behind the rear axle; the handler walks alongside on the near track.
+ human(bx-1.30*s,ground,s,t*.24/.34,'di',{hat:33,bienThe:{danSu:true,sung:'khong',tuThe:'dat-xe',haiTay:true}},bike.treYen);
+ const bicycle=Kho.ve(ctx,'xe-dap-tho',params);
+ human(bx-.40*s,z=>ground(z)+.14*s,s,t*.24/.34,'di',{hat:19,bienThe:{danSu:true,sung:'khong',tuThe:'dat-xe'}},bicycle.neo.tayNgai);
+ const front=human(bx+2.55*s,ground,s,t*.24/.30,'keo-day',{hat:42,bienThe:{danSu:true,sung:'khong'}});
+ Kho.but.day(ctx,bicycle.neo.dayTruoc,front.neo.tayGan,{vong:0,mau:'#a4a48a',doDay:2.2});
+ ruler(28,h-27,s,true);label('Sau: đẩy tre yên · bên cạnh: lái tay ngai · trước: kéo dây',230,h-22,16,'#8c9ca4');ctx.restore();
+}
+window.renderFrame=function(t){
+ t=Number(t);if(!Number.isFinite(t))t=0;
+ ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,3200,2400);ctx.fillStyle=T.paper;ctx.fillRect(0,0,3200,2400);
+ label('ĐIỆN BIÊN PHỦ / 1954',64,57,34,T.ink,700);
+ label('KHO ĐỒ HOẠ QUÂN SỰ',64,93,19,T.muted);
+ label('KHẮC PHẲNG BA TÔNG',2440,56,21,T.ink,700);
+ label('Mét thật  ·  tư thế theo thời gian  ·  t = '+t.toFixed(2)+' s',2440,91,17,T.muted);
+ row(128,300,'bo-doi',['dung','di','quy-ngam','keo-day','day'].map(state=>({state,caption:'BỘ ĐỘI / '+state})),t,125);
+ row(444,300,'bo-doi',[
+ {state:'di',options:{dem:true},caption:'ĐÊM / đi'},
+ {state:'dung',options:{nguyTrang:1},caption:'NGUỴ TRANG / đứng'},
+ {state:'dung',options:{bienThe:{ao:'tran-thu',sung:'k24'}},caption:'TRẤN THỦ / Kiểu 24'},
+ {state:'keo-day',options:{dem:true,khongMat:true},caption:'KHÔNG MẶT / kéo dây'}],t,125);
+ row(760,350,'phao-37',['keo','chen-banh','ban','u-dat','nguy-trang'].map(state=>({state,caption:'PHÁO 37 MM / '+state})),t,76);
+ row(1126,290,'phao-37',[{state:'keo',options:{dem:true},caption:'PHÁO / đêm · kéo'},{state:'ban',options:{dem:true},caption:'PHÁO / đêm · bắn'}],t,62);
+ row(1432,300,'xe-dap-tho',['dat','len-doc','xuong-doc','nghi'].map(state=>({state,caption:'XE THỒ / '+state})),t,135);
+ const width=(3200-128-16)/2;
+ sceneGun(64,1748,width,586,t);sceneBike(64+width+16,1748,width,586,t);
+ label('Bảng duyệt nội bộ · màu ước lượng · hình học tự vẽ · không chữ trong món',64,2370,16,T.muted);
+};
+window.FONT_STATUS={};
+Promise.all([document.fonts.load('700 24px BVPBang'),document.fonts.load('300 18px BVPBang')]).then(async function(results){
+ await document.fonts.ready;
+ window.FONT_STATUS={nexaBold:'loaded',nexaLight:'loaded'};
+ const query=new URLSearchParams(location.search);window.renderFrame(Number(query.get('t')||0));
+ window.READY=true;
+}).catch(function(error){
+ window.FONT_STATUS={error:String(error)};window.renderFrame(Number(new URLSearchParams(location.search).get('t')||0));
+ label('Không tải được font Be Vietnam Pro: kiểm tra đường dẫn font tương đối.',64,2394,16,'#824a34');
+});
+</script>
+</body>
+</html>

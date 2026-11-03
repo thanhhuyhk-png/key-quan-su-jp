@@ -1,0 +1,22 @@
+# Cấu hình máy (mẫu). Chép thành cau-hinh.toml rồi sửa đường dẫn cho máy của bạn.
+# cau-hinh.toml không lên Git; chỉ cần ghi những khoá khác mẫu. Script đọc qua tools/cau_hinh.py.
+# Đường dẫn Windows viết dấu gạch xuôi: "D:/Goha/output".
+
+[duong_dan]
+# Nơi để media nặng của từng tập (hình, âm, bản dựng). Cần ≥ 60 GB trống cho mỗi tập đang dựng.
+output = "D:/Goha/output"
+# Chrome hoặc Edge, dùng chụp ảnh headless (thẻ chữ, bìa, Shorts).
+# Phải là đường dẫn có thật trên máy bạn. Máy chỉ có Edge thì ghi "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe".
+chrome = "C:/Program Files/Google/Chrome/Application/chrome.exe"
+# Goha AVS (trộn, hậu kỳ, xem lại).
+goha_avs = "C:/Goha AVS TOOL"
+# Kho nghiên cứu (phụ đề, metadata kênh đối thủ). Không để trong repo.
+nghien_cuu = "D:/Goha/nghien-cuu"
+# Tuỳ chọn: Python có pedalboard để chạy chuỗi VST hậu kỳ (để trống nếu không dùng).
+vst_python = ""
+# Tuỳ chọn: thư mục plugin VST3.
+vst3 = "C:/Program Files/Common Files/VST3"
+# Tuỳ chọn: kit teardown dựng cảnh cắt dọc cơ cấu vũ khí (để trống nếu không dùng).
+teardown = ""
+# Tuỳ chọn: script chép lời Deepgram của máy (để trống nếu không dùng).
+chep_loi = ""

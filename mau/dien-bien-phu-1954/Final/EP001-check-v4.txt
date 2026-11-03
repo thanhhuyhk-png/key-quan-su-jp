@@ -1,0 +1,5 @@
+! 3 thing(s) to look at: <output>\261102-dbp-v3\final\EP001-dien-bien-phu-1954.mp4
+  1920×1080 24 fps · 1068.1 s · -14.2 LUFS, peak -1.4 dBFS
+! Black picture for 0.13 s at 12:44.9.  → A gap between shots or a frame that did not draw: look at that time.
+! Black picture for 0.13 s at 17:39.8.  → A gap between shots or a frame that did not draw: look at that time.
+! The picture does not move for 4.1 s from 9:26.4.  → Fine for a title card or a held still; not for a render that stopped.

@@ -1,0 +1,16 @@
+@font-face { font-family: BeVN; src: url('BeVietnamPro-SemiBold.ttf'); font-weight: 600; }
+@font-face { font-family: BeVN; src: url('BeVietnamPro-Regular.ttf'); font-weight: 400; }
+.ov { position: absolute; inset: 0; pointer-events: none; font-family: BeVN, 'Segoe UI', sans-serif; color: #ece6d6; }
+.cap { position: absolute; left: 64px; bottom: 64px; }
+.cap .c1 { font-size: 44px; font-weight: 600; letter-spacing: .01em; }
+.cap .c2 { font-size: 24px; font-weight: 400; color: rgba(236,230,214,.72); margin-top: 6px; }
+.read { position: absolute; right: 64px; top: 56px; width: 250px; font-size: 18px; }
+.read .row { display: flex; justify-content: space-between; margin-top: 14px; letter-spacing: .06em; color: rgba(236,230,214,.7); }
+.read .row b { color: #ece6d6; font-weight: 600; }
+.read .bar { height: 4px; background: rgba(236,230,214,.16); margin-top: 6px; }
+.read .bar i { display: block; height: 100%; background: #f0a830; }
+.lead { position: absolute; inset: 0; width: 100%; height: 100%; }
+.lead line { stroke: #ece6d6; stroke-width: 1.5; }
+.lead circle { fill: #f0a830; }
+.tag { position: absolute; left: 0; top: 0; font-size: 22px; font-weight: 600; padding: 2px 0; border-bottom: 2px solid #f0a830; white-space: nowrap; }
+.src { position: absolute; right: 64px; bottom: 40px; font-size: 14px; color: rgba(236,230,214,.45); }

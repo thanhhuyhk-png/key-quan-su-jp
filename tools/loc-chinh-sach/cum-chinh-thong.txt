@@ -1,0 +1,27 @@
+# Cụm chính thống: tên văn kiện, khẩu hiệu, phương châm, nội dung hiệp định, tên đơn vị, câu thơ, lời trích có nguồn.
+# Đây là dữ kiện ai cũng phải dùng nguyên văn, không phải "cách kể"; máy so trùng loại khỏi cả hai phía.
+# Thêm cụm mới khi máy báo trùng mà cụm đó là văn bản chính thống (ghi nguồn vào sổ số liệu của tập).
+Quyết chiến, Quyết thắng
+đánh chắc, tiến chắc
+đánh nhanh, thắng nhanh
+đánh nhanh, giải quyết nhanh
+độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ
+lừng lẫy năm châu, chấn động địa cầu
+khoét núi ngủ hầm, mưa dầm cơm vắt, máu trộn bùn non, gan không núng, chí không mòn
+tập đoàn cứ điểm Điện Biên Phủ
+Chiến dịch Điện Biên Phủ
+Hiệp định Giơ-ne-vơ
+kháng chiến chống thực dân Pháp
+kháng chiến chống Mỹ, cứu nước
+Quân đội nhân dân Việt Nam
+dân công hỏa tuyến
+thanh niên xung phong
+Thắng lợi tuy lớn nhưng mới là bắt đầu
+# Thêm 01/11/2026 (tập 1 ĐBP): câu trích có ngoặc trong nguồn, chức danh, tên người nhận văn kiện.
+pháo đài bất khả xâm phạm
+pháo đài không thể công phá
+kết thúc chiến tranh trong danh dự
+Chỉ huy trưởng kiêm Bí thư Đảng ủy Mặt trận
+bộ đội, dân công, thanh niên xung phong và đồng bào Tây Bắc
+# Thêm 01/11/2026 (tập 1 ĐBP v5): công thức chính thống về sự lãnh đạo (sổ M20).
+dưới sự lãnh đạo của Đảng và Chủ tịch Hồ Chí Minh

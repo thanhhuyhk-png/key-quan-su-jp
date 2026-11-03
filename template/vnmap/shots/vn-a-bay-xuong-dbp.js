@@ -1,0 +1,17 @@
+// vnmap (a): toàn cảnh Đông Dương – Biển Đông, bay máy xuống Tây Bắc rồi Điện Biên Phủ; cuối shot hiện ảnh vệ tinh
+// để hoà hình sang map3d shot-a-toan-canh.
+window.SHOT = {
+  duration: 8,
+  date: '13/3/1954',
+  camera: [
+    { t: 0, lon: 108.6, lat: 15.2, zoom: 52 },
+    { t: 1.2, lon: 108.3, lat: 15.6, zoom: 56, ease: 'sine' },
+    { t: 4.2, lon: 103.6, lat: 21.2, zoom: 330 },
+    { t: 7.2, lon: 103.03, lat: 21.39, zoom: 2300 },
+    { t: 8, lon: 103.03, lat: 21.39, zoom: 2600, ease: 'out' },
+  ],
+  labels: [{ text: 'TÂY BẮC', lon: 103.5, lat: 21.8, kind: 'vn', from: 3.0, to: 5.6 }],
+  markers: [{ lon: 103.012, lat: 21.388, label: 'ĐIỆN BIÊN PHỦ', from: 3.6, size: 34 }],
+  satellite: { from: 5.4, dur: 1.8 },
+  credit: 'Bản đồ: Natural Earth (phạm vi công cộng) · Ảnh vệ tinh: Sentinel-2 cloudless 2016 (EOX, CC BY 4.0) · Hoàng Sa, Trường Sa thuộc Việt Nam',
+};

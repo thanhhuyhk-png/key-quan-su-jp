@@ -1,0 +1,32 @@
+---
+name: goha-khoi-dong
+description: K1 Khởi động kit Goha Lịch Sử trên máy mới của hội viên — chạy kiểm máy (Python, thư viện, Node, ffmpeg, Chrome/Edge, git, gh, claude, ổ trống, RAM, Goha AVS, khoá API chỉ báo có/thiếu), hỏi rồi mới hướng dẫn cài phần mềm thiếu bằng winget, tạo `cau-hinh.toml` từ mẫu, hướng dẫn người dùng TỰ dán khoá API vào tệp khoá, chạy `npm install` trong `template/`, gợi ý mức chạy Đầy đủ / Tiết kiệm / Miễn phí và phương án thay thế khi thiếu, rồi chuyển sang K2. Dùng ngay khi người dùng nói "K1", "kiểm máy", "cài đặt", "bắt đầu", "khởi động kit", "máy mới", "chưa có cau-hinh.toml", "thiếu ffmpeg/node", hoặc khi mở kit lần đầu — kể cả khi không nhắc tên skill. Không dùng để chọn ngách hay dựng hồ sơ kênh (K2: goha-ho-so-kenh).
+---
+
+# K1 Khởi động kit
+
+Đường dẫn dạng `<output>`, `<goha_avs>` là khoá trong `cau-hinh.toml` ở gốc repo (mẫu: `cau-hinh.mau.toml`). Đường dẫn khác tính từ gốc repo. Máy hội viên chỉ có Windows, Claude Code, Goha AVS, Goha Flow; **không có CLI `reelcrew`**, nên không bước nào được gọi nó.
+
+Mục tiêu: máy chạy được kit, có `cau-hinh.toml`, biết mức chạy, rồi sang K2. Chi tiết lệnh cài, quyền khoá, phương án thay thế nằm ở `references/`.
+
+## Các bước
+
+1. **Kiểm máy.** Chạy `python -X utf8 tools/kiem-may/kiem-may.py --ra kiem-may.md` (chưa có Python thì chỉ người dùng cài Python trước: `winget install Python.Python.3.12`, mở lại cửa sổ lệnh). Đọc bảng cho người dùng bằng tiếng Việt đơn giản: cái gì có, cái gì thiếu, mỗi cái thiếu cài bằng lệnh nào. Mã thoát 1 là còn thiếu thứ bắt buộc, không phải lỗi script.
+2. **DỪNG: hỏi trước khi cài phần mềm.** Liệt kê từng lệnh `winget` cần chạy (lấy từ cột «Lệnh cài», xem `references/cai-dat-va-khoa-api.md`), nói mỗi phần mềm để làm gì, hỏi «cài những cái này nhé?». Chỉ chạy khi người dùng đồng ý trong chat. Cài xong phải mở lại cửa sổ lệnh (PATH mới) rồi chạy lại bước 1. Claude Code, Git, đăng nhập `gh auth login` là việc người dùng tự làm bằng tay (hướng dẫn trong `README.md`), không cài thay.
+3. **Tạo `cau-hinh.toml`.** Chép `cau-hinh.mau.toml` thành `cau-hinh.toml`. Hỏi người dùng hai đường dẫn: `output` (ổ còn ≥ 60 GB trống) và `goha_avs` (thư mục cài Goha AVS); Khoá `chrome` phải trỏ tới tệp có thật: kiểm đường dẫn mẫu bằng `ls "<đường dẫn>"` (hoặc `Test-Path` trong PowerShell). Không có thì tìm `chrome.exe` ở `C:/Program Files/Google/Chrome/Application/`, hoặc `msedge.exe` ở `C:/Program Files (x86)/Microsoft/Edge/Application/` (máy chỉ có Edge thì ghi đường dẫn `msedge.exe`), rồi ghi đường dẫn thật vào khoá `chrome`. Bảng kiểm máy báo «có» khi tìm thấy một trong hai trình duyệt, không có nghĩa khoá `chrome` đã đúng. Viết dấu gạch xuôi (`"E:/Goha/output"`). Khoá tuỳ chọn không dùng thì để trống. Tạo thư mục `output` nếu chưa có. `cau-hinh.toml` không lên Git.
+4. **DỪNG: khoá API do người dùng tự dán.** Claude **không mở, không đọc giá trị** tệp khoá. Hướng dẫn người dùng: chép `khoa-api.mau` thành tệp tên `.env` ở gốc repo, dán khoá sau dấu `=` (không dấu cách, không ngoặc kép), lưu, báo «xong». Rồi chạy lại kiểm máy; chỉ nhìn dòng «Khoá ...» có/thiếu. Quyền khoá ElevenLabs cần bật: Text to Speech, Speech to Text, Sound Effects. Deepgram là tuỳ chọn (soi chéo chép lời). Không có khoá nào vẫn đi tiếp được ở mức Miễn phí. Nếu khoá hiện «thiếu» sau khi dán, nhắc kiểm tên biến, dấu cách, lưu đúng gốc repo; không bao giờ xin người dùng dán khoá vào chat.
+5. **Cài phụ thuộc dự án.** `python -m pip install -r requirements.txt` nếu bảng báo thiếu thư viện (hỏi trước, như bước 2). Danh sách này gồm cả `fonttools`, thư viện mà máy dựng thương hiệu của K2 cần; cài đủ ngay từ K1 để K2 không dừng giữa chừng. Nếu có `template/package.json` thì chạy `npm install` trong `template/` (cần cho bản đồ 3D và thẻ chữ).
+6. **Chọn mức chạy.** Đưa mức kiểm máy gợi ý và bảng ba mức (`references/muc-chay-va-thay-the.md`), nói rõ người dùng có thể chọn khác (vd chọn Tiết kiệm dù có khoá). Giá dịch vụ tra lúc chạy và ghi kèm ngày tra, không ghi cứng. Mức chạy chỉ ghi ở MỘT nơi tại mỗi thời điểm, không ghi vào `cau-hinh.toml`: K1 ghi một dòng «Mức chạy: <mức> (chốt <ngày>)» ở cuối `kiem-may.md`; khi K2 tạo `ho-so-kenh/ho-so.md`, K2 chép sang mục 1 của hồ sơ và từ đó hồ sơ là nơi duy nhất mọi skill đọc.
+
+   **Goha AVS theo mức:** bắt buộc ở mức Đầy đủ (hậu kỳ và trộn chất lượng nhất); tuỳ chọn ở Tiết kiệm và Miễn phí, thay bằng `python -I -X utf8 tools/kit/kit.py tron` và `kit.py master` (chuỗi ffmpeg, hậu kỳ kém tinh hơn). Bảng kiểm máy chỉ coi thiếu Goha AVS là thiếu bắt buộc khi gợi ý mức Đầy đủ. Người dùng chọn Tiết kiệm hoặc Miễn phí thì không bắt cài; ghi «trộn bằng kit.py tron, master» vào mục «Công cụ thay thế đang dùng» của `kiem-may.md`.
+7. **Xử lý chỗ còn thiếu.** Mỗi thứ thiếu mà người dùng không muốn cài: nêu phương án thay thế và đánh đổi từ `references/muc-chay-va-thay-the.md`, ghi vào `kiem-may.md` mục «Công cụ thay thế đang dùng» để K2 chép vào hồ sơ. Dòng «Kit không gọi reelcrew» báo thiếu chỉ là CẢNH BÁO về chữ lệnh CLI cũ còn sót trong kit, không chặn K1: ghi vào `kiem-may.md` danh sách tệp:dòng để gửi chủ kit, đừng tự sửa lệnh, rồi đi tiếp.
+8. **Xong K1 khi:** `cau-hinh.toml` có (khoá `chrome` đã kiểm), mọi dòng bắt buộc của kiểm máy là «có» (hoặc đã chọn phương án thay thế cho dòng tuỳ chọn hay cho Goha AVS ở mức không phải Đầy đủ), mức chạy đã chốt, `kiem-may.md` đã ghi. **Ghi dấu hoàn thành:** thêm dòng `K1: xong (<ngày>)` ở cuối `kiem-may.md`; đây là dấu bộ định tuyến của `CLAUDE.md` dùng để biết K1 đã xong (có `cau-hinh.toml` chưa đủ, vì tệp đó được tạo ở bước 3). Báo người dùng bằng một hộp tóm tắt ngắn (đã có / còn thiếu / mức chạy), rồi chuyển **K2**: skill `tu-duy-top-20-ytb` (chọn ngách, đo top 20) cùng `goha-ho-so-kenh` (hồ sơ kênh).
+
+## Luật cứng của bước này
+
+- Không cài, không tải gì khi người dùng chưa đồng ý trong chat. Không chạy bước tốn tiền ở K1.
+- Không đọc, không in, không ghi giá trị khoá API ở bất kỳ đâu (chat, báo cáo, nhật ký). Chỉ nói có hay thiếu.
+- Không gọi lệnh `reelcrew`, không đề nghị người dùng cài nó.
+- `tools/loc-chinh-sach/quet.py -h` (hoặc `--help`) in cách dùng và thoát 0; muốn quét tên kênh, mô tả, tagline thì ghi ra tệp tạm rồi quét tệp đó.
+- Lệnh `winget` có thể hiện hộp xin quyền quản trị: báo trước cho người dùng, đừng tự nâng quyền.
+- Kiểm máy lỗi lạ (Python cũ hơn 3.10, ổ không đủ chỗ): nói thẳng hệ quả, đề nghị đổi ổ (`output`) hoặc chế độ nhẹ, không làm tắt.

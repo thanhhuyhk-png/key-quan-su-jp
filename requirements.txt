@@ -1,0 +1,9 @@
+numpy
+pillow
+opencv-python
+soundfile
+pytest
+openpyxl
+yt-dlp
+requests
+scipy

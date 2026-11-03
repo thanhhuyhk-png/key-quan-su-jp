@@ -1,0 +1,15 @@
+// MẪU P2: trang scan + ô BẢN DỊCH gõ theo mốc lời. Dữ liệu giả (trang giả sinh bằng tools/tao_du_lieu_mau_p2.py), không phải tư liệu lịch sử.
+// Dùng thật: đổi `anh` sang trang scan thật; `vung` đo trên ảnh; mốc lấy từ lời: thay `moc` bằng
+//   loi: { tep: '../../tap/EPxxx/san-xuat/stt/<tên>.words.json', cum: ['cụm đầu câu 1', 'cụm đầu câu 2', 'cụm đầu câu 3'], offset: -giờBắtĐầuThẻ }
+window.SHOT = {
+  type: 'tai-lieu-dich', duration: 10, seed: 21, mau: true, nam: 'MẪU',
+  kicker: 'TÀI LIỆU GỐC', title: 'TRANG MẪU CÓ BẢN DỊCH', tenTL: 'HỒ SƠ MẪU',
+  anh: '../data/mau-p2/trang-mau.jpg',
+  cau: [
+    { goc: 'This is the first sample sentence of the page.', dich: 'Đây là câu mẫu thứ nhất nằm ở đoạn đầu của trang.', vung: [0.09, 0.339, 0.857, 0.037], tuKhoa: 'câu mẫu thứ nhất' },
+    { goc: 'The second sample sentence sits in the middle and runs a little longer.', dich: 'Câu mẫu thứ hai nằm giữa trang và dài hơn một chút, để thử gõ nhiều dòng liên tiếp trong ô bản dịch.', vung: [0.09, 0.380, 0.90, 0.037], tuKhoa: 'nhiều dòng' },
+    { goc: 'It must be replaced by a real scan with a source.', dich: 'Khi dùng thật phải thay bằng trang scan thật có nguồn.', vung: [0.09, 0.532, 0.783, 0.037], tuKhoa: 'trang scan thật' },
+  ],
+  moc: [0.8, 3.0, 7.0],
+  source: 'MẪU · trang giả sinh bằng code, không phải tư liệu lịch sử',
+};

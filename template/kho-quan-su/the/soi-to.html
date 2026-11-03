@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#efe8d8}canvas{display:block}</style></head>
+<body><canvas id="c" width="3000" height="2000"></canvas>
+<script src="../engine/kho.js"></script><script src="../engine/khung.js"></script>
+<script src="../engine/but.js"></script><script src="../engine/nguoi.js"></script>
+<script src="../vat-the/dbp-1954/ta/bo-doi.js"></script><script src="../vat-the/dbp-1954/ta/phao-37.js"></script><script src="../vat-the/dbp-1954/ta/xe-dap-tho.js"></script>
+<script>
+// Trang soi nội bộ: vẽ to từng món để nghiệm thu chi tiết. Chọn nhóm bằng giây: 0 bộ đội, 1 pháo, 2 xe.
+const ctx = document.getElementById('c').getContext('2d');
+const NHOM = [
+  { ma: 'bo-doi', px: 420, tt: ['dung', 'di', 'quy-ngam', 'keo-day', 'day'], cot: 5, hang: 1 },
+  { ma: 'phao-37', px: 230, tt: ['keo', 'ban', 'chen-banh', 'nguy-trang'], cot: 2, hang: 2 },
+  { ma: 'xe-dap-tho', px: 520, tt: ['dat', 'nghi'], cot: 2, hang: 1 },
+];
+function renderFrame(t) {
+  const g = NHOM[Math.min(2, Math.floor(t))], tt = (t % 1) * 2;
+  ctx.fillStyle = '#efe8d8'; ctx.fillRect(0, 0, 3000, 2000);
+  const w = 3000 / g.cot, h = 2000 / g.hang;
+  g.tt.forEach((s, i) => {
+    const cx = (i % g.cot + 0.5) * w, cy = (Math.floor(i / g.cot) + 0.92) * h;
+    ctx.strokeStyle = '#9c927c'; ctx.beginPath(); ctx.moveTo(cx - w / 2 + 20, cy); ctx.lineTo(cx + w / 2 - 20, cy); ctx.stroke();
+    const params = { trangThai: s, t: tt + 0.4, hat: 3 };
+    const bounds = Kho.doKhung(g.ma, params), scale = Math.min(g.px, (w - 50) / (bounds.phai - bounds.trai));
+    Kho.ve(ctx, g.ma, { ...params, x: cx - (bounds.trai + bounds.phai) * scale / 2, y: cy, pxMoiMet: scale });
+  });
+}
+window.SIZE = '3000x2000'; window.DURATION = 3; window.renderFrame = renderFrame; window.READY = true;
+renderFrame(Number(new URLSearchParams(location.search).get('t') || 0));
+</script></body></html>

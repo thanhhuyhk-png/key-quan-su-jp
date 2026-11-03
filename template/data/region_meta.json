@@ -1,0 +1,18 @@
+{
+ "zoom": 10,
+ "north": 22.59372606392931,
+ "south": 20.3034175184893,
+ "west": 101.953125,
+ "east": 104.0625,
+ "tiles_x": [
+  802,
+  807
+ ],
+ "tiles_y": [
+  446,
+  452
+ ],
+ "credit": "Địa hình: AWS Terrain Tiles (Mapzen/SRTM, công cộng); Ảnh vệ tinh: Sentinel-2 cloudless 2016 (EOX IT Services, CC BY 4.0; Contains modified Copernicus Sentinel data 2016)",
+ "rows": 448,
+ "cols": 384
+}

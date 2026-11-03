@@ -1,0 +1,9 @@
+{
+  "ten": "Sử Thép",
+  "chu_phu": "History",
+  "khau_hieu": "Những trận đánh làm nên lịch sử",
+  "handle": "@suthep",
+  "mau": { "nen": "#14263a", "chu": "#eef2f5", "nhan": "#e4504a" },
+  "font": { "tieu_de": "Oswald-VF.ttf", "tieu_de_wght": 600, "noi_dung": "BeVietnamPro-Medium.ttf" },
+  "bo_cuc": ["vach", "tron", "gach"]
+}

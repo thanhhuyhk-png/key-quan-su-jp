@@ -1,0 +1,13 @@
+// 2.5D parallax: trời (nền) / dàn lựu pháo 105 ly + người (giữa) / cỏ (trước).
+window.SHOT = {
+  duration: 7, image: '../../../../output/261025-dien-bien-phu-mau/assets/photo/luu-phao-105-san-sang-01.jpg', grade: 'bw-am', seed: 9, shake: 0.8, flicker: 0.02, fadeIn: 0.4,
+  move: [{ t: 0, x: 0.52, y: 0.5, zoom: 1.05 }, { t: 7, x: 0.48, y: 0.5, zoom: 1.12, ease: 'sine' }],
+  drift: { x: -40, y: 0, zoom: 0.035 }, bgDepth: 0.1, bgBlur: 2,
+  layers: [
+    { name: 'phao-nguoi', depth: 0.55, poly: [[0,0.47],[0.04,0.44],[0.13,0.45],[0.2,0.37],[0.3,0.36],[0.37,0.36],[0.37,0.25],[0.47,0.25],[0.6,0.26],[0.68,0.33],[0.73,0.33],[0.77,0.34],[0.82,0.37],[0.88,0.33],[0.91,0.26],[0.97,0.29],[1,0.36],[1,1],[0,1]] },
+    { name: 'co', depth: 1.1, feather: 6, poly: [[0,0.72],[0.3,0.69],[0.55,0.7],[0.7,0.74],[0.85,0.77],[1,0.8],[1,1],[0,1]] },
+  ],
+  dust: { count: 40, opacity: 0.25, smoke: 0.4, seed: 5, wind: -1 },
+  date: '1954',
+  credit: 'Đơn vị lựu pháo 105 ly chuẩn bị ra chiến trường Điện Biên Phủ · Ảnh: TTLTQG III / Tư liệu TTXVN',
+};

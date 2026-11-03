@@ -1,0 +1,43 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8">
+<!-- Vùng an toàn (user dặn 02/11/2026): chữ cách mép trái 110 px, logo cách mép phải 84 px, mép trên 40 px, vì Studio và vài chỗ hiển thị cắt mép, bo góc.
+     Ảnh bìa Goha Studio 1280×720 theo kenh/thumbnail-chuan.md (bố cục CLD: chữ vàng nửa trái, ảnh tư liệu nửa phải; logo góc trên phải).
+     Tham số URL: anh (tên file ảnh cạnh file này), x, y (vị trí ảnh, %), w (độ rộng ảnh, % khung), z (background-size, vd «auto 150%» để phóng), h1, h2 (hai dòng chữ vàng),
+     the (thẻ đỏ), mau=1 (giữ màu cho đồ hoạ 3D), nguon (dòng ghi nguồn nhỏ). Vẽ bằng tap/<tập>/san-xuat/ve-thumbnail.py. -->
+<style>
+@font-face{font-family:Osw;src:url(Oswald-VF.ttf)}
+@font-face{font-family:BVPX;src:url(BeVietnamPro-ExtraBold.ttf)}
+@font-face{font-family:BVP;src:url(BeVietnamPro-SemiBold.ttf)}
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#0b0b0b}
+.ph{position:absolute;top:0;right:0;height:720px;background-repeat:no-repeat;background-size:cover;filter:grayscale(.85) sepia(.22) contrast(1.28) brightness(.95)}
+.v{position:absolute;inset:0;background:
+  linear-gradient(90deg,#0b0b0b 0%,#0b0b0b 30%,rgba(11,11,11,.82) 42%,rgba(11,11,11,.25) 58%,rgba(11,11,11,0) 70%),
+  radial-gradient(ellipse 85% 95% at 72% 48%,rgba(0,0,0,0) 55%,rgba(0,0,0,.6) 100%),
+  linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 78%,rgba(0,0,0,.45) 100%)}
+.g{position:absolute;inset:0;opacity:.09;mix-blend-mode:overlay}
+.t{position:absolute;left:110px;top:0;bottom:0;width:720px;display:flex;flex-direction:column;justify-content:center}
+.h{font:700 116px/1.32 Osw;white-space:nowrap;color:#e2b04a;text-transform:uppercase;letter-spacing:.005em;
+   text-shadow:0 3px 0 rgba(0,0,0,.55),0 8px 26px rgba(0,0,0,.6)}
+.tag{align-self:flex-start;margin-top:26px;padding:9px 18px 10px;background:#d8312a;color:#f4ecdc;font:800 30px/1 BVPX;letter-spacing:.06em;
+   box-shadow:0 6px 18px rgba(0,0,0,.45)}
+.c{position:absolute;left:110px;bottom:30px;font:600 14px BVP;color:rgba(244,236,220,.55)}
+.logo{position:absolute;right:84px;top:40px;height:44px}
+</style></head><body>
+<div class="ph" id="ph"></div><div class="v"></div>
+<svg class="g" width="1280" height="720"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+<div class="t"><div class="h"><span id="h1"></span><br><span id="h2"></span></div><div class="tag" id="the"></div></div>
+<div class="c" id="nguon"></div>
+<img class="logo" src="logo-anh-bia.png" alt="">
+<script>
+const q=new URLSearchParams(location.search),ph=document.getElementById('ph');
+ph.style.width=(q.get('w')||'66')+'%';
+ph.style.backgroundImage=`url(${q.get('anh')||'anh.jpg'})`;
+ph.style.backgroundPosition=`${q.get('x')||'50'}% ${q.get('y')||'50'}%`;
+if(q.get('z'))ph.style.backgroundSize=q.get('z');
+for(const id of['h1','h2','the','nguon'])document.getElementById(id).textContent=q.get(id)||'';
+// giữ màu (đồ hoạ 3D): mau=1
+if(q.get('mau'))ph.style.filter='saturate(.75) contrast(1.15) brightness(.9)';
+// chữ dài thì thu nhỏ cho vừa 620 px, để không đè lên chủ thể ở nửa phải
+document.fonts.ready.then(()=>{const h=document.querySelector('.h');let s=116;
+  while(s>72&&Math.max(...[...h.querySelectorAll('span')].map(e=>e.getBoundingClientRect().width))>600){s-=2;h.style.fontSize=s+'px';}});
+</script>
+</body></html>

@@ -1,0 +1,20 @@
+// Shot (h): lòng chảo trên nền bản đồ địa hình AMS (nen: 'ams'), nhãn cứ điểm ở toạ độ thật
+window.SHOT = {
+  duration: 8,
+  nen: 'ams',
+  date: '1953 – 1954',
+  fadeIn: 0.5,
+  camera: [
+    { t: 0, lat: 21.396, lon: 103.020, dist: 11, heading: 20, pitch: 48, fov: 40 },
+    { t: 8, lat: 21.392, lon: 103.016, dist: 8.5, heading: 14, pitch: 44, fov: 40, ease: 'sine' },
+  ],
+  points: [
+    { id: 'sanbay', from: 0.6, lift: 60, dx: -120 },
+    { id: 'a1', from: 1.0 },
+    { id: 'd1', from: 1.4, lift: 34, dx: 70 },
+    { id: 'e2', from: 1.8, lift: 64, dx: 30 },
+    { id: 'himlam', from: 2.2 },
+    { id: 'doclap', from: 2.6 },
+    { id: 'bankeo', from: 3.0, lift: 95, dx: -80 },
+  ],
+};

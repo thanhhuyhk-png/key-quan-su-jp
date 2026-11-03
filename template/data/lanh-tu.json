@@ -1,0 +1,17 @@
+{
+  "ghi_chu": "Danh sách tên lãnh tụ Việt Nam dùng chung cho máy chặn luật cứng: tools/luat_cung.py (Python, khi dựng trang) và cards/luat-cung.js (JS, khi trang chạy). Danh sách CHƯA ĐỦ và chỉ là lưới an toàn khi người làm quên khai lanhTu: true. Ai gặp tên (kể cả bí danh) chưa có thì thêm vào đây. So khớp theo từ nguyên, không phân biệt dấu và hoa thường. Tố Hữu KHÔNG thuộc danh sách (user chốt 03/11/2026: được dựng giọng lời trích với nhãn «MÔ PHỎNG LẠI»).",
+  "ten": [
+    "Hồ Chí Minh",
+    "Bác Hồ",
+    "Nguyễn Ái Quốc",
+    "Võ Nguyên Giáp",
+    "Phạm Văn Đồng",
+    "Lê Duẩn",
+    "Trường Chinh",
+    "Lê Đức Thọ",
+    "Nguyễn Văn Linh",
+    "Tôn Đức Thắng",
+    "Hoàng Văn Thu",
+    "Văn Tiến Dũng"
+  ]
+}

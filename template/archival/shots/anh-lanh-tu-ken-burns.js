@@ -1,0 +1,7 @@
+// Ảnh có lãnh tụ: lanhTu = true -> không tách lớp, không rung, không hạt, giữ màu gốc; chỉ Ken Burns zoom rất chậm toàn ảnh.
+window.SHOT = {
+  duration: 6, image: '../../../../output/261025-dien-bien-phu-mau/assets/photo/bac-ho-giap-hoach-dinh-01.jpg', lanhTu: true, grade: 'goc',
+  move: [{ t: 0, x: 0.5, y: 0.5, zoom: 1.0 }, { t: 6, x: 0.5, y: 0.5, zoom: 1.05, ease: 'linear' }],
+  date: '1954',
+  credit: 'Chủ tịch Hồ Chí Minh và Đại tướng Võ Nguyên Giáp bàn kế hoạch mở chiến dịch, 1954 · Ảnh: TTLTQG III',
+};

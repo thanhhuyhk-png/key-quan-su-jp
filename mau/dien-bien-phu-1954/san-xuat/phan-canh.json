@@ -1,0 +1,5469 @@
+{
+ "ten": "Tập 1 · Điện Biên Phủ 1954 · phân cảnh",
+ "fps": 24,
+ "uoc_tinh": false,
+ "het": 1061.26,
+ "lang": {
+  "T1": [
+   6.57,
+   8.07
+  ],
+  "T2": [
+   11.03,
+   12.53
+  ],
+  "T3": [
+   27.07,
+   28.07
+  ],
+  "T4": [
+   41.71,
+   44.71
+  ],
+  "T5": [
+   58.25,
+   61.25
+  ],
+  "T6": [
+   67.67,
+   68.67
+  ],
+  "T7": [
+   75.02,
+   77.02
+  ],
+  "T8": [
+   99.74,
+   101.74
+  ],
+  "P1": [
+   111.15,
+   117.15
+  ],
+  "T9": [
+   125.15,
+   126.65
+  ],
+  "U1": [
+   130.23,
+   131.73
+  ],
+  "U2": [
+   137.73,
+   139.73
+  ],
+  "U3": [
+   148.77,
+   150.27
+  ],
+  "U4": [
+   166.18,
+   167.68
+  ],
+  "U5": [
+   191.16,
+   193.16
+  ],
+  "V1": [
+   203.48,
+   204.98
+  ],
+  "V2": [
+   230.68,
+   232.68
+  ],
+  "V3": [
+   241.81,
+   244.81
+  ],
+  "V4": [
+   267.71,
+   269.21
+  ],
+  "V5": [
+   274.57,
+   276.07
+  ],
+  "V6": [
+   284.33,
+   286.33
+  ],
+  "V7": [
+   322.47,
+   323.97
+  ],
+  "V8": [
+   335.9,
+   337.9
+  ],
+  "V9": [
+   342.76,
+   343.76
+  ],
+  "W1": [
+   347.28,
+   350.28
+  ],
+  "W2": [
+   362.33,
+   363.83
+  ],
+  "W3": [
+   383.19,
+   384.69
+  ],
+  "W4": [
+   420.68,
+   422.68
+  ],
+  "W5": [
+   434.94,
+   436.44
+  ],
+  "P2": [
+   444.03,
+   448.03
+  ],
+  "W6": [
+   457.05,
+   459.05
+  ],
+  "W7": [
+   479.74,
+   481.24
+  ],
+  "WA": [
+   494.17,
+   494.67
+  ],
+  "WB": [
+   496.23,
+   497.23
+  ],
+  "WC": [
+   500.26,
+   501.26
+  ],
+  "WD": [
+   504.01,
+   505.01
+  ],
+  "W8": [
+   507.89,
+   510.63
+  ],
+  "W9": [
+   515.38,
+   516.38
+  ],
+  "X1": [
+   535.78,
+   538.28
+  ],
+  "H1": [
+   545.45,
+   548.95
+  ],
+  "X2": [
+   553.33,
+   554.83
+  ],
+  "ZA": [
+   572.67,
+   574.17
+  ],
+  "X3": [
+   588.0,
+   590.0
+  ],
+  "X4": [
+   598.38,
+   599.88
+  ],
+  "X5": [
+   605.22,
+   607.22
+  ],
+  "X6": [
+   622.61,
+   624.11
+  ],
+  "X7": [
+   638.76,
+   639.76
+  ],
+  "H2": [
+   639.76,
+   641.76
+  ],
+  "X8": [
+   685.73,
+   688.73
+  ],
+  "X9": [
+   705.15,
+   707.15
+  ],
+  "Y1": [
+   715.25,
+   717.25
+  ],
+  "Y2": [
+   732.97,
+   734.47
+  ],
+  "Y3": [
+   761.02,
+   763.52
+  ],
+  "Y4": [
+   775.85,
+   777.35
+  ],
+  "Y5": [
+   799.89,
+   801.39
+  ],
+  "H3": [
+   809.7,
+   811.2
+  ],
+  "Y6": [
+   814.89,
+   817.89
+  ],
+  "A1": [
+   823.03,
+   825.53
+  ],
+  "H4": [
+   832.49,
+   834.24
+  ],
+  "Y7": [
+   851.01,
+   853.01
+  ],
+  "Y8": [
+   856.76,
+   857.76
+  ],
+  "Y9": [
+   864.74,
+   865.74
+  ],
+  "ZB": [
+   871.1,
+   872.1
+  ],
+  "Z1": [
+   874.26,
+   875.26
+  ],
+  "Z2": [
+   885.02,
+   886.52
+  ],
+  "Z3": [
+   903.46,
+   904.96
+  ],
+  "ZC": [
+   915.72,
+   916.72
+  ],
+  "Z4": [
+   919.62,
+   921.62
+  ],
+  "Z5": [
+   937.7,
+   941.2
+  ],
+  "Z6": [
+   947.38,
+   949.38
+  ],
+  "Z7": [
+   975.99,
+   976.99
+  ],
+  "P3": [
+   984.75,
+   988.75
+  ],
+  "GN": [
+   988.75,
+   991.75
+  ],
+  "Z8": [
+   1019.45,
+   1020.95
+  ],
+  "Z9": [
+   1050.7,
+   1052.7
+  ],
+  "KT": [
+   1055.26,
+   1061.26
+  ]
+ },
+ "canh": [
+  {
+   "id": "MO01",
+   "neo": "1",
+   "nguon": "karmen:44:38.90",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Hòm hàng tiếp tế của phía Pháp xếp chồng ở Điện Biên Phủ.",
+   "chu": "Nhãn ngày \"9/4/1954 · Nguồn: Báo QĐND\"",
+   "am": "gỗ hòm va, gió",
+   "t0": 0.0,
+   "t1": 2.55,
+   "dai": 2.55,
+   "cau": [
+    1
+   ],
+   "kieu": "karmen",
+   "ten": "44:38.90",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO02",
+   "neo": "1:13",
+   "nguon": "demo:BD8",
+   "co": "toan",
+   "goc": "tren-xuong",
+   "hinh": "Nhìn chéo từ trên sân bay Mường Thanh: dù tiếp tế nhiều màu rơi, nhiều dù lệch về phía ta; nhánh hào ta bò tới đường băng (3D Demo đã duyệt).",
+   "chu": "",
+   "am": "động cơ C-47 trầm, tán dù bật",
+   "t0": 2.55,
+   "t1": 4.47,
+   "dai": 1.92,
+   "cau": [
+    1
+   ],
+   "kieu": "demo",
+   "ten": "BD8",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "MO03",
+   "neo": "1:23",
+   "nguon": "the:so-lieu/195-tan",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Số đếm chạy 0 → 195 trên nền vải ô-liu quân phục.",
+   "chu": "\"195 tấn hàng thả xuống · 9/4/1954 · Nguồn: Báo QĐND\"",
+   "am": "số chạy tích tắc",
+   "t0": 4.47,
+   "t1": 8.09,
+   "dai": 3.62,
+   "cau": [
+    1
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/195-tan",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "MO04",
+   "neo": "2",
+   "nguon": "karmen:44:42.10",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Đặc tả hàng thùng phuy tiếp tế, máy lia ngang.",
+   "chu": "",
+   "am": "kim loại thùng va khẽ",
+   "t0": 8.09,
+   "t1": 10.05,
+   "dai": 1.96,
+   "cau": [
+    2
+   ],
+   "kieu": "karmen",
+   "ten": "44:42.10",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO05",
+   "neo": "3",
+   "nguon": "the:hook/6-tan",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Chữ \"6 TẤN\" trắng lớn trên nền đen, rung nhẹ khi hiện.",
+   "chu": "\"6 tấn · Nguồn: Báo QĐND\"",
+   "am": "một nhịp trống trầm, rồi im",
+   "t0": 10.05,
+   "t1": 12.55,
+   "dai": 2.5,
+   "cau": [
+    3
+   ],
+   "kieu": "the",
+   "ten": "hook/6-tan",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "MO06",
+   "neo": "4",
+   "nguon": "karmen:44:36.64",
+   "co": "trung",
+   "goc": "cao",
+   "hinh": "Đống đạn pháo tiếp tế của phía Pháp, máy lia chậm.",
+   "chu": "",
+   "am": "kim loại va khẽ, gió",
+   "t0": 12.55,
+   "t1": 14.74,
+   "dai": 2.18,
+   "cau": [
+    4
+   ],
+   "kieu": "karmen",
+   "ten": "44:36.64",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO07",
+   "neo": "5",
+   "nguon": "anh:toan-canh-canh-dong-dien-bien-ttxvn-1953",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Cánh đồng Điện Biên năm 1953, Ken Burns chậm sang phải.",
+   "chu": "Nhãn \"1953\"",
+   "am": "nhạc nền vào",
+   "t0": 14.74,
+   "t1": 18.82,
+   "dai": 4.08,
+   "cau": [
+    5
+   ],
+   "kieu": "anh",
+   "ten": "toan-canh-canh-dong-dien-bien-ttxvn-1953",
+   "hang": "A?",
+   "ghi_nguon": "TTXVN"
+  },
+  {
+   "id": "MO08",
+   "neo": "6",
+   "nguon": "map3d:shot-a-toan-canh",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Bay vào lòng chảo, cánh đồng sáng lên giữa vành núi; không chạm biển.",
+   "chu": "\"lòng chảo rộng nhất Tây Bắc · căn cứ không-bộ · tiếp tế bằng máy bay · Nguồn: Báo Nhân Dân\"",
+   "am": "gió núi",
+   "t0": 18.82,
+   "t1": 23.41,
+   "dai": 4.59,
+   "cau": [
+    6
+   ],
+   "kieu": "map3d",
+   "ten": "shot-a-toan-canh",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "MO09",
+   "neo": "7",
+   "nguon": "karmen:43:56.30",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Hầm vòm tôn và hòm gỗ của phía Pháp sau hàng thép gai.",
+   "chu": "",
+   "am": "thép gai, gió",
+   "t0": 23.41,
+   "t1": 25.42,
+   "dai": 2.01,
+   "cau": [
+    7
+   ],
+   "kieu": "karmen",
+   "ten": "43:56.30",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO10",
+   "neo": "8",
+   "nguon": "the:may-chu/niem-tin",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai thẻ niềm tin hiện lần lượt (thẻ 1 ở câu 8, thẻ 2 ở câu 9).",
+   "chu": "\"Bộ chỉ huy Pháp tin: ta không đưa được pháo lớn tới · Nguồn: Báo Nhân Dân\" / \"Bộ chỉ huy Pháp tin: ta không nuôi nổi một lực lượng lớn đánh lâu ở xa hậu phương · Nguồn: Báo Nhân Dân\"",
+   "am": "giấy lật",
+   "t0": 25.42,
+   "t1": 30.34,
+   "dai": 4.92,
+   "cau": [
+    8,
+    9
+   ],
+   "kieu": "the",
+   "ten": "may-chu/niem-tin",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "MO11",
+   "neo": "9:11",
+   "nguon": "karmen:41:13.50",
+   "co": "toan",
+   "goc": "cao",
+   "hinh": "Con đường đất đỏ uốn qua rừng núi Tây Bắc.",
+   "chu": "",
+   "am": "gió núi, bánh xe xa",
+   "t0": 30.34,
+   "t1": 32.61,
+   "dai": 2.27,
+   "cau": [
+    9
+   ],
+   "kieu": "karmen",
+   "ten": "41:13.50",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO12",
+   "neo": "10",
+   "nguon": "karmen:44:45.00",
+   "co": "toan",
+   "goc": "ngang",
+   "hinh": "Dãy lựu pháo của phía Pháp ở Điện Biên Phủ, nòng chĩa lên.",
+   "chu": "Thẻ tên \"Trung tá Pi-rốt · chỉ huy pháo binh, chỉ huy phó tập đoàn cứ điểm · Nguồn: TTXVN\" (không có ảnh)",
+   "am": "kim loại khẽ",
+   "t0": 32.61,
+   "t1": 35.37,
+   "dai": 2.76,
+   "cau": [
+    10
+   ],
+   "kieu": "karmen",
+   "ten": "44:45.00",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO13",
+   "neo": "10:12",
+   "nguon": "karmen:44:48.90",
+   "co": "can",
+   "goc": "thap",
+   "hinh": "Cận khẩu lựu pháo của phía Pháp, càng pháo và bánh xe.",
+   "chu": "",
+   "am": "nòng thép ù",
+   "t0": 35.37,
+   "t1": 38.09,
+   "dai": 2.72,
+   "cau": [
+    10
+   ],
+   "kieu": "karmen",
+   "ten": "44:48.90",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO13b",
+   "neo": "10:25",
+   "nguon": "anh:chuyen-dan-vao-ham-phao-01",
+   "co": "anh",
+   "goc": "chech",
+   "hinh": "Bộ đội ta chuyển đạn vào hầm pháo, Ken Burns chậm.",
+   "chu": "",
+   "am": "đạn va gỗ khẽ",
+   "t0": 38.09,
+   "t1": 40.81,
+   "dai": 2.72,
+   "cau": [
+    10
+   ],
+   "kieu": "anh",
+   "ten": "chuyen-dan-vao-ham-phao-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III / TTXVN"
+  },
+  {
+   "id": "MO14",
+   "neo": "11",
+   "nguon": "the:may-chu/3-phat",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Chữ \"3 PHÁT\" trắng lớn trên nền đen.",
+   "chu": "\"3 phát · Nguồn: TTXVN\"",
+   "am": "ba tiếng gõ khô",
+   "t0": 40.81,
+   "t1": 44.73,
+   "dai": 3.92,
+   "cau": [
+    11
+   ],
+   "kieu": "the",
+   "ten": "may-chu/3-phat",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: TTXVN"
+  },
+  {
+   "id": "MO15",
+   "neo": "12",
+   "nguon": "karmen:44:24.30",
+   "co": "toan",
+   "goc": "ngang",
+   "hinh": "Xác máy bay của phía Pháp nằm trên sân bay Mường Thanh, cánh quạt gãy.",
+   "chu": "\"cuối tháng 3/1954 · máy bay Pháp không còn hạ cánh được · Nguồn: Báo Nhân Dân\"",
+   "am": "gió, kim loại kẽo kẹt",
+   "t0": 44.73,
+   "t1": 48.93,
+   "dai": 4.2,
+   "cau": [
+    12
+   ],
+   "kieu": "karmen",
+   "ten": "44:24.30",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO16",
+   "neo": "13",
+   "nguon": "anh:phao-cao-xa-ban-01",
+   "co": "anh",
+   "goc": "chech",
+   "hinh": "Pháo cao xạ ta bắn, Ken Burns đẩy vào nòng.",
+   "chu": "",
+   "am": "cao xạ xa",
+   "t0": 48.93,
+   "t1": 51.79,
+   "dai": 2.85,
+   "cau": [
+    13
+   ],
+   "kieu": "anh",
+   "ten": "phao-cao-xa-ban-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III"
+  },
+  {
+   "id": "MO17",
+   "neo": "14",
+   "nguon": "anh:quan-phap-ra-hang-cau-muong-thanh-01",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Quân Pháp ra hàng trên cầu Mường Thanh, phóng chậm.",
+   "chu": "\"7/5/1954 · Nguồn: Báo QĐND\"",
+   "am": "nhạc lùi",
+   "t0": 51.79,
+   "t1": 54.65,
+   "dai": 2.86,
+   "cau": [
+    14
+   ],
+   "kieu": "anh",
+   "ten": "quan-phap-ra-hang-cau-muong-thanh-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III / TTXVN"
+  },
+  {
+   "id": "MO18",
+   "neo": "15",
+   "nguon": "the:may-chu/cau-hoi",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Câu hỏi trên nền tối, bản đồ lòng chảo mờ phía sau.",
+   "chu": "\"Vì sao Bộ chỉ huy Pháp chọn Điện Biên Phủ, rồi thua ở chính nơi đó?\" · \"56 ngày đêm · 13/3 – 7/5/1954 · Nguồn: Báo QĐND\"",
+   "am": "im, một nốt đàn trầm",
+   "t0": 54.65,
+   "t1": 61.31,
+   "dai": 6.66,
+   "cau": [
+    15
+   ],
+   "kieu": "the",
+   "ten": "may-chu/cau-hoi",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "MO19",
+   "neo": "16",
+   "nguon": "anh:tren-noc-ham-de-castries-01",
+   "co": "anh",
+   "goc": "thap",
+   "hinh": "Bộ đội trên nóc hầm Đờ Cát-xtơ-ri, phóng chậm.",
+   "chu": "",
+   "am": "nhạc trở lại",
+   "t0": 61.31,
+   "t1": 63.97,
+   "dai": 2.66,
+   "cau": [
+    16
+   ],
+   "kieu": "anh",
+   "ten": "tren-noc-ham-de-castries-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III"
+  },
+  {
+   "id": "MO20",
+   "neo": "17",
+   "nguon": "the:hai-so/mo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai cuốn sổ đồ họa mở ra hai bên khung, trang trống.",
+   "chu": "Trái \"phía Pháp tin / ghi\" · phải \"quân và dân ta làm\"",
+   "am": "sổ mở",
+   "t0": 63.97,
+   "t1": 68.74,
+   "dai": 4.77,
+   "cau": [
+    17
+   ],
+   "kieu": "the",
+   "ten": "hai-so/mo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "MO21",
+   "neo": "18",
+   "nguon": "map3d:ba-quyet-dinh",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Lòng chảo từ cao; đường trời (nét đứt) và hai thẻ niềm tin hiện trên bản đồ.",
+   "chu": "",
+   "am": "gió",
+   "t0": 68.74,
+   "t1": 71.42,
+   "dai": 2.68,
+   "cau": [
+    18
+   ],
+   "kieu": "map3d",
+   "ten": "ba-quyet-dinh",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "MO22",
+   "neo": "18:11",
+   "nguon": "the:may-chu/quay-lai",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai thẻ niềm tin và nhãn \"đường trời\" lật ngược, quay mũi về phía Pháp.",
+   "chu": "\"Nguồn: Báo Nhân Dân\"",
+   "am": "giấy lật",
+   "t0": 71.42,
+   "t1": 77.06,
+   "dai": 5.64,
+   "cau": [
+    18
+   ],
+   "kieu": "the",
+   "ten": "may-chu/quay-lai",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "MO23",
+   "neo": "19",
+   "nguon": "map3d:ba-quyet-dinh",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Mũi tên ① quanh tập đoàn cứ điểm, các cứ điểm mọc gai.",
+   "chu": "\"① Bộ chỉ huy Pháp: con nhím sống nhờ cầu hàng không · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 77.06,
+   "t1": 81.66,
+   "dai": 4.6,
+   "cau": [
+    19
+   ],
+   "kieu": "map3d",
+   "ten": "ba-quyet-dinh",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "MO24",
+   "neo": "20",
+   "nguon": "map3d:ba-quyet-dinh",
+   "co": "ban-do",
+   "goc": "chech",
+   "hinh": "Mũi tên ② từ trận địa trên núi lùi ra rồi đặt lại vòng trận địa mới.",
+   "chu": "\"② Ta: đánh chắc, tiến chắc · 26/1/1954 · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 81.66,
+   "t1": 87.52,
+   "dai": 5.86,
+   "cau": [
+    20
+   ],
+   "kieu": "map3d",
+   "ten": "ba-quyet-dinh",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "MO25",
+   "neo": "21",
+   "nguon": "map3d:ba-quyet-dinh",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Mũi tên ③: hào đỏ siết vào, cắt đôi đường băng.",
+   "chu": "\"③ Ta: từ đợt hai, siết hào, cắt đôi sân bay · Nguồn: Báo Chính phủ, TTXVN\"",
+   "am": "",
+   "t0": 87.52,
+   "t1": 93.18,
+   "dai": 5.66,
+   "cau": [
+    21
+   ],
+   "kieu": "map3d",
+   "ten": "ba-quyet-dinh",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Chính phủ, TTXVN"
+  },
+  {
+   "id": "MO26",
+   "neo": "22",
+   "nguon": "the:hai-so/doi-chieu",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai cuốn sổ: trang trái hiện dòng \"tin\", trang phải hiện dòng \"làm\".",
+   "chu": "",
+   "am": "bút viết",
+   "t0": 93.18,
+   "t1": 101.77,
+   "dai": 8.59,
+   "cau": [
+    22
+   ],
+   "kieu": "the",
+   "ten": "hai-so/doi-chieu",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "MO27",
+   "neo": "23",
+   "nguon": "demo:MM2>",
+   "co": "toan",
+   "goc": "chech",
+   "hinh": "Chiều 13/3: từ cạnh miệng hầm pháo ta nhìn ra lòng chảo khô, vành núi trong hơi sương (3D Demo đã duyệt, giữ khung cuối khi hết cảnh mẫu).",
+   "chu": "\"13/3/1954 · Nguồn: Báo QĐND\"",
+   "am": "lá nguỵ trang, gió, dế xa",
+   "t0": 101.77,
+   "t1": 105.25,
+   "dai": 3.48,
+   "cau": [
+    23
+   ],
+   "kieu": "demo",
+   "ten": "MM2>",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "MO28",
+   "neo": "24",
+   "nguon": "map3d:shot-a-toan-canh",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Máy rút cao khỏi lòng chảo, vành núi khép quanh như miệng bẫy.",
+   "chu": "",
+   "am": "nhạc dâng",
+   "t0": 105.25,
+   "t1": 107.65,
+   "dai": 2.4,
+   "cau": [
+    24
+   ],
+   "kieu": "map3d",
+   "ten": "shot-a-toan-canh",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "MO29",
+   "neo": "24:10",
+   "nguon": "karmen:43:12.20",
+   "co": "toan-xa",
+   "goc": "ngang",
+   "hinh": "Cánh đồng lòng chảo, khói nổ bốc trên dãy đồi xa.",
+   "chu": "",
+   "am": "nhạc dâng, nổ xa âm ỉ",
+   "t0": 107.65,
+   "t1": 111.15,
+   "dai": 3.5,
+   "cau": [
+    24
+   ],
+   "kieu": "karmen",
+   "ten": "43:12.20",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "MO30",
+   "neo": "P1",
+   "nguon": "the:tieu-de/phim",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Tiêu đề phim trên nền tối.",
+   "chu": "\"ĐIỆN BIÊN PHỦ 1954\"",
+   "am": "nhạc tiêu đề",
+   "t0": 111.15,
+   "t1": 117.17,
+   "dai": 6.02,
+   "cau": [],
+   "kieu": "the",
+   "ten": "tieu-de/phim",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-01",
+   "neo": "25",
+   "nguon": "the:chuong/1",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chương 1.",
+   "chu": "\"Lòng chảo\"",
+   "am": "đập chương",
+   "t0": 117.17,
+   "t1": 119.42,
+   "dai": 2.25,
+   "cau": [
+    25
+   ],
+   "kieu": "the",
+   "ten": "chuong/1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-02",
+   "neo": "25:10",
+   "nguon": "vnmap:dong-duong",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Đông Dương và Biển Đông, khung rộng có Hoàng Sa, Trường Sa, \"Biển Đông\", \"Vịnh Bắc Bộ\"; Điện Biên Phủ còn mờ.",
+   "chu": "Thẻ tên \"Na-va · Tổng chỉ huy quân đội viễn chinh Pháp · 5/1953 · Nguồn: Báo QĐND\" (không có ảnh)",
+   "am": "nhạc nền",
+   "t0": 119.42,
+   "t1": 122.97,
+   "dai": 3.55,
+   "cau": [
+    25
+   ],
+   "kieu": "vnmap",
+   "ten": "dong-duong",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C1-03",
+   "neo": "25:25",
+   "nguon": "the:may-chu/ke-hoach-na-va",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Tờ hồ sơ kế hoạch gõ chữ, không có dòng nào ghi Điện Biên Phủ.",
+   "chu": "\"Kế hoạch Na-va\"",
+   "am": "máy chữ",
+   "t0": 122.97,
+   "t1": 126.69,
+   "dai": 3.72,
+   "cau": [
+    25
+   ],
+   "kieu": "the",
+   "ten": "may-chu/ke-hoach-na-va",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-04",
+   "neo": "26",
+   "nguon": "the:lich/24-7-1953",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lịch 24/7/1953, khoanh đỏ.",
+   "chu": "\"24/7/1953 · kế hoạch Na-va được thông qua · Nguồn: Báo Nhân Dân\"",
+   "am": "bút khoanh",
+   "t0": 126.69,
+   "t1": 131.75,
+   "dai": 5.06,
+   "cau": [
+    26
+   ],
+   "kieu": "the",
+   "ten": "lich/24-7-1953",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C1-05",
+   "neo": "27",
+   "nguon": "the:dong-thoi-gian/18-thang",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thanh thời gian khoảng 18 tháng từ 7/1953.",
+   "chu": "\"khoảng 18 tháng · 'kết thúc chiến tranh trong danh dự' · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 131.75,
+   "t1": 139.75,
+   "dai": 8.0,
+   "cau": [
+    27
+   ],
+   "kieu": "the",
+   "ten": "dong-thoi-gian/18-thang",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C1-06",
+   "neo": "28",
+   "nguon": "vnmap:dong-duong",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Khung rộng có Hoàng Sa, Trường Sa, \"Biển Đông\"; các khối tiểu đoàn cơ động (ô vuông) rải khắp đồng bằng và Trung Lào.",
+   "chu": "\"84 tiểu đoàn cơ động · theo Thượng tướng Hoàng Minh Thảo · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 139.75,
+   "t1": 144.59,
+   "dai": 4.84,
+   "cau": [
+    28
+   ],
+   "kieu": "vnmap",
+   "ten": "dong-duong",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C1-07",
+   "neo": "29",
+   "nguon": "vnmap:vn-a-bay-xuong-dbp",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bay từ khung rộng (có Hoàng Sa, Trường Sa, \"Biển Đông\") về Tây Bắc; Điện Biên Phủ sáng lên.",
+   "chu": "",
+   "am": "nhạc chuyển",
+   "t0": 144.59,
+   "t1": 150.3,
+   "dai": 5.71,
+   "cau": [
+    29
+   ],
+   "kieu": "vnmap",
+   "ten": "vn-a-bay-xuong-dbp",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-08",
+   "neo": "30",
+   "nguon": "vnmap:tay-bac",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Tây Bắc, khung dừng ở kinh độ ≤ 105,5° Đông, không chạm biển; mũi tên đỏ của ta hướng lên Tây Bắc.",
+   "chu": "",
+   "am": "",
+   "t0": 150.3,
+   "t1": 154.58,
+   "dai": 4.28,
+   "cau": [
+    30
+   ],
+   "kieu": "vnmap",
+   "ten": "tay-bac",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-09",
+   "neo": "31",
+   "nguon": "anh:operation-castor-05782",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Ảnh hành quân Cát-to, phóng chậm.",
+   "chu": "\"20/11/1953 · hành quân Cát-to (Hải Ly) · Nguồn: Báo Nhân Dân\"",
+   "am": "động cơ máy bay xa",
+   "t0": 154.58,
+   "t1": 157.54,
+   "dai": 2.96,
+   "cau": [
+    31
+   ],
+   "kieu": "anh",
+   "ten": "operation-castor-05782",
+   "hang": "B",
+   "ghi_nguon": "ECPAD (trích)"
+  },
+  {
+   "id": "C1-10",
+   "neo": "32",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan-xa",
+   "goc": "thap",
+   "hinh": "Từ xa: đoàn C-47 thả dù xuống lòng chảo, tán dù như chấm trắng, không thấy người.",
+   "chu": "\"6 tiểu đoàn dù · khoảng 4.500 quân · Nguồn: Báo Nhân Dân\"",
+   "am": "động cơ, gió",
+   "t0": 157.54,
+   "t1": 162.42,
+   "dai": 4.88,
+   "cau": [
+    32
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C1-11",
+   "neo": "33",
+   "nguon": "the:dong-thoi-gian/castor",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai thanh: ba tiểu đoàn ngày đầu, ba tiểu đoàn những ngày kế tiếp.",
+   "chu": "\"20/11/1953 · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 162.42,
+   "t1": 167.69,
+   "dai": 5.28,
+   "cau": [
+    33
+   ],
+   "kieu": "the",
+   "ten": "dong-thoi-gian/castor",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C1-12",
+   "neo": "34",
+   "nguon": "map3d:long-chao-loi-the",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Lòng chảo từ cao, ba ghim số hiện lần lượt ở câu 35–37.",
+   "chu": "",
+   "am": "",
+   "t0": 167.69,
+   "t1": 170.71,
+   "dai": 3.01,
+   "cau": [
+    34
+   ],
+   "kieu": "map3d",
+   "ten": "long-chao-loi-the",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-13",
+   "neo": "35",
+   "nguon": "map3d:long-chao-loi-the",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Nhìn thẳng xuống, thước đo dài 18 km, rộng 6–8 km.",
+   "chu": "\"dài khoảng 18 km · rộng 6–8 km · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 170.71,
+   "t1": 176.79,
+   "dai": 6.08,
+   "cau": [
+    35
+   ],
+   "kieu": "map3d",
+   "ten": "long-chao-loi-the",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C1-14",
+   "neo": "36",
+   "nguon": "vnmap:tay-bac",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Tây Bắc và Thượng Lào, không chạm biển; mũi tên che chở về phía Thượng Lào.",
+   "chu": "",
+   "am": "",
+   "t0": 176.79,
+   "t1": 179.35,
+   "dai": 2.56,
+   "cau": [
+    36
+   ],
+   "kieu": "vnmap",
+   "ten": "tay-bac",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-15",
+   "neo": "37",
+   "nguon": "demo:TN1>",
+   "co": "toan",
+   "goc": "cao",
+   "hinh": "C-47 hạ cánh xuống sân bay Mường Thanh, bụi đỏ cuộn; rồi hầm vòm bao cát, thép gai bung (3D Demo TN1–TN2 đã duyệt, giữ khung cuối).",
+   "chu": "",
+   "am": "động cơ hạ cánh, thép gai",
+   "t0": 179.35,
+   "t1": 183.99,
+   "dai": 4.64,
+   "cau": [
+    37
+   ],
+   "kieu": "demo",
+   "ten": "TN1>",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-16",
+   "neo": "38",
+   "nguon": "the:may-chu/nhot-hut-doc",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Trích \"nhọt hút độc\" bằng chữ Lora, tô vàng cụm từ.",
+   "chu": "\"'nhọt hút độc' · tướng Cô-nhi · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 183.99,
+   "t1": 193.27,
+   "dai": 9.28,
+   "cau": [
+    38,
+    39
+   ],
+   "kieu": "the",
+   "ten": "may-chu/nhot-hut-doc",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C1-17",
+   "neo": "40",
+   "nguon": "map3d:y-do-phap",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Mũi tên đỏ bị hút vào lòng chảo, vòng khép quanh (nhãn \"ý đồ của Bộ chỉ huy Pháp · minh họa\").",
+   "chu": "",
+   "am": "",
+   "t0": 193.27,
+   "t1": 198.7,
+   "dai": 5.43,
+   "cau": [
+    40
+   ],
+   "kieu": "map3d",
+   "ten": "y-do-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-18",
+   "neo": "41",
+   "nguon": "the:lich/3-12-1953",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lịch 3/12/1953.",
+   "chu": "\"3/12/1953 · Na-va ra chỉ thị giao chiến · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 198.7,
+   "t1": 205.08,
+   "dai": 6.38,
+   "cau": [
+    41
+   ],
+   "kieu": "the",
+   "ten": "lich/3-12-1953",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C1-19",
+   "neo": "42",
+   "nguon": "anh:bac-ho-bo-chinh-tri-quyet-dinh-mo-chien-dich-01",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Ảnh lãnh tụ nguyên gốc, lanhTu: chỉ phóng rất chậm toàn ảnh, không đè chữ; thẻ đặt trên nền riêng cạnh ảnh.",
+   "chu": "\"6/12/1953 · Bộ Chính trị quyết định mở chiến dịch · Nguồn: TTXVN\"",
+   "am": "nhạc trang nghiêm",
+   "t0": 205.08,
+   "t1": 209.32,
+   "dai": 4.24,
+   "cau": [
+    42
+   ],
+   "kieu": "anh",
+   "ten": "bac-ho-bo-chinh-tri-quyet-dinh-mo-chien-dich-01",
+   "hang": "A",
+   "ghi_nguon": "Trung tâm Lưu trữ quốc gia III"
+  },
+  {
+   "id": "C1-20",
+   "neo": "43",
+   "nguon": "map3d:long-chao-loi-the",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Lòng chảo từ cao, hai mốc 3/12 và 6/12 hai bên.",
+   "chu": "\"3/12 · 6/12/1953 · Nguồn: Báo Nhân Dân, TTXVN\"",
+   "am": "",
+   "t0": 209.32,
+   "t1": 214.12,
+   "dai": 4.8,
+   "cau": [
+    43
+   ],
+   "kieu": "map3d",
+   "ten": "long-chao-loi-the",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân, TTXVN"
+  },
+  {
+   "id": "C1-21",
+   "neo": "44",
+   "nguon": "3d-moi:rung-nua",
+   "co": "toan",
+   "goc": "ngang",
+   "hinh": "Hàng bộ đội đi trong rừng nứa đêm, bóng không mặt, ánh sao lọt qua tán.",
+   "chu": "",
+   "am": "lá nứa, bước chân",
+   "t0": 214.12,
+   "t1": 217.63,
+   "dai": 3.51,
+   "cau": [
+    44
+   ],
+   "kieu": "3d-moi",
+   "ten": "rung-nua",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C1-22",
+   "neo": "45",
+   "nguon": "3d-moi:rung-nua",
+   "co": "dac-ta",
+   "goc": "thap",
+   "hinh": "Đặc tả dép cao su bước trên lá nứa khô.",
+   "chu": "Thẻ tên \"ông Trần Quốc Hanh · cán sự chính trị Tiểu đoàn 418, Đại đoàn 304 · Nguồn: Báo QĐND\"",
+   "am": "lá khô",
+   "t0": 217.63,
+   "t1": 224.29,
+   "dai": 6.66,
+   "cau": [
+    45
+   ],
+   "kieu": "3d-moi",
+   "ten": "rung-nua",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C1-23",
+   "neo": "46",
+   "nguon": "the:van-kien/tran-quoc-hanh",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lời trích hiện từng dòng.",
+   "chu": "\"Ở Phú Thọ hơn tháng trời trong rừng nứa, bộ đội không được tiếp xúc với dân, không được tập luyện vì sợ lộ.\" · ông Trần Quốc Hanh · Nguồn: Báo QĐND",
+   "am": "",
+   "t0": 224.29,
+   "t1": 233.09,
+   "dai": 8.8,
+   "cau": [
+    46,
+    47
+   ],
+   "kieu": "the",
+   "ten": "van-kien/tran-quoc-hanh",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C1-24",
+   "neo": "47:2",
+   "nguon": "karmen:40:44",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Người đi gùi trên đường núi, áo dân thường.",
+   "chu": "",
+   "am": "",
+   "t0": 233.09,
+   "t1": 237.81,
+   "dai": 4.72,
+   "cau": [
+    47
+   ],
+   "kieu": "karmen",
+   "ten": "40:44",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C1-25",
+   "neo": "48",
+   "nguon": "map3d:long-chao-loi-the",
+   "co": "ban-do",
+   "goc": "thap",
+   "hinh": "Máy hạ dần vào lòng chảo Mường Thanh, chiều sang sáng.",
+   "chu": "",
+   "am": "nhạc chuyển",
+   "t0": 237.81,
+   "t1": 244.88,
+   "dai": 7.07,
+   "cau": [
+    48,
+    49
+   ],
+   "kieu": "map3d",
+   "ten": "long-chao-loi-the",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-01",
+   "neo": "50",
+   "nguon": "the:chuong/2",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chương 2.",
+   "chu": "\"Con nhím\"",
+   "am": "đập chương",
+   "t0": 244.88,
+   "t1": 245.85,
+   "dai": 0.97,
+   "cau": [
+    50
+   ],
+   "kieu": "the",
+   "ten": "chuong/2",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-02",
+   "neo": "50:4",
+   "nguon": "3d:TN2",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Cuộn thép gai bung căng trước máy, bao cát đập xuống chồng lớp trên nóc hầm.",
+   "chu": "",
+   "am": "thép gai, bao cát",
+   "t0": 245.85,
+   "t1": 248.93,
+   "dai": 3.08,
+   "cau": [
+    50
+   ],
+   "kieu": "3d",
+   "ten": "TN2",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-03",
+   "neo": "51",
+   "nguon": "3d-moi:ham-phap",
+   "co": "toan",
+   "goc": "cao",
+   "hinh": "Từ cao: cụm cứ điểm bao cát, hào, lô cốt giữa cánh đồng.",
+   "chu": "\"① Bộ chỉ huy Pháp: con nhím · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 248.93,
+   "t1": 252.73,
+   "dai": 3.8,
+   "cau": [
+    51
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-04",
+   "neo": "52",
+   "nguon": "3d-moi:ham-phap",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Đặc tả lỗ châu mai lô cốt, tối bên trong.",
+   "chu": "",
+   "am": "gió qua khe",
+   "t0": 252.73,
+   "t1": 254.37,
+   "dai": 1.64,
+   "cau": [
+    52
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-05",
+   "neo": "53",
+   "nguon": "map3d:shot-b-ba-phan-khu",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Ba phân khu sáng lần lượt đúng lúc đọc tên.",
+   "chu": "\"49 cứ điểm · 3 phân khu: Bắc · Trung tâm · Nam (Hồng Cúm) · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 254.37,
+   "t1": 259.81,
+   "dai": 5.44,
+   "cau": [
+    53
+   ],
+   "kieu": "map3d",
+   "ten": "shot-b-ba-phan-khu",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C2-06",
+   "neo": "54",
+   "nguon": "anh:castries-karnow-1954",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Ảnh Đờ Cát-xtơ-ri, phóng chậm.",
+   "chu": "\"Đại tá Đờ Cát-xtơ-ri · về sau thăng Thiếu tướng · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 259.81,
+   "t1": 263.9,
+   "dai": 4.09,
+   "cau": [
+    54
+   ],
+   "kieu": "anh",
+   "ten": "castries-karnow-1954",
+   "hang": "B",
+   "ghi_nguon": "Tư liệu Pháp, trích theo S. Karnow (trích)"
+  },
+  {
+   "id": "C2-07",
+   "neo": "55",
+   "nguon": "the:so-lieu/11800",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Số chạy 11.800.",
+   "chu": "\"khoảng 11.800 quân lúc mở màn · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 263.9,
+   "t1": 269.23,
+   "dai": 5.33,
+   "cau": [
+    55
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/11800",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-08",
+   "neo": "56",
+   "nguon": "3d-moi:ham-phap",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Hầm vòm bao cát của phía Pháp nhìn ngang, thép gai phía trước.",
+   "chu": "",
+   "am": "",
+   "t0": 269.23,
+   "t1": 271.95,
+   "dai": 2.72,
+   "cau": [
+    56
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-09",
+   "neo": "56:12",
+   "nguon": "the:so-lieu/hoa-luc-phap",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Ba số chạy lần lượt.",
+   "chu": "\"24 pháo 105 mm · 4 pháo 155 mm · 10 xe tăng · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 271.95,
+   "t1": 276.09,
+   "dai": 4.14,
+   "cau": [
+    56
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/hoa-luc-phap",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-10",
+   "neo": "57",
+   "nguon": "3d-moi:ham-phap",
+   "co": "trung",
+   "goc": "chech",
+   "hinh": "Hầm vòm bao cát nhìn từ phía sau, C-47 trên trời.",
+   "chu": "Thẻ tên \"Trung tá Pi-rốt · Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 276.09,
+   "t1": 279.51,
+   "dai": 3.42,
+   "cau": [
+    57
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C2-11",
+   "neo": "58",
+   "nguon": "the:niem-tin/pi-rot",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ niềm tin của Pi-rốt.",
+   "chu": "\"Pi-rốt tin: ta chỉ có pháo nhỏ và súng cối · Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 279.51,
+   "t1": 286.37,
+   "dai": 6.86,
+   "cau": [
+    58
+   ],
+   "kieu": "the",
+   "ten": "niem-tin/pi-rot",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: TTXVN"
+  },
+  {
+   "id": "C2-12",
+   "neo": "59",
+   "nguon": "karmen:40:53.4",
+   "co": "phim",
+   "goc": "chech",
+   "hinh": "Vách núi đá, người phá đá mở đường (phim Karmen, mô phỏng lại).",
+   "chu": "",
+   "am": "đá vỡ, gió",
+   "t0": 286.37,
+   "t1": 289.56,
+   "dai": 3.19,
+   "cau": [
+    59
+   ],
+   "kieu": "karmen",
+   "ten": "40:53.4",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C2-13",
+   "neo": "60",
+   "nguon": "map3d:con-nhim",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Các cứ điểm trên bản đồ mọc gai như lưng con nhím.",
+   "chu": "\"con nhím = căn cứ không-bộ · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 289.56,
+   "t1": 295.03,
+   "dai": 5.47,
+   "cau": [
+    60
+   ],
+   "kieu": "map3d",
+   "ten": "con-nhim",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-14",
+   "neo": "61",
+   "nguon": "3d-moi:san-bay",
+   "co": "dac-ta",
+   "goc": "thap",
+   "hinh": "Đặc tả kiện hàng dù nằm trên đất cạnh đường băng.",
+   "chu": "",
+   "am": "",
+   "t0": 295.03,
+   "t1": 297.19,
+   "dai": 2.16,
+   "cau": [
+    61
+   ],
+   "kieu": "3d-moi",
+   "ten": "san-bay",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-15",
+   "neo": "62",
+   "nguon": "vnmap:cau-hang-khong",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Hà Nội → Điện Biên Phủ, đường bay vẽ dần; khung rộng có Hoàng Sa, Trường Sa, \"Biển Đông\", \"Vịnh Bắc Bộ\".",
+   "chu": "\"cách Hà Nội hàng trăm km · Nguồn: Báo Nhân Dân\" / \"cầu hàng không từ 11/1953 · Nguồn: Báo Nhân Dân\"",
+   "am": "động cơ xa",
+   "t0": 297.19,
+   "t1": 304.05,
+   "dai": 6.86,
+   "cau": [
+    62,
+    63
+   ],
+   "kieu": "vnmap",
+   "ten": "cau-hang-khong",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-16",
+   "neo": "64",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan-xa",
+   "goc": "ngang",
+   "hinh": "Máy bay vận tải trên cao trên sân bay Mường Thanh, dù tiếp tế rơi.",
+   "chu": "\"khoảng 200 tấn/ngày · vài chục chuyến · Nguồn: Báo Nhân Dân\"",
+   "am": "động cơ",
+   "t0": 304.05,
+   "t1": 307.96,
+   "dai": 3.91,
+   "cau": [
+    64
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-17",
+   "neo": "65",
+   "nguon": "map3d:hai-san-bay",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Hai sân bay Mường Thanh, Hồng Cúm sáng lên.",
+   "chu": "\"2 sân bay: Mường Thanh, Hồng Cúm · Nguồn: Tư liệu văn kiện Đảng Cộng sản Việt Nam\"",
+   "am": "",
+   "t0": 307.96,
+   "t1": 310.78,
+   "dai": 2.81,
+   "cau": [
+    65
+   ],
+   "kieu": "map3d",
+   "ten": "hai-san-bay",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Tư liệu văn kiện Đảng Cộng sản Việt Nam"
+  },
+  {
+   "id": "C2-18",
+   "neo": "66",
+   "nguon": "anh:bearcat-muong-thanh-ecpad-1954",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Máy bay Bearcat ở Mường Thanh, phóng chậm.",
+   "chu": "",
+   "am": "",
+   "t0": 310.78,
+   "t1": 314.73,
+   "dai": 3.95,
+   "cau": [
+    66
+   ],
+   "kieu": "anh",
+   "ten": "bearcat-muong-thanh-ecpad-1954",
+   "hang": "B",
+   "ghi_nguon": "Jean Péraud / ECPAD (trích)"
+  },
+  {
+   "id": "C2-19",
+   "neo": "67",
+   "nguon": "anh:operation-castor-cogny-castries-05781",
+   "co": "anh",
+   "goc": "thap",
+   "hinh": "Tướng Cô-nhi và Đại tá Đờ Cát-xtơ-ri ở Điện Biên Phủ (1953).",
+   "chu": "Nhãn \"1953\"",
+   "am": "",
+   "t0": 314.73,
+   "t1": 317.25,
+   "dai": 2.52,
+   "cau": [
+    67
+   ],
+   "kieu": "anh",
+   "ten": "operation-castor-cogny-castries-05781",
+   "hang": "B",
+   "ghi_nguon": "ECPAD (trích)"
+  },
+  {
+   "id": "C2-20",
+   "neo": "67:11",
+   "nguon": "the:hai-trang/24-12",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Trang trái \"nói với binh lính\" hiện từng dòng.",
+   "chu": "\"24/12/1953 · Na-va: trận đánh chỉ có thể thuận lợi cho phía Pháp · Nguồn: Báo Nhân Dân\"",
+   "am": "bút viết",
+   "t0": 317.25,
+   "t1": 324.04,
+   "dai": 6.79,
+   "cau": [
+    67
+   ],
+   "kieu": "the",
+   "ten": "hai-trang/24-12",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-21",
+   "neo": "68",
+   "nguon": "the:hai-trang/1-1",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Trang phải \"thư riêng\" mở ra.",
+   "chu": "\"1/1/1954 · thư riêng · Nguồn: Báo Nhân Dân\"",
+   "am": "giấy",
+   "t0": 324.04,
+   "t1": 330.36,
+   "dai": 6.32,
+   "cau": [
+    68
+   ],
+   "kieu": "the",
+   "ten": "hai-trang/1-1",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-22",
+   "neo": "69",
+   "nguon": "the:van-kien/thu-na-va",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lời trích gõ chữ, \"100%\" tô vàng.",
+   "chu": "\"Trước đây hai tuần, tôi đánh giá khả năng đó là 100%…\" · Na-va, thư riêng 1/1/1954 · Nguồn: Báo Nhân Dân (trích tài liệu Pháp)",
+   "am": "máy chữ",
+   "t0": 330.36,
+   "t1": 337.92,
+   "dai": 7.56,
+   "cau": [
+    69
+   ],
+   "kieu": "the",
+   "ten": "van-kien/thu-na-va",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-23",
+   "neo": "70",
+   "nguon": "the:van-kien/thu-na-va",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Cùng thẻ: gạch ngang \"100%\".",
+   "chu": "",
+   "am": "gạch bút",
+   "t0": 337.92,
+   "t1": 343.85,
+   "dai": 5.93,
+   "cau": [
+    70
+   ],
+   "kieu": "the",
+   "ten": "van-kien/thu-na-va",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-24",
+   "neo": "71",
+   "nguon": "the:hai-trang/doi-chieu",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai trang cạnh nhau; trang trái mờ ở câu 72.",
+   "chu": "",
+   "am": "",
+   "t0": 343.85,
+   "t1": 350.34,
+   "dai": 6.49,
+   "cau": [
+    71,
+    72
+   ],
+   "kieu": "the",
+   "ten": "hai-trang/doi-chieu",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-25",
+   "neo": "73",
+   "nguon": "map3d:con-nhim",
+   "co": "ban-do",
+   "goc": "chech",
+   "hinh": "Con nhím trên bản đồ, hai thẻ niềm tin sáng phía trên.",
+   "chu": "\"Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 350.34,
+   "t1": 352.81,
+   "dai": 2.47,
+   "cau": [
+    73
+   ],
+   "kieu": "map3d",
+   "ten": "con-nhim",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C2-26",
+   "neo": "74",
+   "nguon": "3d-moi:ham-phap",
+   "co": "dac-ta",
+   "goc": "thap",
+   "hinh": "Đặc tả bao cát và thép gai lô cốt từ dưới lên.",
+   "chu": "",
+   "am": "",
+   "t0": 352.81,
+   "t1": 355.44,
+   "dai": 2.63,
+   "cau": [
+    74
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-27",
+   "neo": "75",
+   "nguon": "3d-moi:ham-phap",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Từ trong lô cốt nhìn qua lỗ châu mai ra vành núi.",
+   "chu": "",
+   "am": "gió qua khe",
+   "t0": 355.44,
+   "t1": 359.25,
+   "dai": 3.81,
+   "cau": [
+    75
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C2-28",
+   "neo": "76",
+   "nguon": "karmen:40:46.55",
+   "co": "phim",
+   "goc": "cao",
+   "hinh": "Đoàn người gùi hàng nối nhau leo dốc núi, rồi người phá đá mở đường (phim Karmen, mô phỏng lại).",
+   "chu": "",
+   "am": "bước chân, nhạc chuyển",
+   "t0": 359.25,
+   "t1": 363.86,
+   "dai": 4.61,
+   "cau": [
+    76
+   ],
+   "kieu": "karmen",
+   "ten": "40:46.55",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C3-01",
+   "neo": "77",
+   "nguon": "the:chuong/3",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chương 3.",
+   "chu": "\"Đổi cách đánh\"",
+   "am": "đập chương",
+   "t0": 363.86,
+   "t1": 365.18,
+   "dai": 1.32,
+   "cau": [
+    77
+   ],
+   "kieu": "the",
+   "ten": "chuong/3",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-02",
+   "neo": "77:6",
+   "nguon": "map3d:shot-c-keo-phao",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Đường kéo pháo bắt đầu vẽ từ Nà Nhạn.",
+   "chu": "\"16/1/1954 · Nà Nhạn · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 365.18,
+   "t1": 368.81,
+   "dai": 3.63,
+   "cau": [
+    77
+   ],
+   "kieu": "map3d",
+   "ten": "shot-c-keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C3-03",
+   "neo": "78",
+   "nguon": "anh:keo-phao-01",
+   "co": "anh",
+   "goc": "thap",
+   "hinh": "Bộ đội kéo pháo, tách lớp 2.5D.",
+   "chu": "",
+   "am": "dây căng",
+   "t0": 368.81,
+   "t1": 372.46,
+   "dai": 3.65,
+   "cau": [
+    78
+   ],
+   "kieu": "anh",
+   "ten": "keo-phao-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III / TTXVN"
+  },
+  {
+   "id": "C3-04",
+   "neo": "79",
+   "nguon": "3d:T-A1",
+   "co": "dac-ta",
+   "goc": "thap",
+   "hinh": "Dây kéo căng, bàn chân bám đất dốc.",
+   "chu": "Thẻ tên \"ông Phạm Đức Cư · chiến sĩ Tiểu đoàn 394, Trung đoàn cao xạ 367 · Nguồn: Báo QĐND\"",
+   "am": "dây kẽo kẹt",
+   "t0": 372.46,
+   "t1": 379.16,
+   "dai": 6.7,
+   "cau": [
+    79
+   ],
+   "kieu": "3d",
+   "ten": "T-A1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C3-05",
+   "neo": "80",
+   "nguon": "the:so-lieu/keo-phao",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai số chạy.",
+   "chu": "\"mỗi khẩu 2,4 tấn · 80–100 người kéo · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 379.16,
+   "t1": 384.73,
+   "dai": 5.57,
+   "cau": [
+    80
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C3-06",
+   "neo": "81",
+   "nguon": "map3d:shot-c-keo-phao",
+   "co": "ban-do",
+   "goc": "chech",
+   "hinh": "Đường kéo pháo vẽ hết, nhãn 15 KM, đỉnh Pu Pha Sông.",
+   "chu": "\"15 km · rộng 3 m · đỉnh Pu Pha Sông 1.150 m · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 384.73,
+   "t1": 389.37,
+   "dai": 4.64,
+   "cau": [
+    81
+   ],
+   "kieu": "map3d",
+   "ten": "shot-c-keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C3-07",
+   "neo": "82",
+   "nguon": "3d-moi:keo-phao",
+   "co": "dac-ta",
+   "goc": "cao",
+   "hinh": "Đặc tả lớp cành lá nguỵ trang phủ lên mặt đường mới mở.",
+   "chu": "",
+   "am": "lá nguỵ trang",
+   "t0": 389.37,
+   "t1": 391.61,
+   "dai": 2.24,
+   "cau": [
+    82
+   ],
+   "kieu": "3d-moi",
+   "ten": "keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-08",
+   "neo": "83",
+   "nguon": "anh:keo-phao-02",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Kéo pháo qua đèo dốc, phóng chậm.",
+   "chu": "\"cơm ăn ngay tại chỗ, ăn xong lao vào việc · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 391.61,
+   "t1": 395.09,
+   "dai": 3.48,
+   "cau": [
+    83
+   ],
+   "kieu": "anh",
+   "ten": "keo-phao-02",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III"
+  },
+  {
+   "id": "C3-09",
+   "neo": "84",
+   "nguon": "karmen:41:30",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Bộ đội nguỵ trang kéo khẩu pháo qua rừng.",
+   "chu": "Thẻ tên \"ông Nguyễn Quang Thuận · chiến sĩ Đại đội 815, Tiểu đoàn 383 · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 395.09,
+   "t1": 399.37,
+   "dai": 4.28,
+   "cau": [
+    84
+   ],
+   "kieu": "karmen",
+   "ten": "41:30",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C3-10",
+   "neo": "84:20",
+   "nguon": "3d:thu-A2",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Toàn cảnh thấp ngang dốc, đội kéo pháo, trăng sau đồi.",
+   "chu": "Chữ \"Hai… ba… nào\" đúng lúc đọc · Nguồn: Báo QĐND",
+   "am": "tiếng hô (không lời), dây",
+   "t0": 399.37,
+   "t1": 402.9,
+   "dai": 3.53,
+   "cau": [
+    84
+   ],
+   "kieu": "3d",
+   "ten": "thu-A2",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C3-11",
+   "neo": "85",
+   "nguon": "3d-moi:keo-phao",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Đặc tả bánh pháo nhích lên trên dốc, chèn gỗ đặt theo.",
+   "chu": "",
+   "am": "gỗ nghiến",
+   "t0": 402.9,
+   "t1": 406.98,
+   "dai": 4.08,
+   "cau": [
+    85
+   ],
+   "kieu": "3d-moi",
+   "ten": "keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-12",
+   "neo": "86",
+   "nguon": "3d-moi:keo-phao",
+   "co": "toan-xa",
+   "goc": "cao",
+   "hinh": "Toàn cảnh trời sao, đội kéo nhỏ trên sống núi.",
+   "chu": "\"16/1 – 25/1/1954 · gần 10 đêm · Nguồn: Báo QĐND\"",
+   "am": "dế rừng đêm",
+   "t0": 406.98,
+   "t1": 408.56,
+   "dai": 1.58,
+   "cau": [
+    86
+   ],
+   "kieu": "3d-moi",
+   "ten": "keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C3-13",
+   "neo": "87",
+   "nguon": "map3d:nam-dai-doan",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Năm khối đại đoàn hiện quanh lòng chảo.",
+   "chu": "\"5 đại đoàn: 308 · 312 · 316 · 304 · 351 (công pháo) · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 408.56,
+   "t1": 412.32,
+   "dai": 3.76,
+   "cau": [
+    87
+   ],
+   "kieu": "map3d",
+   "ten": "nam-dai-doan",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C3-14",
+   "neo": "88",
+   "nguon": "the:so-lieu/phao-ta",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Số 200 chạy, rồi ba số con ở câu 89.",
+   "chu": "\"hơn 200 khẩu pháo và cối · Nguồn: Báo QĐND\" / \"24 lựu pháo 105 mm · 16 cối 120 mm · 24 cao xạ 37 mm · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 412.32,
+   "t1": 422.88,
+   "dai": 10.56,
+   "cau": [
+    88,
+    89
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/phao-ta",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C3-15",
+   "neo": "90",
+   "nguon": "anh:luu-phao-105-bao-tang-ha-noi-01",
+   "co": "anh",
+   "goc": "thap",
+   "hinh": "Lựu pháo 105 ở bảo tàng, máy dọc nòng (không nêu số hiệu).",
+   "chu": "",
+   "am": "",
+   "t0": 422.88,
+   "t1": 426.0,
+   "dai": 3.12,
+   "cau": [
+    90
+   ],
+   "kieu": "anh",
+   "ten": "luu-phao-105-bao-tang-ha-noi-01",
+   "hang": "A",
+   "ghi_nguon": "Gary Todd, CC0"
+  },
+  {
+   "id": "C3-16",
+   "neo": "90:13",
+   "nguon": "3d-moi:keo-phao",
+   "co": "toan",
+   "goc": "chech",
+   "hinh": "Khẩu 105 của ta trên sườn núi tháng 1, nòng hướng lòng chảo.",
+   "chu": "",
+   "am": "",
+   "t0": 426.0,
+   "t1": 428.32,
+   "dai": 2.32,
+   "cau": [
+    90
+   ],
+   "kieu": "3d-moi",
+   "ten": "keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-17",
+   "neo": "91",
+   "nguon": "3d:MM1",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Ụ pháo nguỵ trang, khẩu 105 nòng chỉ xuống lòng chảo, khẩu đội chờ ở xa; đổi nhãn thành 25/1/1954.",
+   "chu": "\"25/1/1954 · phần lớn pháo đã vào trận địa · Nguồn: Báo Nhân Dân\"",
+   "am": "lá xào xạc",
+   "t0": 428.32,
+   "t1": 433.04,
+   "dai": 4.72,
+   "cau": [
+    91
+   ],
+   "kieu": "3d",
+   "ten": "MM1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C3-18",
+   "neo": "92",
+   "nguon": "the:hook/gio-ban",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Đồng hồ đếm lùi dừng lại, kim đứng.",
+   "chu": "",
+   "am": "tích tắc rồi tắt",
+   "t0": 433.04,
+   "t1": 436.61,
+   "dai": 3.57,
+   "cau": [
+    92
+   ],
+   "kieu": "the",
+   "ten": "hook/gio-ban",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-19",
+   "neo": "93",
+   "nguon": "map3d:long-chao-dem",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Bản đồ lòng chảo tối, phóng rất chậm.",
+   "chu": "Thẻ tên \"Đại tướng Võ Nguyên Giáp · Chỉ huy trưởng kiêm Bí thư Đảng ủy Mặt trận · Nguồn: Báo Nhân Dân\" (chữ, không ảnh)",
+   "am": "nhạc lùi",
+   "t0": 436.61,
+   "t1": 441.77,
+   "dai": 5.16,
+   "cau": [
+    93
+   ],
+   "kieu": "map3d",
+   "ten": "long-chao-dem",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C3-20",
+   "neo": "93:22",
+   "nguon": "the:van-kien/loi-dan-dat",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Nền chữ tối chuẩn bị lời dặn (khung giấy hiện).",
+   "chu": "",
+   "am": "",
+   "t0": 441.77,
+   "t1": 444.03,
+   "dai": 2.26,
+   "cau": [
+    93
+   ],
+   "kieu": "the",
+   "ten": "van-kien/loi-dan-dat",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-21",
+   "neo": "P2",
+   "nguon": "the:van-kien/loi-dan",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lời Chủ tịch Hồ Chí Minh hiện chữ nguyên văn, không giọng đọc.",
+   "chu": "\"Trận này rất quan trọng, phải đánh cho thắng. Chắc thắng mới đánh, không chắc thắng, không đánh\" · lời Chủ tịch Hồ Chí Minh giao nhiệm vụ cho Đại tướng Võ Nguyên Giáp · Nguồn: Báo Nhân Dân",
+   "am": "lặng, nhạc ~25 %",
+   "t0": 444.03,
+   "t1": 448.13,
+   "dai": 4.1,
+   "cau": [],
+   "kieu": "the",
+   "ten": "van-kien/loi-dan",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C3-22",
+   "neo": "94",
+   "nguon": "the:van-kien/phuong-cham",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ phương châm gõ chữ: \"đánh nhanh, thắng nhanh\" gạch bỏ, \"đánh chắc, tiến chắc\" hiện ra.",
+   "chu": "\"26/1/1954 · đánh nhanh, thắng nhanh → đánh chắc, tiến chắc · Nguồn: Báo QĐND\"",
+   "am": "máy chữ",
+   "t0": 448.13,
+   "t1": 459.24,
+   "dai": 11.11,
+   "cau": [
+    94,
+    95
+   ],
+   "kieu": "the",
+   "ten": "van-kien/phuong-cham",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C3-23",
+   "neo": "96",
+   "nguon": "map3d:cu-diem-day",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Phân khu Trung tâm: cứ điểm và công sự dày lên so với lúc lập kế hoạch.",
+   "chu": "",
+   "am": "",
+   "t0": 459.24,
+   "t1": 465.08,
+   "dai": 5.84,
+   "cau": [
+    96,
+    97
+   ],
+   "kieu": "map3d",
+   "ten": "cu-diem-day",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-24",
+   "neo": "98",
+   "nguon": "3d-moi:keo-phao",
+   "co": "trung",
+   "goc": "cao",
+   "hinh": "Khẩu pháo dừng giữa dốc, phủ lá, đội kéo ngồi chờ.",
+   "chu": "",
+   "am": "gió",
+   "t0": 465.08,
+   "t1": 467.04,
+   "dai": 1.96,
+   "cau": [
+    98
+   ],
+   "kieu": "3d-moi",
+   "ten": "keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-25",
+   "neo": "99",
+   "nguon": "3d-moi:him-lam",
+   "co": "toan",
+   "goc": "ngang",
+   "hinh": "Đồi Him Lam tháng 1: thép gai dày, lô cốt bao cát kín.",
+   "chu": "",
+   "am": "",
+   "t0": 467.04,
+   "t1": 470.12,
+   "dai": 3.08,
+   "cau": [
+    99
+   ],
+   "kieu": "3d-moi",
+   "ten": "him-lam",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-26",
+   "neo": "100",
+   "nguon": "3d:T-C1",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Trước miệng hầm tối, dây căng dần.",
+   "chu": "\"đêm 26/1/1954 · Nguồn: Báo QĐND\"",
+   "am": "gỗ khung hầm",
+   "t0": 470.12,
+   "t1": 474.43,
+   "dai": 4.31,
+   "cau": [
+    100
+   ],
+   "kieu": "3d",
+   "ten": "T-C1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C3-27",
+   "neo": "101",
+   "nguon": "the:van-kien/set-danh",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lời trích.",
+   "chu": "\"như sét đánh ngang tai\" · ông Nguyễn Quang Thuận · Nguồn: Báo QĐND",
+   "am": "",
+   "t0": 474.43,
+   "t1": 481.36,
+   "dai": 6.93,
+   "cau": [
+    101
+   ],
+   "kieu": "the",
+   "ten": "van-kien/set-danh",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C3-28",
+   "neo": "102",
+   "nguon": "3d:T-C2",
+   "co": "trung",
+   "goc": "chech",
+   "hinh": "Nòng ló khỏi hầm, đội kéo quay đầu.",
+   "chu": "",
+   "am": "bánh lăn đất",
+   "t0": 481.36,
+   "t1": 483.82,
+   "dai": 2.45,
+   "cau": [
+    102
+   ],
+   "kieu": "3d",
+   "ten": "T-C2",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-29",
+   "neo": "103",
+   "nguon": "karmen:41:40",
+   "co": "phim",
+   "goc": "thap",
+   "hinh": "Cận bánh xe pháo lăn trên đất rừng.",
+   "chu": "",
+   "am": "",
+   "t0": 483.82,
+   "t1": 485.21,
+   "dai": 1.39,
+   "cau": [
+    103
+   ],
+   "kieu": "karmen",
+   "ten": "41:40",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C3-30",
+   "neo": "104",
+   "nguon": "3d-moi:keo-phao",
+   "co": "toan",
+   "goc": "chech",
+   "hinh": "Pháo xuống dốc trong đêm, dây ghìm phía sau.",
+   "chu": "",
+   "am": "dây ghìm",
+   "t0": 485.21,
+   "t1": 489.22,
+   "dai": 4.01,
+   "cau": [
+    104
+   ],
+   "kieu": "3d-moi",
+   "ten": "keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-31",
+   "neo": "105",
+   "nguon": "3d:T-D1",
+   "co": "toan",
+   "goc": "cao",
+   "hinh": "Sa bàn Dốc Chuối: đường xẻ vách núi, vực một bên, đêm không trăng. Soát khung: khẩu pháo phải là cao xạ.",
+   "chu": "\"1/2/1954 · Dốc Chuối · Nguồn: Báo QĐND\"",
+   "am": "gió vực, dây căng kẽo kẹt",
+   "t0": 489.22,
+   "t1": 495.0,
+   "dai": 5.78,
+   "cau": [
+    105
+   ],
+   "kieu": "3d",
+   "ten": "T-D1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C3-31b",
+   "neo": "105:18",
+   "nguon": "demo:T-D2>",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Đặc tả dây tời bện căng, các tao dây tách rồi đứt; nối sang khẩu cao xạ bắt đầu trôi (3D Demo đã duyệt).",
+   "chu": "",
+   "am": "dây đứt (WB)",
+   "t0": 495.0,
+   "t1": 497.44,
+   "dai": 2.44,
+   "cau": [
+    105
+   ],
+   "kieu": "demo",
+   "ten": "T-D2>",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-31c",
+   "neo": "105:23",
+   "nguon": "3d:T-D3",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Khẩu cao xạ 37 trôi xuống dốc trong đêm, càng pháo lao dốc (cảnh mẫu bản thử, co đồng hồ cho khớp lời).",
+   "chu": "",
+   "am": "pháo trôi, bánh nghiến sỏi (WC)",
+   "t0": 497.44,
+   "t1": 501.32,
+   "dai": 3.88,
+   "cau": [
+    105
+   ],
+   "kieu": "3d",
+   "ten": "T-D3",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-31d",
+   "neo": "105:34",
+   "nguon": "demo:T-E1>",
+   "co": "toan",
+   "goc": "ngang",
+   "hinh": "Đội kéo phía sau; một bóng người lao tới chèn bánh pháo (không thấy mặt, không cảnh thương tích); cắt sang đặc tả bánh xe khựng lại (3D Demo đã duyệt).",
+   "chu": "",
+   "am": "bánh pháo khựng (WD)",
+   "t0": 501.32,
+   "t1": 505.12,
+   "dai": 3.8,
+   "cau": [
+    105
+   ],
+   "kieu": "demo",
+   "ten": "T-E1>",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-32",
+   "neo": "105:45",
+   "nguon": "3d:T-E4",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Pháo dừng bên mép vực, máy nâng chậm lên trời sao; không thấy người, không cảnh thương tích.",
+   "chu": "\"Anh hùng Tô Vĩnh Diện · Khẩu đội trưởng, Đại đội 827 · 1/2/1954 · Nguồn: Báo QĐND\"",
+   "am": "nhạc ~25 %, gió",
+   "t0": 505.12,
+   "t1": 510.73,
+   "dai": 5.61,
+   "cau": [
+    105
+   ],
+   "kieu": "3d",
+   "ten": "T-E4",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C3-33",
+   "neo": "106",
+   "nguon": "the:lich/5-2-1954",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lịch 5/2/1954, ghi mồng 3 Tết Giáp Ngọ.",
+   "chu": "\"kéo pháo ra: đêm 26/1 – sáng 5/2/1954 (mồng 3 Tết Giáp Ngọ) · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 510.73,
+   "t1": 516.52,
+   "dai": 5.79,
+   "cau": [
+    106
+   ],
+   "kieu": "the",
+   "ten": "lich/5-2-1954",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C3-34",
+   "neo": "107",
+   "nguon": "map3d:tran-dia-moi",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Vòng trận địa mới quanh lòng chảo vẽ dần.",
+   "chu": "",
+   "am": "",
+   "t0": 516.52,
+   "t1": 518.76,
+   "dai": 2.24,
+   "cau": [
+    107
+   ],
+   "kieu": "map3d",
+   "ten": "tran-dia-moi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-35",
+   "neo": "108",
+   "nguon": "3d-moi:tran-dia",
+   "co": "trung",
+   "goc": "chech",
+   "hinh": "Hầm pháo của ta trên sườn núi, nòng ló ra khỏi mái đất nguỵ trang.",
+   "chu": "\"pháo đặt từng khẩu trong hầm · Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 518.76,
+   "t1": 521.32,
+   "dai": 2.56,
+   "cau": [
+    108
+   ],
+   "kieu": "3d-moi",
+   "ten": "tran-dia",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C3-36",
+   "neo": "109",
+   "nguon": "map3d:tran-dia-moi",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Hai vòng: sơn pháo gần, lựu pháo xa; ở câu 110 thêm chấm đỏ là trận địa giả.",
+   "chu": "\"trận địa giả · Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 521.32,
+   "t1": 528.52,
+   "dai": 7.2,
+   "cau": [
+    109,
+    110
+   ],
+   "kieu": "map3d",
+   "ten": "tran-dia-moi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C3-37",
+   "neo": "111",
+   "nguon": "anh:luu-phao-105-san-sang-01",
+   "co": "anh",
+   "goc": "chech",
+   "hinh": "Lựu pháo sẵn sàng trong trận địa, phóng chậm.",
+   "chu": "",
+   "am": "",
+   "t0": 528.52,
+   "t1": 531.44,
+   "dai": 2.92,
+   "cau": [
+    111
+   ],
+   "kieu": "anh",
+   "ten": "luu-phao-105-san-sang-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III / TTXVN"
+  },
+  {
+   "id": "C3-37b",
+   "neo": "111:6",
+   "nguon": "3d-moi:ham-phap",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Hầm vòm và thép gai phía Pháp nhỏ giữa cánh đồng, nhìn từ cao trong sương.",
+   "chu": "",
+   "am": "nòng quay rít",
+   "t0": 531.44,
+   "t1": 534.12,
+   "dai": 2.68,
+   "cau": [
+    111
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-38",
+   "neo": "112",
+   "nguon": "the:cau-hoi/dung-sai",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Câu hỏi trên nền tối.",
+   "chu": "\"Quyết định ấy đúng hay sai?\"",
+   "am": "im",
+   "t0": 534.12,
+   "t1": 538.38,
+   "dai": 4.26,
+   "cau": [
+    112
+   ],
+   "kieu": "the",
+   "ten": "cau-hoi/dung-sai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C3-39",
+   "neo": "113",
+   "nguon": "3d-moi:him-lam",
+   "co": "toan-xa",
+   "goc": "ngang",
+   "hinh": "Đồi Him Lam chiều 13/3 dưới nắng xiên, trăng ban ngày phía đông.",
+   "chu": "\"13/3/1954 · Nguồn: Báo QĐND\"",
+   "am": "gió, nhạc hụt nhịp",
+   "t0": 538.38,
+   "t1": 540.84,
+   "dai": 2.46,
+   "cau": [
+    113
+   ],
+   "kieu": "3d-moi",
+   "ten": "him-lam",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C4-01",
+   "neo": "114",
+   "nguon": "the:chuong/4",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chương 4, đập ở \"giờ\".",
+   "chu": "\"Pháo nổ, hào siết\" · \"13/3/1954 · 17 giờ 5 phút · Him Lam · Nguồn: Báo QĐND\"",
+   "am": "đập chương",
+   "t0": 540.84,
+   "t1": 542.89,
+   "dai": 2.05,
+   "cau": [
+    114
+   ],
+   "kieu": "the",
+   "ten": "chuong/4",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C4-02",
+   "neo": "114:10",
+   "nguon": "karmen:43:07.6",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Lựu pháo bắn trong rừng, khói đầu nòng.",
+   "chu": "\"hàng chục khẩu pháo · Nguồn: Báo QĐND\"",
+   "am": "pháo nổ trong khoảng giữa câu",
+   "t0": 542.89,
+   "t1": 545.45,
+   "dai": 2.56,
+   "cau": [
+    114
+   ],
+   "kieu": "karmen",
+   "ten": "43:07.6",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C4-02b",
+   "neo": "H1",
+   "nguon": "karmen:43:19.6",
+   "co": "phim",
+   "goc": "thap",
+   "hinh": "Pháo ta khai hỏa (bóng pháo thủ ngược sáng, chớp đầu nòng), khói nổ trùm sườn đồi (phim Karmen, mô phỏng lại).",
+   "chu": "",
+   "am": "tổ hợp H1",
+   "t0": 545.45,
+   "t1": 548.99,
+   "dai": 3.54,
+   "cau": [],
+   "kieu": "karmen",
+   "ten": "43:19.6",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C4-03",
+   "neo": "115",
+   "nguon": "map3d:shot-d-dot-1",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Him Lam chớp đỏ; các chấm trận địa quanh sườn núi chớp sáng.",
+   "chu": "",
+   "am": "nổ xa",
+   "t0": 548.99,
+   "t1": 550.79,
+   "dai": 1.8,
+   "cau": [
+    115
+   ],
+   "kieu": "map3d",
+   "ten": "shot-d-dot-1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-04",
+   "neo": "116",
+   "nguon": "the:hook/3-phat",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "\"3 PHÁT\" hiện lại, rung.",
+   "chu": "\"Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 550.79,
+   "t1": 554.85,
+   "dai": 4.06,
+   "cau": [
+    116
+   ],
+   "kieu": "the",
+   "ten": "hook/3-phat",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: TTXVN"
+  },
+  {
+   "id": "C4-05",
+   "neo": "117",
+   "nguon": "3d-moi:ham-phap",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Lửa cháy trên đồi Độc Lập trong đêm, nhìn chéo.",
+   "chu": "",
+   "am": "pháo bắn",
+   "t0": 554.85,
+   "t1": 556.36,
+   "dai": 1.51,
+   "cau": [
+    117
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-06",
+   "neo": "118",
+   "nguon": "map3d:tran-dia-gia",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Chấm trận địa thật và giả cùng chớp lửa.",
+   "chu": "",
+   "am": "",
+   "t0": 556.36,
+   "t1": 559.53,
+   "dai": 3.17,
+   "cau": [
+    118
+   ],
+   "kieu": "map3d",
+   "ten": "tran-dia-gia",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-07",
+   "neo": "119",
+   "nguon": "3d-moi:tran-dia",
+   "co": "toan-xa",
+   "goc": "thap",
+   "hinh": "Đạn nổ trên sườn đồi trống, không có pháo.",
+   "chu": "\"phần lớn đạn pháo Pháp rơi vào trận địa nghi binh · Nguồn: TTXVN\"",
+   "am": "nổ đất",
+   "t0": 559.53,
+   "t1": 563.65,
+   "dai": 4.12,
+   "cau": [
+    119
+   ],
+   "kieu": "3d-moi",
+   "ten": "tran-dia",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C4-08",
+   "neo": "120",
+   "nguon": "3d-moi:tran-dia",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Mái hầm gỗ đất của ta rung, đất rơi lả tả, khói.",
+   "chu": "",
+   "am": "đất rơi",
+   "t0": 563.65,
+   "t1": 566.37,
+   "dai": 2.72,
+   "cau": [
+    120
+   ],
+   "kieu": "3d-moi",
+   "ten": "tran-dia",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-09",
+   "neo": "121",
+   "nguon": "karmen:43:16.2",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Bộ binh xung phong qua cỏ cao, khói đạn.",
+   "chu": "",
+   "am": "",
+   "t0": 566.37,
+   "t1": 569.65,
+   "dai": 3.28,
+   "cau": [
+    121
+   ],
+   "kieu": "karmen",
+   "ten": "43:16.2",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C4-10",
+   "neo": "121:14",
+   "nguon": "3d-moi:him-lam",
+   "co": "toan-xa",
+   "goc": "cao",
+   "hinh": "Lô cốt Him Lam nhả lửa trong đêm từ xa; chớp tắt, máy nâng lên trời; không người.",
+   "chu": "\"Anh hùng Phan Đình Giót · Tiểu đội phó, Đại đội 58 · 13/3/1954 · Nguồn: Báo QĐND\"",
+   "am": "súng máy dứt, lặng",
+   "t0": 569.65,
+   "t1": 574.19,
+   "dai": 4.54,
+   "cau": [
+    121
+   ],
+   "kieu": "3d-moi",
+   "ten": "him-lam",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C4-11",
+   "neo": "122",
+   "nguon": "map3d:shot-d-dot-1",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Him Lam đổi màu, mũi tên tới Độc Lập.",
+   "chu": "\"Him Lam: 23 giờ 30 phút 13/3 · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 574.19,
+   "t1": 576.67,
+   "dai": 2.48,
+   "cau": [
+    122
+   ],
+   "kieu": "map3d",
+   "ten": "shot-d-dot-1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C4-12",
+   "neo": "122:11",
+   "nguon": "3d:BD3",
+   "co": "toan-xa",
+   "goc": "cao",
+   "hinh": "Đồi Độc Lập đơn độc trong đêm, chớp nổ trên đỉnh.",
+   "chu": "\"Độc Lập: 6 giờ 30 phút 15/3 · Nguồn: Báo QĐND\"",
+   "am": "nổ xa",
+   "t0": 576.67,
+   "t1": 578.59,
+   "dai": 1.92,
+   "cau": [
+    122
+   ],
+   "kieu": "3d",
+   "ten": "BD3",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C4-13",
+   "neo": "123",
+   "nguon": "map3d:shot-d-dot-1",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Bản Kéo nhấp sáng, phân khu Bắc mở.",
+   "chu": "\"Bản Kéo: 17/3 · Đợt 1 · 13/3 – 17/3/1954 · Nguồn: Báo Chính phủ\"",
+   "am": "",
+   "t0": 578.59,
+   "t1": 583.05,
+   "dai": 4.45,
+   "cau": [
+    123,
+    124
+   ],
+   "kieu": "map3d",
+   "ten": "shot-d-dot-1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Chính phủ"
+  },
+  {
+   "id": "C4-14",
+   "neo": "125",
+   "nguon": "the:van-kien/thua-so-phao",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lời trích của Pi-rốt.",
+   "chu": "\"Tôi có thừa số pháo cần thiết\" · Trung tá Pi-rốt · Nguồn: Báo QĐND",
+   "am": "",
+   "t0": 583.05,
+   "t1": 590.04,
+   "dai": 7.0,
+   "cau": [
+    125
+   ],
+   "kieu": "the",
+   "ten": "van-kien/thua-so-phao",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C4-15",
+   "neo": "126",
+   "nguon": "karmen:43:30.7",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Đạn pháo nổ dồn trên cánh đồng, cột khói nối nhau (phim Karmen, mô phỏng lại).",
+   "chu": "\"khoảng 6.000 viên pháo Pháp bắn quanh Him Lam · Nguồn: TTXVN\"",
+   "am": "pháo dồn",
+   "t0": 590.04,
+   "t1": 594.58,
+   "dai": 4.53,
+   "cau": [
+    126
+   ],
+   "kieu": "karmen",
+   "ten": "43:30.7",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C4-16",
+   "neo": "127",
+   "nguon": "anh:chuyen-dan-vao-ham-phao-01",
+   "co": "anh",
+   "goc": "thap",
+   "hinh": "Chuyển đạn vào hầm pháo, phóng chậm.",
+   "chu": "",
+   "am": "",
+   "t0": 594.58,
+   "t1": 596.54,
+   "dai": 1.97,
+   "cau": [
+    127
+   ],
+   "kieu": "anh",
+   "ten": "chuyen-dan-vao-ham-phao-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III / TTXVN"
+  },
+  {
+   "id": "C4-17",
+   "neo": "128",
+   "nguon": "the:hook/3-phat-vo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "\"3 PHÁT\" vỡ ra thành mảnh.",
+   "chu": "\"Nguồn: TTXVN\"",
+   "am": "vỡ khô",
+   "t0": 596.54,
+   "t1": 599.92,
+   "dai": 3.38,
+   "cau": [
+    128
+   ],
+   "kieu": "the",
+   "ten": "hook/3-phat-vo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: TTXVN"
+  },
+  {
+   "id": "C4-18",
+   "neo": "129",
+   "nguon": "anh:luu-phao-105-bao-tang-ha-noi-01",
+   "co": "anh",
+   "goc": "chech",
+   "hinh": "Lựu pháo 105 ở bảo tàng, đường máy khác C3-15 (bản 02 là tấm bảng chú thích, không dùng).",
+   "chu": "",
+   "am": "",
+   "t0": 599.92,
+   "t1": 603.58,
+   "dai": 3.65,
+   "cau": [
+    129
+   ],
+   "kieu": "anh",
+   "ten": "luu-phao-105-bao-tang-ha-noi-01",
+   "hang": "A",
+   "ghi_nguon": "Gary Todd, CC0"
+  },
+  {
+   "id": "C4-19",
+   "neo": "130",
+   "nguon": "the:niem-tin/1-sai",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ niềm tin 1 bị gạch, đóng dấu \"sai\".",
+   "chu": "\"niềm tin 1: sai · Nguồn: Báo Nhân Dân\"",
+   "am": "dấu đóng",
+   "t0": 603.58,
+   "t1": 607.27,
+   "dai": 3.7,
+   "cau": [
+    130
+   ],
+   "kieu": "the",
+   "ten": "niem-tin/1-sai",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C4-20",
+   "neo": "131",
+   "nguon": "map3d:trinh-sat",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Vệt bay trinh sát quét trên lòng chảo, trận địa ta không hiện.",
+   "chu": "",
+   "am": "máy bay xa",
+   "t0": 607.27,
+   "t1": 611.93,
+   "dai": 4.65,
+   "cau": [
+    131
+   ],
+   "kieu": "map3d",
+   "ten": "trinh-sat",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-21",
+   "neo": "132",
+   "nguon": "anh:cao-xa-37mm-bao-tang-ha-noi-01",
+   "co": "anh",
+   "goc": "thap",
+   "hinh": "Pháo cao xạ 37 mm ở bảo tàng.",
+   "chu": "",
+   "am": "",
+   "t0": 611.93,
+   "t1": 615.37,
+   "dai": 3.44,
+   "cau": [
+    132
+   ],
+   "kieu": "anh",
+   "ten": "cao-xa-37mm-bao-tang-ha-noi-01",
+   "hang": "A",
+   "ghi_nguon": "Gary Todd, CC0"
+  },
+  {
+   "id": "C4-22",
+   "neo": "132:16",
+   "nguon": "3d:MB1",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Động cơ C-47, khói đạn cao xạ nổ quanh, lửa bùng.",
+   "chu": "\"Trung đoàn 367 · 14 máy bay (hết đợt 1) · Nguồn: Báo Nhân Dân\"",
+   "am": "cao xạ, động cơ hụt",
+   "t0": 615.37,
+   "t1": 617.87,
+   "dai": 2.5,
+   "cau": [
+    132
+   ],
+   "kieu": "3d",
+   "ten": "MB1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C4-23",
+   "neo": "133",
+   "nguon": "the:so-lieu/tang-vien",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai số.",
+   "chu": "\"sau 13/3: tăng viện khoảng 4.000 quân · Nguồn: Báo Nhân Dân\" / \"lúc đông nhất: 16.200 quân · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 617.87,
+   "t1": 624.13,
+   "dai": 6.26,
+   "cau": [
+    133
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/tang-vien",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân, Báo QĐND"
+  },
+  {
+   "id": "C4-24",
+   "neo": "134",
+   "nguon": "3d-moi:san-bay",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "C-47 chạm đất giữa đường băng đầy hố đạn, khói quanh.",
+   "chu": "\"27/3/1954 · lần cuối máy bay Pháp hạ cánh · Nguồn: Báo Nhân Dân\"",
+   "am": "động cơ hạ cánh",
+   "t0": 624.13,
+   "t1": 628.18,
+   "dai": 4.05,
+   "cau": [
+    134
+   ],
+   "kieu": "3d-moi",
+   "ten": "san-bay",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C4-25",
+   "neo": "135",
+   "nguon": "karmen:44:29.25",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Xác máy bay tiêm kích của phía Pháp nằm trên sân bay Mường Thanh (góc khác MO15).",
+   "chu": "",
+   "am": "",
+   "t0": 628.18,
+   "t1": 631.11,
+   "dai": 2.93,
+   "cau": [
+    135
+   ],
+   "kieu": "karmen",
+   "ten": "44:29.25",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C4-26",
+   "neo": "135:13",
+   "nguon": "map3d:hai-san-bay",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Đường băng Mường Thanh bị gạch chéo.",
+   "chu": "",
+   "am": "",
+   "t0": 631.11,
+   "t1": 633.18,
+   "dai": 2.07,
+   "cau": [
+    135
+   ],
+   "kieu": "map3d",
+   "ten": "hai-san-bay",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-27",
+   "neo": "136",
+   "nguon": "3d-moi:bau-troi",
+   "co": "dac-ta",
+   "goc": "thap",
+   "hinh": "Đặc tả tán dù tiếp tế lơ lửng, dây căng.",
+   "chu": "",
+   "am": "gió",
+   "t0": 633.18,
+   "t1": 635.26,
+   "dai": 2.08,
+   "cau": [
+    136
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-28",
+   "neo": "137",
+   "nguon": "the:dong-thoi-gian/3-dot",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thanh ba đợt, đợt 2 sáng.",
+   "chu": "\"Đợt 2 · 30/3 – cuối tháng 4/1954 · Nguồn: Báo Chính phủ\"",
+   "am": "",
+   "t0": 635.26,
+   "t1": 639.76,
+   "dai": 4.5,
+   "cau": [
+    137
+   ],
+   "kieu": "the",
+   "ten": "dong-thoi-gian/3-dot",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Chính phủ"
+  },
+  {
+   "id": "C4-28b",
+   "neo": "H2",
+   "nguon": "karmen:43:39.3",
+   "co": "phim",
+   "goc": "thap",
+   "hinh": "Bộ đội tiến qua cỏ cao trong khói đạn (phim Karmen, mô phỏng lại).",
+   "chu": "",
+   "am": "tổ hợp H2",
+   "t0": 639.76,
+   "t1": 641.78,
+   "dai": 2.02,
+   "cau": [],
+   "kieu": "karmen",
+   "ten": "43:39.3",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C4-29",
+   "neo": "138",
+   "nguon": "map3d:shot-e-dot-2-hao",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Hào vây lấn vẽ dần quanh khu trung tâm.",
+   "chu": "\"đánh các điểm cao phía Đông, vây lấn, khống chế sân bay · Nguồn: Báo Chính phủ\"",
+   "am": "",
+   "t0": 641.78,
+   "t1": 646.5,
+   "dai": 4.72,
+   "cau": [
+    138
+   ],
+   "kieu": "map3d",
+   "ten": "shot-e-dot-2-hao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Chính phủ"
+  },
+  {
+   "id": "C4-30",
+   "neo": "139",
+   "nguon": "3d:BD8",
+   "co": "toan",
+   "goc": "tren-xuong",
+   "hinh": "Các nhánh hào ta bò dần tới đường băng; xác C-47 trên đường băng.",
+   "chu": "\"③ Ta: siết hào, cắt đôi sân bay · Nguồn: TTXVN\"",
+   "am": "đất lạo xạo",
+   "t0": 646.5,
+   "t1": 651.3,
+   "dai": 4.8,
+   "cau": [
+    139
+   ],
+   "kieu": "3d",
+   "ten": "BD8",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C4-31",
+   "neo": "140",
+   "nguon": "map3d:shot-e-dot-2-hao",
+   "co": "ban-do",
+   "goc": "chech",
+   "hinh": "C1, E, D, A1 sáng đúng lúc đọc tên.",
+   "chu": "\"C1 · E · D · A1 · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 651.3,
+   "t1": 656.42,
+   "dai": 5.12,
+   "cau": [
+    140
+   ],
+   "kieu": "map3d",
+   "ten": "shot-e-dot-2-hao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C4-32",
+   "neo": "141",
+   "nguon": "karmen:43:44.6",
+   "co": "phim",
+   "goc": "thap",
+   "hinh": "Bộ đội vượt hào, thép gai, tiến lên sườn đồi trong khói (phim Karmen, mô phỏng lại).",
+   "chu": "",
+   "am": "nổ xa",
+   "t0": 656.42,
+   "t1": 659.85,
+   "dai": 3.43,
+   "cau": [
+    141
+   ],
+   "kieu": "karmen",
+   "ten": "43:44.6",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C4-33",
+   "neo": "142",
+   "nguon": "anh:tan-cong-doi-c1-01",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Tiến công đồi C1, phóng chậm.",
+   "chu": "",
+   "am": "",
+   "t0": 659.85,
+   "t1": 663.85,
+   "dai": 4.0,
+   "cau": [
+    142
+   ],
+   "kieu": "anh",
+   "ten": "tan-cong-doi-c1-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III / TTXVN"
+  },
+  {
+   "id": "C4-34",
+   "neo": "143",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan-xa",
+   "goc": "thap",
+   "hinh": "Đồi A1 lỗ chỗ hố đạn dưới ánh pháo sáng trong đêm.",
+   "chu": "\"đầu tháng 4/1954 · 1 tiểu đoàn dù nhảy trong 3 đêm · Nguồn: TTXVN\"",
+   "am": "động cơ đêm",
+   "t0": 663.85,
+   "t1": 668.26,
+   "dai": 4.41,
+   "cau": [
+    143
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C4-35",
+   "neo": "144",
+   "nguon": "anh:giao-thong-hao-bo-doi-sinh-hoat-1954",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Bộ đội sinh hoạt trong giao thông hào.",
+   "chu": "",
+   "am": "",
+   "t0": 668.26,
+   "t1": 670.19,
+   "dai": 1.93,
+   "cau": [
+    144
+   ],
+   "kieu": "anh",
+   "ten": "giao-thong-hao-bo-doi-sinh-hoat-1954",
+   "hang": "A?",
+   "ghi_nguon": "Tư liệu lịch sử Việt Nam (Wikimedia Commons)"
+  },
+  {
+   "id": "C4-36",
+   "neo": "145",
+   "nguon": "3d-moi:chien-hao",
+   "co": "trung",
+   "goc": "cat-lop",
+   "hinh": "Nhìn xuống các nhánh hào ta bò dần tới sân bay (kho chưa có mặt cắt hào có thước).",
+   "chu": "\"hào sâu 1,7 m · đáy hào trục 1,2 m · Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 670.19,
+   "t1": 671.78,
+   "dai": 1.59,
+   "cau": [
+    145
+   ],
+   "kieu": "3d-moi",
+   "ten": "chien-hao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C4-37",
+   "neo": "146",
+   "nguon": "map3d:mang-hao",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Mạng hào lan khắp phân khu Trung tâm.",
+   "chu": "\"mạng hào dài 'hàng trăm ki-lô-mét' · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 671.78,
+   "t1": 675.14,
+   "dai": 3.36,
+   "cau": [
+    146
+   ],
+   "kieu": "map3d",
+   "ten": "mang-hao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C4-38",
+   "neo": "147",
+   "nguon": "3d:BD7",
+   "co": "dac-ta",
+   "goc": "thap",
+   "hinh": "Nhánh hào ta cắt về phía đường băng, nhìn chéo từ trên.",
+   "chu": "",
+   "am": "xẻng đất",
+   "t0": 675.14,
+   "t1": 679.55,
+   "dai": 4.42,
+   "cau": [
+    147
+   ],
+   "kieu": "3d",
+   "ten": "BD7",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-39",
+   "neo": "148",
+   "nguon": "3d-moi:chien-hao",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Nhánh hào ta trên đồng trống cạnh đường băng (kho chưa có mưa).",
+   "chu": "\"đầu tháng 4/1954 · mưa nhiều ngày · Nguồn: Báo QĐND\"",
+   "am": "mưa",
+   "t0": 679.55,
+   "t1": 683.93,
+   "dai": 4.38,
+   "cau": [
+    148
+   ],
+   "kieu": "3d-moi",
+   "ten": "chien-hao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C4-40",
+   "neo": "149",
+   "nguon": "anh:giao-thong-hao-him-lam-ttltqg3-thumb",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Ảnh nhỏ đặt trong khung giấy, phóng chậm.",
+   "chu": "",
+   "am": "mưa nhỏ dần",
+   "t0": 683.93,
+   "t1": 688.77,
+   "dai": 4.84,
+   "cau": [
+    149
+   ],
+   "kieu": "anh",
+   "ten": "giao-thong-hao-him-lam-ttltqg3-thumb",
+   "hang": "A",
+   "ghi_nguon": "Trung tâm Lưu trữ quốc gia III"
+  },
+  {
+   "id": "C4-41",
+   "neo": "150",
+   "nguon": "map3d:mang-hao",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Hào siết thêm, vùng tập đoàn cứ điểm thu hẹp.",
+   "chu": "",
+   "am": "",
+   "t0": 688.77,
+   "t1": 692.36,
+   "dai": 3.59,
+   "cau": [
+    150
+   ],
+   "kieu": "map3d",
+   "ten": "mang-hao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-42",
+   "neo": "151",
+   "nguon": "3d-moi:ham-phap",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Cuộn thép gai đứt, khe phá mở.",
+   "chu": "",
+   "am": "thép bật",
+   "t0": 692.36,
+   "t1": 694.2,
+   "dai": 1.84,
+   "cau": [
+    151
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C4-43",
+   "neo": "152",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan-xa",
+   "goc": "thap",
+   "hinh": "Từ dưới lên: dù tiếp tế lơ lửng trên lòng chảo.",
+   "chu": "",
+   "am": "gió, nhạc chuyển",
+   "t0": 694.2,
+   "t1": 698.89,
+   "dai": 4.69,
+   "cau": [
+    152
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-01",
+   "neo": "153",
+   "nguon": "the:chuong/5",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chương 5.",
+   "chu": "\"Lấy đi bầu trời\"",
+   "am": "đập chương",
+   "t0": 698.89,
+   "t1": 700.06,
+   "dai": 1.17,
+   "cau": [
+    153
+   ],
+   "kieu": "the",
+   "ten": "chuong/5",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-02",
+   "neo": "153:6",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan-xa",
+   "goc": "cao",
+   "hinh": "C-47 thả dù từ trên cao, nhìn từ trên máy bay xuống (góc khác MO01–MO02).",
+   "chu": "\"9/4/1954 · thả 195 tấn · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 700.06,
+   "t1": 703.54,
+   "dai": 3.48,
+   "cau": [
+    153
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C5-03",
+   "neo": "153:21",
+   "nguon": "the:hook/6-tan",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "\"6 TẤN\" hiện lại.",
+   "chu": "\"thu 6 tấn · Nguồn: Báo QĐND\"",
+   "am": "trống trầm",
+   "t0": 703.54,
+   "t1": 707.38,
+   "dai": 3.84,
+   "cau": [
+    153
+   ],
+   "kieu": "the",
+   "ten": "hook/6-tan",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C5-04",
+   "neo": "154",
+   "nguon": "the:so-lieu/can-thu",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai cột: cần 200, thu 100.",
+   "chu": "\"cần khoảng 200 tấn đạn dược/ngày · cao nhất thu khoảng 100 tấn · Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 707.38,
+   "t1": 717.29,
+   "dai": 9.91,
+   "cau": [
+    154,
+    155
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/can-thu",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: TTXVN"
+  },
+  {
+   "id": "C5-05",
+   "neo": "156",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan-xa",
+   "goc": "cao",
+   "hinh": "Dù dạt qua vòng hào, rơi về phía trận địa ta.",
+   "chu": "",
+   "am": "gió",
+   "t0": 717.29,
+   "t1": 722.75,
+   "dai": 5.46,
+   "cau": [
+    156
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-06",
+   "neo": "157",
+   "nguon": "3d-moi:tran-dia",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Dãy ụ pháo nguỵ trang trên sườn đồi, nòng nâng (kho chưa có ụ cao xạ 37).",
+   "chu": "Thẻ tên \"ông Trần Xuân Kình · chiến sĩ Trung đoàn cao xạ 367 · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 722.75,
+   "t1": 726.19,
+   "dai": 3.44,
+   "cau": [
+    157
+   ],
+   "kieu": "3d-moi",
+   "ten": "tran-dia",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C5-07",
+   "neo": "157:15",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan-xa",
+   "goc": "ngang",
+   "hinh": "Khói đạn cao xạ nổ đen trên trời.",
+   "chu": "",
+   "am": "cao xạ",
+   "t0": 726.19,
+   "t1": 728.91,
+   "dai": 2.72,
+   "cau": [
+    157
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-08",
+   "neo": "157:27",
+   "nguon": "the:van-kien/giu-yen-bau-troi",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lời trích.",
+   "chu": "\"giữ yên bầu trời\" · ông Trần Xuân Kình, chiến sĩ Trung đoàn cao xạ 367 · Nguồn: Báo Nhân Dân",
+   "am": "",
+   "t0": 728.91,
+   "t1": 734.55,
+   "dai": 5.63,
+   "cau": [
+    157
+   ],
+   "kieu": "the",
+   "ten": "van-kien/giu-yen-bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C5-09",
+   "neo": "158",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan-xa",
+   "goc": "thap",
+   "hinh": "C-47 giữa khói đạn cao xạ, động cơ bốc cháy.",
+   "chu": "",
+   "am": "động cơ gầm",
+   "t0": 734.55,
+   "t1": 738.15,
+   "dai": 3.6,
+   "cau": [
+    158
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-10",
+   "neo": "158:14",
+   "nguon": "3d-moi:bau-troi",
+   "co": "toan",
+   "goc": "cao",
+   "hinh": "Dù rơi ra ngoài vòng trận địa.",
+   "chu": "",
+   "am": "",
+   "t0": 738.15,
+   "t1": 741.91,
+   "dai": 3.76,
+   "cau": [
+    158
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-11",
+   "neo": "159",
+   "nguon": "3d-moi:chien-hao",
+   "co": "toan",
+   "goc": "tren-xuong",
+   "hinh": "Đầu hào tiến dần theo thời gian.",
+   "chu": "",
+   "am": "xẻng đất",
+   "t0": 741.91,
+   "t1": 744.13,
+   "dai": 2.23,
+   "cau": [
+    159
+   ],
+   "kieu": "3d-moi",
+   "ten": "chien-hao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-12",
+   "neo": "160",
+   "nguon": "map3d:hao-cat-san-bay",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Hai nhánh hào gặp nhau giữa đường băng.",
+   "chu": "\"16/4/1954 · hào cắt đôi sân bay · Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 744.13,
+   "t1": 748.84,
+   "dai": 4.71,
+   "cau": [
+    160
+   ],
+   "kieu": "map3d",
+   "ten": "hao-cat-san-bay",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C5-13",
+   "neo": "161",
+   "nguon": "3d:BD9",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Bóng đồi A1 đen trên nền trời, chớp pháo xa sau đồi; không vẽ trăng.",
+   "chu": "\"từ đêm 20/4/1954 · Nguồn: TTXVN\"",
+   "am": "dế, nổ rất xa",
+   "t0": 748.84,
+   "t1": 753.48,
+   "dai": 4.64,
+   "cau": [
+    161
+   ],
+   "kieu": "3d",
+   "ten": "BD9",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C5-14",
+   "neo": "162",
+   "nguon": "3d:BD10",
+   "co": "trung",
+   "goc": "cat-lop",
+   "hinh": "Mặt cắt đồi A1: đường hầm hẹp xiên vào lòng đồi.",
+   "chu": "\"A1 · Đại đội công binh 83, Trung đoàn 151 · Nguồn: TTXVN\"",
+   "am": "đất cào",
+   "t0": 753.48,
+   "t1": 758.03,
+   "dai": 4.55,
+   "cau": [
+    162
+   ],
+   "kieu": "3d",
+   "ten": "BD10",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C5-15",
+   "neo": "163",
+   "nguon": "the:cau-hoi/dao-ham",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Câu hỏi trên nền tối.",
+   "chu": "\"Làm sao đào sâu vào chân một cứ điểm mà đối phương không hay biết?\"",
+   "am": "",
+   "t0": 758.03,
+   "t1": 763.54,
+   "dai": 5.52,
+   "cau": [
+    163
+   ],
+   "kieu": "the",
+   "ten": "cau-hoi/dao-ham",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-16",
+   "neo": "164",
+   "nguon": "anh:tan-cong-doi-a1-01",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Ảnh đồi A1, phóng chậm.",
+   "chu": "Thẻ tên \"Đại tá Nguyễn Bội Giong · phái viên Bộ Tổng tư lệnh trong chiến dịch · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 763.54,
+   "t1": 768.06,
+   "dai": 4.52,
+   "cau": [
+    164
+   ],
+   "kieu": "anh",
+   "ten": "tan-cong-doi-a1-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III / TTXVN · tư liệu, có thể là cảnh dựng lại"
+  },
+  {
+   "id": "C5-16b",
+   "neo": "164:22",
+   "nguon": "demo:BD10",
+   "co": "trung",
+   "goc": "cat-lop",
+   "hinh": "Mặt cắt đồi A1: đường hầm hẹp xiên vào lòng đồi (3D Demo đã duyệt; tách khỏi ảnh C5-16 cho ảnh hạng A? không quá 5 s).",
+   "chu": "",
+   "am": "đất cào khẽ",
+   "t0": 768.06,
+   "t1": 770.23,
+   "dai": 2.17,
+   "cau": [
+    164
+   ],
+   "kieu": "demo",
+   "ten": "BD10",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-17",
+   "neo": "165",
+   "nguon": "the:ba-viec/a1",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Ba dòng đánh dấu lần lượt ở câu 165, 166, 167.",
+   "chu": "\"không để lộ · đổ đất kín, giữ hướng · không để người đào ngạt · Đại tá Nguyễn Bội Giong · Nguồn: Báo QĐND\"",
+   "am": "bút đánh dấu",
+   "t0": 770.23,
+   "t1": 777.42,
+   "dai": 7.19,
+   "cau": [
+    165,
+    166,
+    167
+   ],
+   "kieu": "the",
+   "ten": "ba-viec/a1",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C5-18",
+   "neo": "168",
+   "nguon": "3d-moi:a1-cat",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Lòng hầm A1 hẹp, khối gói thuốc nổ cuối hầm (kho chưa có la bàn, đèn pin).",
+   "chu": "Chữ \"như con đom đóm\" · Nguồn: Báo QĐND",
+   "am": "đất rơi khẽ",
+   "t0": 777.42,
+   "t1": 783.11,
+   "dai": 5.68,
+   "cau": [
+    168
+   ],
+   "kieu": "3d-moi",
+   "ten": "a1-cat",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C5-19",
+   "neo": "169",
+   "nguon": "3d-moi:a1-cat",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Mặt cắt đồi A1, đường hầm xiên vào lòng đồi, góc khác.",
+   "chu": "",
+   "am": "quạt nan",
+   "t0": 783.11,
+   "t1": 786.29,
+   "dai": 3.18,
+   "cau": [
+    169
+   ],
+   "kieu": "3d-moi",
+   "ten": "a1-cat",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-20",
+   "neo": "170",
+   "nguon": "3d-moi:san-bay",
+   "co": "toan",
+   "goc": "cao",
+   "hinh": "Đường băng hố đạn, hào cắt ngang, xác C-47.",
+   "chu": "\"28/4/1954 · sân bay hoàn toàn bị vô hiệu hóa · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 786.29,
+   "t1": 790.21,
+   "dai": 3.92,
+   "cau": [
+    170
+   ],
+   "kieu": "3d-moi",
+   "ten": "san-bay",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C5-21",
+   "neo": "171",
+   "nguon": "map3d:shot-f-dot-3-a1",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "A1 và C1 nhấp sáng, chưa đổi màu.",
+   "chu": "",
+   "am": "",
+   "t0": 790.21,
+   "t1": 795.36,
+   "dai": 5.15,
+   "cau": [
+    171
+   ],
+   "kieu": "map3d",
+   "ten": "shot-f-dot-3-a1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-22",
+   "neo": "172",
+   "nguon": "the:dong-thoi-gian/3-dot",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thanh ba đợt, đợt 3 sáng.",
+   "chu": "\"Đợt 3 · 1/5 – 7/5/1954 · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 795.36,
+   "t1": 801.42,
+   "dai": 6.06,
+   "cau": [
+    172
+   ],
+   "kieu": "the",
+   "ten": "dong-thoi-gian/3-dot",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C5-23",
+   "neo": "173",
+   "nguon": "3d-moi:bau-troi",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Dù rơi xuống cạnh hào ta.",
+   "chu": "\"giai đoạn cuối: khoảng 1/3 số dù rơi vào trận địa ta · Nguồn: Báo Nhân Dân, TTXVN\"",
+   "am": "dù chạm đất",
+   "t0": 801.42,
+   "t1": 807.58,
+   "dai": 6.15,
+   "cau": [
+    173
+   ],
+   "kieu": "3d-moi",
+   "ten": "bau-troi",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân, TTXVN"
+  },
+  {
+   "id": "C5-24",
+   "neo": "174",
+   "nguon": "map3d:hoa-tien",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Vệt hỏa tiễn vạch trên phân khu Trung tâm trong đêm.",
+   "chu": "\"hỏa tiễn H6 · đợt 3 · Nguồn: Báo QĐND\"",
+   "am": "rít",
+   "t0": 807.58,
+   "t1": 809.7,
+   "dai": 2.12,
+   "cau": [
+    174
+   ],
+   "kieu": "map3d",
+   "ten": "hoa-tien",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C5-24b",
+   "neo": "H3",
+   "nguon": "demo:BD9+6",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Bóng đồi A1 đen trên nền trời đêm, chớp pháo và hỏa tiễn nổ sau đồi (3D Demo đã duyệt).",
+   "chu": "",
+   "am": "tổ hợp H3",
+   "t0": 809.7,
+   "t1": 811.29,
+   "dai": 1.59,
+   "cau": [],
+   "kieu": "demo",
+   "ten": "BD9+6",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-25",
+   "neo": "175",
+   "nguon": "3d:BD11",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Máy trượt dọc lòng hầm tới cuối: khối gói thuốc nổ sát vách.",
+   "chu": "\"khoảng 15 ngày đêm · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 811.29,
+   "t1": 817.97,
+   "dai": 6.68,
+   "cau": [
+    175
+   ],
+   "kieu": "3d",
+   "ten": "BD11",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C5-26",
+   "neo": "176",
+   "nguon": "the:lich/6-5-1954",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Đồng hồ 20:30 trên nền tối.",
+   "chu": "\"6/5/1954 · 20 giờ 30 phút · gần 1 tấn bộc phá · Nguồn: Báo QĐND\"",
+   "am": "tích tắc",
+   "t0": 817.97,
+   "t1": 820.25,
+   "dai": 2.28,
+   "cau": [
+    176
+   ],
+   "kieu": "the",
+   "ten": "lich/6-5-1954",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "C5-27",
+   "neo": "176:11",
+   "nguon": "3d:BD12",
+   "co": "toan",
+   "goc": "cat-lop",
+   "hinh": "Mặt cắt đồi: ánh đỏ bùng trong lòng đồi, đỉnh phồng lên (chậm bằng coGian).",
+   "chu": "",
+   "am": "lửa bén",
+   "t0": 820.25,
+   "t1": 823.03,
+   "dai": 2.78,
+   "cau": [
+    176
+   ],
+   "kieu": "3d",
+   "ten": "BD12",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-28",
+   "neo": "A1",
+   "nguon": "demo:BD13",
+   "co": "toan-xa",
+   "goc": "thap",
+   "hinh": "Cột đất lửa bùng từ đỉnh A1, sóng chấn, máy giật.",
+   "chu": "",
+   "am": "NỔ LỚN trong khoảng lặng A1",
+   "t0": 823.03,
+   "t1": 825.58,
+   "dai": 2.55,
+   "cau": [],
+   "kieu": "demo",
+   "ten": "BD13",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-29",
+   "neo": "177",
+   "nguon": "3d-moi:a1-dem",
+   "co": "toan-xa",
+   "goc": "ngang",
+   "hinh": "Cột khói sau nổ, bụi lắng trên đồi đêm.",
+   "chu": "\"Anh hùng Nguyễn Văn Bạch · Tiểu đội trưởng, Đại đội công binh 83 · Nguồn: TTXVN\"",
+   "am": "đất rơi",
+   "t0": 825.58,
+   "t1": 829.5,
+   "dai": 3.92,
+   "cau": [
+    177
+   ],
+   "kieu": "3d-moi",
+   "ten": "a1-dem",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: TTXVN"
+  },
+  {
+   "id": "C5-30",
+   "neo": "178",
+   "nguon": "karmen:43:36",
+   "co": "phim",
+   "goc": "thap",
+   "hinh": "Bộ đội xung phong, cột nổ trắng trên đồi.",
+   "chu": "",
+   "am": "súng, hô",
+   "t0": 829.5,
+   "t1": 832.49,
+   "dai": 2.99,
+   "cau": [
+    178
+   ],
+   "kieu": "karmen",
+   "ten": "43:36",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C5-30b",
+   "neo": "H4",
+   "nguon": "karmen:43:10.35",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Pháo ta khai hỏa ngược sáng rồi một lô cốt nổ tung, mảnh văng (phim Karmen, mô phỏng lại).",
+   "chu": "",
+   "am": "tổ hợp H4",
+   "t0": 832.49,
+   "t1": 834.36,
+   "dai": 1.87,
+   "cau": [],
+   "kieu": "karmen",
+   "ten": "43:10.35",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C5-31",
+   "neo": "179",
+   "nguon": "3d-moi:a1-dem",
+   "co": "toan-xa",
+   "goc": "cao",
+   "hinh": "Cột khói và lửa còn cháy trên đỉnh A1 sau tiếng nổ, máy lùi xa.",
+   "chu": "\"rạng sáng 7/5/1954 · làm chủ đồi A1 · Nguồn: Báo QĐND\"",
+   "am": "gió sớm",
+   "t0": 834.36,
+   "t1": 837.79,
+   "dai": 3.43,
+   "cau": [
+    179
+   ],
+   "kieu": "3d-moi",
+   "ten": "a1-dem",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C5-32",
+   "neo": "180",
+   "nguon": "map3d:shot-g-ket-ham",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Mũi tên tổng công kích từ mọi hướng vào phân khu Trung tâm.",
+   "chu": "\"7/5/1954 · tổng công kích · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 837.79,
+   "t1": 840.79,
+   "dai": 3.0,
+   "cau": [
+    180
+   ],
+   "kieu": "map3d",
+   "ten": "shot-g-ket-ham",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C5-33",
+   "neo": "181",
+   "nguon": "map3d:ba-quyet-dinh",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Ba mũi tên ①②③ hiện lại.",
+   "chu": "",
+   "am": "",
+   "t0": 840.79,
+   "t1": 842.66,
+   "dai": 1.87,
+   "cau": [
+    181
+   ],
+   "kieu": "map3d",
+   "ten": "ba-quyet-dinh",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-34",
+   "neo": "182",
+   "nguon": "3d-moi:tran-dia",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Đặc tả nòng 105 của ta trong hầm (không phải loạt 13/3).",
+   "chu": "",
+   "am": "",
+   "t0": 842.66,
+   "t1": 843.88,
+   "dai": 1.22,
+   "cau": [
+    182
+   ],
+   "kieu": "3d-moi",
+   "ten": "tran-dia",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-35",
+   "neo": "183",
+   "nguon": "3d:MB2",
+   "co": "toan-xa",
+   "goc": "thap",
+   "hinh": "C-47 kéo vệt khói đổ xuống sau dãy núi, cắt trước lúc chạm đất.",
+   "chu": "",
+   "am": "",
+   "t0": 843.88,
+   "t1": 845.73,
+   "dai": 1.85,
+   "cau": [
+    183
+   ],
+   "kieu": "3d",
+   "ten": "MB2",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C5-36",
+   "neo": "184",
+   "nguon": "the:niem-tin/2-hoi",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ 1 gạch \"sai\", thẻ 2 còn dấu hỏi.",
+   "chu": "\"niềm tin 2 · ? · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 845.73,
+   "t1": 853.25,
+   "dai": 7.52,
+   "cau": [
+    184
+   ],
+   "kieu": "the",
+   "ten": "niem-tin/2-hoi",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C5-37",
+   "neo": "185",
+   "nguon": "karmen:41:07.2",
+   "co": "phim",
+   "goc": "cao",
+   "hinh": "Con đường đất trên núi: dân công, xe, cờ đỏ (phim Karmen, mô phỏng lại).",
+   "chu": "",
+   "am": "bước chân, nhạc chuyển",
+   "t0": 853.25,
+   "t1": 857.85,
+   "dai": 4.6,
+   "cau": [
+    185
+   ],
+   "kieu": "karmen",
+   "ten": "41:07.2",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C6-01",
+   "neo": "186",
+   "nguon": "the:chuong/6",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chương 6.",
+   "chu": "\"Hai loại con số\"",
+   "am": "đập chương",
+   "t0": 857.85,
+   "t1": 859.16,
+   "dai": 1.32,
+   "cau": [
+    186
+   ],
+   "kieu": "the",
+   "ten": "chuong/6",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C6-02",
+   "neo": "186:6",
+   "nguon": "karmen:45:31",
+   "co": "phim",
+   "goc": "cao",
+   "hinh": "Hàng binh trên cánh đồng.",
+   "chu": "",
+   "am": "",
+   "t0": 859.16,
+   "t1": 862.44,
+   "dai": 3.27,
+   "cau": [
+    186
+   ],
+   "kieu": "karmen",
+   "ten": "45:31",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C6-03",
+   "neo": "187",
+   "nguon": "the:hai-cot/trai",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai cột số, cột trái sáng.",
+   "chu": "",
+   "am": "",
+   "t0": 862.44,
+   "t1": 865.79,
+   "dai": 3.35,
+   "cau": [
+    187
+   ],
+   "kieu": "the",
+   "ten": "hai-cot/trai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C6-04",
+   "neo": "188",
+   "nguon": "anh:hang-binh-phap-01",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Hàng binh Pháp, phóng chậm.",
+   "chu": "\"16.200 · tiêu diệt và bắt sống · Nguồn: Báo Chính phủ\"",
+   "am": "",
+   "t0": 865.79,
+   "t1": 868.68,
+   "dai": 2.89,
+   "cau": [
+    188
+   ],
+   "kieu": "anh",
+   "ten": "hang-binh-phap-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III"
+  },
+  {
+   "id": "C6-05",
+   "neo": "189",
+   "nguon": "anh:may-bay-bi-ban-ha-01",
+   "co": "anh",
+   "goc": "chech",
+   "hinh": "Máy bay bị bắn hạ, phóng chậm.",
+   "chu": "\"62 máy bay bị bắn rơi, phá hủy · Nguồn: Báo Chính phủ\"",
+   "am": "",
+   "t0": 868.68,
+   "t1": 872.12,
+   "dai": 3.44,
+   "cau": [
+    189
+   ],
+   "kieu": "anh",
+   "ten": "may-bay-bi-ban-ha-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III"
+  },
+  {
+   "id": "C6-06",
+   "neo": "190",
+   "nguon": "the:hai-cot/phai",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Cột phải sáng, còn trống.",
+   "chu": "",
+   "am": "",
+   "t0": 872.12,
+   "t1": 875.28,
+   "dai": 3.16,
+   "cau": [
+    190
+   ],
+   "kieu": "the",
+   "ten": "hai-cot/phai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C6-07",
+   "neo": "191",
+   "nguon": "vnmap:tay-bac",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Tây Bắc xa xôi, không chạm biển; hai khối nhỏ \"2 sư đoàn\" mờ.",
+   "chu": "\"Bộ chỉ huy Pháp tin: ta không tập trung được quá 2 sư đoàn · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 875.28,
+   "t1": 880.96,
+   "dai": 5.68,
+   "cau": [
+    191
+   ],
+   "kieu": "vnmap",
+   "ten": "tay-bac",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C6-08",
+   "neo": "192",
+   "nguon": "map3d:nam-dai-doan",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Năm khối đại đoàn hiện quanh lòng chảo.",
+   "chu": "\"5 đại đoàn · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 880.96,
+   "t1": 882.72,
+   "dai": 1.76,
+   "cau": [
+    192
+   ],
+   "kieu": "map3d",
+   "ten": "nam-dai-doan",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "C6-09",
+   "neo": "193",
+   "nguon": "the:so-lieu/40000",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Số chạy 40.000.",
+   "chu": "\"khoảng 40.000 quân chủ lực (khoảng 55.000 kể cả tuyến hai) · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 882.72,
+   "t1": 886.54,
+   "dai": 3.82,
+   "cau": [
+    193
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/40000",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C6-10",
+   "neo": "194",
+   "nguon": "3d:T-F2",
+   "co": "toan",
+   "goc": "cao",
+   "hinh": "Đoàn xe thồ uốn theo đường núi, mặt trời thấp.",
+   "chu": "",
+   "am": "bánh xe, bước chân",
+   "t0": 886.54,
+   "t1": 889.16,
+   "dai": 2.63,
+   "cau": [
+    194
+   ],
+   "kieu": "3d",
+   "ten": "T-F2",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C6-11",
+   "neo": "195",
+   "nguon": "3d:T-F1",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Đặc tả nan hoa quay, bao gạo căng.",
+   "chu": "",
+   "am": "nan xe đạp",
+   "t0": 889.16,
+   "t1": 891.17,
+   "dai": 2.01,
+   "cau": [
+    195
+   ],
+   "kieu": "3d",
+   "ten": "T-F1",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C6-12",
+   "neo": "196",
+   "nguon": "anh:xe-tho-dan-cong-01",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Xe thồ dân công, phóng chậm.",
+   "chu": "\"lúc đầu 80–100 kg/xe · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 891.17,
+   "t1": 895.01,
+   "dai": 3.84,
+   "cau": [
+    196
+   ],
+   "kieu": "anh",
+   "ten": "xe-tho-dan-cong-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III"
+  },
+  {
+   "id": "C6-13",
+   "neo": "197",
+   "nguon": "3d-moi:hau-phuong",
+   "co": "dac-ta",
+   "goc": "cao",
+   "hinh": "Đặc tả đoạn tre buộc vào ghi-đông (tay ngai), tay lái nghiêng.",
+   "chu": "\"tay ngai: đoạn tre khoảng 1 m buộc vào ghi-đông · Nguồn: Báo QĐND\"",
+   "am": "dây buộc",
+   "t0": 895.01,
+   "t1": 899.68,
+   "dai": 4.66,
+   "cau": [
+    197
+   ],
+   "kieu": "3d-moi",
+   "ten": "hau-phuong",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "C6-14",
+   "neo": "198",
+   "nguon": "the:so-lieu/xe-tho",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Số chạy 80–100 → 200–300 kg.",
+   "chu": "\"sau cải tiến 200–300 kg · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 899.68,
+   "t1": 904.98,
+   "dai": 5.3,
+   "cau": [
+    198
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/xe-tho",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "C6-15",
+   "neo": "199",
+   "nguon": "anh:xe-dap-tho-dan-cong-ttltqg3-a4",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Ảnh xe đạp thồ, phóng chậm.",
+   "chu": "\"ông Ma Văn Thắng · dân công Phú Thọ · có chuyến hơn 3 tạ · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 904.98,
+   "t1": 909.3,
+   "dai": 4.32,
+   "cau": [
+    199
+   ],
+   "kieu": "anh",
+   "ten": "xe-dap-tho-dan-cong-ttltqg3-a4",
+   "hang": "A",
+   "ghi_nguon": "Trung tâm Lưu trữ quốc gia III"
+  },
+  {
+   "id": "C6-16",
+   "neo": "200",
+   "nguon": "karmen:41:01",
+   "co": "phim",
+   "goc": "cao",
+   "hinh": "Đoàn dân công cờ đỏ trên đèo.",
+   "chu": "\"hơn 260.000 dân công hỏa tuyến · Nguồn: Báo Chính phủ\"",
+   "am": "",
+   "t0": 909.3,
+   "t1": 912.38,
+   "dai": 3.08,
+   "cau": [
+    200
+   ],
+   "kieu": "karmen",
+   "ten": "41:01",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "C6-17",
+   "neo": "200:14",
+   "nguon": "3d:T-F3",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Xe nặng gạo lướt sát máy, bụi trong nắng.",
+   "chu": "\"gần 21.000 xe đạp thồ · hơn 23.000 tấn gạo · Nguồn: Báo Chính phủ\"",
+   "am": "hành khúc dâng",
+   "t0": 912.38,
+   "t1": 916.74,
+   "dai": 4.36,
+   "cau": [
+    200
+   ],
+   "kieu": "3d",
+   "ten": "T-F3",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Chính phủ"
+  },
+  {
+   "id": "C6-18",
+   "neo": "201",
+   "nguon": "the:hai-cot/du",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Cột phải điền đủ bộ ba số.",
+   "chu": "\"Nguồn: Báo Chính phủ\"",
+   "am": "",
+   "t0": 916.74,
+   "t1": 921.67,
+   "dai": 4.93,
+   "cau": [
+    201
+   ],
+   "kieu": "the",
+   "ten": "hai-cot/du",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Chính phủ"
+  },
+  {
+   "id": "C6-19",
+   "neo": "202",
+   "nguon": "map3d:hai-duong",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Đường bay tiếp tế mờ dần, đường xe thồ trên núi sáng lên (câu 203).",
+   "chu": "",
+   "am": "",
+   "t0": 921.67,
+   "t1": 927.58,
+   "dai": 5.9,
+   "cau": [
+    202,
+    203
+   ],
+   "kieu": "map3d",
+   "ten": "hai-duong",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "C6-20",
+   "neo": "204",
+   "nguon": "3d-moi:a1-dem",
+   "co": "toan-xa",
+   "goc": "ngang",
+   "hinh": "Đồi trơ trong sương sớm, tĩnh, không người.",
+   "chu": "\"4.020 cán bộ, chiến sĩ hy sinh · 792 mất tích, 9.118 bị thương · Nguồn: VTV\"",
+   "am": "nhạc ~25 %",
+   "t0": 927.58,
+   "t1": 941.28,
+   "dai": 13.71,
+   "cau": [
+    204
+   ],
+   "kieu": "3d-moi",
+   "ten": "a1-dem",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: VTV"
+  },
+  {
+   "id": "C6-21",
+   "neo": "205",
+   "nguon": "the:niem-tin/2-sai",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Hai thẻ niềm tin cùng gạch \"sai\".",
+   "chu": "\"Nguồn: Báo Nhân Dân\"",
+   "am": "dấu đóng",
+   "t0": 941.28,
+   "t1": 949.45,
+   "dai": 8.16,
+   "cau": [
+    205
+   ],
+   "kieu": "the",
+   "ten": "niem-tin/2-sai",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Nhân Dân"
+  },
+  {
+   "id": "KT-01",
+   "neo": "206",
+   "nguon": "map3d:shot-g-ket-ham",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Máy hạ xuống hầm chỉ huy giữa phân khu Trung tâm.",
+   "chu": "\"17 giờ 30 phút · 7/5/1954 · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 949.45,
+   "t1": 954.03,
+   "dai": 4.59,
+   "cau": [
+    206
+   ],
+   "kieu": "map3d",
+   "ten": "shot-g-ket-ham",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "KT-02",
+   "neo": "206:21",
+   "nguon": "anh:danh-chiem-cau-muong-thanh-01",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Đánh chiếm cầu Mường Thanh, phóng chậm.",
+   "chu": "\"tổ xung kích Đại đội 360, Tiểu đoàn 130, Trung đoàn 209, Đại đoàn 312 · Đại đội trưởng Tạ Quốc Luật · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 954.03,
+   "t1": 958.08,
+   "dai": 4.05,
+   "cau": [
+    206
+   ],
+   "kieu": "anh",
+   "ten": "danh-chiem-cau-muong-thanh-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III"
+  },
+  {
+   "id": "KT-03",
+   "neo": "207",
+   "nguon": "3d-moi:ham-phap",
+   "co": "trung",
+   "goc": "thap",
+   "hinh": "Hầm vòm bao cát chỉ huy nhìn từ bên hông.",
+   "chu": "Chữ \"Giơ tay lên!\" đúng lúc đọc · lời kể của Anh hùng Tạ Quốc Luật · Nguồn: Báo Nhân Dân",
+   "am": "",
+   "t0": 958.08,
+   "t1": 963.21,
+   "dai": 5.13,
+   "cau": [
+    207
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "KT-04",
+   "neo": "208",
+   "nguon": "anh:de-castries-ra-hang-01",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Đờ Cát-xtơ-ri ra hàng, phóng chậm.",
+   "chu": "\"Đờ Cát-xtơ-ri bị bắt cùng toàn bộ Bộ Tham mưu · Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 963.21,
+   "t1": 967.03,
+   "dai": 3.83,
+   "cau": [
+    208
+   ],
+   "kieu": "anh",
+   "ten": "de-castries-ra-hang-01",
+   "hang": "A",
+   "ghi_nguon": "TTXVN · Triệu Đại"
+  },
+  {
+   "id": "KT-05",
+   "neo": "209",
+   "nguon": "3d-moi:ham-phap",
+   "co": "dac-ta",
+   "goc": "ngang",
+   "hinh": "Đặc tả bao cát nóc hầm chỉ huy (kho chưa có điện thoại dã chiến).",
+   "chu": "",
+   "am": "chuông điện thoại tắt",
+   "t0": 967.03,
+   "t1": 969.83,
+   "dai": 2.8,
+   "cau": [
+    209
+   ],
+   "kieu": "3d-moi",
+   "ten": "ham-phap",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "KT-06",
+   "neo": "209:10",
+   "nguon": "karmen:45:41",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Hàng dài hàng binh.",
+   "chu": "",
+   "am": "",
+   "t0": 969.83,
+   "t1": 972.17,
+   "dai": 2.33,
+   "cau": [
+    209
+   ],
+   "kieu": "karmen",
+   "ten": "45:41",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "KT-07",
+   "neo": "210",
+   "nguon": "anh:co-quyet-chien-quyet-thang-noc-ham-01",
+   "co": "anh",
+   "goc": "thap",
+   "hinh": "Lá cờ trên nóc hầm, phóng chậm; không làm 3D lá cờ.",
+   "chu": "",
+   "am": "nhạc dâng",
+   "t0": 972.17,
+   "t1": 977.04,
+   "dai": 4.88,
+   "cau": [
+    210
+   ],
+   "kieu": "anh",
+   "ten": "co-quyet-chien-quyet-thang-noc-ham-01",
+   "hang": "A?",
+   "ghi_nguon": "TTLTQG III / TTXVN"
+  },
+  {
+   "id": "KT-08",
+   "neo": "211",
+   "nguon": "the:lich/8-5-1954",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lịch 8/5/1954.",
+   "chu": "\"8/5/1954 · thư khen của Chủ tịch Hồ Chí Minh · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 977.04,
+   "t1": 980.36,
+   "dai": 3.32,
+   "cau": [
+    211
+   ],
+   "kieu": "the",
+   "ten": "lich/8-5-1954",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "KT-09",
+   "neo": "211:15",
+   "nguon": "karmen:45:15",
+   "co": "phim",
+   "goc": "ngang",
+   "hinh": "Dân bản chào đón bộ đội.",
+   "chu": "",
+   "am": "",
+   "t0": 980.36,
+   "t1": 984.75,
+   "dai": 4.39,
+   "cau": [
+    211
+   ],
+   "kieu": "karmen",
+   "ten": "45:15",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "KT-10",
+   "neo": "P3",
+   "nguon": "the:van-kien/thu-khen",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Lời Chủ tịch Hồ Chí Minh hiện chữ nguyên văn, không giọng đọc.",
+   "chu": "\"Thắng lợi tuy lớn nhưng mới là bắt đầu. Chúng ta không nên vì thắng mà kiêu, không nên chủ quan khinh địch.\" · thư ngày 8/5/1954 của Chủ tịch Hồ Chí Minh · Nguồn: Báo QĐND",
+   "am": "lặng, nhạc ~25 %",
+   "t0": 984.75,
+   "t1": 988.75,
+   "dai": 4.0,
+   "cau": [],
+   "kieu": "the",
+   "ten": "van-kien/thu-khen",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo QĐND"
+  },
+  {
+   "id": "KT-11",
+   "neo": "GN",
+   "nguon": "anh:geneve-hiep-dinh-1954-ban-chup-luu-tru-phap",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Văn bản Hiệp định Giơ-ne-vơ, phóng chậm.",
+   "chu": "\"8/5/1954 · Hội nghị Giơ-ne-vơ bắt đầu bàn về Đông Dương · Nguồn: Báo Chính phủ\"",
+   "am": "nhạc trở lại",
+   "t0": 988.75,
+   "t1": 991.78,
+   "dai": 3.02,
+   "cau": [],
+   "kieu": "anh",
+   "ten": "geneve-hiep-dinh-1954-ban-chup-luu-tru-phap",
+   "hang": "A",
+   "ghi_nguon": "Marc Baronnet, CC BY-SA 4.0"
+  },
+  {
+   "id": "KT-12",
+   "neo": "212",
+   "nguon": "map3d:ba-quyet-dinh",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Mũi tên ① hiện lại.",
+   "chu": "\"① Bộ chỉ huy Pháp · Nguồn: Báo Nhân Dân\"",
+   "am": "",
+   "t0": 991.78,
+   "t1": 997.85,
+   "dai": 6.07,
+   "cau": [
+    212
+   ],
+   "kieu": "map3d",
+   "ten": "ba-quyet-dinh",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Nhân Dân"
+  },
+  {
+   "id": "KT-13",
+   "neo": "213",
+   "nguon": "3d-moi:keo-phao",
+   "co": "toan-xa",
+   "goc": "thap",
+   "hinh": "Hàng người kéo pháo lên đỉnh dốc dưới trời sao (góc mới).",
+   "chu": "\"② Ta · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 997.85,
+   "t1": 1003.7,
+   "dai": 5.86,
+   "cau": [
+    213
+   ],
+   "kieu": "3d-moi",
+   "ten": "keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "KT-14",
+   "neo": "214",
+   "nguon": "map3d:hao-cat-san-bay",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Hào siết, đường băng cắt đôi.",
+   "chu": "\"③ Ta · Nguồn: Báo Chính phủ, TTXVN\"",
+   "am": "",
+   "t0": 1003.7,
+   "t1": 1009.46,
+   "dai": 5.76,
+   "cau": [
+    214
+   ],
+   "kieu": "map3d",
+   "ten": "hao-cat-san-bay",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo Chính phủ, TTXVN"
+  },
+  {
+   "id": "KT-15",
+   "neo": "215",
+   "nguon": "karmen:45:05",
+   "co": "phim",
+   "goc": "cao",
+   "hinh": "Bộ đội cầm cờ Quyết chiến Quyết thắng trên xe tăng thu được.",
+   "chu": "",
+   "am": "hành khúc",
+   "t0": 1009.46,
+   "t1": 1011.74,
+   "dai": 2.28,
+   "cau": [
+    215
+   ],
+   "kieu": "karmen",
+   "ten": "45:05",
+   "hang": "B",
+   "ghi_nguon": "Phim «Việt Nam» (R. Karmen, 1955) · tư liệu có cảnh dựng lại · trích, tắt tiếng gốc"
+  },
+  {
+   "id": "KT-16",
+   "neo": "215:11",
+   "nguon": "vnmap:toan-quoc",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Việt Nam toàn khung với Hoàng Sa, Trường Sa, \"Biển Đông\"; máy lùi rất chậm.",
+   "chu": "",
+   "am": "hành khúc",
+   "t0": 1011.74,
+   "t1": 1014.5,
+   "dai": 2.76,
+   "cau": [
+    215
+   ],
+   "kieu": "vnmap",
+   "ten": "toan-quoc",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "KT-17",
+   "neo": "216",
+   "nguon": "the:hook/3-phat-mo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "\"3 PHÁT\" hiện lần cuối rồi mờ.",
+   "chu": "\"Nguồn: TTXVN\"",
+   "am": "",
+   "t0": 1014.5,
+   "t1": 1020.97,
+   "dai": 6.47,
+   "cau": [
+    216
+   ],
+   "kieu": "the",
+   "ten": "hook/3-phat-mo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: TTXVN"
+  },
+  {
+   "id": "KT-18",
+   "neo": "217",
+   "nguon": "map3d:shot-c-keo-phao",
+   "co": "ban-do",
+   "goc": "cao",
+   "hinh": "Đường kéo pháo 15 km sáng dần từ Nà Nhạn qua Pu Pha Sông.",
+   "chu": "\"15 km · Nguồn: Báo QĐND\"",
+   "am": "",
+   "t0": 1020.97,
+   "t1": 1026.41,
+   "dai": 5.44,
+   "cau": [
+    217
+   ],
+   "kieu": "map3d",
+   "ten": "shot-c-keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Số liệu: Báo QĐND"
+  },
+  {
+   "id": "KT-19",
+   "neo": "218",
+   "nguon": "3d-moi:keo-phao",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Dừng ở khẩu pháo trên dốc, giữ lâu.",
+   "chu": "",
+   "am": "dây căng, rồi lặng",
+   "t0": 1026.41,
+   "t1": 1029.71,
+   "dai": 3.31,
+   "cau": [
+    218
+   ],
+   "kieu": "3d-moi",
+   "ten": "keo-phao",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "KT-20",
+   "neo": "219",
+   "nguon": "anh:ham-de-castries-2022",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Hầm Đờ Cát-xtơ-ri hôm nay.",
+   "chu": "\"hầm chỉ huy: dài 20 m · rộng 8 m · giữ nguyên cấu trúc · Nguồn: Báo Nhân Dân\"",
+   "am": "gió",
+   "t0": 1029.71,
+   "t1": 1033.42,
+   "dai": 3.71,
+   "cau": [
+    219
+   ],
+   "kieu": "anh",
+   "ten": "ham-de-castries-2022",
+   "hang": "A",
+   "ghi_nguon": "Ioe2015, CC BY 4.0"
+  },
+  {
+   "id": "KT-21",
+   "neo": "220",
+   "nguon": "3d-moi:a1-hom-nay",
+   "co": "toan-xa",
+   "goc": "cao",
+   "hinh": "Đồi trong sương nhìn từ cao, không người.",
+   "chu": "",
+   "am": "chim, gió",
+   "t0": 1033.42,
+   "t1": 1036.7,
+   "dai": 3.28,
+   "cau": [
+    220
+   ],
+   "kieu": "3d-moi",
+   "ten": "a1-hom-nay",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "KT-22",
+   "neo": "221",
+   "nguon": "can-tim:nghia-trang-a1",
+   "co": "anh",
+   "goc": "phang",
+   "hinh": "Ảnh Nghĩa trang liệt sĩ quốc gia A1 có giấy phép (Commons); chưa có thì thẻ số trên nền tối.",
+   "chu": "\"Nghĩa trang liệt sĩ quốc gia A1 · 645 mộ · Nguồn: Báo Văn hóa, TTXVN\"",
+   "am": "",
+   "t0": 1036.7,
+   "t1": 1041.1,
+   "dai": 4.4,
+   "cau": [
+    221
+   ],
+   "kieu": "can-tim",
+   "ten": "nghia-trang-a1",
+   "hang": "?",
+   "ghi_nguon": "chờ tư liệu có giấy phép"
+  },
+  {
+   "id": "KT-23",
+   "neo": "222",
+   "nguon": "the:so-lieu/645",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Ba số: 645 / 10 / 39.",
+   "chu": "\"645 mộ · 10 mộ đủ thông tin · 39 mộ có một phần thông tin · báo cáo 8/2026 · Nguồn: Báo Văn hóa, TTXVN\"",
+   "am": "",
+   "t0": 1041.1,
+   "t1": 1052.86,
+   "dai": 11.76,
+   "cau": [
+    222
+   ],
+   "kieu": "the",
+   "ten": "so-lieu/645",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: Báo Văn hóa, TTXVN"
+  },
+  {
+   "id": "KT-24",
+   "neo": "223",
+   "nguon": "can-tim:hang-mo-a1",
+   "co": "anh",
+   "goc": "thap",
+   "hinh": "Hàng mộ, không chữ chồng lên; chưa có ảnh thì chữ \"596\" trắng nhỏ trên nền đen.",
+   "chu": "\"596 mộ chưa có thông tin · Nguồn: Báo Văn hóa, TTXVN\"",
+   "am": "nhạc tắt dần",
+   "t0": 1052.86,
+   "t1": 1055.26,
+   "dai": 2.4,
+   "cau": [
+    223
+   ],
+   "kieu": "can-tim",
+   "ten": "hang-mo-a1",
+   "hang": "?",
+   "ghi_nguon": "chờ tư liệu có giấy phép"
+  },
+  {
+   "id": "KT-25",
+   "neo": "KT",
+   "nguon": "the:cau-hoi/binh-luan",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ câu hỏi bình luận cuối phim.",
+   "chu": "\"Theo bạn, quyết định nào trong ba quyết định ấy là quan trọng nhất?\"",
+   "am": "lặng",
+   "t0": 1055.26,
+   "t1": 1061.26,
+   "dai": 6.0,
+   "cau": [],
+   "kieu": "the",
+   "ten": "cau-hoi/binh-luan",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  }
+ ]
+}
