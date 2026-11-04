@@ -49,6 +49,12 @@ Kit là kho riêng tư của một tổ chức (GitHub Organization) và bạn c
 2. Chọn lần lượt: `GitHub.com` → `HTTPS` → `Yes` (xác thực Git) → `Login with a web browser`.
 3. Màn hình hiện mã gồm 8 ký tự. Nhấn Enter, trình duyệt mở ra; dán mã vào, đăng nhập bằng đúng tài khoản đã được mời, bấm cho phép.
 4. Kiểm tra: gõ `gh auth status`, phải thấy «Logged in to github.com».
+5. Khai tên cho Git (một lần; thiếu bước này thì lần commit đầu báo «Please tell me who you are»):
+
+   ```text
+   git config --global user.name "Tên của bạn"
+   git config --global user.email "<email GitHub của bạn>"
+   ```
 
 <!-- ảnh: các bước gh auth login và trang nhập mã -->
 
@@ -62,7 +68,7 @@ Mỗi tập phim:  P0 chọn đề tài → P1 nghiên cứu → P2 kịch bản
                → P5 dựng → P6 kiểm chất lượng → P7 bộ đăng → P8 Shorts
 ```
 
-Mỗi bước dừng lại cho bạn duyệt trước khi sang bước sau. Chi tiết, yêu cầu máy, tài khoản và chi phí: `HUONG-DAN.md`.
+Mỗi bước dừng lại cho bạn duyệt trước khi sang bước sau. Chi tiết, yêu cầu máy, tài khoản và chi phí: `HUONG-DAN.md`. Bản tóm tắt thao tác từng bước (tạo thư mục, lấy kit, commit và push, các phase, chạy lại top 20): `huong-dan/bat-dau-nhanh.md`.
 
 ## Lập repo kênh riêng
 
