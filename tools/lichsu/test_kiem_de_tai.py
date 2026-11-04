@@ -188,6 +188,26 @@ def test_so_that_khong_chan_nham(de):
     assert kdt.kiem(de, kdt.doc_cam(SO_THAT)).muc == "ĐẠT", de
 
 
+@pytest.mark.parametrize("de", [
+    "Dienbienphu 1954", "DIENBIENPHU", "Điệnbiênphủ", "Dien bienphu 1954", "dienbien phu", "Trận Dienbien",
+    "Himlam", "Decastries", "Muongthanh 1954", "Kếhoạchnavarre",
+])
+def test_so_that_chan_cach_viet_lien_khong_dau_cach(de):
+    assert kdt.kiem(de, kdt.doc_cam(SO_THAT)).muc == "CHẶN", de
+
+
+@pytest.mark.parametrize("de", ["Trận Vạn Tường 1965", "Trận Núi Thành 1965", "Van Tuong 1965", "Vantuong", "Dienbienxyz"])
+def test_so_that_viet_lien_khong_chan_nham_de_tai_khac(de):
+    assert kdt.kiem(de, kdt.doc_cam(SO_THAT)).muc == "ĐẠT", de
+
+
+def test_viet_lien_chi_khop_o_ranh_gioi_tieng(tmp_path):
+    """Ghép các tiếng liền kề phải trùng đúng từ khoá, không khớp một đoạn nằm giữa chữ."""
+    cam = kdt.doc_cam(tep(tmp_path, "cam.tsv", CAM))
+    assert kdt.kiem("Trận Dienbienphuxyz", cam).muc == "ĐẠT"
+    assert kdt.kiem("Trận Xdienbienphu", cam).muc == "ĐẠT"
+
+
 def test_so_that_dong_nao_co_nam_va_tu_khoa_rieng_van_chan_khac_nam():
     cam = kdt.doc_cam(SO_THAT)
     for r in cam:
@@ -203,3 +223,18 @@ def test_help_in_huong_dan_ma_0(capsys):
         assert kdt.main([co]) == 0
         out = capsys.readouterr().out
         assert "Mã thoát" in out and "đã so" not in out.splitlines()[0]
+
+
+SO_FORM = """Dấu thời gian\tĐề tài\tGóc kể\tNgôn ngữ\tHội viên
+04/11/2026 20:15:00\tMidway 1942\tBa quyết định của đô đốc\tvi\tKênh A
+"""
+
+
+@pytest.mark.parametrize("cot_ngay", ["Dấu thời gian", "Timestamp"])
+def test_so_tai_tu_google_form_doc_cot_thoi_gian_lam_ngay(tmp_path, cot_ngay):
+    chung = kdt.doc_so_chung(tep(tmp_path, "form.tsv", SO_FORM.replace("Dấu thời gian", cot_ngay)))
+    assert chung[0]["ngay"] == "04/11/2026 20:15:00"
+    cam = kdt.doc_cam(tep(tmp_path, "cam.tsv", CAM))
+    kq = kdt.kiem("Midway 1942", cam, chung, goc="Ba quyết định của đô đốc", ngon_ngu="vi")
+    assert kq.muc == "CHẶN"
+    assert any("Kênh A | 04/11/2026" in d for d in kq.dong_khop)

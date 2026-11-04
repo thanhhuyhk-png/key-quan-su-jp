@@ -1,6 +1,6 @@
 # Mẫu Google Sheet 14 tab và cấu trúc JSON hồ sơ
 
-Bảng mẫu của chủ kit có 14 tab (link: <điền: link Google Sheet top 20 mẫu, chế độ xem>). Hội viên mở link rồi bấm «Tệp → Tạo bản sao» để có bản riêng; nếu chủ kit chưa gửi link thì bỏ qua bảng mẫu, dùng tệp XLSX do `xuat_sheet.py` sinh ra làm bảng của mình; số liệu trong bản mẫu là số đo của ngách mẫu, chỉ để tham khảo cách trình bày. Bảng đi theo cách làm quen thuộc: danh sách kênh với số follow ở hai mốc ngày và tăng trưởng 30 ngày, video triệu view gom theo kênh, bảng khảo sát rộng, tab chú ý quan trọng và tab nhân bản đề tài; skill thêm các cột đo chuẩn hoá, báo cáo thăng hạng và tab Model Link.
+Bảng mẫu của chủ kit có 15 tab: 14 tab dưới đây và tab «13. Kết quả tập 1» (kết quả tập mẫu sau khi làm theo bảng). Link, chế độ xem: https://docs.google.com/spreadsheets/d/1YzYqOGoTml1d3e8SS2LB58vFWI2YSTKJWVifW_BEW9s/edit?usp=sharing. Hội viên mở link rồi bấm «Tệp → Tạo bản sao» để có bản riêng; nếu chủ kit chưa gửi link thì bỏ qua bảng mẫu, dùng tệp XLSX do `xuat_sheet.py` sinh ra làm bảng của mình; số liệu trong bản mẫu là số đo của ngách mẫu, chỉ để tham khảo cách trình bày. Bảng đi theo cách làm quen thuộc: danh sách kênh với số follow ở hai mốc ngày và tăng trưởng 30 ngày, video triệu view gom theo kênh, bảng khảo sát rộng, tab chú ý quan trọng và tab nhân bản đề tài; skill thêm các cột đo chuẩn hoá, báo cáo thăng hạng và tab Model Link.
 
 ## Danh sách tab (đúng tên và thứ tự trong bảng mẫu)
 | Tab | Nội dung | Nguồn |
@@ -77,7 +77,7 @@ Quy ước: script **luôn tính lại hạng** từ `diem` trong các kênh «G
 3. Muốn chia sẻ cho người khác: chế độ chỉ xem hoặc «tạo bản sao», không công khai khi chưa được yêu cầu.
 
 ## Gộp hồ sơ bằng `scripts/gop_ho_so.py`
-`python scripts/gop_ho_so.py --do-kenh <thư mục do-kenh> --video-dir <thư mục TSV video> --dinh-tinh <dinh-tinh.json|kenh.tsv> --out ho-so-top20.json [--xep-hang xep-hang.json] [--as-of <ngày>]`
+`python .claude/skills/tu-duy-top-20-ytb/scripts/gop_ho_so.py --do-kenh <thư mục do-kenh> --video-dir <thư mục TSV video> --dinh-tinh <dinh-tinh.json|kenh.tsv> --out ho-so-top20.json [--xep-hang xep-hang.json] [--as-of <ngày>]`
 - `do-kenh/<id kênh>.json` = `do_kenh.py kenh --json`; `video-dir/<id kênh>.tsv` = `thu_video.py` (cùng id); `xep-hang.json` = `do_kenh.py xep-hang --json` (điểm, hạng, khoảng hạng, ghi đè).
 - Bảng định tính (JSON): `du_an`, `ngay_do`, `ngay_moc_truoc`, `muc_tieu`, `model_link`, `doi_chung`, `nhan_ban`, `theo_doi`, `chu_y` (chép nguyên vào hồ sơ), `kenh` = `{<id>: {ten, link, giu_loai, nhom, ngach, dinh_dang, tuoi_khan_gia, tuoi_muc_tin, ly_do, hoc_gi, khong_hoc_gi, chu_y, nguon_so, view_30_ngay, video_30_ngay…}}` (hoặc danh sách có trường `id`), `video` = `{<id video>: {de_tai, goc_tiep_can, tu_huyet, kieu_mo, anh_bia, dinh_phat_lai, yeu_cau_binh_luan, kiem_tra_so, ghi_chu}}` (ghi đè giá trị tự động). Đuôi `.tsv` thì là bảng kênh một dòng một kênh (cột `id`, `ten`, `giu_loai`, `nhom`…).
 - Số đo (chỉ số kênh, điểm, hạng, cờ) lấy từ file đo và `--xep-hang`; ghi đè `--ghi-de` được áp lại nên khớp bảng xếp hạng. Bảng định tính **không** ghi đè số đo: trùng khoá thì giữ số đo và cảnh báo (trừ `video_30_ngay`).

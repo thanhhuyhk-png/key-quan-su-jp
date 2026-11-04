@@ -26,14 +26,14 @@ Dùng vidIQ thì: chỉ một tiến trình gọi tại một thời điểm (b�
 
 ## Lấy số sub bằng yt-dlp (không cần khoá)
 Lệnh sau đọc video mới nhất của kênh và in id kênh, số sub, tên kênh (đã thử chạy thật, không cookie, không khoá):
-`yt-dlp --ignore-config --no-warnings --skip-download --playlist-items 1 --print "%(channel_id)s\t%(channel_follower_count)s\t%(channel)s" "https://www.youtube.com/@<handle>/videos"`
+`yt-dlp --ignore-config --no-warnings --encoding utf-8 --skip-download --playlist-items 1 --print "%(channel_id)s\t%(channel_follower_count)s\t%(channel)s" "https://www.youtube.com/@<handle>/videos"`
 - Giá trị cột 2 là số cho `do_kenh.py --subs`. Lấy một lần mỗi kênh, cùng ngày với lần chạy `thu_video.py`, nghỉ 3 giây giữa các kênh.
 - Kênh ẩn số sub thì giá trị là `NA`: ghi «chưa có», kênh đó thành «Không đủ chỉ số» (bình thường, không đoán).
 - Nhiều kênh: ghi cột `subs` vào `bang-kenh.tsv` (hợp đồng dữ liệu dưới) để `do_kenh.py xep-hang` đọc.
 - Sub 30 ngày trước: lần đầu để trống (không ước); lần đo kỳ sau lấy từ tab 9 của lần đo trước.
 
 ## Thu video: `scripts/thu_video.py`
-`python scripts/thu_video.py <kênh>... --out-dir <thư mục> [--ds kenh.txt] [--nghi 3] [--so-dai 100] [--lam-lai]`
+`python .claude/skills/tu-duy-top-20-ytb/scripts/thu_video.py <kênh>... --out-dir <thư mục> [--ds kenh.txt] [--nghi 3] [--so-dai 100] [--lam-lai]`
 - `--out-dir` đặt dưới thư mục khoá `nghien_cuu` của `cau-hinh.toml` (xem SKILL.md mục «Nguồn dữ liệu theo mức chạy»), ví dụ `<nghien_cuu>/<ngách>-<ngày>/thu-video`.
 - Mỗi kênh: flat `/videos` và `/shorts` chỉ để lấy **danh sách id** (mới → cũ), rồi đọc metadata đầy đủ của: 100 video dài mới nhất (cửa sổ liên tục), 10 video dài nhiều view nhất, 8 video dài cũ nhất, 15 Shorts mới nhất, 8 Shorts cũ nhất. Ghi `<khoá>.tsv` (đúng hợp đồng dữ liệu dưới) và `<khoá>.meta.json` (`ngay_video_dau`, `cua_so_tu`, `so_hoi_vien`, `n_dai_flat`, `n_short_flat`, `pho_bien`…). Kênh đã có đủ hai file thì bỏ qua (`--lam-lai` để đọc lại).
 - Lệnh dùng `--ignore-config` (không để cấu hình yt-dlp có sẵn kéo cookie trình duyệt vào) và không bao giờ dùng cookie.
@@ -48,7 +48,7 @@ Lệnh sau đọc video mới nhất của kênh và in id kênh, số sub, tên
 - Flat **dịch tiêu đề sang tiếng Anh** khi đặt `lang=en`: tiêu đề lấy từ metadata đầy đủ.
 
 ## Chạy nền trên Windows (Git Bash)
-- `nohup python scripts/thu_video.py … > thu.log 2>&1 &` trong một lệnh công cụ vẫn sống sau khi lệnh kết thúc. Chạy thêm một lệnh nền thứ hai tạo **hai** tiến trình yt-dlp song song (vi phạm «tuần tự», rủi ro 429) mà log trống nên khó thấy.
+- `nohup python .claude/skills/tu-duy-top-20-ytb/scripts/thu_video.py … > thu.log 2>&1 &` trong một lệnh công cụ vẫn sống sau khi lệnh kết thúc. Chạy thêm một lệnh nền thứ hai tạo **hai** tiến trình yt-dlp song song (vi phạm «tuần tự», rủi ro 429) mà log trống nên khó thấy.
 - Script giành `thu_video.pid` trong `--out-dir` bằng tạo file nguyên tử và **từ chối chạy** (mã thoát 3) khi PID đó còn sống **và dòng lệnh của nó chứa `thu_video`** (PID bị hệ điều hành tái dùng cho tiến trình khác thì không chặn). Trước khi chạy lại hoặc dừng, xem cả python lẫn yt-dlp: PowerShell `Get-CimInstance Win32_Process -Filter "Name like 'python%' or Name like 'yt-dlp%'" | Select ProcessId,ParentProcessId,CommandLine`. Python bị dừng đột ngột (kể cả `taskkill` không kèm `/T`) để lại **yt-dlp mồ côi** vẫn chạy và vẫn tạo yêu cầu: dừng đúng PID đã xác nhận bằng dòng lệnh, với `/T` để dừng cả tiến trình con. File PID cũ của tiến trình đã chết thì script tự dọn và chạy tiếp; kênh đã đủ file được bỏ qua.
 - Không chạy hai `--out-dir` khác nhau cùng lúc trên cùng một máy.
 

@@ -109,11 +109,11 @@ Hỏi trong **nhóm Zalo hội viên Goha** (link nhóm nhận khi bạn vào c�
 Khi báo lỗi, gửi kèm: bước đang làm (K1, P4…), thông báo lỗi nguyên văn, và nội dung `kiem-may.md` nếu có. KHÔNG gửi `.env` hay bất kỳ khoá API nào.
 
 <!--
-Chủ kit cần điền trước khi phát hành (hội viên không thấy phần này). Tìm chuỗi «<điền:» trong kit/ để thấy hết các chỗ:
+Chủ kit cần điền trước khi phát hành (hội viên không thấy phần này). Tìm chuỗi «<điền:» trong toàn bản xuất (tệp kit nằm ở gốc, `huong-dan/`, `.claude/skills/`; không chỉ trong `kit/` của repo nguồn) để thấy hết các chỗ:
 1. Link repo kit (README.md, hai khối lệnh ở mục «Lập repo kênh riêng»), và đánh dấu repo là «template» nếu muốn cách B chạy.
 2. Kênh liên lạc hỗ trợ (README.md, mục «Hỗ trợ»).
-3. Link sổ đăng ký đề tài chung (HUONG-DAN.md, mục 6, lớp 2) kèm quyền hội viên: comment hoặc điền form, không sửa dòng người khác.
-4. Link Google Sheet top 20 mẫu, chế độ xem (kit/skills/tu-duy-top-20-ytb/SKILL.md mục «Bảng 14 tab» và references/mau-google-sheet.md).
+3. Link sổ đăng ký đề tài chung (HUONG-DAN.md, mục 6, lớp 2) kèm quyền hội viên: comment hoặc điền form, không sửa dòng người khác. Form đăng ký bắt buộc có đúng 4 câu hỏi tên «Đề tài», «Góc kể», «Ngôn ngữ», «Hội viên» (cột «Dấu thời gian» do Form tự thêm); `tools/lichsu/kiem-de-tai.py` đọc sổ chung theo đúng tên cột này, đặt tên khác (vd «Đề tài bạn muốn làm») thì máy báo lỗi mã 2.
+4. Link Google Sheet top 20 mẫu, chế độ xem (.claude/skills/tu-duy-top-20-ytb/SKILL.md mục «Bảng 14 tab» và .claude/skills/tu-duy-top-20-ytb/references/mau-google-sheet.md).
 5. Tên nhánh chính của repo kit (README.md đang giả định `main`) và quyền Read của team trong Organization.
 6. Ảnh minh hoạ các bước cài (các chú thích HTML bắt đầu bằng chữ «ảnh:» trong README.md).
 -->

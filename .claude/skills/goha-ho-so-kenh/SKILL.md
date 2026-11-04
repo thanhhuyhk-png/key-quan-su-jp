@@ -18,9 +18,9 @@ Ngách đề xuất · Model Link (kênh mẫu để bám) · link Google Sheet 
 3. **Luật nội dung riêng của ngách** → `ho-so-kenh/luat-noi-dung.md`. Tự nghiên cứu: chủ đề nhạy cảm của ngách, cách gọi tên đúng với từng bên, địa danh và bản đồ tranh chấp, nhân vật còn sống hoặc lãnh tụ, chính sách YouTube liên quan. Đọc bình luận các video top của sheet để biết khán giả hay sửa gì. Mẫu và câu hỏi gợi ý: `references/luat-noi-dung.mau.md`. Ngách có Việt Nam thì luật cứng sử Việt trong `CLAUDE.md` của kit vẫn áp cho mọi bản đồ, không chép lại ở đây.
 4. **Sổ cách nói**: nếu chưa có thì tạo `kenh/cach-noi-da-chot.tsv` chỉ có dòng tiêu đề (6 cột, phân cách tab): `ma`, `cam`, `dung`, `ly_do`, `nguon`, `pham_vi`. Không tạo thêm dòng nào; dòng được thêm khi người dùng sửa cách nói về sau. Nếu ngách đã có cách gọi bắt buộc từ bước 3 thì ghi ở `luat-noi-dung.md` trước, chỉ đưa vào sổ khi cần máy kiểm.
 5. **Bộ lọc chính sách**: dùng chung `kenh/bo-loc-chinh-sach-yt.md` và `tools/loc-chinh-sach/`, không viết bản riêng. Ghi vào hồ sơ đường dẫn hai thứ đó.
-6. **Giọng** (chi tiết `references/giong.md`): chọn theo ngôn ngữ ngách và mức chạy, **bắt buộc khác** giọng `3VnrjnYrskPMDsapTr8X` của kênh mẫu. Nghe thử 2–3 giọng; ElevenLabs là bước trả phí, **báo số ký tự và chi phí ước trong chat rồi chờ đồng ý** mới gọi. Ghi `voice_id`, model, thẻ đầu bài, quy tắc sửa câu vào hồ sơ.
+6. **Giọng** (chi tiết `references/giong.md`): chọn theo ngôn ngữ ngách và mức chạy, **bắt buộc khác** giọng `3VnrjnYrskPMDsapTr8X` của kênh mẫu. Nghe thử 2–3 giọng; ElevenLabs là bước trả phí, **báo số ký tự và chi phí ước trong chat rồi chờ đồng ý** mới gọi. Ghi `voice_id`, model, thẻ đầu bài, quy tắc sửa câu vào hồ sơ. **Riêng mức Miễn phí:** đường giọng miễn phí (VieNeu V3 chạy trên máy) chưa được thử đầu cuối trên kit, nên K2 không bắt bạn cài và nghe thử giọng. Ở mục 3 của hồ sơ, ghi nhà cung cấp là «VieNeu V3 (dự kiến)», `voice_id`, model, thẻ đầu bài, cách đọc đều là «chưa chọn», và coi cổng giọng của K2 là hoãn sang P4 (lúc làm giọng cho tập đầu, `goha-ls-giong` sẽ chọn giọng theo `references/giong.md`). Nói thật với người dùng rằng đường VieNeu chưa ai thử đầu cuối; nếu kẹt khi cài hoặc chạy thì hỏi nhóm Zalo hội viên Goha, đừng tự mò cài thêm.
 7. **Thương hiệu** (chi tiết `references/thuong-hieu.md`): chọn tên kênh, bảng màu, font; sinh logo, ảnh đại diện, banner, dấu kênh bằng máy dựng chung `tools/thuong-hieu/thuong_hieu.py` đọc `kenh/thuong-hieu/thuong-hieu.json` (không chép hay sửa máy dựng của kênh mẫu). Bảng màu **bắt buộc khác** cặp ô-liu `#3a4126` + vàng đồng `#e2b04a`; chạy `scripts/kiem-mau.py` (cách dùng ở tài liệu ấy). Không dùng ảnh AI làm logo.
-8. **Cổng 3, duyệt thương hiệu.** Đưa đường dẫn ảnh đại diện (xem ở 98 px và 40 px), banner, logo hai nền, 3 mẫu giọng đã nghe. **DỪNG** chờ gật. Chưa gật thì không ghi hồ sơ thành chính thức.
+8. **Cổng 3, duyệt thương hiệu.** Đưa đường dẫn ảnh đại diện (xem ở 98 px và 40 px), banner, logo hai nền, và 3 mẫu giọng đã nghe (mức Miễn phí không có mẫu giọng: giọng ghi «chưa chọn», hoãn sang P4, xem bước 6). **DỪNG** chờ gật. Chưa gật thì không ghi hồ sơ thành chính thức.
 9. **Ghi `ho-so-kenh/ho-so.md`** theo `references/ho-so.mau.md`, đủ mọi mục, không để dấu `<...>`; chép «Mức chạy» và «Công cụ thay thế đang dùng» từ `kiem-may.md` sang. Ghi tên kênh, mô tả kênh, tagline ra một tệp tạm (mỗi dòng một mục) rồi chạy `python -I tools/loc-chinh-sach/quet.py --tieu-de <tệp tạm>`: 0 CHẶN. Dòng «Trạng thái» ghi tạm «nháp» (đổi ở bước 11).
 10. **Tạo năm tệp kênh từ khuôn** (P2, P7, P8 đọc chúng; chưa có thì các skill đó không chạy được). Khuôn trống nằm ở `references/khuon-kenh/`. Chép từng tệp sang `kenh/`, điền bằng dữ liệu đã duyệt ở các cổng và sheet top 20 (mở ảnh bìa, đọc mô tả của video thắng; không chép chữ của kênh nào), thay hết `<...>`:
     - `khung-kenh.md` ← cổng 1 và 2 (ngách, Model Link, hệ từ lấy từ `luat-noi-dung.md`).
@@ -35,11 +35,12 @@ Ngách đề xuất · Model Link (kênh mẫu để bám) · link Google Sheet 
 ## Kiểm xong
 - `ho-so-kenh/ho-so.md` không còn `<...>`, có dòng «Trạng thái: đã duyệt», mọi đường dẫn tệp thương hiệu tồn tại.
 - Năm tệp `kenh/khung-kenh.md`, `lich-noi-dung.md`, `thumbnail-chuan.md`, `mo-ta-chuan.md`, `seo-kenh.md` tồn tại và không còn `<...>`.
-- `voice_id` khác kênh mẫu; lệnh kiểm màu in "ĐẠT".
+- `voice_id` khác kênh mẫu (mức Miễn phí được ghi «chưa chọn», hoãn sang P4); lệnh kiểm màu in "ĐẠT".
 - `ho-so-kenh/luat-noi-dung.md` có ít nhất: cách gọi tên các bên, chủ đề nhạy cảm, điều cấm, nguồn đã tra.
 - Không có khoá API trong bất kỳ tệp nào; không đọc `.env`.
 
 ## Lỗi thường gặp
 - Chọn giọng đẹp nhất theo cảm tính rồi trùng giọng kênh mẫu: so `voice_id` bằng chữ, không bằng tai.
+- Mức Miễn phí mà tự cài VieNeu để có đủ mẫu giọng cho cổng 3: không cần. Ghi «chưa chọn» và đi tiếp, giọng làm ở P4.
 - Màu chỉ đổi sắc nhẹ (xanh lá đậm thay ô-liu): vẫn tính là gần, cho chạy lệnh kiểm.
 - Bỏ qua luật riêng của ngách vì "đã có luật cứng sử Việt": luật cứng chỉ lo Việt Nam, không lo ngách của bạn.

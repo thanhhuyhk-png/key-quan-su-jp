@@ -19,7 +19,7 @@
 | Đọc được | Chữ rõ ở cỡ 168 × 94: soi trước khi xuất |
 
 ## Cấm (theo luật cứng và bộ lọc chính sách)
-- Ảnh AI (kênh sử Việt); ảnh lãnh tụ chế hoặc sửa; máu, thi thể, vết thương; chữ «sốc», «kinh hoàng», «không che» (mục C của `kenh/bo-loc-chinh-sach-yt.md`); chữ không đúng nghĩa đen theo sổ số liệu.
+- Ảnh AI (kênh sử Việt); ảnh lãnh tụ chế hoặc sửa; mọi hình thương tích, tử vong; cờ của chính quyền Sài Gòn cũ; mọi chữ giật tít hay cường điệu cảm xúc (danh sách ở mục C của `kenh/bo-loc-chinh-sach-yt.md`); chữ không đúng nghĩa đen theo sổ số liệu.
 - `<cấm riêng của ngách>`
 
 ## Thử A/B

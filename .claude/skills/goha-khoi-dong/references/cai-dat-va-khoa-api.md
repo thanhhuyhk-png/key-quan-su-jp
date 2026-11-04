@@ -10,7 +10,7 @@
 | Git | Có | `winget install Git.Git` | Tự cài trước K1 |
 | GitHub CLI | Có | `winget install GitHub.cli`, rồi `gh auth login` | Đăng nhập bằng tài khoản đã được mời vào team |
 | Python 3.10 trở lên | Có | `winget install Python.Python.3.12` | Tích chọn «Add to PATH» nếu bộ cài hỏi |
-| Thư viện Python | Có | `python -m pip install -r requirements.txt` | numpy, pillow, opencv-python, soundfile, pytest, openpyxl, yt-dlp, requests, fonttools |
+| Thư viện Python | Có | `python -m pip install -r requirements.txt` | numpy, pillow, opencv-python, soundfile, pytest, openpyxl, yt-dlp, requests, scipy, fonttools |
 | Node.js 22 trở lên | Có | `winget install OpenJS.NodeJS.LTS`, rồi `npm install` trong `template/` | Cần Node 22 vì `tools/kit/dung-trang.mjs` dùng WebSocket có sẵn của Node, bản cũ không có |
 | ffmpeg và ffprobe | Có | `winget install Gyan.FFmpeg` | Một lệnh cài cả hai |
 | Chrome hoặc Edge | Có | Edge có sẵn trong Windows; hoặc `winget install Google.Chrome` | Dùng chụp ảnh headless (thẻ chữ, bìa); đường dẫn ghi ở khoá `chrome` nếu nằm chỗ lạ |

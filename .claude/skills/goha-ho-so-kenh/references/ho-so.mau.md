@@ -20,7 +20,7 @@
 
 ## 3. Giọng người dẫn
 - Nhà cung cấp: `<ElevenLabs | VieNeu | Kokoro | khác>`
-- `voice_id`: `<mã>` (**phải khác `3VnrjnYrskPMDsapTr8X`**) · tên giọng: `<tên>`
+- `voice_id`: `<mã, hoặc «chưa chọn» nếu mức Miễn phí hoãn giọng sang P4>` (**phải khác `3VnrjnYrskPMDsapTr8X`**) · tên giọng: `<tên hoặc «chưa chọn»>`
 - Model: `<vd eleven_v4>` · ngôn ngữ (`language_code`): `<vi | en | ...>`
 - Thẻ đầu bài: `<vd [fast-paced] hoặc "không dùng">`
 - Cách đọc: `<đọc cả bài một lần rồi cắt câu | từng đoạn ≤ ... ký tự>`
@@ -33,7 +33,7 @@
 - Kết quả lệnh kiểm màu khác kênh mẫu: `<ĐẠT, ngày>`
 - Font tiêu đề: `<tên, giấy phép OFL hoặc tương đương>` · font nội dung: `<tên>` (phải có dấu tiếng Việt nếu kênh tiếng Việt)
 - Tagline: `<...>`
-- Tệp, tính từ gốc repo, trong thư mục hướng đã chọn `kenh/thuong-hieu/<hướng: vach | tron | gach>/`: logo `svg/` và `png/` (cùng bộ, nền trong) · logo ảnh bìa `png/logo-anh-bia.png` · ảnh đại diện, banner, dấu kênh trong phim `youtube/` (`anh-dai-dien-800.png`, `banner-2560x1440.jpg`, `dau-kenh-150.png`)
+- Tệp, tính từ gốc repo, trong thư mục hướng đã chọn `kenh/thuong-hieu/ra/<hướng: vach | tron | gach>/` (thư mục `--ra` của lệnh dựng thương hiệu): logo `svg/` và `png/` (cùng bộ, nền trong) · logo ảnh bìa `png/logo-anh-bia.png` · ảnh đại diện, banner, dấu kênh trong phim `youtube/` (`anh-dai-dien-800.png`, `banner-2560x1440.jpg`, `dau-kenh-150.png`)
 - Cấm riêng của thương hiệu: `<vd không đặt logo lên nền cùng màu>`
 
 ## 5. Luật nội dung

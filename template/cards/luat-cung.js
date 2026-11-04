@@ -3,7 +3,8 @@
 export const LOAI_P2 = ['tai-lieu-dich', 'phim-panel', 'the-am-thanh', 'nhan-vat', 'bieu-do'];
 export const NHAN_AM_THANH = ['MÔ PHỎNG LẠI', 'GHI ÂM GỐC'];
 export const TRAN_ZOOM_LANH_TU = 1.08;       // ảnh lãnh tụ chỉ phóng đều rất chậm, trần 8 %
-export const KHUNG_TI_LE = 0.8;              // khung nhan-vat «khung» rộng/cao = 4:5
+export const TI_LE_KHUNG_MIN = 0.6;         // giới hạn rộng/cao của khung theo từng ảnh
+export const TI_LE_KHUNG_MAX = 1.6;
 export const TRAN_PHONG_CAT = 2;             // ảnh lãnh tụ: vùng cắt ≥ 1/2 cạnh ảnh (phóng ≤ 2 lần), không cắt sát mặt
 export const TRAN_RAM_BYTE = 450 * 1024 * 1024; // tổng byte khung phim sau giải mã
 const BO_QUA = ['source', 'credit'];         // nguồn có thể nhắc tên lãnh tụ (tên sách, báo) nên không quét
@@ -33,8 +34,31 @@ export function timTenLanhTu(obj, names, path = '') {
 /** Số byte bitmap của n khung rộng w, cao h (RGBA). */
 export const uocRam = (n, w, h) => n * w * h * 4;
 
-/** Vùng cắt (chuẩn hoá theo ảnh) của khung 4:5 từ cat = [tâmX, tâmY, rộng] trên ảnh w×h; trả {rong, cao}. */
-export function vungCat(cat, w, h) { const cw = cat[2] * w, ch = cw / KHUNG_TI_LE; return { rong: cw / w, cao: ch / h }; }
+/** Tỉ lệ khai tay phải hợp lệ; tỉ lệ ảnh tự suy được kẹp vào khoảng cho phép. */
+export function tiLeKhung(S, w, h) {
+  if ('tiLe' in S) {
+    if (!isNum(S.tiLe) || S.tiLe < TI_LE_KHUNG_MIN || S.tiLe > TI_LE_KHUNG_MAX) throw new Error('[nhan-vat] «tiLe» phải là số dương hữu hạn trong [' + TI_LE_KHUNG_MIN + '; ' + TI_LE_KHUNG_MAX + ']');
+    return S.tiLe;
+  }
+  return Math.max(TI_LE_KHUNG_MIN, Math.min(TI_LE_KHUNG_MAX, w / h));
+}
+
+/** Vùng cắt chuẩn hoá theo ảnh w×h, cat = [tâmX, tâmY, rộng], tỉ lệ khung rộng/cao. */
+export function vungCat(cat, w, h, tiLe = tiLeKhung({}, w, h)) {
+  const cw = cat[2] * w, ch = cw / tiLe;
+  return { rong: cw / w, cao: ch / h };
+}
+
+/** Tính khung và vùng cắt không kéo giãn ảnh; thiếu cat thì lấy vùng lớn nhất vừa ảnh. */
+export function tinhKhungAnh(S, w, h, maxW, maxH) {
+  const tiLe = tiLeKhung(S, w, h);
+  const cat = 'cat' in S ? S.cat : [0.5, 0.5, Math.min(1, tiLe * h / w)];
+  if (!(Array.isArray(cat) && cat.length === 3 && cat.every(isNum))) throw new Error('[nhan-vat] «cat» là [tâmX, tâmY, rộng] toàn số');
+  const cw = cat[2] * w, ch = cw / tiLe, cx = cat[0] * w, cy = cat[1] * h;
+  if (cw <= 0 || cx - cw / 2 < -0.5 || cx + cw / 2 > w + 0.5 || cy - ch / 2 < -0.5 || cy + ch / 2 > h + 0.5) throw new Error('[nhan-vat] «cat» vượt ra ngoài ảnh (tỉ lệ khung ' + tiLe + ' không vừa); giảm «rộng» hoặc dời tâm. Không kéo giãn ảnh để lấp');
+  const fh = Math.min(maxH, maxW / tiLe), fw = fh * tiLe;
+  return { tiLe, fw, fh, cw, ch, cx, cy };
+}
 
 /** Kiểm dữ liệu shot P2. Trả list lỗi (rỗng = đạt). names = data/lanh-tu.json .ten. */
 export function kiemDuLieu(S, names) {
@@ -56,7 +80,10 @@ export function kiemDuLieu(S, names) {
       if (!isNum(S.zoomDen)) loi.push(`${pre} «zoomDen» phải là số (nhận: ${JSON.stringify(S.zoomDen)})`);
       else if (S.zoomDen < 1 || S.zoomDen > TRAN_ZOOM_LANH_TU) loi.push(`${pre} «zoomDen» ${S.zoomDen} ngoài [1; ${TRAN_ZOOM_LANH_TU}]: ảnh chỉ được phóng đều rất chậm`);
     }
-    if (lanhTu && 'cat' in S && !(Array.isArray(S.cat) && S.cat.length === 3 && S.cat.every(isNum))) loi.push(`${pre} «cat» là [tâmX, tâmY, rộng] toàn số`);
+    if (bt === 'khung' && 'tiLe' in S) {
+      try { tiLeKhung(S); } catch (e) { loi.push(e.message); }
+    }
+    if ((lanhTu || bt === 'khung') && 'cat' in S && !(Array.isArray(S.cat) && S.cat.length === 3 && S.cat.every(isNum))) loi.push(`${pre} «cat» là [tâmX, tâmY, rộng] toàn số`);
   }
   if (t === 'the-am-thanh') {
     if (S.nhan === undefined || S.nhan === null || S.nhan === '') loi.push(`${pre} thiếu «nhan»: bắt buộc «MÔ PHỎNG LẠI» hoặc «GHI ÂM GỐC»`);
@@ -86,7 +113,9 @@ export function kiemThoiLuongGiong(S, dai) {
 /** Trần phóng cắt ảnh lãnh tụ: vùng cắt phải ≥ 1/TRAN_PHONG_CAT cạnh ảnh theo cả hai chiều. */
 export function kiemCatLanhTu(S, w, h) {
   if (S.lanhTu !== true || S.bienThe !== 'khung') return [];
-  const cat = S.cat ?? [0.5, 0.5, 1], v = vungCat(cat, w, h), min = 1 / TRAN_PHONG_CAT;
+  let k;
+  try { k = tinhKhungAnh(S, w, h, w, h); } catch (e) { return [e.message]; }
+  const v = vungCat([0.5, 0.5, k.cw / w], w, h, k.tiLe), min = 1 / TRAN_PHONG_CAT;
   if (v.rong < min - 1e-9 || v.cao < min - 1e-9) return [`[nhan-vat] «cat» cắt ảnh lãnh tụ phóng quá ${TRAN_PHONG_CAT} lần (vùng cắt ${(v.rong * 100).toFixed(0)}% × ${(v.cao * 100).toFixed(0)}% ảnh, cần ≥ ${min * 100}% mỗi chiều): không cắt sát mặt`];
   return [];
 }

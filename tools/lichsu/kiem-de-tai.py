@@ -5,7 +5,7 @@ python -I tools/lichsu/kiem-de-tai.py "<đề tài>" [--goc "<góc kể>"] [--ng
               Từ khoá riêng (tên trận, địa danh, nhân vật) chặn bất kể năm; từ khoá chung chung đánh dấu ~ (vd ~củ chi)
               chỉ chặn khi đề xuất không có năm hoặc cùng năm với dòng sổ.
   --so-chung  tệp CSV/TSV xuất từ sổ đăng ký đề tài chung: cột đề tài, góc kể, ngôn ngữ, hội viên, ngày.
-Chuẩn hoá bỏ dấu, chữ thường; khớp từ khoá nguyên cụm tiếng. Năm chỉ phân biệt với từ khoá chung chung (~).
+Chuẩn hoá bỏ dấu, chữ thường; khớp từ khoá nguyên cụm tiếng, kể cả khi viết liền hoặc dính (dienbienphu). Năm chỉ phân biệt với từ khoá chung chung (~).
 Kết quả: CHẶN (trùng sổ cấm, hoặc cùng đề tài + ngôn ngữ + góc kể trong sổ chung), CẢNH BÁO (cùng đề tài + ngôn ngữ,
 khác góc kể), ĐẠT. Luôn in số dòng đã so ở mỗi sổ; không truyền --so-chung thì in «sổ chung: chưa có, 0 dòng đã so»
 (cố ý: sổ chung là Google Sheet làm ở bước sau) và vẫn so sổ cấm.
@@ -56,8 +56,20 @@ def bo_nam(tieng_chu: list[str]) -> list[str]:
 
 
 def chua_cum(tieng_chu: list[str], cum: list[str]) -> bool:
-    n = len(cum)
-    return n > 0 and any(tieng_chu[i:i + n] == cum for i in range(len(tieng_chu) - n + 1))
+    """Cụm có nằm nguyên cụm tiếng trong chữ không; cũng tính cách viết liền hoặc dính một phần
+    (dienbienphu, dien bienphu): chuỗi tiếng liền kề ghép lại phải bằng đúng cụm đã ghép, bắt đầu và kết thúc ở ranh giới tiếng."""
+    dich = "".join(cum)
+    if not dich:
+        return False
+    for dau in range(len(tieng_chu)):
+        ghep = ""
+        for tieng_ke in tieng_chu[dau:]:
+            ghep += tieng_ke
+            if ghep == dich:
+                return True
+            if len(ghep) >= len(dich):
+                break
+    return False
 
 
 def cung_nam(nam_de_xuat: set[str], nam_dong: set[str]) -> bool:
@@ -83,8 +95,19 @@ def doc_cam(tep: Path = CAM_MAC_DINH) -> list[dict]:
     return [r for r in doc_bang(tep, ("de_tai",)) if r.get("de_tai")]
 
 
+COT_NGAY_CUA_FORM = ("dau_thoi_gian", "timestamp")
+
+
 def doc_so_chung(tep: Path) -> list[dict]:
-    return [r for r in doc_bang(tep, ("de_tai",)) if r.get("de_tai")]
+    """Sổ chung tải từ Sheet nhận câu trả lời Google Form: cột thời gian của Form dùng làm cột ngày."""
+    ra = []
+    for r in doc_bang(tep, ("de_tai",)):
+        if not r.get("de_tai"):
+            continue
+        if not r.get("ngay"):
+            r["ngay"] = next((r[k] for k in COT_NGAY_CUA_FORM if r.get(k)), "")
+        ra.append(r)
+    return ra
 
 
 def tu_khoa_cua(r: dict) -> list[tuple[str, bool]]:

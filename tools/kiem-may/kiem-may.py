@@ -5,7 +5,7 @@ Chỉ dùng thư viện chuẩn Python (chạy được ngay khi máy vừa có 
 
     python -X utf8 tools/kiem-may/kiem-may.py [--ra kiem-may.md] [--json]
 
-Kiểm: Python, 9 thư viện (gồm fontTools) trong requirements.txt, Node >= 22 (dung-trang.mjs cần WebSocket toàn cục),
+Kiểm: Python, 10 thư viện (gồm fontTools, scipy) trong requirements.txt, Node >= 22 (dung-trang.mjs cần WebSocket toàn cục),
 ffmpeg, ffprobe, Chrome/Edge, git, gh (đã đăng nhập), claude, ổ trống >= 60 GB ở ổ chứa khoá `output`,
 RAM, Goha AVS (khoá `goha_avs` trỏ tới thư mục có thật; cổng 8787 trả lời thì ghi «đang chạy»; chỉ bắt buộc khi
 gợi ý mức Đầy đủ, ở mức khác là tuỳ chọn, thay bằng `kit.py tron`, `master`), đường dẫn Chrome/Edge tìm được,
@@ -46,7 +46,7 @@ KHOA_API = ("ELEVENLABS_API_KEY", "DEEPGRAM_API_KEY")
 # (tên module import, tên gói pip) theo requirements.txt
 THU_VIEN = (("numpy", "numpy"), ("PIL", "pillow"), ("cv2", "opencv-python"), ("soundfile", "soundfile"),
             ("pytest", "pytest"), ("openpyxl", "openpyxl"), ("yt_dlp", "yt-dlp"), ("requests", "requests"),
-            ("fontTools", "fonttools"))
+            ("scipy", "scipy"), ("fontTools", "fonttools"))
 CAI_PIP = "python -m pip install -r requirements.txt"
 KHONG_QUET = {"__pycache__", "node_modules", ".git", ".venv", "kiem-may"}
 DUOI_QUET = {".md", ".py", ".mjs", ".js", ".json", ".toml", ".sh", ".ps1", ".bat", ".cmd", ".txt", ".tsv"}

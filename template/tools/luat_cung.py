@@ -29,7 +29,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DUONG_LANH_TU = os.path.join(os.path.dirname(HERE), 'data', 'lanh-tu.json')
 NHAN_AM_THANH = ('MÔ PHỎNG LẠI', 'GHI ÂM GỐC')
 TRAN_ZOOM_LANH_TU = 1.08
-KHUNG_TI_LE = 0.8                      # khung nhan-vat «khung» rộng/cao
+TI_LE_KHUNG_MIN = 0.6                  # giới hạn rộng/cao của khung theo từng ảnh
+TI_LE_KHUNG_MAX = 1.6
 TRAN_PHONG_CAT = 2                     # ảnh lãnh tụ: vùng cắt ≥ 1/2 cạnh ảnh
 TRAN_RAM_BYTE = 450 * 1024 * 1024      # tổng byte khung phim sau giải mã
 LECH_GIONG_TOI_DA = 0.5                # giây
@@ -90,6 +91,39 @@ def uoc_ram(n, w, h):
     return n * w * h * 4
 
 
+def ti_le_khung(shot, w=None, h=None):
+    """Tỉ lệ khai tay phải hợp lệ; tỉ lệ ảnh tự suy được kẹp như bản JS."""
+    if 'tiLe' in shot:
+        r = shot['tiLe']
+        if not la_so(r) or not TI_LE_KHUNG_MIN <= r <= TI_LE_KHUNG_MAX:
+            raise ValueError(f'«tiLe» phải là số dương hữu hạn trong [{TI_LE_KHUNG_MIN}; {TI_LE_KHUNG_MAX}]')
+        return r
+    return max(TI_LE_KHUNG_MIN, min(TI_LE_KHUNG_MAX, w / h))
+
+
+def vung_cat(cat, w, h, ti_le=None):
+    """Vùng cắt chuẩn hoá theo ảnh, cùng đầu vào/kết quả cards/luat-cung.js."""
+    if ti_le is None:
+        ti_le = ti_le_khung({}, w, h)
+    cw = cat[2] * w
+    return {'rong': cw / w, 'cao': cw / ti_le / h}
+
+
+def tinh_khung_anh(shot, w, h, max_w=None, max_h=None):
+    """Khung và vùng cắt không kéo giãn ảnh, cùng hợp đồng tinhKhungAnh của cards/luat-cung.js.
+    Vùng cắt vượt ảnh thì ValueError. max_w, max_h mặc định là kích thước ảnh."""
+    max_w, max_h = (w if max_w is None else max_w), (h if max_h is None else max_h)
+    ti_le = ti_le_khung(shot, w, h)
+    cat = shot['cat'] if 'cat' in shot else [0.5, 0.5, min(1, ti_le * h / w)]
+    if not (isinstance(cat, list) and len(cat) == 3 and all(la_so(x) for x in cat)):
+        raise ValueError('«cat» là [tâmX, tâmY, rộng] toàn số')
+    cw = cat[2] * w; ch = cw / ti_le; cx = cat[0] * w; cy = cat[1] * h
+    if cw <= 0 or cx - cw / 2 < -0.5 or cx + cw / 2 > w + 0.5 or cy - ch / 2 < -0.5 or cy + ch / 2 > h + 0.5:
+        raise ValueError(f'«cat» vượt ra ngoài ảnh (tỉ lệ khung {ti_le:g} không vừa); giảm «rộng» hoặc dời tâm. Không kéo giãn ảnh để lấp')
+    fh = min(max_h, max_w / ti_le)
+    return {'tiLe': ti_le, 'fw': fh * ti_le, 'fh': fh, 'cw': cw, 'ch': ch, 'cx': cx, 'cy': cy}
+
+
 def sha256_tep(duong):
     h = hashlib.sha256()
     with open(duong, 'rb') as fh:
@@ -136,7 +170,9 @@ def kich_thuoc(duong):
         raise LoiNode('thiếu Pillow (pip install pillow): không đo được kích thước ảnh')
     try:
         with Image.open(duong) as im:
-            return im.size
+            w, h = im.size
+            # Trình duyệt xoay ảnh theo EXIF Orientation trước khi vẽ: 5–8 là xoay 90°.
+            return (h, w) if im.getexif().get(0x0112) in (5, 6, 7, 8) else (w, h)
     except OSError as e:
         raise LoiNode(f'không đọc được ảnh {duong}: {e}') from e
 
@@ -199,10 +235,18 @@ def _nhan_vat(shot, pre, goc, lanh_tu, loi):
             loi.append(f'{pre}: `zoomDen` phải là số (nhận: {z!r})')
         elif z < 1 or z > TRAN_ZOOM_LANH_TU:
             loi.append(f'{pre}: `zoomDen` {z} ngoài [1; {TRAN_ZOOM_LANH_TU}]: ảnh chỉ được phóng đều rất chậm')
+    ti_le_hop_le = True
+    if bt == 'khung' and 'tiLe' in shot:
+        try:
+            ti_le_khung(shot)
+        except ValueError as e:
+            loi.append(f'{pre}: {e}')
+            ti_le_hop_le = False
     cat = shot.get('cat')
-    if lanh_tu and cat is not None and not (isinstance(cat, list) and len(cat) == 3 and all(la_so(c) for c in cat)):
+    cat_hop_le = True
+    if (lanh_tu or bt == 'khung') and 'cat' in shot and not (isinstance(cat, list) and len(cat) == 3 and all(la_so(c) for c in cat)):
         loi.append(f'{pre}: `cat` là [tâmX, tâmY, rộng] toàn số')
-        cat = None
+        cat_hop_le = False
     if shot.get('anh') is None:
         loi.append(f'{pre}: thiếu `anh`')
         return
@@ -214,14 +258,19 @@ def _nhan_vat(shot, pre, goc, lanh_tu, loi):
         loi.append(f'{pre}: ảnh lãnh tụ «{shot["anh"]}» có vùng trong suốt (đã tách nền): dùng ảnh nguyên khung')
     if bt == 'tach-nen' and a is False:
         loi.append(f'{pre}: «{shot["anh"]}» không có vùng trong suốt: biến thể tach-nen cần PNG đã tách nền sẵn')
-    if lanh_tu and bt == 'khung':
+    if bt == 'khung' and ti_le_hop_le and cat_hop_le:
         kt = _lam(loi, pre, kich_thuoc, p)
         if kt:
-            c = cat if cat is not None else [0.5, 0.5, 1]
-            cw = c[2] * kt[0]
-            rong, cao, toi_thieu = cw / kt[0], cw / KHUNG_TI_LE / kt[1], 1 / TRAN_PHONG_CAT
-            if rong < toi_thieu - 1e-9 or cao < toi_thieu - 1e-9:
-                loi.append(f'{pre}: `cat` cắt ảnh lãnh tụ phóng quá {TRAN_PHONG_CAT} lần (vùng cắt {rong:.0%} × {cao:.0%} ảnh, cần ≥ {toi_thieu:.0%} mỗi chiều): không cắt sát mặt')
+            w, h = kt
+            try:
+                k = tinh_khung_anh(shot, w, h)
+            except ValueError as e:
+                loi.append(f'{pre}: {e}'); k = None
+            v = vung_cat([0.5, 0.5, k['cw'] / w], w, h, k['tiLe']) if k else None
+            toi_thieu = 1 / TRAN_PHONG_CAT
+            if v and lanh_tu and (v['rong'] < toi_thieu - 1e-9 or v['cao'] < toi_thieu - 1e-9):
+                rong, cao = v['rong'], v['cao']
+                loi.append(f'{pre}: «cat» cắt ảnh lãnh tụ phóng quá {TRAN_PHONG_CAT} lần (vùng cắt {rong:.0%} × {cao:.0%} ảnh, cần ≥ {toi_thieu:.0%} mỗi chiều): không cắt sát mặt')
 
 
 def _am_thanh(shot, pre, goc, lanh_tu, loi):

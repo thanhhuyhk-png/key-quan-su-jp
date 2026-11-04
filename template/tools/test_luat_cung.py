@@ -294,3 +294,78 @@ def test_t2_thieu_ffmpeg_bao_loi_ro_va_sha_theo_khoi(tmp_path, monkeypatch):
         song_am.giai_ma('x.wav')
     f = tmp_path / 'a.bin'; f.write_bytes(os.urandom(3 * (1 << 20) + 17))
     assert song_am.sha256_tep(str(f)) == hashlib.sha256(f.read_bytes()).hexdigest() == luat.sha256_tep(str(f))
+
+
+# Khung lấy tỉ lệ ảnh thật bằng Pillow; JS và Python cùng hợp đồng vùng cắt.
+@pytest.mark.parametrize('w,h,ratio', [(600, 800, .75), (900, 600, 1.5), (600, 600, 1), (300, 900, .6), (1800, 600, 1.6)])
+def test_khung_theo_ti_le_anh(goc, w, h, ratio):
+    Image.new('RGB', (w, h)).save(os.path.join(goc, 'ti-le.jpg'))
+    s = nv(bienThe='khung', lanhTu=True, anh='ti-le.jpg')
+    assert luat.ti_le_khung(s, w, h) == ratio
+    assert luat.kiem_shot(s, 's', goc) == []
+
+
+@pytest.mark.parametrize('ratio', [.6, .8, 1, 1.6])
+def test_khung_ti_le_khai_tay_hop_le(goc, ratio):
+    s = nv(bienThe='khung', lanhTu=True, anh='anh.jpg', tiLe=ratio)
+    assert luat.ti_le_khung(s, 20, 20) == ratio
+    assert luat.kiem_shot(s, 's', goc) == []
+
+
+@pytest.mark.parametrize('ratio', [2, -1, 0, '1', None, True, float('nan'), float('inf')])
+def test_khung_ti_le_khai_tay_sai_bi_chan(goc, ratio):
+    assert co(luat.kiem_shot(nv(bienThe='khung', anh='anh.jpg', tiLe=ratio), 's', goc), 'tiLe')
+
+
+def test_cat_vuot_anh_theo_ti_le_moi(goc):
+    Image.new('RGB', (900, 600)).save(os.path.join(goc, 'ngang.jpg'))
+    s = nv(bienThe='khung', lanhTu=True, anh='ngang.jpg', tiLe=1.5, cat=[.7, .5, .6])
+    assert luat.kiem_shot(s, 's', goc) == []
+    s['cat'] = [.9, .5, .6]
+    assert co(luat.kiem_shot(s, 's', goc), 'vượt', '1.5')
+    s['cat'] = [.5, .5, .8]
+    assert luat.kiem_shot(s, 's', goc) == []
+    s['tiLe'] = 1
+    assert co(luat.kiem_shot(s, 's', goc), 'vượt', '1')
+    s['tiLe'] = 1.5
+    s['cat'] = [.5, .5, .4]
+    assert co(luat.kiem_shot(s, 's', goc), 'phóng quá 2 lần')
+
+
+@pytest.mark.skipif(not CO_NODE, reason='cần node')
+def test_js_python_cung_vung_cat():
+    cases = [[[.5, .5, .6], 900, 600, 1.5], [[.5, .5, .8], 600, 800, .75], [[.5, .5, 1], 600, 600, 1], [[.5, .5, .6], 300, 900, .6], [[.5, .5, 1], 900, 600]]
+    script = "const fs=require('node:fs');(async()=>{const src=fs.readFileSync('cards/luat-cung.js','utf8');const m=await import('data:text/javascript;base64,'+Buffer.from(src).toString('base64'));const cases=JSON.parse(fs.readFileSync(0,'utf8'));process.stdout.write(JSON.stringify(cases.map(c=>m.vungCat(...c))));})()"
+    r = luat.subprocess.run(['node', '-e', script], input=json.dumps(cases), text=True, capture_output=True, cwd=ROOT, check=True)
+    for case, js in zip(cases, json.loads(r.stdout)):
+        assert luat.vung_cat(*case) == pytest.approx(js)
+
+
+def test_kich_thuoc_theo_exif_xoay(goc):
+    # JPEG chụp dọc lưu 400×300 kèm Orientation=6: trình duyệt xoay thành 300×400 trước khi vẽ.
+    im = Image.new('RGB', (400, 300)); ex = im.getexif(); ex[0x0112] = 6
+    duong = os.path.join(goc, 'xoay.jpg'); im.save(duong, exif=ex)
+    assert luat.kich_thuoc(duong) == (300, 400)
+    s = nv(bienThe='khung', lanhTu=True, anh='xoay.jpg')
+    assert luat.tinh_khung_anh(s, *luat.kich_thuoc(duong))['tiLe'] == .75
+
+
+@pytest.mark.skipif(not CO_NODE, reason='cần node')
+def test_js_python_cung_tinh_khung_anh():
+    # Cùng đầu vào thì cùng khung, cùng vùng cắt, hoặc cùng báo vượt ảnh.
+    cases = [({}, 900, 600), ({}, 300, 900), ({}, 4000, 1000), ({'cat': [.5, .45, .9]}, 800, 1000),
+             ({'tiLe': 1.5, 'cat': [.9, .5, .6]}, 900, 600), ({'tiLe': 1, 'cat': [.5, .5, .8]}, 900, 600), ({'tiLe': .6}, 900, 600)]
+    script = ("const fs=require('node:fs');(async()=>{const src=fs.readFileSync('cards/luat-cung.js','utf8');"
+              "const m=await import('data:text/javascript;base64,'+Buffer.from(src).toString('base64'));"
+              "const cases=JSON.parse(fs.readFileSync(0,'utf8'));process.stdout.write(JSON.stringify(cases.map(([s,w,h])=>"
+              "{try{return m.tinhKhungAnh(s,w,h,w,h)}catch(e){return 'LOI'}})));})()")
+    r = luat.subprocess.run(['node', '-e', script], input=json.dumps(cases), text=True, capture_output=True, cwd=ROOT, check=True)
+    for (s, w, h), js in zip(cases, json.loads(r.stdout)):
+        try:
+            py = luat.tinh_khung_anh(s, w, h, w, h)
+        except ValueError:
+            py = 'LOI'
+        if js == 'LOI' or py == 'LOI':
+            assert js == py, (s, w, h)
+        else:
+            assert py == pytest.approx(js), (s, w, h)

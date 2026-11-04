@@ -6,7 +6,7 @@
 import { W, H, clamp, lerp, prog, ease, appear } from '../lib/common.js';
 import { MAU, CO, LUOI, noiDungW, font, ngatDong } from '../lib/nhan-dien.js';
 import { mocPhanTu, mocTuLoi } from '../lib/nhip-hien.js';
-import { LOAI_P2, NHAN_AM_THANH as NHAN_AM, TRAN_ZOOM_LANH_TU as TRAN_ZOOM, TRAN_RAM_BYTE, kiemDuLieu, kiemThoiLuongGiong, kiemCatLanhTu, uocRam } from './luat-cung.js';
+import { LOAI_P2, NHAN_AM_THANH as NHAN_AM, TRAN_ZOOM_LANH_TU as TRAN_ZOOM, TRAN_RAM_BYTE, kiemDuLieu, kiemThoiLuongGiong, kiemCatLanhTu, tinhKhungAnh, uocRam } from './luat-cung.js';
 
 export const LOAI_MAU = LOAI_P2;
 export const KIEU_NEN_MAU = { 'the-am-thanh': 'toi', 'nhan-vat': 'toi' };
@@ -251,13 +251,10 @@ async function chuanBiNhanVat(S, ctx, R) {
   const R2 = { ...R, anh, bt, ten, det, moc, tx, tw };
   if (bt === 'khung') {
     const zd = S.zoomDen ?? 1.04;
-    const fh = Math.min(R.hC - 40, 640), fw = Math.round(fh * 0.8);
-    const cat = S.cat ?? [0.5, 0.5, 1];
-    if (cat.length !== 3 || !cat.every(soHopLe)) throw loi(S, '«cat» là [tâmX, tâmY, rộng] chuẩn hoá');
-    const cw = cat[2] * anh.width, ch = (cw * fh) / fw;
-    const cx = cat[0] * anh.width, cy = cat[1] * anh.height;
-    if (cw <= 0 || cx - cw / 2 < -0.5 || cx + cw / 2 > anh.width + 0.5 || cy - ch / 2 < -0.5 || cy + ch / 2 > anh.height + 0.5) throw loi(S, '«cat» vượt ra ngoài ảnh (khung 4:5 không vừa); nới «rong» hoặc dời tâm. Không kéo giãn ảnh để lấp');
-    Object.assign(R2, { fw, fh, fx: W - LUOI.le - fw - 40, fy: R.y0 + (R.hC - fh) / 2, cw, ch, cx, cy, zd });
+    // Tính cả viền ngoài 30 px để khung không lấn vùng chữ tx..tx+tw.
+    const maxW = W - LUOI.le - 40 - (tx + tw) - 30;
+    const k = tinhKhungAnh(S, anh.width, anh.height, maxW, Math.min(R.hC - 40, 640));
+    Object.assign(R2, k, { fx: W - LUOI.le - k.fw - 40, fy: R.y0 + (R.hC - k.fh) / 2, zd });
   } else {
     const hmax = R.hC + 30;
     const sc = Math.min(hmax / anh.height, 820 / anh.width);

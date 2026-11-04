@@ -18,6 +18,7 @@ Nguồn phương pháp: tổng hợp và thử nghiệm trên kênh mẫu (nhi�
 - **Nhánh miễn phí (mặc định), không cần khoá API nào:** `yt-dlp` cho danh sách video, view, like, bình luận, ảnh bìa, heatmap và cả số sub (trường `channel_follower_count`; lệnh ở `references/nguon-du-lieu.md` mục «Lấy số sub bằng yt-dlp»). Tổng video và ngày video đầu đã nằm sẵn trong `<khoá>.meta.json` do `thu_video.py` ghi. Ngày lập kênh (tuỳ chọn) đọc ở tab Giới thiệu của kênh. Nhánh này không đọc `.env`.
 - **Tuỳ chọn trả phí:** vidIQ (điểm từ khoá, tăng sub 30 ngày có sẵn, video vượt trội theo ngách). Có thì nhanh hơn, không có vẫn đủ làm hết quy trình. Chỗ nào skill nhắc vidIQ đều có nhánh miễn phí tương đương ở `references/nguon-du-lieu.md`.
 - **Nơi lưu dữ liệu thô:** thư mục khoá `nghien_cuu` trong `cau-hinh.toml` (không nằm trong repo). Lấy đường dẫn: `python -c "import sys; sys.path.insert(0,'tools'); from cau_hinh import duong; print(duong('nghien_cuu'))"` chạy ở gốc repo. Mỗi lần chạy đặt một thư mục con theo ngách và ngày, rồi truyền làm `--out-dir`.
+- **Đường dẫn lệnh:** mọi lệnh `python .claude/skills/tu-duy-top-20-ytb/scripts/...` trong skill này và trong `references/` chạy từ gốc repo (cùng quy ước với các skill khác), không cần vào thư mục skill. Tên script ghi trần như `thu_video.py` chỉ là tên tệp trong thư mục `scripts/` đó.
 
 ## Quy trình 9 pha (0–8); chưa qua cổng thì không sang pha sau
 **Thứ tự chạy:** 0 → 1 → 2 → lọc sơ bộ (5.1: hướng, nguồn lực, ràng buộc) → 3 đo (mọi kênh Giữ) → 4 gắn tuổi → 5.2–5.5 xếp trên tập Giữ, TOP, kho video → 6 → 7 → 8. Pha 3 không có cổng riêng (cổng dữ liệu nằm ở pha 2, cổng chọn ở pha 5).
@@ -31,9 +32,9 @@ Tìm theo 3 hướng: ngách chính, ngách lân cận cùng khán giả, ngách
 **Cổng:** ≥ 60 kênh thật (mục tiêu 100) trong khảo sát (không phải TOP), mỗi nhóm ≥ 5; nhóm «mới» không trống.
 
 ### Pha 2 — Thu và làm sạch số liệu (cổng dữ liệu)
-- Danh sách video: `python scripts/thu_video.py <kênh>… --out-dir <thư mục nghien_cuu/...>` (tuần tự, không cookie, có file PID, nghỉ giữa yêu cầu, khoảng 3 giây mỗi video; lỗi yt-dlp là lỗi, mã thoát khác 0; **lấy ≥ 100 video dài mới nhất** để hệ số có hàng xóm). **Tổng video và ngày video đầu lấy từ trang kênh, API hoặc meta**, không suy từ danh sách đã lấy.
+- Danh sách video: `python .claude/skills/tu-duy-top-20-ytb/scripts/thu_video.py <kênh>… --out-dir <thư mục nghien_cuu/...>` (tuần tự, không cookie, có file PID, nghỉ giữa yêu cầu, khoảng 3 giây mỗi video; lỗi yt-dlp là lỗi, mã thoát khác 0; **lấy ≥ 100 video dài mới nhất** để hệ số có hàng xóm). **Tổng video và ngày video đầu lấy từ trang kênh, API hoặc meta**, không suy từ danh sách đã lấy.
 - Số sub của kênh (cho `--subs`): lấy bằng `yt-dlp` theo `references/nguon-du-lieu.md` mục «Lấy số sub bằng yt-dlp», ghi vào bảng kênh.
-- Đo: `python scripts/do_kenh.py kenh <ds.tsv> --subs N --meta <khoá>.meta.json [--tong-video T] [--ngay-video-dau D] [--cua-so-tu <ngày>] [--so-hoi-vien H] [--ty-trong-view-short 0..1] [--sub-30-ngay-truoc S] [--ngay-lap L] --json <kenh.json>`.
+- Đo: `python .claude/skills/tu-duy-top-20-ytb/scripts/do_kenh.py kenh <ds.tsv> --subs N --meta <khoá>.meta.json [--tong-video T] [--ngay-video-dau D] [--cua-so-tu <ngày>] [--so-hoi-vien H] [--ty-trong-view-short 0..1] [--sub-30-ngay-truoc S] [--ngay-lap L] --json <kenh.json>`.
 - Đọc dòng «Đọc n dòng; bỏ …» và cột **Cờ**; xử lý theo `references/bay-so-lieu.md` trước khi xếp hạng.
 **Cổng:** 0 cờ NGHI_LOI_DON_VI hoặc DANH_SACH_CO_THE_BI_CAT chưa xử lý; kiểm tay ≥ 3 số ngẫu nhiên với một nguồn độc lập (trang video gốc, hoặc `yt-dlp --skip-download --print "%(view_count)s" <link video>`, hoặc vidIQ), lệch ≤ 3 %.
 
@@ -46,7 +47,7 @@ Chỉ số theo `references/tieu-chi-va-cong-thuc.md`: trung vị 20 video dài 
 
 ### Pha 5 — Lọc, xếp hạng, chọn TOP 20 và kho video
 1. Lọc trước (Giữ / Loại / Theo dõi, lý do có số): hướng nội dung, khán giả (pha 4), nguồn lực, ràng buộc. Kênh loại vẫn ở tab Khảo sát.
-2. **Xếp hạng chỉ trên tập Giữ** (phân vị bị méo nếu lẫn kênh bị loại): `python scripts/do_kenh.py xep-hang <bang-giu.tsv> --json <xep-hang.json> --do-nhay [--ghi-de "<kênh>:<CỜ>[:lý do]"]`. Đọc **khoảng hạng** (3 bộ tiêu chí), hạng theo ngày lập, và **«hạng 1 ở n/6 cách tính»**. Kênh «Không đủ chỉ số» không được xếp (thu thêm số). Kênh lai Shorts (SUB_LAN_SHORTS) bị bỏ 4 chỉ số dựa trên sub nên có thể thành «Không đủ chỉ số»: bình thường, không phải lỗi.
+2. **Xếp hạng chỉ trên tập Giữ** (phân vị bị méo nếu lẫn kênh bị loại): `python .claude/skills/tu-duy-top-20-ytb/scripts/do_kenh.py xep-hang <bang-giu.tsv> --json <xep-hang.json> --do-nhay [--ghi-de "<kênh>:<CỜ>[:lý do]"]`. Đọc **khoảng hạng** (3 bộ tiêu chí), hạng theo ngày lập, và **«hạng 1 ở n/6 cách tính»**. Kênh «Không đủ chỉ số» không được xếp (thu thêm số). Kênh lai Shorts (SUB_LAN_SHORTS) bị bỏ 4 chỉ số dựa trên sub nên có thể thành «Không đủ chỉ số»: bình thường, không phải lỗi.
 3. TOP 20 = 20 kênh hạng cao nhất. Không đủ 20 kênh đáng tin thì để TOP ít hơn, **không độn kênh yếu**.
 4. Tách **hình mẫu kênh** khỏi **kho video**: kênh yếu có video hay thì đưa video vào kho, không đưa kênh vào TOP.
 5. Mỗi kênh TOP 20: 5–10 video nhiều view nhất, cộng cửa sổ liên tục ≥ 100 video dài mới nhất (hệ số cần ≥ 5 video liền trước, tốt nhất 15). Video hệ số ≥ 3 vào kho vượt trội sau bước «kiểm tra số thật» (`references/tieu-chi-va-cong-thuc.md` mục 2).
@@ -62,13 +63,13 @@ Checklist `references/phan-bien.md`. Mục E (người hoặc CLI phản biện 
 **Cổng:** mọi mục «cao» ở tab «Chú ý & phản biện» đã xử lý hoặc được người dùng chấp nhận.
 
 ### Pha 8 — Xuất Google Sheet và lịch đo lại
-1. Gộp: `python scripts/gop_ho_so.py --do-kenh <thư mục> --video-dir <thư mục> --dinh-tinh <bảng định tính> --xep-hang <xep-hang.json> --out ho-so-top20.json` (cấu trúc ở `references/mau-google-sheet.md`). `kiem_tra_so` chuẩn: `chua_chin | so_bo | dat | nghi` (`dat` chỉ khi người đã đọc bình luận).
-2. `python scripts/xuat_sheet.py ho-so-top20.json --out top20.xlsx --nghiem` xuất đủ các tab của script (tên ở mục «Bảng 14 tab» dưới); script tự kiểm (thiếu id, thiếu nguồn, cờ lỗi đơn vị trong TOP, Model Link ngoài TOP, kênh mới bị bỏ sót, TAI_SINH ở nhóm mới…) và ghi vào tab «Chú ý & phản biện»; `--nghiem` dừng khi có lỗi mức cao.
-3. Thêm 2 tab bổ sung cho đủ 14 tab: `python scripts/them_tab.py top20.xlsx --dinh-tinh <bảng định tính .json> --video-dir <thư mục TSV video> --model <channel ID Model Link> --ngay-do <ngày đo> [--moi-noi <bảng kênh mới nổi .tsv>]`. Không có bảng kênh mới nổi thì tab 1b được bỏ qua (script báo rõ).
+1. Gộp: `python .claude/skills/tu-duy-top-20-ytb/scripts/gop_ho_so.py --do-kenh <thư mục> --video-dir <thư mục> --dinh-tinh <bảng định tính> --xep-hang <xep-hang.json> --out ho-so-top20.json` (cấu trúc ở `references/mau-google-sheet.md`). `kiem_tra_so` chuẩn: `chua_chin | so_bo | dat | nghi` (`dat` chỉ khi người đã đọc bình luận).
+2. `python .claude/skills/tu-duy-top-20-ytb/scripts/xuat_sheet.py ho-so-top20.json --out top20.xlsx --nghiem` xuất đủ các tab của script (tên ở mục «Bảng 14 tab» dưới); script tự kiểm (thiếu id, thiếu nguồn, cờ lỗi đơn vị trong TOP, Model Link ngoài TOP, kênh mới bị bỏ sót, TAI_SINH ở nhóm mới…) và ghi vào tab «Chú ý & phản biện»; `--nghiem` dừng khi có lỗi mức cao.
+3. Thêm 2 tab bổ sung cho đủ 14 tab: `python .claude/skills/tu-duy-top-20-ytb/scripts/them_tab.py top20.xlsx --dinh-tinh <bảng định tính .json> --video-dir <thư mục TSV video> --model <channel ID Model Link> --ngay-do <ngày đo> [--moi-noi <bảng kênh mới nổi .tsv>]`. Không có bảng kênh mới nổi thì tab 1b được bỏ qua (script báo rõ).
 4. Tải lên Drive bằng tay là đủ: Drive → Mới → Tải tệp lên, mở file → Tệp → «Lưu dưới dạng Google Trang tính». Kiểm có đủ tab rồi lấy link. Không chia sẻ công khai khi chưa được yêu cầu.
 5. **Lần đo đầu** chưa có thăng hay giáng (tab 3 ghi «Chưa có mốc trước», xếp theo % tăng sub). Tab 9 tự lưu ảnh chụp kỳ này cho mọi kênh Giữ và Theo dõi để kỳ sau (30 ngày) tính thăng hạng thật. Kênh rơi khỏi TOP hai kỳ liền thì thay.
 
-## Bảng 14 tab (sheet mẫu của chủ kit: <điền: link Google Sheet top 20 mẫu>; mở chế độ xem rồi «Tạo bản sao». Chưa có link thì dùng XLSX do `xuat_sheet.py` sinh)
+## Bảng 14 tab (sheet mẫu của chủ kit: https://docs.google.com/spreadsheets/d/1YzYqOGoTml1d3e8SS2LB58vFWI2YSTKJWVifW_BEW9s/edit?usp=sharing ; mở chế độ xem rồi «Tạo bản sao». Bảng mẫu có thêm tab «13. Kết quả tập 1». Chưa có link thì dùng XLSX do `xuat_sheet.py` sinh)
 Tên thật, đúng thứ tự trong bảng mẫu:
 `0. Tổng quan & Model Link` · `1. TOP 20` · `1b. Kênh mới nổi (làm theo)` · `2. TOP 20 + video top` · `3. Thăng hạng 30 ngày` · `4. Khảo sát kênh` · `5. Kho video vượt trội` · `6. Cặp đối chứng` · `7. Nhân bản đề tài` · `8. Bám sát Model Link` · `9. Theo dõi định kỳ` · `10. Chú ý & phản biện` · `11. Từ điển cột` · `12. Video top 20 %`.
 `xuat_sheet.py` sinh 12 tab (số 0 đến 11). Hai tab `1b` (kênh dưới 400 ngày tuổi xếp theo trung vị video dài đủ 7 ngày, để «làm theo kênh nhỏ») và `12` (20 % video dài nhiều view nhất của mỗi kênh Giữ hoặc Theo dõi, tối thiểu 3 video) do `scripts/them_tab.py` thêm (pha 8 bước 3); chi tiết ở `references/mau-google-sheet.md`.
@@ -91,4 +92,4 @@ Mở bằng kết luận: Model Link đề xuất (kèm 3 con số, khoảng h�
 - `references/phan-bien.md` — checklist phản biện.
 - `references/nguon-du-lieu.md` — hợp đồng dữ liệu, thu video, ytsearch, chạy nền, chi phí, chỗ lưu.
 - `references/mau-google-sheet.md` — các tab, cấu trúc JSON, gộp hồ sơ.
-- `scripts/thu_video.py`, `scripts/do_kenh.py`, `scripts/gop_ho_so.py`, `scripts/heatmap.py`, `scripts/xuat_sheet.py` — test: `cd scripts && python -m pytest -q tests` (cần `pip install openpyxl pytest`).
+- `scripts/thu_video.py`, `scripts/do_kenh.py`, `scripts/gop_ho_so.py`, `scripts/heatmap.py`, `scripts/xuat_sheet.py` — test: `cd .claude/skills/tu-duy-top-20-ytb/scripts && python -m pytest -q tests` (cần `pip install openpyxl pytest`).

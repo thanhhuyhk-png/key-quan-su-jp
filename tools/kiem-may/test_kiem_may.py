@@ -133,9 +133,19 @@ def test_thu_vien_thieu_goi_y_pip(may, monkeypatch):
     assert "cv2" in " ".join(kq.thieu_bat_buoc)
 
 
-def test_du_9_thu_vien_theo_requirements_gom_fonttools(may):
+def test_du_10_thu_vien_theo_requirements_gom_fonttools_va_scipy(may):
     ten = [m.ten for m in km.kiem(may).muc if m.ten.startswith("Thư viện")]
-    assert len(ten) == 9 and "Thư viện fontTools" in ten
+    assert len(ten) == 10 and "Thư viện fontTools" in ten and "Thư viện scipy" in ten
+
+
+def test_moi_thu_vien_kiem_may_co_trong_requirements_va_nguoc_lai():
+    """Máy sạch cài `pip install -r requirements.txt` rồi K1 phải hết báo thiếu thư viện."""
+    tep = Path(__file__).resolve().parents[2] / "requirements.txt"
+    goi = {d.split("#")[0].strip().lower() for d in tep.read_text(encoding="utf-8").splitlines()}
+    goi.discard("")
+    can = {ten_goi.lower() for _, ten_goi in km.THU_VIEN}
+    assert can - goi == set(), f"requirements.txt thiếu gói mà kiem-may.py kiểm: {sorted(can - goi)}"
+    assert goi - can == set(), f"requirements.txt có gói mà kiem-may.py không kiểm: {sorted(goi - can)}"
 
 
 def test_thieu_fonttools_la_thieu_bat_buoc(may, monkeypatch):
