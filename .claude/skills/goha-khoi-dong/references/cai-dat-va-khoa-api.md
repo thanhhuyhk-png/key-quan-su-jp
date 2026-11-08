@@ -1,14 +1,14 @@
 # Cài đặt và khoá API (Windows)
 
-Đọc khi chạy bước 2, 4, 5 của K1. Mọi lệnh chạy trong PowerShell hoặc Git Bash; sau khi cài phải **mở lại cửa sổ lệnh** để PATH mới có hiệu lực.
+Đọc khi chạy bước 2, 4, 5 của K1. Claude chạy lệnh cài khi người dùng đồng ý; cài xong phải **tắt hẳn app Claude rồi mở lại** (dùng Claude Code dòng lệnh thì mở lại cửa sổ lệnh) để PATH mới có hiệu lực.
 
 ## Bảng lệnh cài
 
 | Thành phần | Bắt buộc | Lệnh cài | Ghi chú |
 |---|---|---|---|
-| Claude Code | Có | Theo trang Anthropic | Người dùng tự cài trước K1 |
-| Git | Có | `winget install Git.Git` | Tự cài trước K1 |
-| GitHub CLI | Có | `winget install GitHub.cli`, rồi `gh auth login` | Đăng nhập bằng tài khoản đã được mời vào team |
+| Claude Code | Có | App Claude (thẻ Code) hoặc theo trang Anthropic | Đang chạy trong phiên Claude Code là đạt, không cần lệnh `claude` |
+| Git | Tuỳ | `winget install Git.Git` | Chỉ cần để cất công việc lên GitHub và cập nhật kit bằng Git; kit tải bằng ZIP chạy đủ không cần |
+| GitHub CLI | Tuỳ | `winget install GitHub.cli`, rồi `gh auth login --web` | Như Git; đăng nhập bằng tài khoản đã được mời vào team |
 | Python 3.10 trở lên | Có | `winget install Python.Python.3.12` | Tích chọn «Add to PATH» nếu bộ cài hỏi |
 | Thư viện Python | Có | `python -m pip install -r requirements.txt` | numpy, pillow, opencv-python, soundfile, pytest, openpyxl, yt-dlp, requests, scipy, fonttools |
 | Node.js 22 trở lên | Có | `winget install OpenJS.NodeJS.LTS`, rồi `npm install` trong `template/` | Cần Node 22 vì `tools/kit/dung-trang.mjs` dùng WebSocket có sẵn của Node, bản cũ không có |

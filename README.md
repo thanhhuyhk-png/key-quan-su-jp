@@ -2,6 +2,8 @@
 
 Bộ quy trình để bạn dựng phim tài liệu cho YouTube từ A đến Z, do Claude Code làm cùng bạn: chọn ngách, chọn đề tài, nghiên cứu, viết kịch bản, đọc giọng, dựng, kiểm chất lượng, đăng, cắt Shorts. Bạn không cần biết lập trình.
 
+> **Mới dùng, không quen cửa sổ lệnh?** Đọc `huong-dan/dung-app-claude.md`: cách đơn giản nhất là tải ZIP rồi làm với app Claude, không cần Git hay PowerShell. Phần dưới dành cho ai dùng PowerShell; Git và GitHub CLI chỉ cần khi lấy kit bằng Git.
+
 ## Cách dùng: lấy kit về, rồi mở Claude Code TRONG thư mục kit
 
 Làm theo thứ tự này (xong ba việc ở mục bên dưới trước):
@@ -107,7 +109,7 @@ git pull kit main
 
 Nếu bạn tạo repo bằng cách B, lần đầu phải thêm `--allow-unrelated-histories` (`git pull kit main --allow-unrelated-histories`) vì hai repo không chung lịch sử; từ lần sau gõ như trên. Nếu nhánh chính của kit không tên `main`, thay đúng tên (xem trang repo kit).
 
-Khoá API của bạn (`.env`), `cau-hinh.toml`, `ho-so-kenh/`, các tập đã làm và các tệp `kenh/` bạn tự tạo không bị đè, vì chúng không có trong kit. Đừng tự sửa tệp thuộc kit (`tools/`, `.claude/skills/`, `kenh/bo-loc-chinh-sach-yt.md`…): sửa rồi `git pull` sẽ xung đột. Ngoại lệ là `kenh/cach-noi-da-chot.tsv`, nơi bạn thêm dòng khi sửa cách nói; xung đột ở tệp đó thì giữ các dòng của bạn. Nếu `git pull` báo xung đột ở chỗ khác, dừng lại và hỏi Claude hoặc chủ kit, đừng tự xoá.
+Khoá API của bạn (`.env`), `cau-hinh.toml`, `ho-so-kenh/`, các tập đã làm và các tệp `kenh/` bạn tự tạo không bị đè, vì chúng không có trong kit. Đừng tự sửa tệp thuộc kit (`tools/`, `.claude/skills/goha-*`, `kenh/bo-loc-chinh-sach-yt.md`…): sửa rồi `git pull` sẽ xung đột. Muốn kit làm theo cách của bạn thì để phần chỉnh ở thư mục `rieng/` và skill tên `rieng-*`: kit không bao giờ có tệp ở đó nên cập nhật không đụng tới (nhờ Claude «làm bản riêng của bước …»; xem `huong-dan/dung-app-claude.md`). Ngoại lệ là `kenh/cach-noi-da-chot.tsv`, nơi bạn thêm dòng khi sửa cách nói; xung đột ở tệp đó thì giữ các dòng của bạn. Nếu `git pull` báo xung đột ở chỗ khác, dừng lại và hỏi Claude hoặc chủ kit, đừng tự xoá.
 
 ## Hỗ trợ
 

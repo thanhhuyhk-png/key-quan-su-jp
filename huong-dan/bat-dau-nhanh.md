@@ -2,6 +2,8 @@
 
 Bản tóm tắt thao tác (từ buổi hướng dẫn hội viên 04/11/2026). Chi tiết đầy đủ: `README.md` (cài đặt) và `HUONG-DAN.md` (quy trình, chi phí, sự cố). Mọi lệnh dưới đây gõ trong **PowerShell** trên Windows 10/11, trừ chỗ ghi «gõ trong Claude Code».
 
+> Không quen PowerShell? Đọc `huong-dan/dung-app-claude.md`: tải ZIP rồi làm với app Claude, không cần gõ lệnh nào.
+
 ---
 
 ## Trước khi bắt đầu

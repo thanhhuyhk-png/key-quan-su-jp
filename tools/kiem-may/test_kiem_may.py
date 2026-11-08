@@ -53,6 +53,7 @@ def may(tmp_path, monkeypatch):
         f'goha_avs = "{avs.as_posix()}"\n', encoding="utf-8")
     monkeypatch.delenv("ELEVENLABS_API_KEY", raising=False)
     monkeypatch.delenv("DEEPGRAM_API_KEY", raising=False)
+    monkeypatch.delenv("CLAUDECODE", raising=False)
     monkeypatch.setattr(km, "chay", gia_chay(dict(LENH_DU)))
     monkeypatch.setattr(km, "tim_module", lambda ten: "1.0")
     monkeypatch.setattr(km, "ram_gb", lambda: 32.0)
@@ -420,3 +421,24 @@ def test_quet_reelcrew_lien_ket_hong_khong_sap(may, monkeypatch):
 
     monkeypatch.setattr(km.os, "walk", walk_gia)
     assert km.quet_reelcrew(may) == []
+
+
+# ---- bản ZIP: người chỉ dùng app Claude, chưa có Git, gh, lệnh claude ----
+
+def test_ban_zip_thieu_git_gh_khong_chan(may, monkeypatch):
+    """Tải kit bằng ZIP thì Git, gh chỉ cần khi muốn cất lên GitHub: thiếu không chặn K1."""
+    dat_chay(monkeypatch, git=None, **{"gh__--version": None, "gh__auth": None})
+    kq = km.kiem(may)
+    for ten in ("Git", "GitHub CLI (gh)"):
+        m = hang(kq, ten)
+        assert not m.co and not m.bat_buoc
+        assert ten not in kq.thieu_bat_buoc
+
+
+def test_dang_chay_trong_app_claude_tinh_la_co_claude_code(may, monkeypatch):
+    """App Claude không đưa lệnh claude vào PATH, nhưng phiên Claude Code đặt biến CLAUDECODE cho lệnh nó chạy."""
+    dat_chay(monkeypatch, claude=None)
+    assert "Claude Code" in km.kiem(may).thieu_bat_buoc
+    kq = km.kiem(may, {**dict(km.os.environ), "CLAUDECODE": "1"})
+    m = hang(kq, "Claude Code")
+    assert m.co and "Claude Code" not in kq.thieu_bat_buoc
