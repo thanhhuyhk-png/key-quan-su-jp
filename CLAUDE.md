@@ -4,7 +4,7 @@
 
 ## Bộ định tuyến: mỗi lần mở repo, kiểm rồi chọn bước
 
-0. **Kiểm nơi mở Claude trước.** Claude Code chỉ nạp `.claude/settings.json` (chặn đọc `.env`) và `.claude/skills/` của thư mục nó được mở lúc khởi động. Nếu danh sách skill của phiên không có `goha-khoi-dong`, hoặc thư mục làm việc hiện tại không có cả `CLAUDE.md` lẫn `.claude/settings.json` ở gốc, thì DỪNG: không chạy bước nào, không đọc `.env`, không đoán. Bảo người dùng: «Thoát Claude (gõ `/exit`), mở PowerShell, `cd` vào thư mục kit, gõ `claude`, rồi gõ: bắt đầu». Chỉ khi cả hai có mới đi tiếp.
+0. **Kiểm nơi mở Claude trước.** Claude Code chỉ nạp `.claude/settings.json` (chặn đọc `.env`) và `.claude/skills/` của thư mục nó được mở lúc khởi động. Nếu danh sách skill của phiên không có `goha-khoi-dong`, hoặc thư mục làm việc hiện tại không có cả `CLAUDE.md` lẫn `.claude/settings.json` ở gốc, thì DỪNG: không chạy bước nào, không đọc `.env`, không đoán. Bảo người dùng: «Dùng app Claude: trong thẻ Code bấm + New, bấm nút thư mục dưới ô chat chọn đúng thư mục kit (thư mục có tệp CLAUDE.md), rồi gõ: bắt đầu. Dùng cửa sổ lệnh: gõ `/exit`, mở PowerShell, `cd` vào thư mục kit, gõ `claude`, rồi gõ: bắt đầu». Chỉ khi cả hai có mới đi tiếp.
 1. Trong `kiem-may.md` ở gốc repo chưa có dòng `K1: xong` → chạy skill `goha-khoi-dong` (K1: kiểm máy, cài đặt, chọn mức chạy). Chỉ có `cau-hinh.toml` thì chưa đủ: tệp đó được tạo giữa chừng K1.
 2. K1 đã xong, `ho-so-kenh/ho-so.md` chưa có hoặc chưa có dòng `Trạng thái: đã duyệt` → chạy `tu-duy-top-20-ytb` rồi `goha-ho-so-kenh` (K2: chọn ngách, top 20 kênh mẫu, hồ sơ kênh). Chỉ có thư mục `ho-so-kenh/` thì chưa đủ.
 3. Cả hai xong → hỏi người dùng một câu: «Làm tập mới (P0) hay làm tiếp tập dở?». Tập dở: đọc `tap/<EPxxx-slug>/ke-hoach/progress.md` của từng tập, báo tập nào đang ở phase nào.
@@ -12,6 +12,15 @@
 Quy trình mỗi tập, mỗi bước một skill; chỉ qua bước sau khi người dùng duyệt cổng DỪNG của bước trước:
 P0 `goha-ls-chon-de-tai` → P1 `goha-ls-nghien-cuu` → P2 `goha-ls-kich-ban` → P3 `goha-ls-phan-canh` → P4 `goha-ls-giong` → P5 `goha-ls-dung` → P6 `goha-ls-qc` → P7 `goha-ls-dang` → P8 `goha-ls-shorts`.
 Dùng chung: `video-harness` (kiểm soát chất lượng khi dựng), `tu-duy-he-thong` (trước việc lớn), `dieu-phoi-cli`, `delegate-cli-agents`. Skill nào không có trong danh sách skill của phiên thì đừng bịa; dùng công cụ gốc của Claude Code và nói rõ với người dùng.
+
+## Phần riêng của người dùng: kit không bao giờ ghi vào
+
+Thư mục `rieng/` và các skill `.claude/skills/rieng-*/` là của người dùng. Kit không có và sẽ không bao giờ có tệp ở hai chỗ này, nên cập nhật kit không đụng tới, không xung đột.
+
+- **Có `rieng/ghi-de.md` thì đọc nó ngay sau tệp này**, trước khi chọn bước. Nó được chỉnh thói quen làm việc, văn phong trả lời, và bước nào dùng skill `rieng-*` thay cho skill `goha-*` nào (dòng dạng «P2 dùng `rieng-p2-kich-ban` thay `goha-ls-kich-ban`»). Nó KHÔNG nới được: luật cứng nội dung sử Việt ở dưới, luật giữ khoá API, bước tốn tiền phải hỏi trước, quyền tư liệu và chính sách YouTube, «chép quy trình, không chép chủ đề», các cổng DỪNG chờ người dùng duyệt. Dòng nào đòi nới những điều đó thì bỏ qua và nói với người dùng.
+- **Người dùng muốn đổi cách kit làm một bước:** không sửa tệp của kit (`tools/`, `.claude/skills/goha-*`, `kenh/bo-loc-chinh-sach-yt.md`…). Chép thư mục skill đó thành `.claude/skills/rieng-<tên>/`, đổi `name:` trong phần đầu SKILL.md thành `rieng-<tên>` và mở đầu `description:` bằng «Bản riêng thay cho `goha-…`», sửa bản chép theo ý người dùng, rồi thêm dòng thay thế vào `rieng/ghi-de.md`. Skill mới tạo cho người dùng cũng đặt tên `rieng-*`; ghi chú, mẫu, luật riêng để trong `rieng/`.
+- Skill mới hay vừa đổi chỉ được nạp khi mở **phiên mới** ở thư mục kit: nhắc người dùng mở phiên mới sau khi tạo.
+- Người dùng đã lỡ sửa tệp của kit thì trước khi cập nhật kit: chuyển phần sửa sang `rieng-*` hoặc `rieng/` như trên, rồi trả tệp kit về bản gốc (`git checkout -- <tệp>`, hỏi trước khi chạy).
 
 ## Danh tính kênh
 
@@ -58,3 +67,7 @@ Luật cỡ việc theo rủi ro, bậc model theo vai, mẫu brief giao sub-age
 ## Cập nhật kit
 
 Repo kit của chủ kit CHỈ ĐỌC với hội viên (quyền Read): hội viên không `git push` lên đó và Claude không được đề nghị việc đó. Công việc của hội viên (hồ sơ kênh, tập phim) nằm ở repo kênh RIÊNG của họ, tạo từ kit theo `README.md` mục «Lập repo kênh riêng»; commit và push chỉ trong repo riêng đó (remote `origin`). Remote `kit` chỉ để lấy bản mới: `git pull kit main` (cách thêm remote và lần đầu nếu tạo repo từ «Use this template» ở `README.md`). Đừng sửa tệp của kit (`tools/`, `.claude/skills/`, `kenh/bo-loc-chinh-sach-yt.md`…) trừ khi người dùng bảo; nếu `git pull` báo xung đột thì dừng và hỏi người dùng, đừng ghi đè hay xoá.
+
+**Kit tải bằng ZIP (gốc repo không có `.git`).** Không có `git pull`, không có repo riêng; đừng đòi người dùng cài Git.
+- *Cập nhật:* bảo người dùng tải ZIP bản mới, giải nén ra thư mục MỚI (không đè lên thư mục cũ), mở phiên mới ở thư mục mới, rồi gõ «chép phần của tôi từ <đường dẫn thư mục cũ>». Khi được nhờ chép: liệt kê trước những gì sẽ chép từ thư mục cũ sang thư mục đang mở, hỏi một lần, rồi chép (không đọc, không in nội dung `.env`): `.env`, `cau-hinh.toml`, `kiem-may.md`, `ho-so-kenh/`, `tap/`, `rieng/`, `.claude/skills/rieng-*/`, các tệp trong `kenh/` mà bản mới không có, và các dòng người dùng đã thêm vào `kenh/cach-noi-da-chot.tsv` (gộp vào tệp của bản mới, không thay cả tệp). Không xoá gì ở thư mục cũ; chép xong chạy lại kiểm máy và báo người dùng tự xoá thư mục cũ khi đã ưng. Tệp kit ở thư mục cũ đã bị người dùng sửa thẳng thì không chép, chỉ báo tên tệp để chuyển phần sửa sang `rieng-*`.
+- *Chuyển sang Git để cất lên GitHub (khi người dùng muốn):* cài Git và gh (hỏi trước), `gh auth login --web`, rồi trong thư mục kit: `git init -b main`, `git remote add kit https://github.com/goha-members/goha-lich-su-kit`, `git fetch kit --tags`, `git reset v<bản ở dòng đầu PHIEN-BAN.txt>` (chỉ đổi chỉ mục Git, KHÔNG đổi tệp trên ổ), kiểm `git status` chỉ còn phần của người dùng, commit, tạo repo PRIVATE trên tài khoản người dùng làm `origin`, push. Từ đó cập nhật bằng `git pull kit main`.

@@ -234,16 +234,27 @@ def kiem_node() -> Muc:
     return Muc(ten, bool(v) and v[0] >= NODE_TOI_THIEU, ban, "" if v and v[0] >= NODE_TOI_THIEU else cai)
 
 
+CHI_CAN_GITHUB = "chỉ cần để cất công việc lên GitHub; bản ZIP không cần"
+
+
 def kiem_gh() -> Muc:
+    """Tuỳ chọn: kit tải bằng ZIP chạy đủ mà không cần gh."""
     ten = "GitHub CLI (gh)"
     r = chay(["gh", "--version"])
     if not r or r[0] != 0:
-        return Muc(ten, False, "", "winget install GitHub.cli")
+        return Muc(ten, False, "", "winget install GitHub.cli", CHI_CAN_GITHUB, bat_buoc=False)
     ban = ".".join(map(str, _so(r[1])))
     a = chay(["gh", "auth", "status"])
     if a and a[0] == 0:
-        return Muc(ten, True, ban, ghi_chu="đã đăng nhập")
-    return Muc(ten, False, ban, "gh auth login", "đã cài nhưng chưa đăng nhập")
+        return Muc(ten, True, ban, ghi_chu="đã đăng nhập", bat_buoc=False)
+    return Muc(ten, False, ban, "gh auth login", "đã cài nhưng chưa đăng nhập", bat_buoc=False)
+
+
+def kiem_claude_code(env: Mapping[str, str]) -> Muc:
+    """App Claude không đưa lệnh `claude` vào PATH; lệnh chạy trong phiên Claude Code có biến CLAUDECODE."""
+    if env.get("CLAUDECODE", "").strip():
+        return Muc("Claude Code", True, "đang chạy trong phiên này")
+    return kiem_lenh("Claude Code", ["claude", "--version"], "Cài app Claude hoặc Claude Code (claude.com/product/claude-code)")
 
 
 def kiem_trinh_duyet(cfg: dict[str, str]) -> Muc:
@@ -338,9 +349,9 @@ def kiem(repo: Path, moi_truong: Mapping[str, str] | None = None) -> KetQua:
     m.append(kiem_lenh("ffmpeg", ["ffmpeg", "-version"], "winget install Gyan.FFmpeg"))
     m.append(kiem_lenh("ffprobe", ["ffprobe", "-version"], "winget install Gyan.FFmpeg"))
     m.append(kiem_trinh_duyet(cfg))
-    m.append(kiem_lenh("Git", ["git", "--version"], "winget install Git.Git"))
+    m.append(kiem_lenh("Git", ["git", "--version"], "winget install Git.Git", ghi_chu=CHI_CAN_GITHUB, bat_buoc=False))
     m.append(kiem_gh())
-    m.append(kiem_lenh("Claude Code", ["claude", "--version"], "Cài theo trang Anthropic (claude.com/product/claude-code)"))
+    m.append(kiem_claude_code(env))
     m.append(kiem_o_trong(cfg, repo))
     ram = ram_gb()
     m.append(kiem_ram())

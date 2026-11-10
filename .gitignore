@@ -3,6 +3,8 @@
 *.env
 cau-hinh.toml
 cookies/
+# Bảng kiểm máy (RAM, ổ, cổng app) và dấu K1 riêng từng máy: máy mới clone về thì chạy lại K1
+kiem-may.md
 
 # Media nặng, đầu ra dựng (để ở thư mục <output> trong cau-hinh.toml)
 *.mp4
