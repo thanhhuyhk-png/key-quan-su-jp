@@ -7,7 +7,7 @@ Bước tiếp theo: chạy P1 `goha-ls-nghien-cuu` với brief.md
 |---|---|---|---|---|
 | P0 Chọn đề tài | xong | 10/11/2026 | người dùng duyệt đề tài 10/11/2026 | kiểm trùng: ĐẠT; sổ cấm 16 dòng + sổ chung 2 dòng |
 | P1 Nghiên cứu | xong | 10/11/2026 | — | 16 dòng sổ số liệu, 0 lỗi kiem-so; sổ tài sản; 3 phụ đề đối thủ |
-| P2 Kịch bản | chưa | | | |
+| P2 Kịch bản | xong (v1) | 10/11/2026 | — | kich-ban-v1.md + loi-doc-v1.txt; 7,432 ký tự; 3 cổng ĐẠT; chờ user duyệt |
 | P3 Phân cảnh | chưa | | | |
 | P4 Giọng | chưa | | | |
 | P5 Dựng | chưa | | | |
