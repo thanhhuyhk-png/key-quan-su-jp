@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "PELELIU", "title": "MEDAL OF HONOR", "items": [{"value": 8, "from": -0.014, "dur": 0.8, "label": "Marines received the Medal of Honor"}, {"value": 5, "from": 2.546, "dur": 0.6, "label": "posthumously"}], "duration": 4.2917, "seed": 221, "source": "Source: DVIDS", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

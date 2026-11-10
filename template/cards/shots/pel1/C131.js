@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "ALONE", "at": 0.05, "y": 480, "size": 170, "shake": 0, "flash": 0, "spacing": 14}, {"text": "IN THAT OPINION", "at": 0.4, "y": 620, "size": 60, "shake": 0, "flash": 0, "spacing": 8, "color": "#c93b2b"}], "duration": 2.25, "seed": 216, "source": "Source: Hough", "nen": "trong"};

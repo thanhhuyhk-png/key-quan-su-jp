@@ -7,7 +7,7 @@ description: P7 Bộ đăng của quy trình phim tài liệu lịch sử Việt
 
 Danh tính kênh (tên kênh, ngách, ngôn ngữ, logo, màu, font, khung tên video) đọc từ `ho-so-kenh/ho-so.md`; luật nhạy cảm riêng ở `ho-so-kenh/luat-noi-dung.md`. Các tệp `kenh/mo-ta-chuan.md`, `kenh/thumbnail-chuan.md`, `kenh/seo-kenh.md`, `kenh/khung-kenh.md`, `kenh/lich-noi-dung.md` do K2 (`goha-ho-so-kenh` bước 10) tạo từ khuôn; thiếu tệp nào thì DỪNG và quay lại K2, đừng tự bịa chuẩn. Đường dẫn dạng `<output>` là khoá trong `cau-hinh.toml`. Ví dụ có nhãn «tập mẫu» là tập 1 Điện Biên Phủ của chủ kênh, chỉ để hình dung, đừng chép nội dung.
 
-**Đầu vào:** file cuối đạt P6 ở `tap/<tập>/Final/`, phụ đề `.vi.srt`, sổ số liệu (`ke-hoach/so-so-lieu.csv`), sổ tài sản (nguồn ảnh, phim), mốc chương lấy từ bản dựng cuối (`san-xuat/moc-cau.json`).
+**Đầu vào:** file cuối đạt P6 ở `<final>/EPxxx-<slug>/` (khoá `final` trống thì ở `tap/<tập>/Final/`), phụ đề `.vi.srt`, sổ số liệu (`ke-hoach/so-so-lieu.csv`), sổ tài sản (nguồn ảnh, phim), mốc chương lấy từ bản dựng cuối (`san-xuat/moc-cau.json`).
 **Đầu ra:** `Final/EPxxx-postpack.md` sạch, chép dùng luôn; `EPxxx-thumbnail-a/b/c.jpg`; `EPxxx-<slug>.<ngôn ngữ>.srt`. Mọi tệp mang tiền tố `EPxxx-`. Video không lên Git.
 
 Vì sao nghiêm: chữ cho người xem quyết định video có biểu tượng quảng cáo xanh hay không, và mô tả sai nguồn là chỗ khán giả sử bắt đầu tiên. Chi tiết từng khuôn ở `references/`.

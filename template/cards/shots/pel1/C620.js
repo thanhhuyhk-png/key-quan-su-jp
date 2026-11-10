@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "lower-third", "name": "Robert Leckie", "role": "Author of Helmet for My Pillow", "detail": "knocked out of the fight by a blast near the airfield", "from": 0.2, "to": 3.4, "duration": 3.625, "seed": 219, "source": "Source: HBO", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

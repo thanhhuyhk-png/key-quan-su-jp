@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ON THE UMURBROGOL", "title": "EVERY DAY", "y": 480, "blocks": [{"text": "a day inside", "size": 90, "from": 1.962, "perWord": 0.08}, {"text": "the second plan", "size": 110, "from": 3.002, "perWord": 0.08, "color": "#c93b2b"}], "duration": 4.1667, "seed": 221, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

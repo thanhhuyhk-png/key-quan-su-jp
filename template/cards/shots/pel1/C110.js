@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "1ST MARINE DIVISION", "title": "THE FORCE", "items": [{"value": 17, "suffix": ",000", "prefix": "MORE THAN", "from": 1.557, "dur": 1.0, "unit": "MEN", "label": "in the division"}, {"value": 28, "suffix": ",000", "prefix": "ABOUT", "from": 3.777, "dur": 1.0, "unit": "MEN", "label": "with attached units"}], "duration": 6.5417, "seed": 213, "source": "Source: Hough App. G"};

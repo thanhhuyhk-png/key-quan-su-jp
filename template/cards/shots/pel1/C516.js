@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "1ST MARINE DIVISION · PELELIU", "title": "MARINE CASUALTIES", "items": [{"value": 6, "suffix": ",526", "from": 1.175, "dur": 1.6, "label": "Marine casualties"}, {"value": 1, "suffix": ",252", "from": 3.395, "dur": 1.4, "label": "killed"}], "duration": 6.1667, "seed": 223, "source": "Source: Hough ch.9", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

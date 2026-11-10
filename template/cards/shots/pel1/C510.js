@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "HBO’S OWN DESCRIPTION · QUOTED", "title": "THE PACIFIC · PART 7", "y": 480, "blocks": [{"text": "the Marines secure", "size": 96, "from": 1.488, "perWord": 0.08}, {"text": "their objective at Peleliu", "size": 76, "from": 1.608, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.0833, "seed": 217, "source": "Source: HBO", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

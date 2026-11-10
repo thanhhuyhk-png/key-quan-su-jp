@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "COULD MACARTHUR HAVE GONE IN WITHOUT THE PALAUS?", "title": "THE MARINE CORPS HISTORY", "y": 470, "blocks": [{"text": "“a matter for speculation”", "font": "serif", "size": 96, "from": 4.524, "perWord": 0.12, "marks": [{"phrase": "speculation”", "type": "highlight", "at": 5.084, "dur": 0.5}]}], "cite": "— Hough · quoted", "citeAt": 0.6, "duration": 6.1667, "seed": 219, "source": "Source: Hough", "nen": "trong", "toi": 0.1};

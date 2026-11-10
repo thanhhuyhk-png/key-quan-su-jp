@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.5833333333333335, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/nara-naid-176250434-puller-xoay-thang.jpg", "grade": "bw-am", "seed": 5, "shake": 0.5, "flicker": 0.012, "grain": 0.14, "scratches": true, "move": [{"t": 0, "x": 0.64, "y": 0.45, "zoom": 1.6}, {"t": 2.5833333333333335, "x": 0.64, "y": 0.42, "zoom": 1.75, "ease": "sine"}]};

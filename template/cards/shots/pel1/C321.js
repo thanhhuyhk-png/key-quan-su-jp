@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ANGAUR", "title": "DECLARED SECURE", "y": 480, "blocks": [{"text": "10:34", "size": 170, "from": 1.43, "perWord": 0}, {"text": "September 20, 1944", "size": 64, "from": 3.43, "perWord": 0.06, "color": "#c93b2b"}], "duration": 4.75, "seed": 217, "source": "Source: Hough ch.6", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

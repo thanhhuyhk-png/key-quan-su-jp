@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.7083333333333335, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Film: NARA 111-ADC-3438, U.S. Army Signal Corps film, Sept. 1944 · Source: Hough ch.2", "thes": [], "texts": [{"text": "SEPTEMBER 14, 1944", "from": 0.1, "y": 480, "size": 120}, {"text": "THE LETTER IS OPENED", "from": 0.8, "y": 620, "size": 58, "color": "#c93b2b"}]};

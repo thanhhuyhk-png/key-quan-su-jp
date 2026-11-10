@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "HALSEY · AS REPORTED BY THE MARINE CORPS HISTORY", "title": "THE COST OF TAKING THE PALAUS", "y": 470, "blocks": [{"text": "“excessive in relation to the advantages gained”", "font": "serif", "size": 80, "maxW": 1600, "from": 3.643, "perWord": 0.1, "marks": [{"phrase": "excessive", "type": "highlight", "at": 4.163, "dur": 0.5}]}], "cite": "— Hough · quoted", "citeAt": 1.0, "duration": 6.375, "seed": 215, "source": "Source: Hough", "nen": "trong", "toi": 0.1};

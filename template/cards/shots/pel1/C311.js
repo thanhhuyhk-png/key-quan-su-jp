@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "THE GROUND", "sub": "LIMESTONE · CAVES", "from": 0.1, "lines": [{"text": "built for depth", "at": 0.5, "size": 44}]}, {"title": "THE DOCTRINE", "sub": "JULY 1944", "from": 0.678, "mau": "ta", "lines": [{"text": "fight as long as possible", "at": 1.418, "size": 44}]}], "duration": 2.4583, "seed": 216, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

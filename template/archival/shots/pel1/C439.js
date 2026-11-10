@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.7916666666666665, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h1-2-assault-peleliu-15-23sep-i006.jpg", "grade": "bw-am", "seed": 7, "shake": 0, "flicker": 0, "grain": 0.14, "scratches": false, "move": [{"t": 0, "x": 0.5, "y": 0.55, "zoom": 1.04}, {"t": 2.7916666666666665, "x": 0.52, "y": 0.48, "zoom": 1.13, "ease": "sine"}]};

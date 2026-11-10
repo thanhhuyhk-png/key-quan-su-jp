@@ -23,6 +23,8 @@ except Exception as e:  # chung.py báo thẳng khi chạy ngoài repo: in câu 
 # tên lệnh → (mô-đun, mô tả ngắn)
 LENH = {
     "giong": ("giong", "Đọc giọng ElevenLabs, ra WAV 48 kHz và mốc từng chữ"),
+    "giong-ai33": ("ai33", "Đọc giọng clone qua ai33.pro (thay ElevenLabs), mặc định chỉ xem trước"),
+    "tu-lieu": ("tu_lieu", "Tìm ảnh lưu trữ qua API NARA, DVIDS, Smithsonian, Pexels (miễn phí)"),
     "chep-loi": ("chep_loi", "Chép lời (ElevenLabs Scribe hoặc Deepgram), ra <tên>.words.json"),
     "so-loi": ("so_loi", "So lời chuẩn với words.json, tỉ lệ khớp và chỗ lệch"),
     "tron": ("tron", "Trộn âm theo mix.json (giọng, nhạc, tiếng động)"),
@@ -30,6 +32,8 @@ LENH = {
     "ghep": ("am_cuoi", "Ghép hình với âm master, đo lại độ to trên file ra"),
     "kiem": ("kiem", "Kiểm file video cuối: độ to, đỉnh, cỡ, fps, khung đen, đứng hình, lặng"),
     "tieng-dong": ("tieng_dong", "Tạo tiếng động ElevenLabs, ghi kho tài sản"),
+    "tieng-ai33": ("am_ai33", "Tạo tiếng động ElevenLabs SFX qua ai33.pro, mặc định chỉ xem trước"),
+    "nhac-ai33": ("am_ai33", "Tạo nhạc nền Suno qua ai33.pro (2 bản mỗi lần), mặc định chỉ xem trước"),
 }
 
 

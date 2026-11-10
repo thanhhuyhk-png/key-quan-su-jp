@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "THE NEXT QUESTION", "title": "THE PRICE AND THE PLAN", "y": 480, "blocks": [{"text": "did the price buy", "size": 100, "from": 0.955, "perWord": 0.08}, {"text": "what the plan promised?", "size": 100, "from": 1.995, "perWord": 0.08, "color": "#c93b2b"}], "duration": 3.3333, "seed": 224, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

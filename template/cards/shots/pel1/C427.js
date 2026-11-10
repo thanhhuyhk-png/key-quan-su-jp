@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "A WORD ON HOW FIRM THIS IS", "title": "WHERE SOURCES DISAGREE", "y": 520, "blocks": [{"text": "we say so", "size": 130, "from": 1.336, "perWord": 0.08, "color": "#c93b2b"}], "duration": 2.2917, "seed": 224, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

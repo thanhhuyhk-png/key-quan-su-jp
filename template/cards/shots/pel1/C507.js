@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "NOVEMBER 27, 1944", "title": "IN THE RECORD", "y": 500, "blocks": [{"text": "Organized resistance", "size": 110, "from": 0.05, "perWord": 0.06}, {"text": "ended", "size": 150, "from": 1.78, "perWord": 0, "color": "#c93b2b"}], "duration": 2.5, "seed": 223, "source": "Source: Smith, U.S. Army CMH", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

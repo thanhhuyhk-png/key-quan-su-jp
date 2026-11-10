@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 5.916666666666667, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h1-6-isolation-umurbrogol-i029.jpg", "grade": "bw-am", "seed": 3, "shake": 0, "flicker": 0, "grain": 0.14, "scratches": false, "move": [{"t": 0, "x": 0.5, "y": 0.5, "zoom": 1.02}, {"t": 5.916666666666667, "x": 0.5, "y": 0.46, "zoom": 1.12, "ease": "sine"}]};

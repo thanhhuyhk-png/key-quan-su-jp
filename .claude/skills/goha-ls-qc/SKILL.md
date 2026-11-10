@@ -9,7 +9,7 @@ description: P6 QC và xuất của quy trình sản xuất phim tài liệu l�
 
 Danh tính kênh, ngưỡng độ to và luật riêng của ngách đọc từ `ho-so-kenh/ho-so.md`, `ho-so-kenh/luat-noi-dung.md`. Ví dụ mang nhãn «tập mẫu EP001» (Điện Biên Phủ 1954) chỉ để minh hoạ.
 
-Mẫu đã chạy: tập mẫu EP001 (v1 01/11, v3, v4 02/11/2026). File cuối dựng ở `<output>/<ngày>-<tập>\final\`; user duyệt xong thì **chuyển** (không chép, tiết kiệm ổ) video về `tap/<slug>/Final/` cùng phụ đề, `do-cuoi`, `check` (video không lên Git). Kết thúc bằng **DỪNG, user xem bản cuối**.
+Mẫu đã chạy: tập mẫu EP001 (v1 01/11, v3, v4 02/11/2026). File cuối dựng ở `<output>/<ngày>-<tập>\final\`; user duyệt xong thì **chuyển** (không chép, tiết kiệm ổ) video về `<final>/EPxxx-<slug>/` (khoá `final` để trống thì về `tap/<slug>/Final/`); phụ đề, `do-cuoi`, `check` về `tap/<slug>/Final/` (video không lên Git). Lệnh kiểm `kit.py kiem` chạy trên video ở `<final>`. Duyệt xong bản cuối thì xoá thư mục `<output>/<ngày>-<tập>/final/` và các bản dựng thử cũ chỉ khi user đồng ý; giữ stem âm đến khi xong P8. Kết thúc bằng **DỪNG, user xem bản cuối**.
 
 Vì sao hai cổng: chủ đề lịch sử dân tộc thì một sai về xưng hô, số liệu là khán giả bắt ngay và lan trong bình luận (yêu cầu của chủ kit: "không được có 1 tý sai phạm"). Lỗi nội dung phải chặn **trước** khi đọc giọng và render, vì sửa sau tốn tiền giọng và hàng giờ dựng lại. Lỗi kỹ thuật thì chỉ thấy trên file cuối.
 

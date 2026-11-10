@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "IN DOUBT · 1", "title": "JAPANESE TANKS IN THE COUNTERATTACK", "y": 480, "blocks": [{"text": "the number", "size": 110, "from": 0.115, "perWord": 0.08}, {"text": "is in doubt", "size": 110, "from": 2.555, "perWord": 0.08, "color": "#c93b2b"}], "duration": 3.5833, "seed": 225, "source": "Source: Hough, Gayle", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

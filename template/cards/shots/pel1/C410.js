@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "ON SCREEN", "sub": "THE PACIFIC", "from": 0.05, "lines": [{"text": "agree", "at": 0.994, "size": 64}]}, {"title": "IN THE RECORD", "sub": "OFFICIAL HISTORIES", "from": 0.05, "mau": "ta", "lines": [{"text": "agree", "at": 0.994, "size": 64}]}], "duration": 1.75, "seed": 216, "source": "Graphic", "nen": "trong", "toi": 0.35, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": false};

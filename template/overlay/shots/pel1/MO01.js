@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.125, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Illustration · Source: Hough ch.2", "thes": [], "texts": [{"text": "THE PLAN", "from": 0.1, "y": 400, "size": 56, "color": "#c93b2b"}, {"text": "ABOUT 4 DAYS", "from": 1.178, "y": 620, "size": 200}]};

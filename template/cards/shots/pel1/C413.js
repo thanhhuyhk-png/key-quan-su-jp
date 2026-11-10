@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ROW 2 · IN THE RECORD TOO", "title": "HEAT AND THIRST", "y": 480, "blocks": [{"text": "105–115 °F", "size": 150, "from": 0.138, "perWord": 0}, {"text": "in the series and in the record", "size": 64, "from": 1.958, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.25, "seed": 219, "source": "Source: Hough", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

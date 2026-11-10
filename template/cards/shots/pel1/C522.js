@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "202 PRISONERS", "title": "MOST OF THE REST", "y": 520, "blocks": [{"text": "Korean laborers", "size": 140, "from": 0.906, "perWord": 0.08, "color": "#c93b2b"}], "duration": 2.1667, "seed": 220, "source": "Source: Gayle", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

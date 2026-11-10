@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "EYE LEVEL", "sub": "THE SERIES", "from": 0.1, "lines": [{"text": "two Marines, a few yards at a time", "at": 0.4, "size": 44}]}, {"title": "FROM ABOVE", "sub": "THE RECORD", "from": 0.9, "mau": "ta", "lines": [{"text": "the whole island as a board", "at": 1.2, "size": 44}]}], "duration": 3.0417, "seed": 261, "source": "Graphic"};

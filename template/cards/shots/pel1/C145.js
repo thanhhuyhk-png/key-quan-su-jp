@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "JULY 11, 1944 · LIEUTENANT GENERAL INOUE", "title": "TRAINING ORDERS FOR THE PALAUS", "y": 480, "blocks": [{"text": "July 11, 1944", "size": 110, "from": 0.1, "perWord": 0}, {"text": "drawing on the lessons of Saipan", "size": 60, "from": 4.694, "perWord": 0.06, "color": "#c93b2b"}], "duration": 4.7083, "seed": 221, "source": "Source: USMC Vol. IV", "nen": "trong", "toi": 0.1};

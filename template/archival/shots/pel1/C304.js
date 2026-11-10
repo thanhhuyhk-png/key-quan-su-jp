@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.5833333333333335, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h5-1-telephone-lines-bloodynose-NARA520729.jpg", "grade": "bw-am", "seed": 3, "shake": 0.5, "flicker": 0.012, "grain": 0.14, "scratches": true, "move": [{"t": 0, "x": 0.5, "y": 0.52, "zoom": 1.15}, {"t": 2.5833333333333335, "x": 0.47, "y": 0.6, "zoom": 1.25, "ease": "sine"}]};

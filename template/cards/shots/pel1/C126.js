@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "lower-third", "name": "Admiral William F. Halsey", "role": "Commanding the Third Fleet", "detail": "September 13, 1944", "from": 0.2, "to": 4.5, "duration": 4.875, "seed": 220, "source": "Source: Hough App. B", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMau": "rgba(20,33,61,0.84)", "khongNen": true};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "THE TANK-INFANTRY ATTACK", "title": "THE RESULT", "items": [{"value": 11, "from": 0.1, "dur": 0.9, "unit": "DESTROYED", "label": "tanks"}], "duration": 2.7083, "seed": 217, "source": "Source: Hough · Background: illustration", "nen": "trong", "toi": 0.1};

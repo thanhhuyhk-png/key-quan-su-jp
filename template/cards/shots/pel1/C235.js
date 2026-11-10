@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "lower-third", "name": "Private First Class Eugene B. Sledge", "role": "K Company, 3rd Battalion, 5th Marines", "detail": "60 mm mortarman · no photo", "from": 0.3, "to": 6.8, "duration": 7.2083, "seed": 221, "source": "Source: Auburn University Libraries · Background: illustration", "nen": "trong", "toi": 0.1};

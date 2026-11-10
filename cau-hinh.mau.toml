@@ -5,6 +5,9 @@
 [duong_dan]
 # Nơi để media nặng của từng tập (hình, âm, bản dựng). Cần ≥ 60 GB trống cho mỗi tập đang dựng.
 output = "D:/Goha/output"
+# Nơi để video cuối (phim dài và Shorts .mp4) của từng tập: <final>/EPxxx-<slug>/.
+# Nên để ở ổ khác ổ chứa repo, ví dụ "E:/Goha/final". Để trống thì video cuối nằm trong tap/<tập>/Final/.
+final = ""
 # Chrome hoặc Edge, dùng chụp ảnh headless (thẻ chữ, bìa, Shorts).
 # Phải là đường dẫn có thật trên máy bạn. Máy chỉ có Edge thì ghi "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe".
 chrome = "C:/Program Files/Google/Chrome/Application/chrome.exe"

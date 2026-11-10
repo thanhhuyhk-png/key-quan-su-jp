@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ROW 1 · COMMENTARY, NOT AN OFFICIAL HISTORY", "title": "THE AIRFIELD CROSSING", "y": 470, "blocks": [{"text": "One commentary", "size": 110, "from": 0.1, "perWord": 0.08}, {"text": "on the series finds…", "size": 70, "from": 0.616, "perWord": 0.06, "color": "#c93b2b"}], "duration": 2.375, "seed": 217, "source": "Source: Pacific Wrecks (commentary)", "nen": "trong", "toi": 0.1, "khongNen": true};

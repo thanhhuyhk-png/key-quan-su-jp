@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "EYE LEVEL", "sub": "THE SERIES", "from": 0.05, "lines": [{"text": "one place on the board", "at": 0.2, "size": 44}]}, {"title": "FROM ABOVE", "sub": "THE RECORD", "from": 0.05, "mau": "ta", "lines": [{"text": "the whole board", "at": 0.2, "size": 44}]}], "duration": 1.4583, "seed": 224, "source": "Graphic", "nen": "trong", "toi": 0.35, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": false};

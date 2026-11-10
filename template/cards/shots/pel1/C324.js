@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ORDERS", "title": "FROM ANGAUR TO PELELIU", "y": 480, "blocks": [{"text": "Bring an Army regiment over", "size": 70, "from": 0.769, "perWord": 0.06}, {"text": "attach it to the Marine division", "size": 70, "from": 2.409, "perWord": 0.06, "color": "#c93b2b"}], "duration": 4.0833, "seed": 220, "source": "Source: Hough", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

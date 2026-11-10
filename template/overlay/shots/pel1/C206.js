@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.625, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Film: NARA ADC-3426c (via Internet Archive), USMC film, Sept. 15, 1944", "thes": [], "texts": [{"text": "A TIMETABLE", "from": 0.05, "y": 460, "size": 130}, {"text": "IS NOT A FIGHT", "from": 0.919, "y": 620, "size": 110, "color": "#c93b2b"}]};

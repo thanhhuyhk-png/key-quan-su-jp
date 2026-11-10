@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 470, "lines": [{"text": "Where did the plan", "at": 0.05, "y": 470, "size": 100, "shake": 0, "flash": 0, "weight": 600, "spacing": 1}, {"text": "go wrong?", "at": 0.937, "y": 640, "size": 130, "shake": 6, "flash": 0.15, "weight": 700, "spacing": 2, "color": "#c93b2b"}], "duration": 1.875, "seed": 254, "source": "Graphic", "nen": "trong"};

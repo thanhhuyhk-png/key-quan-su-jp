@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "THE LEDGER", "title": "EACH TOTAL", "y": 480, "blocks": [{"text": "as a history gives it", "size": 96, "from": 0.742, "perWord": 0.08}, {"text": "and which history", "size": 110, "from": 2.402, "perWord": 0.08, "color": "#c93b2b"}], "duration": 4.0833, "seed": 222, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

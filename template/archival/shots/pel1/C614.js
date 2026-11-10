@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 3.4166666666666665, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h5-3-riflemen-behind-lvt-usmc95253.jpg", "grade": "bw-am", "seed": 5, "shake": 0.5, "flicker": 0.012, "grain": 0.14, "scratches": true, "move": [{"t": 0, "x": 0.2, "y": 0.86, "zoom": 2.3}, {"t": 3.4166666666666665, "x": 0.26, "y": 0.86, "zoom": 2.4, "ease": "sine"}]};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.75, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h6-1-stretcher-bearers-rest-127GW741-96817.jpg", "grade": "bw-am", "seed": 5, "shake": 0.5, "flicker": 0.012, "grain": 0.14, "scratches": true, "move": [{"t": 0, "x": 0.5, "y": 0.45, "zoom": 1.05}, {"t": 2.75, "x": 0.56, "y": 0.45, "zoom": 1.12, "ease": "sine"}]};

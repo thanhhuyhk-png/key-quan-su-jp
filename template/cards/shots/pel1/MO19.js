@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "THE AMERICAN PLAN", "sub": "PLAN 1", "from": 0.1, "lines": [{"text": "drawn on a map", "at": 2.623, "size": 44}]}, {"title": "THE JAPANESE PLAN", "sub": "PLAN 2", "from": 0.5, "mau": "ta", "lines": [{"text": "cut into the coral rock", "at": 3.543, "size": 44}]}], "duration": 4.25, "seed": 262, "source": "Graphic"};

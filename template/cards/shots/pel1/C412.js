@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ON SCREEN · HBO MINISERIES (2010)", "title": "THE PACIFIC · PART 6", "y": 470, "blocks": [{"text": "The airfield crossing", "size": 96, "from": 0.1, "perWord": 0.1}, {"text": "close to the memoir", "size": 70, "from": 2.101, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.3333, "seed": 218, "source": "Source: HBO", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

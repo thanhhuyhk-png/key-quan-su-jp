@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "THE CRITIC", "title": "HEARD, THEN OVERRULED", "y": 520, "blocks": [{"text": "CANCEL STALEMATE", "size": 140, "from": 0.0, "perWord": 0, "dimAt": 1.435, "marks": [{"phrase": "CANCEL STALEMATE", "type": "strike", "at": 1.435, "dur": 0.5}]}], "duration": 2.5833, "seed": 221, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

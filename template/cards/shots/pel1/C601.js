@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "HOW DID A FOUR-DAY PLAN", "at": 0.05, "y": 450, "size": 96, "shake": 0, "flash": 0, "spacing": 4}, {"text": "OUTLAST THE DIVISION THAT CARRIED IT OUT?", "at": 1.588, "y": 590, "size": 72, "shake": 4, "flash": 0.15, "spacing": 4, "color": "#c93b2b"}], "duration": 3.625, "seed": 218, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

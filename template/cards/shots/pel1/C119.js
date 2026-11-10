@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "SEPTEMBER 14, 1944", "at": 0.1, "y": 480, "size": 120, "shake": 0, "flash": 0, "spacing": 6}, {"text": "THE LETTER IS OPENED", "at": 0.8, "y": 620, "size": 58, "shake": 0, "flash": 0, "spacing": 8, "color": "#c93b2b"}], "duration": 2.7083, "seed": 222, "source": "Source: Hough ch.2", "nen": "trong"};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 1.4583333333333333, "khongNen": true, "credit": "Film: NARA 428-NPC-6156 (NAID 77782), U.S. Navy film, Sept. 1944 · Source: Hough", "thes": [], "texts": [{"text": "SEPTEMBER 15, 1944", "from": 0.05, "y": 480, "size": 130}, {"text": "THE FIRST DAY", "from": 0.4, "y": 620, "size": 90, "color": "#c93b2b"}]};

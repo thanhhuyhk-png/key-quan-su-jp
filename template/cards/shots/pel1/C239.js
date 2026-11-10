@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "THE JAPANESE PLAN", "title": "TWO STAGES", "y": 450, "blocks": [{"text": "1 · Maximum damage at the landing", "size": 70, "from": 1.487, "perWord": 0.05}, {"text": "2 · Then defend in depth from the ridge line", "size": 70, "from": 3.587, "perWord": 0.05, "color": "#c93b2b"}], "duration": 3.7917, "seed": 225, "source": "Source: USMC Vol. IV", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

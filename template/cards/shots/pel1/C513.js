@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "THE COST", "title": "THE LEDGER", "y": 520, "blocks": [{"text": "read plainly", "size": 140, "from": 0.967, "perWord": 0.08, "color": "#c93b2b"}], "duration": 2.125, "seed": 220, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

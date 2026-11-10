@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "HOW DOES A FOUR-DAY PLAN", "at": 0.1, "y": 460, "size": 90, "shake": 0, "flash": 0, "spacing": 4}, {"text": "LAST ALMOST TWO AND A HALF MONTHS?", "at": 0.7, "y": 600, "size": 74, "shake": 4, "flash": 0.15, "spacing": 4, "color": "#c93b2b"}], "duration": 4.7917, "seed": 224, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

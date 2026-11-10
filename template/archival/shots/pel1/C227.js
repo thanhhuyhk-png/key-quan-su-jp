@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 3.9583333333333335, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h4-1-corsair-lands-80G425532.jpg", "grade": "goc", "seed": 8, "shake": 0, "flicker": 0, "grain": 0.06, "scratches": false, "move": [{"t": 0, "x": 0.35, "y": 0.6, "zoom": 1.3}, {"t": 3.9583333333333335, "x": 0.55, "y": 0.6, "zoom": 1.3, "ease": "sine"}]};

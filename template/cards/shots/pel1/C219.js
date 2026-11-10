@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "SEPTEMBER 16 · THE SECOND DAY", "title": "IN THE SHADE", "items": [{"value": 105, "from": 1.924, "dur": 1.0, "unit": "°F", "label": "and very little shade"}], "duration": 3.875, "seed": 223, "source": "Source: Hough ch.5 · Background: illustration", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 3.375, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Film: NARA 428-NPC-7033 (via Internet Archive), U.S. Navy film, 1944", "thes": [], "texts": [{"text": "WHAT DOES THE SERIES KEEP?", "from": 0.05, "y": 470, "size": 100}, {"text": "WHAT DOES THE RECORD ADD?", "from": 1.502, "y": 620, "size": 100, "color": "#c93b2b"}]};

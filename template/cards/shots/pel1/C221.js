@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "LATER READINGS", "title": "THE HEAT", "items": [{"value": 105, "from": -1, "dur": 0.01, "unit": "°F", "label": "second day"}, {"value": 115, "from": 1.233, "dur": 0.9, "unit": "°F", "label": "later readings"}], "duration": 3.4583, "seed": 216, "source": "Source: Hough, Gayle", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

@@ -7,8 +7,8 @@ description: P8 Shorts của quy trình phim tài liệu lịch sử Việt Nam 
 
 Danh tính kênh (tên kênh, màu, logo, nền tảng đăng) đọc từ `ho-so-kenh/ho-so.md`. `<output>` là khoá trong `cau-hinh.toml`. Ví dụ có nhãn «tập mẫu» là tập 1 Điện Biên Phủ của chủ kênh, chỉ để hình dung.
 
-**Đầu vào:** file cuối đạt P6 (`Final/EPxxx-<slug>.mp4`), phụ đề `.vi.srt`, ba stem sau trộn của tập (giọng, nhạc, tiếng động) và bản master ở `<output>`, sổ số liệu, sổ tài sản. **Giữ nguyên các stem** đến khi Shorts xong; đừng dọn trước.
-**Đầu ra:** `Final/shorts/EPxxx-Snn-<slug>/` gồm `EPxxx-Snn.mp4` (1080×1920, 24 fps, ≤ 60 s), `EPxxx-Snn-bia.jpg` (9:16), `EPxxx-Snn-seo.md`; cộng `Final/shorts/EPxxx-shorts-cach-dang.md` chung. Video không lên Git.
+**Đầu vào:** file cuối đạt P6 (`<final>/EPxxx-<slug>/EPxxx-<slug>.mp4`; khoá `final` trống thì ở `Final/`), phụ đề `.vi.srt`, ba stem sau trộn của tập (giọng, nhạc, tiếng động) và bản master ở `<output>`, sổ số liệu, sổ tài sản. **Giữ nguyên các stem** đến khi Shorts xong; đừng dọn trước.
+**Đầu ra:** `Final/shorts/EPxxx-Snn-<slug>/` gồm `EPxxx-Snn.mp4` (1080×1920, 24 fps, ≤ 60 s), `EPxxx-Snn-bia.jpg` (9:16), `EPxxx-Snn-seo.md`; cộng `Final/shorts/EPxxx-shorts-cach-dang.md` chung. Riêng `EPxxx-Snn.mp4` để ở `<final>/EPxxx-<slug>/shorts/EPxxx-Snn-<slug>/` (khoá `final` trống thì để cạnh bìa trong `Final/shorts/`). Video không lên Git.
 
 Vì sao làm riêng một bước: Shorts là cửa kéo người xem về phim dài; làm ẩu thì lệch dữ kiện hoặc lộ phim thô quá 10 s, còn lặp một khuôn quá nhiều thì dính chính sách «nội dung không chân thực». Chi tiết ở `references/`.
 

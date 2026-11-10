@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "lower-third", "name": "Eugene B. Sledge", "role": "Private First Class · 60 mm mortarman, K Company", "detail": "left the Marine Corps as a corporal", "from": 0.2, "to": 6.7, "duration": 7.0417, "seed": 226, "source": "Source: Auburn University Libraries", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

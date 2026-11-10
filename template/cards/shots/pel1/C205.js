@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "1ST MARINES · WHITE BEACHES", "title": "ON SCHEDULE", "y": 480, "blocks": [{"text": "the timetable the plan had drawn", "size": 64, "from": 0.479, "perWord": 0.06}, {"text": "the landing kept to it", "size": 80, "from": 3.179, "perWord": 0.08, "color": "#c93b2b"}], "duration": 4.3333, "seed": 218, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

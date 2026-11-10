@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ON SCREEN · HBO MINISERIES (2010)", "title": "THE PACIFIC · PART 6", "y": 500, "blocks": [{"text": "watch it again", "size": 120, "from": 0.05, "perWord": 0.08}, {"text": "with the record beside it", "size": 80, "from": 1.341, "perWord": 0.06, "color": "#c93b2b"}], "duration": 2.3333, "seed": 222, "source": "Source: HBO", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "THE MARINES’ NAME", "title": "THE RIDGE", "y": 480, "blocks": [{"text": "“Bloody Nose Ridge”", "font": "serif", "size": 110, "from": 0.1, "perWord": 0.08}, {"text": "their own name for it", "size": 56, "from": 0.406, "perWord": 0.06, "color": "#c93b2b"}], "duration": 2.375, "seed": 219, "source": "Source: National WWII Museum, HISTORY.com", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

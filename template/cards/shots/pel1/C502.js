@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "NOVEMBER 24, 1944", "title": "COLONEL NAKAGAWA", "y": 480, "blocks": [{"text": "his last message", "size": 110, "from": 2.412, "perWord": 0.08}, {"text": "and the regiment’s colors burned", "size": 70, "from": 2.592, "perWord": 0.04, "color": "#c93b2b"}], "duration": 3.4583, "seed": 218, "source": "Source: Gayle", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

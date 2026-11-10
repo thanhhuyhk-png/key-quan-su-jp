@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 3.375, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h1-5-second-phase-i016.jpg", "grade": "bw-am", "seed": 9, "shake": 0, "flicker": 0, "grain": 0.14, "scratches": false, "move": [{"t": 0, "x": 0.45, "y": 0.42, "zoom": 1.6}, {"t": 3.375, "x": 0.5, "y": 0.38, "zoom": 1.7, "ease": "sine"}]};

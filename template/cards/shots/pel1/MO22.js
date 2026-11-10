@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "WHAT THE SERIES KEEPS", "sub": "AT EACH STOP", "from": 0.1, "lines": [{"text": "?", "at": 2.199, "size": 120}]}, {"title": "WHAT THE RECORD ADDS", "sub": "AT EACH STOP", "from": 0.4, "mau": "ta", "lines": [{"text": "?", "at": 3.879, "size": 120}]}], "duration": 5.3333, "seed": 256, "source": "Graphic"};

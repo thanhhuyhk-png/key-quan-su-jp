@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "YOUR TURN", "title": "TELL US IN THE COMMENTS", "y": 500, "blocks": [{"text": "which scene", "size": 130, "from": 0.909, "perWord": 0.08}, {"text": "should we set beside the record next?", "size": 70, "from": 2.169, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.9583, "seed": 226, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

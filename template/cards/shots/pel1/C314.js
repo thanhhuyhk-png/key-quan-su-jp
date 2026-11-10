@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "1ST MARINES · COLONEL PULLER", "title": "THE FIRST SIX DAYS", "items": [{"value": 1, "suffix": ",749", "from": 0.916, "dur": 1.2, "unit": "CASUALTIES", "label": "killed and wounded"}], "duration": 4.9583, "seed": 219, "source": "Source: Hough ch.9, Gayle", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

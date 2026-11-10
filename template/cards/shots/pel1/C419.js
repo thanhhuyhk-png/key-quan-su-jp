@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "SEPTEMBER 13, 1944", "title": "TWO ADMIRALS", "y": 470, "blocks": [{"text": "Halsey: cancel", "size": 110, "from": 1.262, "perWord": 0.08}, {"text": "Nimitz: go on", "size": 110, "from": 3.362, "perWord": 0.08, "color": "#c93b2b"}], "duration": 5.0833, "seed": 225, "source": "Source: Hough App. B", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

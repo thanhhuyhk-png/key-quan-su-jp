@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "THE PLAN", "at": 0.1, "y": 400, "size": 56, "spacing": 14, "shake": 0, "flash": 0, "color": "#c93b2b"}, {"text": "ABOUT 4 DAYS", "at": 1.178, "y": 620, "size": 220, "shake": 8, "flash": 0.25, "spacing": 6}], "duration": 2.125, "seed": 253, "source": "Source: Hough ch.2 · Background: illustration", "nen": "trong", "toi": 0.12};

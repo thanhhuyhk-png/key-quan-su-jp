@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "NIMITZ REPLIES", "title": "COMMITMENTS HAD BEEN MADE", "y": 460, "blocks": [{"text": "Phase I: Peleliu and Angaur", "size": 76, "from": -0.01, "perWord": 0.06}, {"text": "as planned", "size": 110, "from": 2.89, "perWord": 0.1, "color": "#c93b2b"}], "duration": 4.0833, "seed": 219, "source": "Source: Hough App. B", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

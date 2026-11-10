@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "NOW", "at": 0.05, "y": 420, "size": 70, "shake": 0, "flash": 0, "spacing": 10}, {"text": "WHAT THE RECORD ADDS", "at": 0.185, "y": 580, "size": 120, "shake": 5, "flash": 0.15, "spacing": 4, "color": "#c93b2b"}], "duration": 1.7917, "seed": 222, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

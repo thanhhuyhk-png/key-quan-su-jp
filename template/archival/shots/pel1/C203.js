@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.0833333333333335, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h3-3-first-wave-lvts-80G283553.jpg", "grade": "bw-am", "seed": 3, "shake": 0.5, "flicker": 0.012, "grain": 0.14, "scratches": true, "move": [{"t": 0, "x": 0.5, "y": 0.68, "zoom": 1.3}, {"t": 2.0833333333333335, "x": 0.45, "y": 0.68, "zoom": 1.3, "ease": "sine"}]};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "CENTRAL PELELIU · ESTIMATE", "title": "PREPARED BEFORE THE LANDING", "items": [{"value": 500, "prefix": "ABOUT", "from": 1.237, "dur": 1.2, "unit": "CAVES, TUNNELS AND FIRING POSITIONS", "label": "estimate"}], "duration": 4.2083, "seed": 224, "source": "Source: Gayle"};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "THE MAP", "sub": "FOUR DAYS", "from": 0.05, "lines": [{"text": "a plan", "at": 1.346, "size": 60}]}, {"title": "THE GROUND", "sub": "FAR LONGER", "from": 0.05, "mau": "ta", "lines": [{"text": "the ground it meets", "at": 1.946, "size": 60}]}], "duration": 3.25, "seed": 220, "source": "Graphic", "nen": "trong", "toi": 0.35, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": false};

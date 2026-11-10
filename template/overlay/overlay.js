@@ -23,7 +23,7 @@ function bigText(t, it) {
   const band = ease.expoOut(prog(t, it.from, 0.5)) * (1 - ease.in(prog(t, to, 0.3)));
   const g = ctx.createLinearGradient(0, y - size, 0, y + size * (it.sub ? 1.6 : 1));
   g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(0.5, `rgba(0,0,0,${(ND_ON ? 0.78 : 0.55) * band})`); g.addColorStop(1, 'rgba(0,0,0,0)');
-  ctx.fillStyle = g; ctx.fillRect(0, y - size, W, size * (it.sub ? 2.6 : 2));
+  if (S.khongNen !== true) { ctx.fillStyle = g; ctx.fillRect(0, y - size, W, size * (it.sub ? 2.6 : 2)); } // khongNen: bỏ dải, chữ có viền + bóng (nhan-dien.js)
   let x = X - tw / 2;
   words.forEach((w, i) => {
     const A = appear(t, it.from + i * 0.07, { dur: 0.5, to: to + i * 0.03, rise: size * 0.25, s0: 0.9 });

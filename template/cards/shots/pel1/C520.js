@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "THE JAPANESE SIDE · MARINE CORPS HISTORY", "title": "PRISONERS", "items": [{"value": 202, "from": 1.432, "dur": 1.0, "label": "prisoners"}], "duration": 3.375, "seed": 218, "source": "Source: Gayle", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

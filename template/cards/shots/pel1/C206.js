@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "A TIMETABLE", "at": 0.05, "y": 460, "size": 130, "shake": 0, "flash": 0, "spacing": 8}, {"text": "IS NOT A FIGHT", "at": 0.919, "y": 620, "size": 110, "shake": 6, "flash": 0.2, "spacing": 8, "color": "#c93b2b"}], "duration": 2.625, "seed": 219, "source": "Graphic", "nen": "trong"};

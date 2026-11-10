@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 520, "lines": [{"text": "WHICH SCENE FROM THE PACIFIC", "at": 0.1, "y": 470, "size": 86, "shake": 0, "flash": 0, "spacing": 4}, {"text": "SHOULD WE SET BESIDE THE RECORD NEXT?", "at": 0.6, "y": 590, "size": 70, "shake": 0, "flash": 0.1, "spacing": 4, "color": "#c93b2b"}], "duration": 5.0, "seed": 227, "source": "Graphic"};

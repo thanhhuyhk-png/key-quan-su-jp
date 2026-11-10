@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ON SCREEN · HBO MINISERIES (2010)", "title": "THE PACIFIC · PART 5", "y": 450, "blocks": [{"text": "The landing", "size": 96, "from": 0.2, "perWord": 0.12}, {"text": "How close does it come to the record?", "size": 52, "from": 2.052, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.9583, "seed": 255, "source": "Source: HBO", "nen": "trong"};

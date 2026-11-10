@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 2.25, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Film: NARA 111-ADC-3438, U.S. Army Signal Corps film, Sept. 1944 · Source: Hough", "thes": [], "texts": [{"text": "ALONE", "from": 0.05, "y": 480, "size": 170}, {"text": "IN THAT OPINION", "from": 0.4, "y": 620, "size": 60, "color": "#c93b2b"}]};

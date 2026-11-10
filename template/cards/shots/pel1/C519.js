@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "THE JAPANESE SIDE", "title": "THE GARRISON", "y": 500, "blocks": [{"text": "almost the entire garrison", "size": 96, "from": 1.305, "perWord": 0.08}, {"text": "died", "size": 140, "from": 2.805, "perWord": 0, "color": "#c93b2b"}], "duration": 3.4583, "seed": 226, "source": "Source: Gayle", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

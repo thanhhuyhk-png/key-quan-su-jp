@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 1.7083333333333333, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h3-4-smoke-over-beaches-usmc94913.jpg", "grade": "bw-am", "seed": 11, "shake": 0.5, "flicker": 0.012, "grain": 0.14, "scratches": true, "move": [{"t": 0, "x": 0.5, "y": 0.45, "zoom": 1.25}, {"t": 1.7083333333333333, "x": 0.52, "y": 0.45, "zoom": 1.3, "ease": "sine"}]};

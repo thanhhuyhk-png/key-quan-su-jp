@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 440, "lines": [{"text": "PELELIU 1944", "at": 0.4, "y": 440, "size": 170, "shake": 6, "flash": 0.25, "spacing": 10}, {"text": "THE FOUR-DAY PLAN THAT TOOK", "at": 1.3, "y": 600, "size": 58, "shake": 0, "flash": 0, "spacing": 6}, {"text": "ALMOST TWO AND A HALF MONTHS", "at": 1.7, "y": 700, "size": 58, "shake": 0, "flash": 0, "spacing": 6, "color": "#c93b2b"}], "fadeOut": 0.4, "duration": 4.0, "seed": 260, "source": "Graphic", "nen": "trong", "toi": 0.1};

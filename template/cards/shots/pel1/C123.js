@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "dong-thoi-gian", "tag": "1944", "kicker": "REMEMBER", "title": "ABOUT 4 DAYS", "axis": {"to": [2, 12, 1944], "ticks": [{"d": [15, 9, 1944], "label": "SEPT. 15"}, {"d": [15, 10, 1944], "label": "OCT. 15"}, {"d": [27, 11, 1944], "label": "NOV. 27"}], "from": [10, 9, 1944]}, "lanes": [{"name": "PLANNED", "start": [15, 9, 1944], "end": [19, 9, 1944], "dates": "about 4 days", "activeFrom": 0.05, "grow": 0.4}], "duration": 1.625, "seed": 217, "source": "Source: Hough ch.2"};

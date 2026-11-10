@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "A FEW POPULAR CLAIMS", "title": "HOW THEY REST", "y": 480, "blocks": [{"text": "on a single source", "size": 96, "from": 2.23, "perWord": 0.08}, {"text": "or on none we could read", "size": 76, "from": 3.53, "perWord": 0.06, "color": "#c93b2b"}], "duration": 5.2917, "seed": 219, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

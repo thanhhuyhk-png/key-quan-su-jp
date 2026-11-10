@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "WHAT THE RECORD KEEPS", "title": "NOT ONLY PLANS", "y": 500, "blocks": [{"text": "people", "size": 150, "from": 0.88, "perWord": 0}, {"text": "as well as plans", "size": 86, "from": 1.32, "perWord": 0.08, "color": "#c93b2b"}], "duration": 2.5833, "seed": 225, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

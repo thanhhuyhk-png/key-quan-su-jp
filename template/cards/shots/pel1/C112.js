@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "THE LANDING PLAN", "title": "THE FIRST HOURS", "items": [{"value": 8, "suffix": ",000", "from": -0.01, "dur": 0.9, "unit": "COMBAT MARINES", "label": "on the beachhead"}, {"value": 85, "from": 2.69, "dur": 0.9, "unit": "MINUTES", "label": "after H-Hour"}], "duration": 6.625, "seed": 215, "source": "Source: Hough"};

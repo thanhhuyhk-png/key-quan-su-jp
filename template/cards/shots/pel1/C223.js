@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "FROM THE OUTSET", "title": "WATER AND SUPPLY", "y": 450, "blocks": [{"text": "Heat · water", "size": 90, "from": 0.1, "perWord": 0.1}, {"text": "a supply problem grows", "size": 64, "from": 2.28, "perWord": 0.06}, {"text": "with every day a plan is wrong", "size": 64, "from": 3.8, "perWord": 0.06, "color": "#c93b2b"}], "duration": 6.1667, "seed": 218, "source": "Source: Hough ch.5 · Background: illustration", "nen": "trong", "toi": 0.1};

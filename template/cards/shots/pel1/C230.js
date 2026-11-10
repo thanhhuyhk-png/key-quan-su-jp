@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "STOP ONE", "at": 0.05, "y": 440, "size": 90, "shake": 0, "flash": 0, "spacing": 14, "color": "#c93b2b"}, {"text": "THE AIRFIELD", "at": 0.3, "y": 600, "size": 160, "shake": 6, "flash": 0.2, "spacing": 8}], "duration": 3.4167, "seed": 216, "source": "Graphic", "nen": "trong"};

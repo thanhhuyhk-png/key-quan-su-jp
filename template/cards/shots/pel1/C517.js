@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "MARINE CASUALTIES · 6,526", "title": "THE COUNT INCLUDES", "y": 500, "blocks": [{"text": "Navy medical personnel", "size": 100, "from": 0.997, "perWord": 0.08}, {"text": "who served with the division", "size": 70, "from": 2.217, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.7083, "seed": 224, "source": "Source: Hough ch.9", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

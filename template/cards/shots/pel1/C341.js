@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "THE AMERICAN PLAN", "sub": "CLOCK 1", "from": 0.05, "lines": [{"text": "a short fight", "at": 1.4, "size": 56}]}], "duration": 2.7083, "seed": 219, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

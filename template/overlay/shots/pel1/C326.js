@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 3.2916666666666665, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Film: NARA 111-ADC-3421, U.S. Army Signal Corps film, Oct. 1944", "thes": [], "texts": [{"text": "STOP TWO", "from": 0.05, "y": 440, "size": 90, "color": "#c93b2b"}, {"text": "THE RIDGES", "from": 0.3, "y": 600, "size": 160}]};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "OCTOBER 1944", "title": "LEAVING BY AIR", "y": 480, "blocks": [{"text": "Senior Marine headquarters", "size": 76, "from": 0.1, "perWord": 0.06}, {"text": "left the island by air", "size": 64, "from": 1.454, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.3333, "seed": 221, "source": "Source: Hough", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

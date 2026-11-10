@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "1ST MARINE DIVISION · 1944", "title": "THE PLAN", "y": 470, "blocks": [{"text": "To see where it went wrong,", "size": 64, "from": 0.2, "perWord": 0.08}, {"text": "read it first.", "size": 96, "from": 1.96, "perWord": 0.1, "color": "#c93b2b"}], "duration": 3.125, "seed": 214, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

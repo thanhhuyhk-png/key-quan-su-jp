@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "WHAT THE RECORD ADDS", "title": "FIRST", "y": 500, "blocks": [{"text": "the argument", "size": 120, "from": 0.479, "perWord": 0.08}, {"text": "before the battle", "size": 86, "from": 1.019, "perWord": 0.08, "color": "#c93b2b"}], "duration": 2.2083, "seed": 223, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

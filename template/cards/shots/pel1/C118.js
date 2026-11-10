@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "SEPTEMBER 1944", "title": "THE LETTER", "y": 480, "blocks": [{"text": "to correspondents and ship commanders", "size": 60, "from": 1.954, "perWord": 0.06}, {"text": "opened the day before the landing", "size": 50, "from": 3.814, "perWord": 0.06, "color": "#c93b2b"}], "duration": 4.6667, "seed": 221, "source": "Graphic · Background: illustration", "nen": "trong", "toi": 0.1};

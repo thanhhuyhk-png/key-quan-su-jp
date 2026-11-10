@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 4.166666666666667, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Film: NARA 428-NPC-5648 (NAID 77604), U.S. Navy film, Sept. 1944 · Source: Gayle", "thes": [], "texts": [{"text": "ALMOST TWO AND A HALF MONTHS", "from": 0.2, "y": 500, "size": 110}, {"text": "SEPT. 15 – NOV. 27, 1944", "from": 0.9, "y": 650, "size": 60, "color": "#c93b2b"}]};

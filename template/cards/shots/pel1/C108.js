@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "REAL", "sub": "THE PURPOSE", "from": 0.96, "lines": [{"text": "flank of the advance", "at": 1.46, "size": 44}]}, {"title": "ESSENTIAL?", "sub": "NO ONE COULD PROVE IT", "from": 2.16, "mau": "ta", "lines": [{"text": "?", "at": 2.52, "size": 120}]}], "duration": 3.75, "seed": 220, "source": "Graphic"};

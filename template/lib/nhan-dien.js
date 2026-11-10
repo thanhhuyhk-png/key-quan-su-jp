@@ -146,9 +146,38 @@ export function taoND(ctx, S) {
   // Bọc fillText đúng một lần trên mỗi ctx: gọi taoND lần nữa không bọc chồng (log không nhân đôi).
   const goc = ctx.__fillTextGoc ?? (ctx.__fillTextGoc = ctx.fillText.bind(ctx));
   let vai = 'noi-dung'; // vai chữ đang vẽ: 'noi-dung' (sàn 38 px) | 'nhan' (nhãn hộp, chức danh) | 'nguon' (sàn 30 px)
+  // S.khongNen = true (thêm 07/11/2026, mặc định tắt): bỏ mọi lớp tối sau chữ khi phủ lên phim (lớp phủ cả khung, tấm, bảng,
+  // dải chân, dải thẻ tên); chữ đọc được nhờ viền tối mảnh + bóng đổ sát chữ. Chữ trên hộp màu (vai 'nhan') giữ nguyên.
+  const KN = S.khongNen === true;
+  // S.hopChu = true (cùng khongNen, thêm 07/11/2026): mỗi dòng chữ một hộp ôm sát (màu S.hopMau), không viền chữ.
+  // Hộp gom theo dòng (chữ hiện từng từ vẫn ra một hộp liền), vẽ ở cuối khung (nd.chan) xuống DƯỚI chữ (destination-over).
+  const HOP = KN && S.hopChu === true, hop = [];
+  const hopMau = S.hopMau ?? 'rgba(10,12,8,0.82)';
+  const goc2 = (text, x, y, maxW) => {
+    if (!KN || vai === 'nhan') return goc(text, x, y, maxW);
+    if (HOP) {
+      const tf = ctx.getTransform(), sc = Math.hypot(tf.a, tf.b), tm = ctx.measureText(String(text)), p = tf.transformPoint({ x, y });
+      const mm = /(\d+(?:\.\d+)?)px/.exec(ctx.font), sz = (mm ? parseFloat(mm[1]) : 40) * sc;
+      if (ctx.globalAlpha >= 0.3 && String(text).trim()) {
+        hop.push({ x0: p.x - tm.actualBoundingBoxLeft * sc, x1: p.x + tm.actualBoundingBoxRight * sc,
+          y0: p.y - Math.max(tm.actualBoundingBoxAscent, (tm.fontBoundingBoxAscent ?? sz) * 0.72) * sc,
+          y1: p.y + Math.max(tm.actualBoundingBoxDescent, sz * 0.12) * sc, sz, a: ctx.globalAlpha });
+      }
+      ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = Math.max(3, sz * 0.05); goc(text, x, y, maxW); ctx.restore();
+      return;
+    }
+    const m = /(\d+(?:\.\d+)?)px/.exec(ctx.font), sz = m ? parseFloat(m[1]) : 40;
+    ctx.save();
+    ctx.lineJoin = 'round'; ctx.miterLimit = 2; ctx.lineWidth = Math.max(2, sz * 0.05); ctx.strokeStyle = 'rgba(0,0,0,0.55)';
+    ctx.shadowColor = 'rgba(0,0,0,0.9)'; ctx.shadowBlur = Math.max(6, sz * 0.18); ctx.shadowOffsetY = Math.max(1, sz * 0.03);
+    ctx.strokeText(text, x, y, maxW);
+    ctx.shadowBlur = Math.max(3, sz * 0.08); ctx.shadowOffsetY = 0;
+    goc(text, x, y, maxW);
+    ctx.restore();
+  };
   ctx.fillText = (text, x, y, maxW) => {
     ghi(String(text), x, y);
-    if (!window.ND_AN_CHU) goc(text, x, y, maxW); // ND_AN_CHU: máy đo dựng cùng khung không chữ để lấy nền thật
+    if (!window.ND_AN_CHU) goc2(text, x, y, maxW); // ND_AN_CHU: máy đo dựng cùng khung không chữ để lấy nền thật
   };
   function ghi(text, x, y) {
     const m = /(\d+(?:\.\d+)?)px/.exec(ctx.font); if (!m) return;
@@ -162,7 +191,7 @@ export function taoND(ctx, S) {
   let BG = null, LOGO = null;
   const TRONG = S.nen === 'trong';
   const nd = {
-    S, log, TRONG, nhipMoc, gachLog,
+    S, log, TRONG, KN, nhipMoc, gachLog,
     /** nen: false cho loại thẻ không gọi nd.nen (hook, thẻ tên, overlay): khỏi dựng nền rằn ri. */
     async chuanBi({ kieu = 'sang', seed = S.seed ?? 5, logo = true, nen = true } = {}) {
       if (!TRONG && nen) BG = dungNen(seed, kieu);
@@ -173,7 +202,46 @@ export function taoND(ctx, S) {
       const urlLogo = KENH?.logo ? new URL(KENH.logo, URL_KENH) : new URL('./goha-logo-ngang.png', import.meta.url);
       if (logo) LOGO = await nap(urlLogo.href);
     },
-    batDau() { log.length = 0; nhipMoc.length = 0; gachLog.length = 0; },
+    batDau() { log.length = 0; nhipMoc.length = 0; gachLog.length = 0; hop.length = 0; },
+    /** Vẽ các hộp ôm chữ đã gom trong khung (S.hopChu) xuống dưới chữ; gọi ở cuối khung (nd.chan gọi sẵn). */
+    veHop() {
+      if (!HOP || !hop.length) return;
+      const dong = [];
+      for (const r of [...hop].sort((a, b) => a.y0 - b.y0 || a.x0 - b.x0)) {
+        const d = dong.find((q) => Math.min(q.y1, r.y1) - Math.max(q.y0, r.y0) > 0.5 * Math.min(q.y1 - q.y0, r.y1 - r.y0)
+          && r.x0 - q.x1 < 0.8 * Math.max(q.sz, r.sz) && q.x0 - r.x1 < 0.8 * Math.max(q.sz, r.sz));
+        if (d) { d.x0 = Math.min(d.x0, r.x0); d.x1 = Math.max(d.x1, r.x1); d.y0 = Math.min(d.y0, r.y0); d.y1 = Math.max(d.y1, r.y1); d.sz = Math.max(d.sz, r.sz); d.a = Math.max(d.a, r.a); }
+        else dong.push({ ...r });
+      }
+      // S.hopGop (08/11/2026, mặc định tắt): gộp các dòng gần nhau (khe dọc < 1 cỡ chữ, chồng nhau theo chiều ngang) thành một khối
+      // ôm cả cụm chữ, thay vì mỗi dòng một dải. Lề tính theo cỡ chữ nhỏ nhất của khối để tiêu đề to không làm khối phình.
+      if (S.hopGop) {
+        for (let doi = true; doi;) {
+          doi = false;
+          for (let i = 0; i < dong.length && !doi; i++) for (let j = i + 1; j < dong.length && !doi; j++) {
+            const p = dong[i], q = dong[j], k = Math.max(p.sz, q.sz);
+            const khe = Math.max(p.y0, q.y0) - Math.min(p.y1, q.y1), ngang = Math.min(p.x1, q.x1) - Math.max(p.x0, q.x0);
+            if (khe < k * 1.0 && ngang > -k * 0.5) {
+              dong[i] = { x0: Math.min(p.x0, q.x0), x1: Math.max(p.x1, q.x1), y0: Math.min(p.y0, q.y0), y1: Math.max(p.y1, q.y1),
+                sz: Math.max(p.sz, q.sz), nho: Math.min(p.nho ?? p.sz, q.nho ?? q.sz), a: Math.max(p.a, q.a) };
+              dong.splice(j, 1); doi = true;
+            }
+          }
+        }
+      }
+      ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalCompositeOperation = 'destination-over'; ctx.fillStyle = hopMau;
+      for (const d of dong) {
+        const c = d.nho ?? d.sz, px = Math.max(14, c * (d.nho ? 0.6 : 0.3)), py = Math.max(8, c * (d.nho ? 0.45 : 0.2));
+        // S.hopMem: hộp viền nhoè (không cạnh cứng), độ nhoè theo cỡ chữ
+        if (S.hopMem) ctx.filter = `blur(${Math.round(Math.max(6, c * 0.22))}px)`;
+        ctx.globalAlpha = d.a;
+        const x = Math.round(d.x0 - px), y = Math.round(d.y0 - py), w = Math.round(d.x1 - d.x0 + 2 * px), h = Math.round(d.y1 - d.y0 + 2 * py);
+        // S.hopBo (px, mặc định 0): bo góc hộp
+        if (S.hopBo > 0) { ctx.beginPath(); ctx.roundRect(x, y, w, h, Math.min(S.hopBo, h / 2)); ctx.fill(); } else ctx.fillRect(x, y, w, h);
+      }
+      ctx.filter = 'none';
+      ctx.restore(); hop.length = 0;
+    },
     /** Khai mốc hiện (giây) của các phần tử nội dung của thẻ; đầu thẻ, năm mờ, nguồn không tính. */
     ghiNhip(mocs) { for (const m of mocs) if (Number.isFinite(m)) nhipMoc.push(m); },
 
@@ -181,6 +249,7 @@ export function taoND(ctx, S) {
     nen(t) {
       if (TRONG) {
         ctx.clearRect(0, 0, W, H);
+        if (KN) return;
         const a = S.toi ?? 0.4;
         const vg = ctx.createRadialGradient(W / 2, H / 2, H * 0.2, W / 2, H / 2, H);
         vg.addColorStop(0, `rgba(14,17,8,${a})`); vg.addColorStop(1, `rgba(8,10,4,${Math.min(1, a + 0.3)})`);
@@ -192,7 +261,7 @@ export function taoND(ctx, S) {
     },
     /** Tấm tối dưới khối chữ khi phủ lên phim (không làm gì trên nền olive). */
     tam(x, y, w, h, a = 1) {
-      if (!TRONG || a <= 0) return;
+      if (!TRONG || KN || a <= 0) return;
       ctx.save(); ctx.globalAlpha = a;
       const g = ctx.createLinearGradient(0, y, 0, y + h);
       g.addColorStop(0, 'rgba(8,10,4,0)'); g.addColorStop(0.18, 'rgba(8,10,4,0.76)'); g.addColorStop(0.82, 'rgba(8,10,4,0.76)'); g.addColorStop(1, 'rgba(8,10,4,0)');
@@ -201,7 +270,7 @@ export function taoND(ctx, S) {
     /** Bảng sẫm đặt lên nền (trang sổ, ô thông tin): viền mảnh, nền olive rất tối mờ để chữ đọc được trên rằn ri. */
     bang(x, y, w, h, { a = 1, gay = null } = {}) {
       ctx.save(); ctx.globalAlpha = a;
-      ctx.fillStyle = TRONG ? 'rgba(8,10,4,0.78)' : 'rgba(12,15,7,0.62)'; ctx.fillRect(x, y, w, h);
+      if (!(TRONG && KN)) { ctx.fillStyle = TRONG ? 'rgba(8,10,4,0.78)' : 'rgba(12,15,7,0.62)'; ctx.fillRect(x, y, w, h); }
       ctx.strokeStyle = 'rgba(217,211,182,0.35)'; ctx.lineWidth = 2; ctx.strokeRect(x + 1, y + 1, w - 2, h - 2);
       if (gay) { ctx.fillStyle = gay; ctx.fillRect(x, y, 10, h); }
       ctx.restore();
@@ -291,7 +360,7 @@ export function taoND(ctx, S) {
     chan(t, { logo = !TRONG && S.logo !== false, a = 1, scrim = false } = {}) {
       const text = S.source ?? S.credit;
       const A = appear(t, 0.35, { dur: 0.6, rise: 0, s0: 1 }).a * a;
-      if (TRONG || scrim) {
+      if ((TRONG || scrim) && !KN) {
         const g = ctx.createLinearGradient(0, H - 230, 0, H); g.addColorStop(0, 'rgba(8,10,4,0)'); g.addColorStop(0.55, 'rgba(8,10,4,0.55)'); g.addColorStop(1, 'rgba(8,10,4,0.9)');
         ctx.save(); ctx.globalAlpha = A; ctx.fillStyle = g; ctx.fillRect(0, H - 230, W, 230); ctx.restore();
       }
@@ -308,6 +377,7 @@ export function taoND(ctx, S) {
         const h = LUOI.logoCao, w = (h * LOGO.width) / LOGO.height;
         ctx.save(); ctx.globalAlpha = 0.92 * A; ctx.drawImage(LOGO, LUOI.le, H - LUOI.duoi - h + 8, w, h); ctx.restore();
       }
+      nd.veHop();
     },
     /**
      * Thẻ tên người (góc trái dưới): vạch đỏ đứng, chức danh, tên Oswald, chi tiết. Dùng cho lower-third và overlay.
@@ -327,7 +397,7 @@ export function taoND(ctx, S) {
       ctx.restore();
       ctx.save(); ctx.globalAlpha = a;
       const g = ctx.createLinearGradient(0, top - 90, 0, H); g.addColorStop(0, 'rgba(8,10,4,0)'); g.addColorStop(0.35, 'rgba(8,10,4,0.62)'); g.addColorStop(1, 'rgba(8,10,4,0.78)');
-      ctx.fillStyle = g; ctx.fillRect(0, top - 90, 1560, H - top + 90);
+      if (!KN) { ctx.fillStyle = g; ctx.fillRect(0, top - 90, 1560, H - top + 90); }
       ctx.fillStyle = MAU.do; ctx.fillRect(x, top, 9, h * k);
       let yy = top + 8;
       if (it.role) { nd.nhan(it.role, x + 32, yy, { cao: 58, size: 30, a: 1, k }); yy += 70; }

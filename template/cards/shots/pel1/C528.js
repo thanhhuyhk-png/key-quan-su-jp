@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "U.S. ARMY OFFICIAL HISTORY · LOOKING BACK", "title": "IN HINDSIGHT", "y": 480, "blocks": [{"text": "Halsey", "size": 140, "from": 2.812, "perWord": 0}, {"text": "may well have been right", "size": 96, "from": 3.232, "perWord": 0.08, "color": "#c93b2b"}], "duration": 4.625, "seed": 226, "source": "Source: Smith, U.S. Army CMH ch.XXIV", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

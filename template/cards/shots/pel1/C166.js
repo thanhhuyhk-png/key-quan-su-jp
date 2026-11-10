@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "ONE SIDE", "sub": "CLOCK 1", "from": -1, "dimAt": 2.384, "lines": [{"text": "a short fight", "at": -1, "size": 56}]}, {"title": "THE OTHER", "sub": "CLOCK 2", "from": -1, "mau": "ta", "lines": [{"text": "a long one", "at": -1, "size": 56}, {"text": "both could not be right", "at": 2.943, "size": 44}]}], "duration": 4.75, "seed": 224, "source": "Graphic"};

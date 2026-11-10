@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "INSIDE THE LIMESTONE", "title": "LARGELY IMMUNE", "y": 500, "blocks": [{"text": "to general bombardment", "size": 86, "from": 2.592, "perWord": 0.08, "color": "#c93b2b"}], "duration": 4.1667, "seed": 218, "source": "Source: Hough", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

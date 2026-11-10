@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "ONE REGIMENT", "title": "SIX DAYS", "items": [{"value": 1, "suffix": ",749", "from": -1, "dur": 0.01, "unit": "CASUALTIES", "label": "one regiment · six days"}], "duration": 3.5833, "seed": 220, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

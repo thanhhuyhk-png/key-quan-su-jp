@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "RUPERTUS · AS REPORTED", "title": "THE EXPECTATION", "y": 420, "blocks": [{"text": "Very tough", "size": 90, "from": 0.014, "perWord": 0.06}, {"text": "very short", "size": 90, "from": 0.674, "perWord": 0.06}, {"text": "about four days", "size": 90, "from": 1.814, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.0, "seed": 214, "source": "Source: Hough ch.2 · Background: illustration", "nen": "trong", "toi": 0.1};

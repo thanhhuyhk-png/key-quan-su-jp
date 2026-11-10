@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 500, "lines": [{"text": "SEPTEMBER 15, 1944", "at": 0.05, "y": 480, "size": 130, "shake": 0, "flash": 0, "spacing": 6}, {"text": "THE FIRST DAY", "at": 0.4, "y": 620, "size": 90, "shake": 0, "flash": 0, "spacing": 10, "color": "#c93b2b"}], "duration": 1.4583, "seed": 215, "source": "Source: Hough", "nen": "trong"};

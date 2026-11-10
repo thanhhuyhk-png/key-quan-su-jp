@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ON SCREEN", "title": "THE PACIFIC · PARTS 5, 6, 7", "y": 470, "blocks": [{"text": "three parts", "size": 110, "from": 1.095, "perWord": 0.08}, {"text": "drawn from two memoirs", "size": 70, "from": 2.835, "perWord": 0.06, "color": "#c93b2b"}], "duration": 3.3333, "seed": 222, "source": "Source: HBO", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

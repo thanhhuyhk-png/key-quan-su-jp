@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "RIDGES ABOVE", "sub": "THE HIGH SQUARES", "from": 0.1, "lines": [{"text": "defenders’ fire from the high ground", "at": 0.5, "size": 44}]}, {"title": "OPEN GROUND BELOW", "sub": "THE AIRFIELD", "from": 1.841, "mau": "ta", "lines": [{"text": "flat, exposed, in range", "at": 2.301, "size": 44}]}], "duration": 3.2917, "seed": 258, "source": "Source: Hough, Gayle"};

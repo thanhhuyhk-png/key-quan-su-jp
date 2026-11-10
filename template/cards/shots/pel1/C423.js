@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "WHAT THE RECORD ADDS", "title": "THIRD", "y": 520, "blocks": [{"text": "time", "size": 170, "from": 0.626, "perWord": 0, "color": "#c93b2b"}], "duration": 1.5, "seed": 220, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "khongNen": true};

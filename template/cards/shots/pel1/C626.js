@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 520, "lines": [{"text": "HAVE YOU WATCHED", "at": 0.02, "y": 460, "size": 96, "shake": 0, "flash": 0, "spacing": 4}, {"text": "THE PACIFIC?", "at": 0.4, "y": 610, "size": 140, "shake": 5, "flash": 0.15, "spacing": 6, "color": "#c93b2b"}], "duration": 1.625, "seed": 225, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

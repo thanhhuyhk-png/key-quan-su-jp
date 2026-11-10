@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "IN DOUBT · 2", "title": "THE GARRISON’S COMBAT TROOPS", "y": 480, "blocks": [{"text": "two services’ histories", "size": 86, "from": 0.139, "perWord": 0.06}, {"text": "slightly different counts", "size": 86, "from": 1.639, "perWord": 0.06, "color": "#c93b2b"}], "duration": 4.5417, "seed": 226, "source": "Source: Hough, USMC Vol. IV", "nen": "trong", "toi": 0.1, "khongNen": true};

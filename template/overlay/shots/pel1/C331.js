@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 4.708333333333333, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Photo: USMC, Bloody Beaches (1996), map", "thes": [{"name": "Oct. 18: last Marines relieved from the Umurbrogol pocket", "detail": "", "from": 0.25, "to": 4.408, "size": 40}], "texts": []};

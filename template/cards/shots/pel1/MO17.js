@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "ON SCREEN · HBO MINISERIES (2010)", "title": "THE PACIFIC · PART 5", "y": 470, "blocks": [{"text": "At the eye level of two Marines", "size": 80, "from": 0.1, "perWord": 0.1, "marks": [{"phrase": "eye level", "type": "highlight", "at": 0.8, "dur": 0.5}]}], "duration": 2.9583, "seed": 260, "source": "Source: HBO", "nen": "trong"};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "SEPTEMBER 15 · NORTH OF THE AIRFIELD", "title": "THE TANKS", "items": [{"value": 12, "prefix": "ABOUT", "from": 1.962, "dur": 0.9, "unit": "LIGHT TANKS", "label": "a dozen or so · exact number in doubt"}], "duration": 5.0, "seed": 216, "source": "Source: Hough, Gayle · Background: illustration", "nen": "trong", "toi": 0.1};

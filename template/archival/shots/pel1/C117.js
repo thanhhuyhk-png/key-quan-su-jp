@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-tu-lieu.py, đừng sửa tay.
+window.SHOT = {"duration": 1.875, "image": "../../../output/261106-ep001-peleliu-1944/assets-moi/h7-1-rupertus-portrait-usmc.jpg", "grade": "bw-am", "seed": 7, "shake": 0.5, "flicker": 0.012, "grain": 0.14, "scratches": true, "move": [{"t": 0, "x": 0.5, "y": 0.34, "zoom": 1.08}, {"t": 1.875, "x": 0.5, "y": 0.36, "zoom": 1.0, "ease": "sine"}]};

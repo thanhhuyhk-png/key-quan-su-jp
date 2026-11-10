@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "van-kien", "kicker": "THE NEW DEFENSE", "title": "THREE LAYERS", "y": 420, "blocks": [{"text": "1 · Fight in depth", "size": 76, "from": 0.0, "perWord": 0.04, "color": "#c93b2b"}, {"text": "2 · Hold the main line inland", "size": 76, "from": 0.0, "perWord": 0, "dimAt": 0.0}, {"text": "3 · Counterattack only at the right moment", "size": 76, "from": 0.0, "perWord": 0, "dimAt": 0.0}], "duration": 1.25, "seed": 222, "source": "Graphic", "nen": "trong", "toi": 0.1};

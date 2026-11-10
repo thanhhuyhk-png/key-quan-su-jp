@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hai-cot", "cols": [{"title": "GUADALCANAL", "sub": "AND CAPE GLOUCESTER", "from": 0.2, "lines": [{"text": "what Rupertus had met", "at": 0.6, "size": 44}]}, {"title": "PELELIU", "sub": "1944", "from": 3.16, "mau": "ta", "lines": [{"text": "a concept of defense changed considerably", "at": 3.5, "size": 44}]}], "duration": 8.2083, "seed": 218, "source": "Source: USMC Vol. IV"};

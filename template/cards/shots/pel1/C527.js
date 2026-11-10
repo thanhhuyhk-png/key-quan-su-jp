@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "hook", "y": 540, "lines": [{"text": "WAS IT WORTH IT?", "at": 0.02, "size": 150, "shake": 6, "flash": 0.2, "spacing": 6, "color": "#c93b2b"}], "duration": 1.0417, "seed": 225, "source": "Graphic", "nen": "trong", "toi": 0.1, "hopChu": true, "hopGop": true, "hopBo": 10, "hopMau": "rgba(8,10,4,0.65)", "khongNen": true};

@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-the.py, đừng sửa tay.
+window.SHOT = {"type": "so-lieu", "tag": "1944", "kicker": "PELELIU SECTOR", "title": "NAKAGAWA’S FORCE", "items": [{"value": 10, "suffix": ",500", "prefix": "ABOUT", "from": 0.825, "dur": 1.0, "unit": "MEN"}, {"value": 6, "suffix": ",500", "prefix": "ROUGHLY", "from": 3.165, "dur": 1.0, "unit": "COMBAT TROOPS"}], "duration": 6.375, "seed": 218, "source": "Source: Hough, USMC Vol. IV · Background: illustration", "nen": "trong", "toi": 0.1};

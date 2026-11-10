@@ -1,0 +1,2 @@
+// Sinh bởi tap/EP001-peleliu-1944/san-xuat/dung-lop-chu.py, đừng sửa tay.
+window.SHOT = {"duration": 1.7083333333333333, "khongNen": true, "hopChu": true, "hopMem": true, "hopMau": "rgba(20,33,61,0.72)", "credit": "Film: NARA ADC-3437 (via Internet Archive), USMC film, Oct. 1944", "thes": [], "texts": [{"text": "WHAT WAS WAITING", "from": 0.05, "y": 470, "size": 110}, {"text": "IN THE RIDGES?", "from": 0.5, "y": 630, "size": 140, "color": "#c93b2b"}]};
