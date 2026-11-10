@@ -19,7 +19,7 @@
 ## Các tập
 | # | Slug | Tiêu đề A | Tiêu đề B | Chữ bìa | Cấu trúc | Mốc đăng | Trạng thái |
 |---|---|---|---|---|---|---|---|
-| 1 | (chờ P0) | — | — | — | — | — | ý tưởng |
+| 1 | EP001-nihonkai-kaisen-1905 | 東郷艦隊はなぜバルチック艦隊を全滅できたのか｜T字戦法の地図分析【日本海海戦】 | — | T字戦法で勝負が決まった | S2 | — | P1 |
 
 Đề tài mỗi tập phải qua P0 (`goha-ls-chon-de-tai`) trước khi vào bảng này.
 
