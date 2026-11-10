@@ -1,0 +1,10 @@
+{
+  "ten": "戦陣再審",
+  "chu_phu": "BATTLEFIELD RE-TRIAL",
+  "khau_hieu": "地図と論理で戦史を読み解く",
+  "handle": "@戦陣再審",
+  "viet_tat": "戦審",
+  "mau": { "nen": "#111111", "chu": "#f0e8d8", "nhan": "#cc2222" },
+  "font": { "tieu_de": "NotoSerifJP-Bold.ttf", "tieu_de_wght": 700, "noi_dung": "NotoSerifJP-Regular.ttf" },
+  "bo_cuc": ["tron"]
+}
