@@ -44,3 +44,27 @@
 **Điểm còn mở:**
 - Tốc độ giọng thật cần đo ở P4 → có thể cần v2 thêm ~800 ký tự
 - Câu hỏi trung tâm xuất hiện ở ~3% thời lượng (câu "では、この圧倒的な勝利は…") ✓ (target ≤5%)
+
+
+## P2 v2 (2026-11-11) — sau phản biện Gemini
+
+**Phản biện ngoài (Gemini):** chấm v1 9.5/10 (Hook 9.5, Research 10, Structure 9.0, Depth 9.5). Phê bình: khô khan, thiếu hook cảm xúc.
+
+**Lọc phản biện theo bằng chứng:**
+| Đề xuất | Quyết định | Lý do |
+|---|---|---|
+| Lai tạo hook 信濃丸 9 giờ + tia lửa điện | BÁC | Vi phạm chống trùng — đúng góc 硝煙+日本史再審, brief P0 cấm |
+| Thêm 伊集院信管/下瀬3000度 | BÁC | Không có sổ số liệu (chi tiết video đối thủ) |
+| Tả máu/nướng chín lính Nga | BÁC | Vi phạm bộ lọc chính sách mục 4 |
+| Foreshadowing 4 knot ở hook | NHẬN | Có sổ A3/A4 |
+| Nhân cách hóa 三笠 | NHẬN | Có sổ A1 |
+| Mạnh vế lời nguyền chiến thắng | NHẬN | Có sổ D9 (làm mềm, không nêu 大和/武蔵) |
+
+**Mini-P1 bổ sung sổ:** thêm 9 dòng D1-D9 (các dữ kiện v1 thêm để đủ số chữ). kiem-so.py: 0 lỗi (23 ĐẠT 2 nguồn, 2 MỘT NGUỒN: B5, D9).
+
+**3 cổng v2:**
+- Chính sách: 0 CHẶN 0 CẢNH BÁO
+- Ký tự: 7,812 → 26.0 phút @ 300 chars/min ✓
+- Chống trùng: 0.00% (0/633); 0 câu ≥10 tiếng — ĐẠT
+
+**Mã sổ v2:** A1-A5, B1-B5, C1-C6, D1-D9 (25 dòng)
