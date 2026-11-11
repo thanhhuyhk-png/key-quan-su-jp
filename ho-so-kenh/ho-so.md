@@ -24,8 +24,8 @@
 ## 3. Giọng người dẫn
 - Nhà cung cấp: ElevenLabs
 - `voice_id`: `tu1x0Bmib6kmsrXy16CZ` (khác `3VnrjnYrskPMDsapTr8X` ✓) · tên giọng: (tra trong ElevenLabs dashboard)
-- Model: `eleven_multilingual_v2` · ngôn ngữ (`language_code`): `ja`
-- Thẻ đầu bài: thử ở P4 (đoạn đầu bài thật), ghi lại cái có tác dụng
+- Model: `eleven_v4` · ngôn ngữ (`language_code`): `ja` (đổi từ multilingual_v2 sang v4 ở EP001 P4, 2026-11-11; v4 biểu cảm hơn, hỗ trợ thẻ audio; đọc chậm hơn ~12% so v2)
+- Thẻ đầu bài: KHÔNG dùng `[fast-paced]` cho cả tập (phần phân tích cần nhịp tài liệu); nhịp nhanh là ở cắt cảnh (P3)
 - Cách đọc: từng đoạn ≤ 500 ký tự; không đọc cả bài một lần (tránh lỗi ngữ điệu giữa đoạn dài)
 - Quy tắc sửa một câu: đọc lại câu trước–câu đó–câu sau trong một lần gọi rồi cắt lấy câu giữa
 - Ghi chú: cần `ELEVENLABS_API_KEY` trong `.env` (hiện thiếu — dán key vào trước P4). Model `eleven_multilingual_v2` hỗ trợ tiếng Nhật; nếu kit báo lỗi model thì thử `eleven_turbo_v2_5`.

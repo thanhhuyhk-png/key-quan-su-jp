@@ -103,3 +103,30 @@
 **Tài sản cần dựng (P5):** 10 ảnh PD/CC (三笠, 東郷, スヴォーロフ, オスリャービャ, ボロジノ, ロジェストヴェンスキー, 信濃丸, バルチック艦隊, 記念艦三笠); 6 bản đồ hải chiến vẽ code (koukai hành trình, tsushima eo biển, tjifa T字, yoru đêm, tsuigeki truy kích, sekai thế giới); thẻ số liệu infographic.
 
 **Điểm refine ở P5:** 157 cảnh "the:gaiyo" là thẻ mặc định (gán theo từ khoá) — P5 nâng thành infographic/bản đồ cụ thể cho kênh 地図と論理. Ảnh A? (信濃丸, バルチック艦隊) cần xác minh nguồn gốc PD trước khi dùng.
+
+
+## P4 Giọng (2026-11-11)
+
+**Giọng:** ElevenLabs eleven_v4 (đổi từ multilingual_v2 theo yêu cầu user), voice tu1x0Bmib6kmsrXy16CZ, ja, KHÔNG thẻ audio.
+
+**Kết quả:**
+- 2 lượt (câu 1-113, 114-242), nối + chuẩn hoá −18.2 LUFS → giong-v1.wav
+- Thời lượng: 20:48 (v4 đọc ~380 ký tự/phút, nhanh hơn ước 300 → ngắn hơn plan 25:33; vẫn trong mục tiêu 20-30 phút)
+
+**Lỗi v4 timestamp + cách xử lý:**
+- v4 ngừng trả mốc câu sau câu 231 (câu 232-242 dồn về cuối file 673.68s) — audio ĐỦ (STT xác nhận ending present), chỉ timestamp hỏng
+- Dựng lại moc-cau.json từ Deepgram STT (ánh xạ vị trí ký tự → đường thời gian STT thật), phủ đủ 242 câu monotonic
+
+**Kiểm STT (≥97%):**
+- kit.py so-loi KHÔNG chạy được cho tiếng Nhật: tool tách từ theo dấu cách (tiếng Việt), tiếng Nhật không dấu cách → 3.3% (lỗi tool, không phải giọng). CẦN bản rieng- so-loi cho tiếng Nhật.
+- So ký tự (SequenceMatcher, chuẩn hoá bỏ dấu câu + số): 91.1%. Mọi chỗ lệch là STT Deepgram nghe/viết khác, KHÔNG phải lỗi giọng:
+  - Số Ả Rập vs kanji (7ヶ月 vs 七ヶ月, 1906 vs 千九百六, 第1次 vs 第一次)
+  - Homophone thuật ngữ hiếm (長征→調整, 大艦巨砲→環境法, ノシベ→野手, 波高シ→歯磨こうし)
+  - 三笠→ミカサ (đúng みかさ), 晴朗→せいろう (đúng) → xác nhận TTS phát âm đúng
+- 242/242 câu có trong audio (kiểm 7ヶ月×5+6, 上回×4, 固定×2, ending 次回/旅順口/チャンネル/ご視聴 đều CÓ)
+
+**GIỚI HẠN QC:** Claude không nghe được; với tiếng Nhật, kiểm tự động yếu hơn tiếng Việt (so-loi hỏng, STT nghe nhầm thuật ngữ). **User cần nghe giong-v1.wav** (nhất là tên tàu スヴォーロフ/オスリャービャ, 三笠=みかさ, 晴朗ナレドモ波高シ) trước P5.
+
+**Máy kiểm phân cảnh trên mốc thật: ĐẠT** — 314 cảnh, 20:48, 15.1 cảnh/phút; mở trailer 26.1 cảnh/phút (v4 nhanh hơn → trailer gắt hơn).
+
+**Chi phí P4:** ElevenLabs ~11,661 credit (part1 v2 3640 bỏ + part1 v4 3640 + part2 v4 4265 + 2 mẫu thử 116) — vượt ước 7,904 vì đổi v4 phải đọc lại part1. Deepgram STT ~$0.11. Giọng KHÔNG commit lên Git.
