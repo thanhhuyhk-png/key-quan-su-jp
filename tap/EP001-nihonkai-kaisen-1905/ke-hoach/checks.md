@@ -85,3 +85,21 @@
 **3 cổng v3:** 0 CHẶN; 7,663 ký tự ~25.5 phút; chống trùng 0.00% (0/630), 0 câu ≥10 tiếng.
 
 **Mã sổ v3:** giữ nguyên A1-A5, B1-B5, C1-C6, D1-D9 (không thêm dữ kiện mới; chỉ tái cấu trúc hook)
+
+
+## P3 Phân cảnh (2026-11-11)
+
+**Máy kiểm thích ứng cho kênh Nhật** (sửa từ máy kiểm tập mẫu): tách câu theo KÝ TỰ (tiếng Nhật không dấu cách), tốc độ 300 ký tự/phút; nguồn chính thống Nhật (JACAR, 国立国会図書館, NARA, Wikipedia); loại hình anh/the/ban-do/can-tim; bỏ luật riêng VN (vnmap Hoàng Sa, Karmen, pháo 105, 3D sân khấu VN); giữ guard luật cứng bản đồ VN (chặn nếu lỡ nhắc Việt Nam/Biển Đông) + chặn tả máu + bắt số kanji không nguồn.
+
+**Kết quả:**
+- 310 cảnh, 1,533 s (25:33), 12.1 cảnh/phút (trong 10–20)
+- Mở đầu trailer cinema: 20.3 cảnh/phút (cắt nhanh, 2 cảnh/câu, theo yêu cầu user)
+- Theo kiểu: the 157, ban-do 128, anh 25
+- Tư liệu thật 25 cảnh; hạng A?/B dài nhất 3.4 s (trần 5 s ✓)
+- Mọi chương ≥ 9 cảnh/phút, ≥ 1 đặc tả ✓
+
+**Đột biến: 5/5 bắt** (ảnh ngoài tsv, bản đồ VN, số không nguồn, mã bản đồ sai, tả máu). Vá thêm: regex bắt số kanji (十五/二十) ngoài số Ả Rập.
+
+**Tài sản cần dựng (P5):** 10 ảnh PD/CC (三笠, 東郷, スヴォーロフ, オスリャービャ, ボロジノ, ロジェストヴェンスキー, 信濃丸, バルチック艦隊, 記念艦三笠); 6 bản đồ hải chiến vẽ code (koukai hành trình, tsushima eo biển, tjifa T字, yoru đêm, tsuigeki truy kích, sekai thế giới); thẻ số liệu infographic.
+
+**Điểm refine ở P5:** 157 cảnh  là thẻ mặc định (gán theo từ khoá) — P5 nâng thành infographic/bản đồ cụ thể cho kênh 地図と論理. Ảnh A? (信濃丸, バルチック艦隊) cần xác minh nguồn gốc PD trước khi dùng.

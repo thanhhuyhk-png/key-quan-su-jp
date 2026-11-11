@@ -1,0 +1,6209 @@
+{
+ "ten": "EP001 · 日本海海戦 1905 · phân cảnh",
+ "fps": 24,
+ "uoc_tinh": true,
+ "het": 1532.6,
+ "lang": {},
+ "canh": [
+  {
+   "id": "S001",
+   "neo": "1",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 0.0,
+   "t1": 1.4,
+   "dai": 1.4,
+   "cau": [
+    1
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S002",
+   "neo": "1:7",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 1.4,
+   "t1": 2.8,
+   "dai": 1.4,
+   "cau": [
+    1
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S003",
+   "neo": "2",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 2.8,
+   "t1": 4.6,
+   "dai": 1.8,
+   "cau": [
+    2
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S004",
+   "neo": "2:9",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 4.6,
+   "t1": 6.6,
+   "dai": 2.0,
+   "cau": [
+    2
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S005",
+   "neo": "3",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 6.6,
+   "t1": 9.4,
+   "dai": 2.8,
+   "cau": [
+    3
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S006",
+   "neo": "3:14",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 9.4,
+   "t1": 12.4,
+   "dai": 3.0,
+   "cau": [
+    3
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S007",
+   "neo": "4",
+   "nguon": "ban-do:tsushima",
+   "co": "dac-ta",
+   "goc": "tren-xuong",
+   "hinh": "Cận đặc tả: Bản đồ 対馬海峡, vị trí hai hạm đội",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 12.4,
+   "t1": 14.8,
+   "dai": 2.4,
+   "cau": [
+    4
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S008",
+   "neo": "4:12",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ nhấn từ khoá",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 14.8,
+   "t1": 17.2,
+   "dai": 2.4,
+   "cau": [
+    4
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S009",
+   "neo": "5",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 17.2,
+   "t1": 21.2,
+   "dai": 4.0,
+   "cau": [
+    5
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S010",
+   "neo": "5:20",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 21.2,
+   "t1": 25.2,
+   "dai": 4.0,
+   "cau": [
+    5
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S011",
+   "neo": "6",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 25.2,
+   "t1": 28.8,
+   "dai": 3.6,
+   "cau": [
+    6
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S012",
+   "neo": "6:18",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ nhấn từ khoá",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 28.8,
+   "t1": 32.6,
+   "dai": 3.8,
+   "cau": [
+    6
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S013",
+   "neo": "7",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 32.6,
+   "t1": 35.6,
+   "dai": 3.0,
+   "cau": [
+    7
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S014",
+   "neo": "7:15",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 35.6,
+   "t1": 38.6,
+   "dai": 3.0,
+   "cau": [
+    7
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S015",
+   "neo": "8",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 38.6,
+   "t1": 41.2,
+   "dai": 2.6,
+   "cau": [
+    8
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S016",
+   "neo": "8:13",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 41.2,
+   "t1": 43.8,
+   "dai": 2.6,
+   "cau": [
+    8
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S017",
+   "neo": "9",
+   "nguon": "the:gaiyo",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 43.8,
+   "t1": 45.6,
+   "dai": 1.8,
+   "cau": [
+    9
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S018",
+   "neo": "9:9",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 45.6,
+   "t1": 47.6,
+   "dai": 2.0,
+   "cau": [
+    9
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S019",
+   "neo": "10",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 47.6,
+   "t1": 50.4,
+   "dai": 2.8,
+   "cau": [
+    10
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S020",
+   "neo": "10:14",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 50.4,
+   "t1": 53.4,
+   "dai": 3.0,
+   "cau": [
+    10
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S021",
+   "neo": "11",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 53.4,
+   "t1": 55.8,
+   "dai": 2.4,
+   "cau": [
+    11
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S022",
+   "neo": "11:12",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ nhấn từ khoá",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 55.8,
+   "t1": 58.4,
+   "dai": 2.6,
+   "cau": [
+    11
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S023",
+   "neo": "12",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 58.4,
+   "t1": 61.8,
+   "dai": 3.4,
+   "cau": [
+    12
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S024",
+   "neo": "12:17",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 61.8,
+   "t1": 65.2,
+   "dai": 3.4,
+   "cau": [
+    12
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S025",
+   "neo": "13",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 65.2,
+   "t1": 71.0,
+   "dai": 5.8,
+   "cau": [
+    13
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S026",
+   "neo": "13:29",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ nhấn từ khoá",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 71.0,
+   "t1": 77.0,
+   "dai": 6.0,
+   "cau": [
+    13
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S027",
+   "neo": "14",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 77.0,
+   "t1": 82.0,
+   "dai": 5.0,
+   "cau": [
+    14
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S028",
+   "neo": "15",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 82.0,
+   "t1": 85.8,
+   "dai": 3.8,
+   "cau": [
+    15
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S029",
+   "neo": "16",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 85.8,
+   "t1": 93.6,
+   "dai": 7.8,
+   "cau": [
+    16
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S030",
+   "neo": "17",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 93.6,
+   "t1": 99.6,
+   "dai": 6.0,
+   "cau": [
+    17
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S031",
+   "neo": "18",
+   "nguon": "the:gaiyo",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 99.6,
+   "t1": 107.4,
+   "dai": 7.8,
+   "cau": [
+    18
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S032",
+   "neo": "19",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 107.4,
+   "t1": 115.2,
+   "dai": 7.8,
+   "cau": [
+    19
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S033",
+   "neo": "20",
+   "nguon": "anh:baltic-fleet",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Ảnh đoàn hạm đội Baltic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 115.2,
+   "t1": 117.4,
+   "dai": 2.2,
+   "cau": [
+    20
+   ],
+   "kieu": "anh",
+   "ten": "baltic-fleet",
+   "hang": "A?",
+   "ghi_nguon": "バルチック艦隊 報道写真 1905"
+  },
+  {
+   "id": "S034",
+   "neo": "20:11",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ hành trình",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 117.4,
+   "t1": 122.0,
+   "dai": 4.6,
+   "cau": [
+    20
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S035",
+   "neo": "21",
+   "nguon": "anh:rozhestvensky",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Chân dung Rozhestvensky",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 122.0,
+   "t1": 128.6,
+   "dai": 6.6,
+   "cau": [
+    21
+   ],
+   "kieu": "anh",
+   "ten": "rozhestvensky",
+   "hang": "A",
+   "ghi_nguon": "ロジェストヴェンスキー 1904 PD"
+  },
+  {
+   "id": "S036",
+   "neo": "22",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 128.6,
+   "t1": 133.4,
+   "dai": 4.8,
+   "cau": [
+    22
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S037",
+   "neo": "23",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 133.4,
+   "t1": 139.0,
+   "dai": 5.6,
+   "cau": [
+    23
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S038",
+   "neo": "24",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 139.0,
+   "t1": 146.4,
+   "dai": 7.4,
+   "cau": [
+    24
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S039",
+   "neo": "25",
+   "nguon": "anh:baltic-fleet",
+   "co": "can",
+   "goc": "cao",
+   "hinh": "Ảnh đoàn hạm đội Baltic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 146.4,
+   "t1": 148.2,
+   "dai": 1.8,
+   "cau": [
+    25
+   ],
+   "kieu": "anh",
+   "ten": "baltic-fleet",
+   "hang": "A?",
+   "ghi_nguon": "バルチック艦隊 報道写真 1905"
+  },
+  {
+   "id": "S040",
+   "neo": "25:9",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ hành trình",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 148.2,
+   "t1": 151.8,
+   "dai": 3.6,
+   "cau": [
+    25
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S041",
+   "neo": "26",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 151.8,
+   "t1": 154.2,
+   "dai": 2.4,
+   "cau": [
+    26
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S042",
+   "neo": "27",
+   "nguon": "ban-do:koukai",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 154.2,
+   "t1": 158.6,
+   "dai": 4.4,
+   "cau": [
+    27
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S043",
+   "neo": "27:22",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Cận đặc tả: Bản đồ hành trình 18,000 dặm, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 158.6,
+   "t1": 163.2,
+   "dai": 4.6,
+   "cau": [
+    27
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S044",
+   "neo": "28",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 163.2,
+   "t1": 166.6,
+   "dai": 3.4,
+   "cau": [
+    28
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S045",
+   "neo": "29",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 166.6,
+   "t1": 173.4,
+   "dai": 6.8,
+   "cau": [
+    29
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S046",
+   "neo": "30",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 173.4,
+   "t1": 178.2,
+   "dai": 4.8,
+   "cau": [
+    30
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S047",
+   "neo": "30:24",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 178.2,
+   "t1": 183.0,
+   "dai": 4.8,
+   "cau": [
+    30
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S048",
+   "neo": "31",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 183.0,
+   "t1": 190.2,
+   "dai": 7.2,
+   "cau": [
+    31
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S049",
+   "neo": "32",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 190.2,
+   "t1": 194.8,
+   "dai": 4.6,
+   "cau": [
+    32
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S050",
+   "neo": "32:23",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 194.8,
+   "t1": 199.4,
+   "dai": 4.6,
+   "cau": [
+    32
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S051",
+   "neo": "33",
+   "nguon": "anh:borodino",
+   "co": "dac-ta",
+   "goc": "chech",
+   "hinh": "Ảnh戦艦ボロジノ",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 199.4,
+   "t1": 203.6,
+   "dai": 4.2,
+   "cau": [
+    33
+   ],
+   "kieu": "anh",
+   "ten": "borodino",
+   "hang": "A",
+   "ghi_nguon": "戦艦ボロジノ PD"
+  },
+  {
+   "id": "S052",
+   "neo": "33:21",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 203.6,
+   "t1": 208.0,
+   "dai": 4.4,
+   "cau": [
+    33
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S053",
+   "neo": "34",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 208.0,
+   "t1": 214.4,
+   "dai": 6.4,
+   "cau": [
+    34
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S054",
+   "neo": "35",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 214.4,
+   "t1": 219.4,
+   "dai": 5.0,
+   "cau": [
+    35
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S055",
+   "neo": "35:25",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 219.4,
+   "t1": 224.6,
+   "dai": 5.2,
+   "cau": [
+    35
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S056",
+   "neo": "36",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 224.6,
+   "t1": 232.4,
+   "dai": 7.8,
+   "cau": [
+    36
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S057",
+   "neo": "37",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 232.4,
+   "t1": 238.8,
+   "dai": 6.4,
+   "cau": [
+    37
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S058",
+   "neo": "38",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 238.8,
+   "t1": 243.8,
+   "dai": 5.0,
+   "cau": [
+    38
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S059",
+   "neo": "39",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 243.8,
+   "t1": 249.2,
+   "dai": 5.4,
+   "cau": [
+    39
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S060",
+   "neo": "39:27",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 249.2,
+   "t1": 254.6,
+   "dai": 5.4,
+   "cau": [
+    39
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S061",
+   "neo": "40",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 254.6,
+   "t1": 260.6,
+   "dai": 6.0,
+   "cau": [
+    40
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S062",
+   "neo": "41",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡, vị trí hai hạm đội",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 260.6,
+   "t1": 267.2,
+   "dai": 6.6,
+   "cau": [
+    41
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S063",
+   "neo": "42",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 267.2,
+   "t1": 272.6,
+   "dai": 5.4,
+   "cau": [
+    42
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S064",
+   "neo": "43",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 272.6,
+   "t1": 279.8,
+   "dai": 7.2,
+   "cau": [
+    43
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S065",
+   "neo": "44",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 279.8,
+   "t1": 284.8,
+   "dai": 5.0,
+   "cau": [
+    44
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S066",
+   "neo": "44:25",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 284.8,
+   "t1": 290.0,
+   "dai": 5.2,
+   "cau": [
+    44
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S067",
+   "neo": "45",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 290.0,
+   "t1": 294.2,
+   "dai": 4.2,
+   "cau": [
+    45
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S068",
+   "neo": "46",
+   "nguon": "anh:togo-heihachiro",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Chân dung 東郷平八郎",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 294.2,
+   "t1": 299.6,
+   "dai": 5.4,
+   "cau": [
+    46
+   ],
+   "kieu": "anh",
+   "ten": "togo-heihachiro",
+   "hang": "A",
+   "ghi_nguon": "東郷平八郎 国立国会図書館 PD"
+  },
+  {
+   "id": "S069",
+   "neo": "47",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 299.6,
+   "t1": 306.6,
+   "dai": 7.0,
+   "cau": [
+    47
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S070",
+   "neo": "48",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 306.6,
+   "t1": 313.2,
+   "dai": 6.6,
+   "cau": [
+    48
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S071",
+   "neo": "49",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 313.2,
+   "t1": 318.2,
+   "dai": 5.0,
+   "cau": [
+    49
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S072",
+   "neo": "50",
+   "nguon": "anh:togo-heihachiro",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Chân dung 東郷平八郎",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 318.2,
+   "t1": 322.4,
+   "dai": 4.2,
+   "cau": [
+    50
+   ],
+   "kieu": "anh",
+   "ten": "togo-heihachiro",
+   "hang": "A",
+   "ghi_nguon": "東郷平八郎 国立国会図書館 PD"
+  },
+  {
+   "id": "S073",
+   "neo": "50:21",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 322.4,
+   "t1": 326.6,
+   "dai": 4.2,
+   "cau": [
+    50
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S074",
+   "neo": "51",
+   "nguon": "anh:mikasa-bridge-painting",
+   "co": "can",
+   "goc": "cao",
+   "hinh": "Tranh「三笠艦橋の図」phóng chậm",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 326.6,
+   "t1": 332.8,
+   "dai": 6.2,
+   "cau": [
+    51
+   ],
+   "kieu": "anh",
+   "ten": "mikasa-bridge-painting",
+   "hang": "A",
+   "ghi_nguon": "「三笠艦橋の図」東城鉦太郎 PD"
+  },
+  {
+   "id": "S075",
+   "neo": "52",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 332.8,
+   "t1": 337.4,
+   "dai": 4.6,
+   "cau": [
+    52
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S076",
+   "neo": "53",
+   "nguon": "the:gaiyo",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 337.4,
+   "t1": 345.0,
+   "dai": 7.6,
+   "cau": [
+    53
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S077",
+   "neo": "54",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 345.0,
+   "t1": 350.0,
+   "dai": 5.0,
+   "cau": [
+    54
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S078",
+   "neo": "55",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 350.0,
+   "t1": 352.2,
+   "dai": 2.2,
+   "cau": [
+    55
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S079",
+   "neo": "56",
+   "nguon": "anh:togo-heihachiro",
+   "co": "dac-ta",
+   "goc": "chech",
+   "hinh": "Chân dung 東郷平八郎",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 352.2,
+   "t1": 359.0,
+   "dai": 6.8,
+   "cau": [
+    56
+   ],
+   "kieu": "anh",
+   "ten": "togo-heihachiro",
+   "hang": "A",
+   "ghi_nguon": "東郷平八郎 国立国会図書館 PD"
+  },
+  {
+   "id": "S080",
+   "neo": "57",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 359.0,
+   "t1": 363.2,
+   "dai": 4.2,
+   "cau": [
+    57
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S081",
+   "neo": "58",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 363.2,
+   "t1": 366.8,
+   "dai": 3.6,
+   "cau": [
+    58
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S082",
+   "neo": "59",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 366.8,
+   "t1": 372.0,
+   "dai": 5.2,
+   "cau": [
+    59
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S083",
+   "neo": "59:26",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 372.0,
+   "t1": 377.2,
+   "dai": 5.2,
+   "cau": [
+    59
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S084",
+   "neo": "60",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 377.2,
+   "t1": 381.0,
+   "dai": 3.8,
+   "cau": [
+    60
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S085",
+   "neo": "61",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 381.0,
+   "t1": 385.2,
+   "dai": 4.2,
+   "cau": [
+    61
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S086",
+   "neo": "61:21",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 385.2,
+   "t1": 389.6,
+   "dai": 4.4,
+   "cau": [
+    61
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S087",
+   "neo": "62",
+   "nguon": "anh:shinano-maru",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Ảnh補助巡洋艦信濃丸",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 389.6,
+   "t1": 393.0,
+   "dai": 3.4,
+   "cau": [
+    62
+   ],
+   "kieu": "anh",
+   "ten": "shinano-maru",
+   "hang": "A?",
+   "ghi_nguon": "信濃丸 PD"
+  },
+  {
+   "id": "S088",
+   "neo": "62:17",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 393.0,
+   "t1": 400.0,
+   "dai": 7.0,
+   "cau": [
+    62
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S089",
+   "neo": "63",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 400.0,
+   "t1": 403.6,
+   "dai": 3.6,
+   "cau": [
+    63
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S090",
+   "neo": "64",
+   "nguon": "anh:borodino",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Ảnh戦艦ボロジノ",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 403.6,
+   "t1": 408.0,
+   "dai": 4.4,
+   "cau": [
+    64
+   ],
+   "kieu": "anh",
+   "ten": "borodino",
+   "hang": "A",
+   "ghi_nguon": "戦艦ボロジノ PD"
+  },
+  {
+   "id": "S091",
+   "neo": "64:22",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 408.0,
+   "t1": 412.6,
+   "dai": 4.6,
+   "cau": [
+    64
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S092",
+   "neo": "65",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 412.6,
+   "t1": 416.8,
+   "dai": 4.2,
+   "cau": [
+    65
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S093",
+   "neo": "66",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 416.8,
+   "t1": 422.6,
+   "dai": 5.8,
+   "cau": [
+    66
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S094",
+   "neo": "67",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 422.6,
+   "t1": 428.0,
+   "dai": 5.4,
+   "cau": [
+    67
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S095",
+   "neo": "68",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 428.0,
+   "t1": 431.4,
+   "dai": 3.4,
+   "cau": [
+    68
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S096",
+   "neo": "69",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 431.4,
+   "t1": 435.6,
+   "dai": 4.2,
+   "cau": [
+    69
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S097",
+   "neo": "70",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 435.6,
+   "t1": 439.6,
+   "dai": 4.0,
+   "cau": [
+    70
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S098",
+   "neo": "71",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 439.6,
+   "t1": 447.4,
+   "dai": 7.8,
+   "cau": [
+    71
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S099",
+   "neo": "72",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 447.4,
+   "t1": 451.8,
+   "dai": 4.4,
+   "cau": [
+    72
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S100",
+   "neo": "72:22",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 451.8,
+   "t1": 456.4,
+   "dai": 4.6,
+   "cau": [
+    72
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S101",
+   "neo": "73",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 456.4,
+   "t1": 461.0,
+   "dai": 4.6,
+   "cau": [
+    73
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S102",
+   "neo": "74",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 461.0,
+   "t1": 462.4,
+   "dai": 1.4,
+   "cau": [
+    74
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S103",
+   "neo": "75",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 462.4,
+   "t1": 469.4,
+   "dai": 7.0,
+   "cau": [
+    75
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S104",
+   "neo": "76",
+   "nguon": "ban-do:tjifa",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 469.4,
+   "t1": 477.0,
+   "dai": 7.6,
+   "cau": [
+    76
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S105",
+   "neo": "77",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 477.0,
+   "t1": 482.0,
+   "dai": 5.0,
+   "cau": [
+    77
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S106",
+   "neo": "78",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 482.0,
+   "t1": 489.8,
+   "dai": 7.8,
+   "cau": [
+    78
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S107",
+   "neo": "79",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 489.8,
+   "t1": 495.6,
+   "dai": 5.8,
+   "cau": [
+    79
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S108",
+   "neo": "80",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 495.6,
+   "t1": 500.6,
+   "dai": 5.0,
+   "cau": [
+    80
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S109",
+   "neo": "81",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 500.6,
+   "t1": 504.8,
+   "dai": 4.2,
+   "cau": [
+    81
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S110",
+   "neo": "81:21",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 504.8,
+   "t1": 509.0,
+   "dai": 4.2,
+   "cau": [
+    81
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S111",
+   "neo": "82",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 509.0,
+   "t1": 513.6,
+   "dai": 4.6,
+   "cau": [
+    82
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S112",
+   "neo": "82:23",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 513.6,
+   "t1": 518.2,
+   "dai": 4.6,
+   "cau": [
+    82
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S113",
+   "neo": "83",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡, vị trí hai hạm đội",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 518.2,
+   "t1": 524.8,
+   "dai": 6.6,
+   "cau": [
+    83
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S114",
+   "neo": "84",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 524.8,
+   "t1": 529.6,
+   "dai": 4.8,
+   "cau": [
+    84
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S115",
+   "neo": "85",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 529.6,
+   "t1": 536.8,
+   "dai": 7.2,
+   "cau": [
+    85
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S116",
+   "neo": "86",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 536.8,
+   "t1": 544.4,
+   "dai": 7.6,
+   "cau": [
+    86
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S117",
+   "neo": "87",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 544.4,
+   "t1": 551.4,
+   "dai": 7.0,
+   "cau": [
+    87
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S118",
+   "neo": "88",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 551.4,
+   "t1": 553.8,
+   "dai": 2.4,
+   "cau": [
+    88
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S119",
+   "neo": "89",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 553.8,
+   "t1": 560.4,
+   "dai": 6.6,
+   "cau": [
+    89
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S120",
+   "neo": "90",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 560.4,
+   "t1": 568.4,
+   "dai": 8.0,
+   "cau": [
+    90
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S121",
+   "neo": "91",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 568.4,
+   "t1": 570.6,
+   "dai": 2.2,
+   "cau": [
+    91
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S122",
+   "neo": "92",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 570.6,
+   "t1": 574.8,
+   "dai": 4.2,
+   "cau": [
+    92
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S123",
+   "neo": "93",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 574.8,
+   "t1": 579.0,
+   "dai": 4.2,
+   "cau": [
+    93
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S124",
+   "neo": "94",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 579.0,
+   "t1": 585.2,
+   "dai": 6.2,
+   "cau": [
+    94
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S125",
+   "neo": "95",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 585.2,
+   "t1": 589.0,
+   "dai": 3.8,
+   "cau": [
+    95
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S126",
+   "neo": "96",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 589.0,
+   "t1": 593.4,
+   "dai": 4.4,
+   "cau": [
+    96
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S127",
+   "neo": "96:22",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 593.4,
+   "t1": 597.8,
+   "dai": 4.4,
+   "cau": [
+    96
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S128",
+   "neo": "97",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 597.8,
+   "t1": 603.4,
+   "dai": 5.6,
+   "cau": [
+    97
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S129",
+   "neo": "97:28",
+   "nguon": "ban-do:koukai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ hành trình 18,000 dặm, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 603.4,
+   "t1": 609.2,
+   "dai": 5.8,
+   "cau": [
+    97
+   ],
+   "kieu": "ban-do",
+   "ten": "koukai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S130",
+   "neo": "98",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 609.2,
+   "t1": 617.2,
+   "dai": 8.0,
+   "cau": [
+    98
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S131",
+   "neo": "99",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 617.2,
+   "t1": 621.8,
+   "dai": 4.6,
+   "cau": [
+    99
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S132",
+   "neo": "99:23",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 621.8,
+   "t1": 626.6,
+   "dai": 4.8,
+   "cau": [
+    99
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S133",
+   "neo": "100",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 626.6,
+   "t1": 629.6,
+   "dai": 3.0,
+   "cau": [
+    100
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S134",
+   "neo": "101",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 629.6,
+   "t1": 634.0,
+   "dai": 4.4,
+   "cau": [
+    101
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S135",
+   "neo": "101:22",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 634.0,
+   "t1": 638.6,
+   "dai": 4.6,
+   "cau": [
+    101
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S136",
+   "neo": "102",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 638.6,
+   "t1": 643.2,
+   "dai": 4.6,
+   "cau": [
+    102
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S137",
+   "neo": "103",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 643.2,
+   "t1": 649.8,
+   "dai": 6.6,
+   "cau": [
+    103
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S138",
+   "neo": "104",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 649.8,
+   "t1": 653.4,
+   "dai": 3.6,
+   "cau": [
+    104
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S139",
+   "neo": "105",
+   "nguon": "ban-do:tjifa",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 653.4,
+   "t1": 660.6,
+   "dai": 7.2,
+   "cau": [
+    105
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S140",
+   "neo": "106",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 660.6,
+   "t1": 666.4,
+   "dai": 5.8,
+   "cau": [
+    106
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S141",
+   "neo": "107",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 666.4,
+   "t1": 673.0,
+   "dai": 6.6,
+   "cau": [
+    107
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S142",
+   "neo": "108",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 673.0,
+   "t1": 677.2,
+   "dai": 4.2,
+   "cau": [
+    108
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S143",
+   "neo": "109",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 677.2,
+   "t1": 680.4,
+   "dai": 3.2,
+   "cau": [
+    109
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S144",
+   "neo": "110",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 680.4,
+   "t1": 682.4,
+   "dai": 2.0,
+   "cau": [
+    110
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S145",
+   "neo": "111",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 682.4,
+   "t1": 688.6,
+   "dai": 6.2,
+   "cau": [
+    111
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S146",
+   "neo": "111:31",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 688.6,
+   "t1": 694.8,
+   "dai": 6.2,
+   "cau": [
+    111
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S147",
+   "neo": "112",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 694.8,
+   "t1": 699.4,
+   "dai": 4.6,
+   "cau": [
+    112
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S148",
+   "neo": "113",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 699.4,
+   "t1": 705.4,
+   "dai": 6.0,
+   "cau": [
+    113
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S149",
+   "neo": "114",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 705.4,
+   "t1": 711.0,
+   "dai": 5.6,
+   "cau": [
+    114
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S150",
+   "neo": "115",
+   "nguon": "anh:shinano-maru",
+   "co": "can",
+   "goc": "cao",
+   "hinh": "Ảnh補助巡洋艦信濃丸",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 711.0,
+   "t1": 712.8,
+   "dai": 1.8,
+   "cau": [
+    115
+   ],
+   "kieu": "anh",
+   "ten": "shinano-maru",
+   "hang": "A?",
+   "ghi_nguon": "信濃丸 PD"
+  },
+  {
+   "id": "S151",
+   "neo": "115:9",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 712.8,
+   "t1": 716.6,
+   "dai": 3.8,
+   "cau": [
+    115
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S152",
+   "neo": "116",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ 対馬海峡, vị trí hai hạm đội",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 716.6,
+   "t1": 720.4,
+   "dai": 3.8,
+   "cau": [
+    116
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S153",
+   "neo": "117",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 720.4,
+   "t1": 722.2,
+   "dai": 1.8,
+   "cau": [
+    117
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S154",
+   "neo": "118",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 722.2,
+   "t1": 729.4,
+   "dai": 7.2,
+   "cau": [
+    118
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S155",
+   "neo": "119",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 729.4,
+   "t1": 731.2,
+   "dai": 1.8,
+   "cau": [
+    119
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S156",
+   "neo": "120",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 731.2,
+   "t1": 737.8,
+   "dai": 6.6,
+   "cau": [
+    120
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S157",
+   "neo": "121",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 737.8,
+   "t1": 740.8,
+   "dai": 3.0,
+   "cau": [
+    121
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S158",
+   "neo": "122",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 740.8,
+   "t1": 742.6,
+   "dai": 1.8,
+   "cau": [
+    122
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S159",
+   "neo": "123",
+   "nguon": "anh:mikasa-battleship",
+   "co": "dac-ta",
+   "goc": "chech",
+   "hinh": "Ảnh戦艦三笠",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 742.6,
+   "t1": 746.2,
+   "dai": 3.6,
+   "cau": [
+    123
+   ],
+   "kieu": "anh",
+   "ten": "mikasa-battleship",
+   "hang": "A",
+   "ghi_nguon": "戦艦三笠 1905 パブリックドメイン"
+  },
+  {
+   "id": "S160",
+   "neo": "124",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 746.2,
+   "t1": 752.8,
+   "dai": 6.6,
+   "cau": [
+    124
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S161",
+   "neo": "125",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 752.8,
+   "t1": 758.6,
+   "dai": 5.8,
+   "cau": [
+    125
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S162",
+   "neo": "126",
+   "nguon": "anh:mikasa-battleship",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Ảnh戦艦三笠",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 758.6,
+   "t1": 762.8,
+   "dai": 4.2,
+   "cau": [
+    126
+   ],
+   "kieu": "anh",
+   "ten": "mikasa-battleship",
+   "hang": "A",
+   "ghi_nguon": "戦艦三笠 1905 パブリックドメイン"
+  },
+  {
+   "id": "S163",
+   "neo": "127",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 762.8,
+   "t1": 765.6,
+   "dai": 2.8,
+   "cau": [
+    127
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S164",
+   "neo": "128",
+   "nguon": "anh:mikasa-battleship",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Ảnh戦艦三笠",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 765.6,
+   "t1": 773.6,
+   "dai": 8.0,
+   "cau": [
+    128
+   ],
+   "kieu": "anh",
+   "ten": "mikasa-battleship",
+   "hang": "A",
+   "ghi_nguon": "戦艦三笠 1905 パブリックドメイン"
+  },
+  {
+   "id": "S165",
+   "neo": "129",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 773.6,
+   "t1": 779.8,
+   "dai": 6.2,
+   "cau": [
+    129
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S166",
+   "neo": "130",
+   "nguon": "anh:mikasa-battleship",
+   "co": "can",
+   "goc": "cao",
+   "hinh": "Ảnh戦艦三笠",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 779.8,
+   "t1": 786.0,
+   "dai": 6.2,
+   "cau": [
+    130
+   ],
+   "kieu": "anh",
+   "ten": "mikasa-battleship",
+   "hang": "A",
+   "ghi_nguon": "戦艦三笠 1905 パブリックドメイン"
+  },
+  {
+   "id": "S167",
+   "neo": "131",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 786.0,
+   "t1": 787.4,
+   "dai": 1.4,
+   "cau": [
+    131
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S168",
+   "neo": "132",
+   "nguon": "anh:oslyabya",
+   "co": "dac-ta",
+   "goc": "chech",
+   "hinh": "Cận đặc tả: Ảnh戦艦オスリャービャ",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 787.4,
+   "t1": 792.6,
+   "dai": 5.2,
+   "cau": [
+    132
+   ],
+   "kieu": "anh",
+   "ten": "oslyabya",
+   "hang": "A",
+   "ghi_nguon": "戦艦オスリャービャ PD"
+  },
+  {
+   "id": "S169",
+   "neo": "132:26",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 792.6,
+   "t1": 798.0,
+   "dai": 5.4,
+   "cau": [
+    132
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S170",
+   "neo": "133",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 798.0,
+   "t1": 802.4,
+   "dai": 4.4,
+   "cau": [
+    133
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S171",
+   "neo": "134",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 802.4,
+   "t1": 804.0,
+   "dai": 1.6,
+   "cau": [
+    134
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S172",
+   "neo": "135",
+   "nguon": "anh:knyaz-suvorov",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Ảnh soái hạm Suvorov",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 804.0,
+   "t1": 808.6,
+   "dai": 4.6,
+   "cau": [
+    135
+   ],
+   "kieu": "anh",
+   "ten": "knyaz-suvorov",
+   "hang": "A",
+   "ghi_nguon": "戦艦クニャージ・スヴォーロフ PD"
+  },
+  {
+   "id": "S173",
+   "neo": "135:23",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 808.6,
+   "t1": 813.4,
+   "dai": 4.8,
+   "cau": [
+    135
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S174",
+   "neo": "136",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 813.4,
+   "t1": 818.6,
+   "dai": 5.2,
+   "cau": [
+    136
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S175",
+   "neo": "137",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 818.6,
+   "t1": 821.8,
+   "dai": 3.2,
+   "cau": [
+    137
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S176",
+   "neo": "138",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 821.8,
+   "t1": 828.2,
+   "dai": 6.4,
+   "cau": [
+    138
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S177",
+   "neo": "139",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 828.2,
+   "t1": 832.4,
+   "dai": 4.2,
+   "cau": [
+    139
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S178",
+   "neo": "140",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 832.4,
+   "t1": 839.4,
+   "dai": 7.0,
+   "cau": [
+    140
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S179",
+   "neo": "141",
+   "nguon": "the:gaiyo",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 839.4,
+   "t1": 844.4,
+   "dai": 5.0,
+   "cau": [
+    141
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S180",
+   "neo": "141:25",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 844.4,
+   "t1": 849.4,
+   "dai": 5.0,
+   "cau": [
+    141
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S181",
+   "neo": "142",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 849.4,
+   "t1": 854.8,
+   "dai": 5.4,
+   "cau": [
+    142
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S182",
+   "neo": "143",
+   "nguon": "anh:oslyabya",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Ảnh戦艦オスリャービャ",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 854.8,
+   "t1": 859.2,
+   "dai": 4.4,
+   "cau": [
+    143
+   ],
+   "kieu": "anh",
+   "ten": "oslyabya",
+   "hang": "A",
+   "ghi_nguon": "戦艦オスリャービャ PD"
+  },
+  {
+   "id": "S183",
+   "neo": "143:22",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 859.2,
+   "t1": 863.6,
+   "dai": 4.4,
+   "cau": [
+    143
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S184",
+   "neo": "144",
+   "nguon": "anh:oslyabya",
+   "co": "can",
+   "goc": "cao",
+   "hinh": "Ảnh戦艦オスリャービャ",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 863.6,
+   "t1": 868.2,
+   "dai": 4.6,
+   "cau": [
+    144
+   ],
+   "kieu": "anh",
+   "ten": "oslyabya",
+   "hang": "A",
+   "ghi_nguon": "戦艦オスリャービャ PD"
+  },
+  {
+   "id": "S185",
+   "neo": "144:23",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 868.2,
+   "t1": 873.0,
+   "dai": 4.8,
+   "cau": [
+    144
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S186",
+   "neo": "145",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 873.0,
+   "t1": 879.4,
+   "dai": 6.4,
+   "cau": [
+    145
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S187",
+   "neo": "146",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 879.4,
+   "t1": 885.8,
+   "dai": 6.4,
+   "cau": [
+    146
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S188",
+   "neo": "146:32",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 885.8,
+   "t1": 892.4,
+   "dai": 6.6,
+   "cau": [
+    146
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S189",
+   "neo": "147",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 892.4,
+   "t1": 895.8,
+   "dai": 3.4,
+   "cau": [
+    147
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S190",
+   "neo": "148",
+   "nguon": "anh:oslyabya",
+   "co": "dac-ta",
+   "goc": "chech",
+   "hinh": "Ảnh戦艦オスリャービャ",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 895.8,
+   "t1": 900.0,
+   "dai": 4.2,
+   "cau": [
+    148
+   ],
+   "kieu": "anh",
+   "ten": "oslyabya",
+   "hang": "A",
+   "ghi_nguon": "戦艦オスリャービャ PD"
+  },
+  {
+   "id": "S191",
+   "neo": "149",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 900.0,
+   "t1": 907.4,
+   "dai": 7.4,
+   "cau": [
+    149
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S192",
+   "neo": "150",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 907.4,
+   "t1": 915.0,
+   "dai": 7.6,
+   "cau": [
+    150
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S193",
+   "neo": "151",
+   "nguon": "anh:knyaz-suvorov",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Ảnh soái hạm Suvorov",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 915.0,
+   "t1": 922.8,
+   "dai": 7.8,
+   "cau": [
+    151
+   ],
+   "kieu": "anh",
+   "ten": "knyaz-suvorov",
+   "hang": "A",
+   "ghi_nguon": "戦艦クニャージ・スヴォーロフ PD"
+  },
+  {
+   "id": "S194",
+   "neo": "152",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 922.8,
+   "t1": 928.8,
+   "dai": 6.0,
+   "cau": [
+    152
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S195",
+   "neo": "153",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 928.8,
+   "t1": 933.4,
+   "dai": 4.6,
+   "cau": [
+    153
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S196",
+   "neo": "154",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 933.4,
+   "t1": 935.0,
+   "dai": 1.6,
+   "cau": [
+    154
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S197",
+   "neo": "155",
+   "nguon": "anh:knyaz-suvorov",
+   "co": "toan",
+   "goc": "thap",
+   "hinh": "Ảnh soái hạm Suvorov",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 935.0,
+   "t1": 939.2,
+   "dai": 4.2,
+   "cau": [
+    155
+   ],
+   "kieu": "anh",
+   "ten": "knyaz-suvorov",
+   "hang": "A",
+   "ghi_nguon": "戦艦クニャージ・スヴォーロフ PD"
+  },
+  {
+   "id": "S198",
+   "neo": "155:21",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 939.2,
+   "t1": 943.4,
+   "dai": 4.2,
+   "cau": [
+    155
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S199",
+   "neo": "156",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 943.4,
+   "t1": 950.0,
+   "dai": 6.6,
+   "cau": [
+    156
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S200",
+   "neo": "157",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 950.0,
+   "t1": 958.0,
+   "dai": 8.0,
+   "cau": [
+    157
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S201",
+   "neo": "158",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 958.0,
+   "t1": 963.6,
+   "dai": 5.6,
+   "cau": [
+    158
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S202",
+   "neo": "159",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 963.6,
+   "t1": 967.8,
+   "dai": 4.2,
+   "cau": [
+    159
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S203",
+   "neo": "159:21",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 967.8,
+   "t1": 972.0,
+   "dai": 4.2,
+   "cau": [
+    159
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S204",
+   "neo": "160",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 972.0,
+   "t1": 976.8,
+   "dai": 4.8,
+   "cau": [
+    160
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S205",
+   "neo": "160:24",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 976.8,
+   "t1": 981.6,
+   "dai": 4.8,
+   "cau": [
+    160
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S206",
+   "neo": "161",
+   "nguon": "anh:borodino",
+   "co": "can",
+   "goc": "cao",
+   "hinh": "Ảnh戦艦ボロジノ",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 981.6,
+   "t1": 986.4,
+   "dai": 4.8,
+   "cau": [
+    161
+   ],
+   "kieu": "anh",
+   "ten": "borodino",
+   "hang": "A",
+   "ghi_nguon": "戦艦ボロジノ PD"
+  },
+  {
+   "id": "S207",
+   "neo": "162",
+   "nguon": "anh:knyaz-suvorov",
+   "co": "dac-ta",
+   "goc": "chech",
+   "hinh": "Ảnh soái hạm Suvorov",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 986.4,
+   "t1": 992.4,
+   "dai": 6.0,
+   "cau": [
+    162
+   ],
+   "kieu": "anh",
+   "ten": "knyaz-suvorov",
+   "hang": "A",
+   "ghi_nguon": "戦艦クニャージ・スヴォーロフ PD"
+  },
+  {
+   "id": "S208",
+   "neo": "163",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 992.4,
+   "t1": 998.2,
+   "dai": 5.8,
+   "cau": [
+    163
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S209",
+   "neo": "164",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 998.2,
+   "t1": 1000.0,
+   "dai": 1.8,
+   "cau": [
+    164
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S210",
+   "neo": "165",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1000.0,
+   "t1": 1006.0,
+   "dai": 6.0,
+   "cau": [
+    165
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S211",
+   "neo": "166",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1006.0,
+   "t1": 1010.2,
+   "dai": 4.2,
+   "cau": [
+    166
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S212",
+   "neo": "167",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1010.2,
+   "t1": 1011.6,
+   "dai": 1.4,
+   "cau": [
+    167
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S213",
+   "neo": "168",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1011.6,
+   "t1": 1018.8,
+   "dai": 7.2,
+   "cau": [
+    168
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S214",
+   "neo": "169",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1018.8,
+   "t1": 1023.4,
+   "dai": 4.6,
+   "cau": [
+    169
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S215",
+   "neo": "170",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1023.4,
+   "t1": 1027.6,
+   "dai": 4.2,
+   "cau": [
+    170
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S216",
+   "neo": "171",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1027.6,
+   "t1": 1034.4,
+   "dai": 6.8,
+   "cau": [
+    171
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S217",
+   "neo": "172",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1034.4,
+   "t1": 1038.8,
+   "dai": 4.4,
+   "cau": [
+    172
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S218",
+   "neo": "172:22",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1038.8,
+   "t1": 1043.4,
+   "dai": 4.6,
+   "cau": [
+    172
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S219",
+   "neo": "173",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1043.4,
+   "t1": 1048.4,
+   "dai": 5.0,
+   "cau": [
+    173
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S220",
+   "neo": "174",
+   "nguon": "ban-do:tjifa",
+   "co": "dac-ta",
+   "goc": "tren-xuong",
+   "hinh": "Cận đặc tả: Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1048.4,
+   "t1": 1053.6,
+   "dai": 5.2,
+   "cau": [
+    174
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S221",
+   "neo": "175",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1053.6,
+   "t1": 1058.6,
+   "dai": 5.0,
+   "cau": [
+    175
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S222",
+   "neo": "176",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1058.6,
+   "t1": 1063.8,
+   "dai": 5.2,
+   "cau": [
+    176
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S223",
+   "neo": "177",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1063.8,
+   "t1": 1070.0,
+   "dai": 6.2,
+   "cau": [
+    177
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S224",
+   "neo": "178",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1070.0,
+   "t1": 1073.8,
+   "dai": 3.8,
+   "cau": [
+    178
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S225",
+   "neo": "179",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1073.8,
+   "t1": 1077.6,
+   "dai": 3.8,
+   "cau": [
+    179
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S226",
+   "neo": "180",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1077.6,
+   "t1": 1082.2,
+   "dai": 4.6,
+   "cau": [
+    180
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S227",
+   "neo": "180:23",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1082.2,
+   "t1": 1086.8,
+   "dai": 4.6,
+   "cau": [
+    180
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S228",
+   "neo": "181",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1086.8,
+   "t1": 1092.8,
+   "dai": 6.0,
+   "cau": [
+    181
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S229",
+   "neo": "182",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1092.8,
+   "t1": 1096.6,
+   "dai": 3.8,
+   "cau": [
+    182
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S230",
+   "neo": "183",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1096.6,
+   "t1": 1102.8,
+   "dai": 6.2,
+   "cau": [
+    183
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S231",
+   "neo": "184",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1102.8,
+   "t1": 1109.8,
+   "dai": 7.0,
+   "cau": [
+    184
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S232",
+   "neo": "185",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1109.8,
+   "t1": 1112.4,
+   "dai": 2.6,
+   "cau": [
+    185
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S233",
+   "neo": "186",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1112.4,
+   "t1": 1118.0,
+   "dai": 5.6,
+   "cau": [
+    186
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S234",
+   "neo": "187",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1118.0,
+   "t1": 1123.0,
+   "dai": 5.0,
+   "cau": [
+    187
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S235",
+   "neo": "187:25",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1123.0,
+   "t1": 1128.0,
+   "dai": 5.0,
+   "cau": [
+    187
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S236",
+   "neo": "188",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1128.0,
+   "t1": 1135.4,
+   "dai": 7.4,
+   "cau": [
+    188
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S237",
+   "neo": "189",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1135.4,
+   "t1": 1139.2,
+   "dai": 3.8,
+   "cau": [
+    189
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S238",
+   "neo": "190",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1139.2,
+   "t1": 1144.6,
+   "dai": 5.4,
+   "cau": [
+    190
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S239",
+   "neo": "190:27",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1144.6,
+   "t1": 1150.0,
+   "dai": 5.4,
+   "cau": [
+    190
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S240",
+   "neo": "191",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1150.0,
+   "t1": 1152.6,
+   "dai": 2.6,
+   "cau": [
+    191
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S241",
+   "neo": "192",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1152.6,
+   "t1": 1159.4,
+   "dai": 6.8,
+   "cau": [
+    192
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S242",
+   "neo": "193",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1159.4,
+   "t1": 1166.4,
+   "dai": 7.0,
+   "cau": [
+    193
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S243",
+   "neo": "194",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1166.4,
+   "t1": 1173.4,
+   "dai": 7.0,
+   "cau": [
+    194
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S244",
+   "neo": "195",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1173.4,
+   "t1": 1178.2,
+   "dai": 4.8,
+   "cau": [
+    195
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S245",
+   "neo": "195:24",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1178.2,
+   "t1": 1183.2,
+   "dai": 5.0,
+   "cau": [
+    195
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S246",
+   "neo": "196",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1183.2,
+   "t1": 1187.6,
+   "dai": 4.4,
+   "cau": [
+    196
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S247",
+   "neo": "196:22",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1187.6,
+   "t1": 1192.0,
+   "dai": 4.4,
+   "cau": [
+    196
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S248",
+   "neo": "197",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1192.0,
+   "t1": 1199.0,
+   "dai": 7.0,
+   "cau": [
+    197
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S249",
+   "neo": "198",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1199.0,
+   "t1": 1203.4,
+   "dai": 4.4,
+   "cau": [
+    198
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S250",
+   "neo": "198:22",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1203.4,
+   "t1": 1207.8,
+   "dai": 4.4,
+   "cau": [
+    198
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S251",
+   "neo": "199",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1207.8,
+   "t1": 1212.0,
+   "dai": 4.2,
+   "cau": [
+    199
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S252",
+   "neo": "199:21",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1212.0,
+   "t1": 1216.2,
+   "dai": 4.2,
+   "cau": [
+    199
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S253",
+   "neo": "200",
+   "nguon": "ban-do:tjifa",
+   "co": "dac-ta",
+   "goc": "tren-xuong",
+   "hinh": "Cận đặc tả: Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1216.2,
+   "t1": 1222.2,
+   "dai": 6.0,
+   "cau": [
+    200
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S254",
+   "neo": "200:30",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1222.2,
+   "t1": 1228.4,
+   "dai": 6.2,
+   "cau": [
+    200
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S255",
+   "neo": "201",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1228.4,
+   "t1": 1232.8,
+   "dai": 4.4,
+   "cau": [
+    201
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S256",
+   "neo": "201:22",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1232.8,
+   "t1": 1237.4,
+   "dai": 4.6,
+   "cau": [
+    201
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S257",
+   "neo": "202",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1237.4,
+   "t1": 1244.2,
+   "dai": 6.8,
+   "cau": [
+    202
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S258",
+   "neo": "202:34",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1244.2,
+   "t1": 1251.2,
+   "dai": 7.0,
+   "cau": [
+    202
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S259",
+   "neo": "203",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1251.2,
+   "t1": 1258.0,
+   "dai": 6.8,
+   "cau": [
+    203
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S260",
+   "neo": "204",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1258.0,
+   "t1": 1263.4,
+   "dai": 5.4,
+   "cau": [
+    204
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S261",
+   "neo": "205",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1263.4,
+   "t1": 1269.6,
+   "dai": 6.2,
+   "cau": [
+    205
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S262",
+   "neo": "206",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1269.6,
+   "t1": 1275.4,
+   "dai": 5.8,
+   "cau": [
+    206
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S263",
+   "neo": "207",
+   "nguon": "anh:rozhestvensky",
+   "co": "trung",
+   "goc": "ngang",
+   "hinh": "Chân dung Rozhestvensky",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1275.4,
+   "t1": 1279.6,
+   "dai": 4.2,
+   "cau": [
+    207
+   ],
+   "kieu": "anh",
+   "ten": "rozhestvensky",
+   "hang": "A",
+   "ghi_nguon": "ロジェストヴェンスキー 1904 PD"
+  },
+  {
+   "id": "S264",
+   "neo": "207:21",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1279.6,
+   "t1": 1283.8,
+   "dai": 4.2,
+   "cau": [
+    207
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S265",
+   "neo": "208",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1283.8,
+   "t1": 1291.6,
+   "dai": 7.8,
+   "cau": [
+    208
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S266",
+   "neo": "209",
+   "nguon": "the:gaiyo",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1291.6,
+   "t1": 1298.6,
+   "dai": 7.0,
+   "cau": [
+    209
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S267",
+   "neo": "210",
+   "nguon": "ban-do:yoru",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ đêm 27: mũi tên ngư lôi",
+   "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
+   "am": "Nhạc nền",
+   "t0": 1298.6,
+   "t1": 1305.4,
+   "dai": 6.8,
+   "cau": [
+    210
+   ],
+   "kieu": "ban-do",
+   "ten": "yoru",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
+  },
+  {
+   "id": "S268",
+   "neo": "211",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1305.4,
+   "t1": 1311.2,
+   "dai": 5.8,
+   "cau": [
+    211
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S269",
+   "neo": "212",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1311.2,
+   "t1": 1316.8,
+   "dai": 5.6,
+   "cau": [
+    212
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S270",
+   "neo": "213",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1316.8,
+   "t1": 1321.8,
+   "dai": 5.0,
+   "cau": [
+    213
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S271",
+   "neo": "213:25",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1321.8,
+   "t1": 1327.0,
+   "dai": 5.2,
+   "cau": [
+    213
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S272",
+   "neo": "214",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1327.0,
+   "t1": 1332.6,
+   "dai": 5.6,
+   "cau": [
+    214
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S273",
+   "neo": "215",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1332.6,
+   "t1": 1337.4,
+   "dai": 4.8,
+   "cau": [
+    215
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S274",
+   "neo": "215:24",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1337.4,
+   "t1": 1342.2,
+   "dai": 4.8,
+   "cau": [
+    215
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S275",
+   "neo": "216",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1342.2,
+   "t1": 1348.0,
+   "dai": 5.8,
+   "cau": [
+    216
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S276",
+   "neo": "217",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1348.0,
+   "t1": 1351.2,
+   "dai": 3.2,
+   "cau": [
+    217
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S277",
+   "neo": "218",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1351.2,
+   "t1": 1357.4,
+   "dai": 6.2,
+   "cau": [
+    218
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S278",
+   "neo": "219",
+   "nguon": "ban-do:tjifa",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Bản đồ T字: tàu, góc pháo, mũi tên",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1357.4,
+   "t1": 1361.8,
+   "dai": 4.4,
+   "cau": [
+    219
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S279",
+   "neo": "219:22",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Cận đặc tả: Bản đồ T字: tàu, góc pháo, mũi tên (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1361.8,
+   "t1": 1366.4,
+   "dai": 4.6,
+   "cau": [
+    219
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S280",
+   "neo": "220",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1366.4,
+   "t1": 1372.8,
+   "dai": 6.4,
+   "cau": [
+    220
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S281",
+   "neo": "221",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1372.8,
+   "t1": 1378.6,
+   "dai": 5.8,
+   "cau": [
+    221
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S282",
+   "neo": "222",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1378.6,
+   "t1": 1383.4,
+   "dai": 4.8,
+   "cau": [
+    222
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S283",
+   "neo": "223",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1383.4,
+   "t1": 1388.8,
+   "dai": 5.4,
+   "cau": [
+    223
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S284",
+   "neo": "223:27",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲 (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1388.8,
+   "t1": 1394.2,
+   "dai": 5.4,
+   "cau": [
+    223
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S285",
+   "neo": "224",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1394.2,
+   "t1": 1399.4,
+   "dai": 5.2,
+   "cau": [
+    224
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S286",
+   "neo": "225",
+   "nguon": "ban-do:tsuigeki",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ sáng 28: truy kích, cờ trắng",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1399.4,
+   "t1": 1404.8,
+   "dai": 5.4,
+   "cau": [
+    225
+   ],
+   "kieu": "ban-do",
+   "ten": "tsuigeki",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S287",
+   "neo": "226",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1404.8,
+   "t1": 1409.8,
+   "dai": 5.0,
+   "cau": [
+    226
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S288",
+   "neo": "226:25",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲 (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1409.8,
+   "t1": 1414.8,
+   "dai": 5.0,
+   "cau": [
+    226
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S289",
+   "neo": "227",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1414.8,
+   "t1": 1420.2,
+   "dai": 5.4,
+   "cau": [
+    227
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S290",
+   "neo": "227:27",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲 (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1420.2,
+   "t1": 1425.6,
+   "dai": 5.4,
+   "cau": [
+    227
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S291",
+   "neo": "228",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1425.6,
+   "t1": 1431.2,
+   "dai": 5.6,
+   "cau": [
+    228
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S292",
+   "neo": "228:28",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲 (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1431.2,
+   "t1": 1437.0,
+   "dai": 5.8,
+   "cau": [
+    228
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S293",
+   "neo": "229",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1437.0,
+   "t1": 1440.2,
+   "dai": 3.2,
+   "cau": [
+    229
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S294",
+   "neo": "230",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1440.2,
+   "t1": 1445.8,
+   "dai": 5.6,
+   "cau": [
+    230
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S295",
+   "neo": "231",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1445.8,
+   "t1": 1452.2,
+   "dai": 6.4,
+   "cau": [
+    231
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S296",
+   "neo": "231:32",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲 (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1452.2,
+   "t1": 1458.8,
+   "dai": 6.6,
+   "cau": [
+    231
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S297",
+   "neo": "232",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1458.8,
+   "t1": 1461.2,
+   "dai": 2.4,
+   "cau": [
+    232
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S298",
+   "neo": "233",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1461.2,
+   "t1": 1468.0,
+   "dai": 6.8,
+   "cau": [
+    233
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S299",
+   "neo": "234",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1468.0,
+   "t1": 1474.0,
+   "dai": 6.0,
+   "cau": [
+    234
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S300",
+   "neo": "235",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1474.0,
+   "t1": 1479.4,
+   "dai": 5.4,
+   "cau": [
+    235
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S301",
+   "neo": "235:27",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1479.4,
+   "t1": 1485.0,
+   "dai": 5.6,
+   "cau": [
+    235
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S302",
+   "neo": "236",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1485.0,
+   "t1": 1491.6,
+   "dai": 6.6,
+   "cau": [
+    236
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S303",
+   "neo": "237",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1491.6,
+   "t1": 1496.2,
+   "dai": 4.6,
+   "cau": [
+    237
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S304",
+   "neo": "237:23",
+   "nguon": "ban-do:sekai",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ thế giới: lan toả大艦巨砲 (tiếp)",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1496.2,
+   "t1": 1501.0,
+   "dai": 4.8,
+   "cau": [
+    237
+   ],
+   "kieu": "ban-do",
+   "ten": "sekai",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S305",
+   "neo": "238",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1501.0,
+   "t1": 1508.0,
+   "dai": 7.0,
+   "cau": [
+    238
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S306",
+   "neo": "239",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1508.0,
+   "t1": 1515.4,
+   "dai": 7.4,
+   "cau": [
+    239
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S307",
+   "neo": "240",
+   "nguon": "the:gaiyo",
+   "co": "dac-ta",
+   "goc": "phang",
+   "hinh": "Cận đặc tả: Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1515.4,
+   "t1": 1520.4,
+   "dai": 5.0,
+   "cau": [
+    240
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S308",
+   "neo": "240:25",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ bổ sung ý câu",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1520.4,
+   "t1": 1525.6,
+   "dai": 5.2,
+   "cau": [
+    240
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S309",
+   "neo": "241",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1525.6,
+   "t1": 1529.4,
+   "dai": 3.8,
+   "cau": [
+    241
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S310",
+   "neo": "242",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ chữ / infographic",
+   "chu": "—",
+   "am": "Nhạc nền",
+   "t0": 1529.4,
+   "t1": 1532.6,
+   "dai": 3.2,
+   "cau": [
+    242
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  }
+ ]
+}
