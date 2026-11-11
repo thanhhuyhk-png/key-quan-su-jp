@@ -102,4 +102,4 @@
 
 **Tài sản cần dựng (P5):** 10 ảnh PD/CC (三笠, 東郷, スヴォーロフ, オスリャービャ, ボロジノ, ロジェストヴェンスキー, 信濃丸, バルチック艦隊, 記念艦三笠); 6 bản đồ hải chiến vẽ code (koukai hành trình, tsushima eo biển, tjifa T字, yoru đêm, tsuigeki truy kích, sekai thế giới); thẻ số liệu infographic.
 
-**Điểm refine ở P5:** 157 cảnh  là thẻ mặc định (gán theo từ khoá) — P5 nâng thành infographic/bản đồ cụ thể cho kênh 地図と論理. Ảnh A? (信濃丸, バルチック艦隊) cần xác minh nguồn gốc PD trước khi dùng.
+**Điểm refine ở P5:** 157 cảnh "the:gaiyo" là thẻ mặc định (gán theo từ khoá) — P5 nâng thành infographic/bản đồ cụ thể cho kênh 地図と論理. Ảnh A? (信濃丸, バルチック艦隊) cần xác minh nguồn gốc PD trước khi dùng.
