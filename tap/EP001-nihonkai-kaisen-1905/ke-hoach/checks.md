@@ -68,3 +68,20 @@
 - Chống trùng: 0.00% (0/633); 0 câu ≥10 tiếng — ĐẠT
 
 **Mã sổ v2:** A1-A5, B1-B5, C1-C6, D1-D9 (25 dòng)
+
+
+## P2 v3 (2026-11-11) — Học DNA hook Model Link
+
+**Yêu cầu user:** học DNA hook Model Link, KHÔNG chép. Rút 5 gen DNA từ 4 hook (Gemini mổ 203高地, マレー, WW2, Tsushima 9h).
+
+**Phát hiện:** hook v2 mở bằng 信濃丸 sương mù = trùng ảnh mở 硝煙+日本史再審.
+
+**V3 áp DNA, nghịch lý RIÊNG:**
+- Gen 1+2: mở bằng nghịch lý 4 knot → 21 tàu chìm (~8s)
+- Nghịch lý số pháo 20>16 mà Nga thua (A5/C4/C5) — chưa đối thủ dùng
+- 信濃丸 → Chương 3 (dòng thời gian), hết trùng ảnh mở
+- Câu hỏi trung tâm ~48s@300 (~43s@335 thực tế)
+
+**3 cổng v3:** 0 CHẶN; 7,663 ký tự ~25.5 phút; chống trùng 0.00% (0/630), 0 câu ≥10 tiếng.
+
+**Mã sổ v3:** giữ nguyên A1-A5, B1-B5, C1-C6, D1-D9 (không thêm dữ kiện mới; chỉ tái cấu trúc hook)
