@@ -68,10 +68,10 @@
   {
    "id": "S004",
    "neo": "2:9",
-   "nguon": "ban-do:tsushima",
+   "nguon": "ban-do:tjifa",
    "co": "ban-do",
-   "goc": "tren-xuong",
-   "hinh": "Bản đồ 対馬海峡",
+   "goc": "phang",
+   "hinh": "Bản đồ T字 (nhá nhanh)",
    "chu": "—",
    "am": "Nhạc nền; nhấn khi cắt",
    "t0": 4.6,
@@ -81,7 +81,7 @@
     2
    ],
    "kieu": "ban-do",
-   "ten": "tsushima",
+   "ten": "tjifa",
    "hang": "code",
    "ghi_nguon": "Đồ họa minh họa"
   },
@@ -95,8 +95,8 @@
    "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
    "am": "Nhạc nền; nhấn khi cắt",
    "t0": 6.6,
-   "t1": 9.4,
-   "dai": 2.8,
+   "t1": 8.4,
+   "dai": 1.8,
    "cau": [
     3
    ],
@@ -107,16 +107,36 @@
   },
   {
    "id": "S006",
-   "neo": "3:14",
+   "neo": "3:9",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ nhấn từ khoá",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 8.4,
+   "t1": 10.4,
+   "dai": 2.0,
+   "cau": [
+    3
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S007",
+   "neo": "3:19",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
    "goc": "tren-xuong",
    "hinh": "Bản đồ 対馬海峡",
    "chu": "—",
    "am": "Nhạc nền; nhấn khi cắt",
-   "t0": 9.4,
+   "t0": 10.4,
    "t1": 12.4,
-   "dai": 3.0,
+   "dai": 2.0,
    "cau": [
     3
    ],
@@ -126,7 +146,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S007",
+   "id": "S008",
    "neo": "4",
    "nguon": "ban-do:tsushima",
    "co": "dac-ta",
@@ -135,8 +155,8 @@
    "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
    "am": "Nhạc nền; nhấn khi cắt",
    "t0": 12.4,
-   "t1": 14.8,
-   "dai": 2.4,
+   "t1": 14.0,
+   "dai": 1.6,
    "cau": [
     4
    ],
@@ -146,27 +166,47 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S008",
-   "neo": "4:12",
-   "nguon": "the:gaiyo",
-   "co": "the",
-   "goc": "phang",
-   "hinh": "Thẻ nhấn từ khoá",
+   "id": "S009",
+   "neo": "4:8",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
    "chu": "—",
    "am": "Nhạc nền; nhấn khi cắt",
-   "t0": 14.8,
-   "t1": 17.2,
-   "dai": 2.4,
+   "t0": 14.0,
+   "t1": 15.6,
+   "dai": 1.6,
    "cau": [
     4
    ],
-   "kieu": "the",
-   "ten": "gaiyo",
+   "kieu": "ban-do",
+   "ten": "tsushima",
    "hang": "code",
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S009",
+   "id": "S010",
+   "neo": "4:16",
+   "nguon": "ban-do:tjifa",
+   "co": "ban-do",
+   "goc": "phang",
+   "hinh": "Bản đồ T字 (nhá nhanh)",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 15.6,
+   "t1": 17.2,
+   "dai": 1.6,
+   "cau": [
+    4
+   ],
+   "kieu": "ban-do",
+   "ten": "tjifa",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S011",
    "neo": "5",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -175,8 +215,8 @@
    "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
    "am": "Nhạc nền; nhấn khi cắt",
    "t0": 17.2,
-   "t1": 21.2,
-   "dai": 4.0,
+   "t1": 19.8,
+   "dai": 2.6,
    "cau": [
     5
    ],
@@ -186,27 +226,47 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S010",
-   "neo": "5:20",
-   "nguon": "ban-do:tsushima",
+   "id": "S012",
+   "neo": "5:13",
+   "nguon": "ban-do:tjifa",
    "co": "ban-do",
-   "goc": "tren-xuong",
-   "hinh": "Bản đồ 対馬海峡",
+   "goc": "phang",
+   "hinh": "Bản đồ T字 (nhá nhanh)",
    "chu": "—",
    "am": "Nhạc nền; nhấn khi cắt",
-   "t0": 21.2,
-   "t1": 25.2,
-   "dai": 4.0,
+   "t0": 19.8,
+   "t1": 22.4,
+   "dai": 2.6,
    "cau": [
     5
    ],
    "kieu": "ban-do",
-   "ten": "tsushima",
+   "ten": "tjifa",
    "hang": "code",
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S011",
+   "id": "S013",
+   "neo": "5:26",
+   "nguon": "the:gaiyo",
+   "co": "the",
+   "goc": "phang",
+   "hinh": "Thẻ nhấn từ khoá",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 22.4,
+   "t1": 25.2,
+   "dai": 2.8,
+   "cau": [
+    5
+   ],
+   "kieu": "the",
+   "ten": "gaiyo",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S014",
    "neo": "6",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -215,8 +275,8 @@
    "chu": "Thẻ số liệu · Nguồn: JACAR, 国立国会図書館",
    "am": "Nhạc nền; nhấn khi cắt",
    "t0": 25.2,
-   "t1": 28.8,
-   "dai": 3.6,
+   "t1": 27.6,
+   "dai": 2.4,
    "cau": [
     6
    ],
@@ -226,17 +286,17 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S012",
-   "neo": "6:18",
+   "id": "S015",
+   "neo": "6:12",
    "nguon": "the:gaiyo",
    "co": "the",
    "goc": "phang",
    "hinh": "Thẻ nhấn từ khoá",
    "chu": "—",
    "am": "Nhạc nền; nhấn khi cắt",
-   "t0": 28.8,
-   "t1": 32.6,
-   "dai": 3.8,
+   "t0": 27.6,
+   "t1": 30.0,
+   "dai": 2.4,
    "cau": [
     6
    ],
@@ -246,7 +306,27 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S013",
+   "id": "S016",
+   "neo": "6:24",
+   "nguon": "ban-do:tsushima",
+   "co": "ban-do",
+   "goc": "tren-xuong",
+   "hinh": "Bản đồ 対馬海峡",
+   "chu": "—",
+   "am": "Nhạc nền; nhấn khi cắt",
+   "t0": 30.0,
+   "t1": 32.6,
+   "dai": 2.6,
+   "cau": [
+    6
+   ],
+   "kieu": "ban-do",
+   "ten": "tsushima",
+   "hang": "code",
+   "ghi_nguon": "Đồ họa minh họa"
+  },
+  {
+   "id": "S017",
    "neo": "7",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -266,7 +346,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S014",
+   "id": "S018",
    "neo": "7:15",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -286,7 +366,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S015",
+   "id": "S019",
    "neo": "8",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -306,7 +386,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S016",
+   "id": "S020",
    "neo": "8:13",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -326,7 +406,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S017",
+   "id": "S021",
    "neo": "9",
    "nguon": "the:gaiyo",
    "co": "dac-ta",
@@ -346,7 +426,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S018",
+   "id": "S022",
    "neo": "9:9",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -366,7 +446,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S019",
+   "id": "S023",
    "neo": "10",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -386,7 +466,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S020",
+   "id": "S024",
    "neo": "10:14",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -406,7 +486,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S021",
+   "id": "S025",
    "neo": "11",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -426,7 +506,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S022",
+   "id": "S026",
    "neo": "11:12",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -446,7 +526,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S023",
+   "id": "S027",
    "neo": "12",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -466,7 +546,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S024",
+   "id": "S028",
    "neo": "12:17",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -486,7 +566,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S025",
+   "id": "S029",
    "neo": "13",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -506,7 +586,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S026",
+   "id": "S030",
    "neo": "13:29",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -526,7 +606,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S027",
+   "id": "S031",
    "neo": "14",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -546,7 +626,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S028",
+   "id": "S032",
    "neo": "15",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -566,7 +646,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S029",
+   "id": "S033",
    "neo": "16",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -586,7 +666,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S030",
+   "id": "S034",
    "neo": "17",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -606,7 +686,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S031",
+   "id": "S035",
    "neo": "18",
    "nguon": "the:gaiyo",
    "co": "dac-ta",
@@ -626,7 +706,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S032",
+   "id": "S036",
    "neo": "19",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -646,7 +726,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S033",
+   "id": "S037",
    "neo": "20",
    "nguon": "anh:baltic-fleet",
    "co": "trung",
@@ -666,7 +746,7 @@
    "ghi_nguon": "バルチック艦隊 報道写真 1905"
   },
   {
-   "id": "S034",
+   "id": "S038",
    "neo": "20:11",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -686,7 +766,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S035",
+   "id": "S039",
    "neo": "21",
    "nguon": "anh:rozhestvensky",
    "co": "toan",
@@ -706,7 +786,7 @@
    "ghi_nguon": "ロジェストヴェンスキー 1904 PD"
   },
   {
-   "id": "S036",
+   "id": "S040",
    "neo": "22",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -726,7 +806,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S037",
+   "id": "S041",
    "neo": "23",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -746,7 +826,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S038",
+   "id": "S042",
    "neo": "24",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -766,7 +846,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S039",
+   "id": "S043",
    "neo": "25",
    "nguon": "anh:baltic-fleet",
    "co": "can",
@@ -786,7 +866,7 @@
    "ghi_nguon": "バルチック艦隊 報道写真 1905"
   },
   {
-   "id": "S040",
+   "id": "S044",
    "neo": "25:9",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -806,7 +886,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S041",
+   "id": "S045",
    "neo": "26",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -826,7 +906,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S042",
+   "id": "S046",
    "neo": "27",
    "nguon": "ban-do:koukai",
    "co": "dac-ta",
@@ -846,7 +926,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S043",
+   "id": "S047",
    "neo": "27:22",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -866,7 +946,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S044",
+   "id": "S048",
    "neo": "28",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -886,7 +966,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S045",
+   "id": "S049",
    "neo": "29",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -906,7 +986,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S046",
+   "id": "S050",
    "neo": "30",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -926,7 +1006,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S047",
+   "id": "S051",
    "neo": "30:24",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -946,7 +1026,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S048",
+   "id": "S052",
    "neo": "31",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -966,7 +1046,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S049",
+   "id": "S053",
    "neo": "32",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -986,7 +1066,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S050",
+   "id": "S054",
    "neo": "32:23",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -1006,7 +1086,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S051",
+   "id": "S055",
    "neo": "33",
    "nguon": "anh:borodino",
    "co": "dac-ta",
@@ -1026,7 +1106,7 @@
    "ghi_nguon": "戦艦ボロジノ PD"
   },
   {
-   "id": "S052",
+   "id": "S056",
    "neo": "33:21",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1046,7 +1126,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S053",
+   "id": "S057",
    "neo": "34",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -1066,7 +1146,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S054",
+   "id": "S058",
    "neo": "35",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -1086,7 +1166,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S055",
+   "id": "S059",
    "neo": "35:25",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -1106,7 +1186,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S056",
+   "id": "S060",
    "neo": "36",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1126,7 +1206,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S057",
+   "id": "S061",
    "neo": "37",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1146,7 +1226,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S058",
+   "id": "S062",
    "neo": "38",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -1166,7 +1246,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S059",
+   "id": "S063",
    "neo": "39",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1186,7 +1266,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S060",
+   "id": "S064",
    "neo": "39:27",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1206,7 +1286,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S061",
+   "id": "S065",
    "neo": "40",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -1226,7 +1306,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S062",
+   "id": "S066",
    "neo": "41",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -1246,7 +1326,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S063",
+   "id": "S067",
    "neo": "42",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1266,7 +1346,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S064",
+   "id": "S068",
    "neo": "43",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1286,7 +1366,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S065",
+   "id": "S069",
    "neo": "44",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1306,7 +1386,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S066",
+   "id": "S070",
    "neo": "44:25",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1326,7 +1406,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S067",
+   "id": "S071",
    "neo": "45",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1346,7 +1426,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S068",
+   "id": "S072",
    "neo": "46",
    "nguon": "anh:togo-heihachiro",
    "co": "trung",
@@ -1366,7 +1446,7 @@
    "ghi_nguon": "東郷平八郎 国立国会図書館 PD"
   },
   {
-   "id": "S069",
+   "id": "S073",
    "neo": "47",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1386,7 +1466,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S070",
+   "id": "S074",
    "neo": "48",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1406,7 +1486,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S071",
+   "id": "S075",
    "neo": "49",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1426,7 +1506,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S072",
+   "id": "S076",
    "neo": "50",
    "nguon": "anh:togo-heihachiro",
    "co": "toan",
@@ -1446,7 +1526,7 @@
    "ghi_nguon": "東郷平八郎 国立国会図書館 PD"
   },
   {
-   "id": "S073",
+   "id": "S077",
    "neo": "50:21",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1466,7 +1546,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S074",
+   "id": "S078",
    "neo": "51",
    "nguon": "anh:mikasa-bridge-painting",
    "co": "can",
@@ -1486,7 +1566,7 @@
    "ghi_nguon": "「三笠艦橋の図」東城鉦太郎 PD"
   },
   {
-   "id": "S075",
+   "id": "S079",
    "neo": "52",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1506,7 +1586,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S076",
+   "id": "S080",
    "neo": "53",
    "nguon": "the:gaiyo",
    "co": "dac-ta",
@@ -1526,7 +1606,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S077",
+   "id": "S081",
    "neo": "54",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1546,7 +1626,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S078",
+   "id": "S082",
    "neo": "55",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1566,7 +1646,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S079",
+   "id": "S083",
    "neo": "56",
    "nguon": "anh:togo-heihachiro",
    "co": "dac-ta",
@@ -1586,7 +1666,7 @@
    "ghi_nguon": "東郷平八郎 国立国会図書館 PD"
   },
   {
-   "id": "S080",
+   "id": "S084",
    "neo": "57",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1606,7 +1686,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S081",
+   "id": "S085",
    "neo": "58",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1626,7 +1706,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S082",
+   "id": "S086",
    "neo": "59",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1646,7 +1726,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S083",
+   "id": "S087",
    "neo": "59:26",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1666,7 +1746,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S084",
+   "id": "S088",
    "neo": "60",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1686,7 +1766,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S085",
+   "id": "S089",
    "neo": "61",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1706,7 +1786,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S086",
+   "id": "S090",
    "neo": "61:21",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1726,7 +1806,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S087",
+   "id": "S091",
    "neo": "62",
    "nguon": "anh:shinano-maru",
    "co": "trung",
@@ -1746,7 +1826,7 @@
    "ghi_nguon": "信濃丸 PD"
   },
   {
-   "id": "S088",
+   "id": "S092",
    "neo": "62:17",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -1766,7 +1846,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S089",
+   "id": "S093",
    "neo": "63",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1786,7 +1866,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S090",
+   "id": "S094",
    "neo": "64",
    "nguon": "anh:borodino",
    "co": "toan",
@@ -1806,7 +1886,7 @@
    "ghi_nguon": "戦艦ボロジノ PD"
   },
   {
-   "id": "S091",
+   "id": "S095",
    "neo": "64:22",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1826,7 +1906,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S092",
+   "id": "S096",
    "neo": "65",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1846,7 +1926,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S093",
+   "id": "S097",
    "neo": "66",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1866,7 +1946,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S094",
+   "id": "S098",
    "neo": "67",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1886,7 +1966,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S095",
+   "id": "S099",
    "neo": "68",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1906,7 +1986,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S096",
+   "id": "S100",
    "neo": "69",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1926,7 +2006,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S097",
+   "id": "S101",
    "neo": "70",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1946,7 +2026,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S098",
+   "id": "S102",
    "neo": "71",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -1966,7 +2046,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S099",
+   "id": "S103",
    "neo": "72",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -1986,7 +2066,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S100",
+   "id": "S104",
    "neo": "72:22",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2006,7 +2086,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S101",
+   "id": "S105",
    "neo": "73",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2026,7 +2106,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S102",
+   "id": "S106",
    "neo": "74",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2046,7 +2126,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S103",
+   "id": "S107",
    "neo": "75",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2066,7 +2146,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S104",
+   "id": "S108",
    "neo": "76",
    "nguon": "ban-do:tjifa",
    "co": "dac-ta",
@@ -2086,7 +2166,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S105",
+   "id": "S109",
    "neo": "77",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2106,7 +2186,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S106",
+   "id": "S110",
    "neo": "78",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2126,7 +2206,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S107",
+   "id": "S111",
    "neo": "79",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2146,7 +2226,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S108",
+   "id": "S112",
    "neo": "80",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2166,7 +2246,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S109",
+   "id": "S113",
    "neo": "81",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2186,7 +2266,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S110",
+   "id": "S114",
    "neo": "81:21",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2206,7 +2286,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S111",
+   "id": "S115",
    "neo": "82",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2226,7 +2306,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S112",
+   "id": "S116",
    "neo": "82:23",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2246,7 +2326,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S113",
+   "id": "S117",
    "neo": "83",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -2266,7 +2346,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S114",
+   "id": "S118",
    "neo": "84",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2286,7 +2366,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S115",
+   "id": "S119",
    "neo": "85",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2306,7 +2386,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S116",
+   "id": "S120",
    "neo": "86",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -2326,7 +2406,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S117",
+   "id": "S121",
    "neo": "87",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2346,7 +2426,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S118",
+   "id": "S122",
    "neo": "88",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2366,7 +2446,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S119",
+   "id": "S123",
    "neo": "89",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2386,7 +2466,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S120",
+   "id": "S124",
    "neo": "90",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2406,7 +2486,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S121",
+   "id": "S125",
    "neo": "91",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2426,7 +2506,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S122",
+   "id": "S126",
    "neo": "92",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2446,7 +2526,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S123",
+   "id": "S127",
    "neo": "93",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2466,7 +2546,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S124",
+   "id": "S128",
    "neo": "94",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2486,7 +2566,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S125",
+   "id": "S129",
    "neo": "95",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2506,7 +2586,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S126",
+   "id": "S130",
    "neo": "96",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2526,7 +2606,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S127",
+   "id": "S131",
    "neo": "96:22",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2546,7 +2626,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S128",
+   "id": "S132",
    "neo": "97",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -2566,7 +2646,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S129",
+   "id": "S133",
    "neo": "97:28",
    "nguon": "ban-do:koukai",
    "co": "ban-do",
@@ -2586,7 +2666,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S130",
+   "id": "S134",
    "neo": "98",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2606,7 +2686,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S131",
+   "id": "S135",
    "neo": "99",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2626,7 +2706,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S132",
+   "id": "S136",
    "neo": "99:23",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2646,7 +2726,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S133",
+   "id": "S137",
    "neo": "100",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2666,7 +2746,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S134",
+   "id": "S138",
    "neo": "101",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2686,7 +2766,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S135",
+   "id": "S139",
    "neo": "101:22",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2706,7 +2786,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S136",
+   "id": "S140",
    "neo": "102",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2726,7 +2806,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S137",
+   "id": "S141",
    "neo": "103",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2746,7 +2826,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S138",
+   "id": "S142",
    "neo": "104",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2766,7 +2846,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S139",
+   "id": "S143",
    "neo": "105",
    "nguon": "ban-do:tjifa",
    "co": "dac-ta",
@@ -2786,7 +2866,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S140",
+   "id": "S144",
    "neo": "106",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2806,7 +2886,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S141",
+   "id": "S145",
    "neo": "107",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2826,7 +2906,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S142",
+   "id": "S146",
    "neo": "108",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2846,7 +2926,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S143",
+   "id": "S147",
    "neo": "109",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2866,7 +2946,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S144",
+   "id": "S148",
    "neo": "110",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2886,7 +2966,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S145",
+   "id": "S149",
    "neo": "111",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2906,7 +2986,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S146",
+   "id": "S150",
    "neo": "111:31",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2926,7 +3006,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S147",
+   "id": "S151",
    "neo": "112",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2946,7 +3026,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S148",
+   "id": "S152",
    "neo": "113",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -2966,7 +3046,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S149",
+   "id": "S153",
    "neo": "114",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -2986,7 +3066,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S150",
+   "id": "S154",
    "neo": "115",
    "nguon": "anh:shinano-maru",
    "co": "can",
@@ -3006,7 +3086,7 @@
    "ghi_nguon": "信濃丸 PD"
   },
   {
-   "id": "S151",
+   "id": "S155",
    "neo": "115:9",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -3026,7 +3106,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S152",
+   "id": "S156",
    "neo": "116",
    "nguon": "ban-do:tsushima",
    "co": "ban-do",
@@ -3046,7 +3126,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S153",
+   "id": "S157",
    "neo": "117",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3066,7 +3146,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S154",
+   "id": "S158",
    "neo": "118",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3086,7 +3166,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S155",
+   "id": "S159",
    "neo": "119",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3106,7 +3186,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S156",
+   "id": "S160",
    "neo": "120",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3126,7 +3206,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S157",
+   "id": "S161",
    "neo": "121",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3146,7 +3226,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S158",
+   "id": "S162",
    "neo": "122",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3166,7 +3246,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S159",
+   "id": "S163",
    "neo": "123",
    "nguon": "anh:mikasa-battleship",
    "co": "dac-ta",
@@ -3186,7 +3266,7 @@
    "ghi_nguon": "戦艦三笠 1905 パブリックドメイン"
   },
   {
-   "id": "S160",
+   "id": "S164",
    "neo": "124",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3206,7 +3286,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S161",
+   "id": "S165",
    "neo": "125",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3226,7 +3306,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S162",
+   "id": "S166",
    "neo": "126",
    "nguon": "anh:mikasa-battleship",
    "co": "trung",
@@ -3246,7 +3326,7 @@
    "ghi_nguon": "戦艦三笠 1905 パブリックドメイン"
   },
   {
-   "id": "S163",
+   "id": "S167",
    "neo": "127",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3266,7 +3346,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S164",
+   "id": "S168",
    "neo": "128",
    "nguon": "anh:mikasa-battleship",
    "co": "toan",
@@ -3286,7 +3366,7 @@
    "ghi_nguon": "戦艦三笠 1905 パブリックドメイン"
   },
   {
-   "id": "S165",
+   "id": "S169",
    "neo": "129",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3306,7 +3386,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S166",
+   "id": "S170",
    "neo": "130",
    "nguon": "anh:mikasa-battleship",
    "co": "can",
@@ -3326,7 +3406,7 @@
    "ghi_nguon": "戦艦三笠 1905 パブリックドメイン"
   },
   {
-   "id": "S167",
+   "id": "S171",
    "neo": "131",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3346,7 +3426,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S168",
+   "id": "S172",
    "neo": "132",
    "nguon": "anh:oslyabya",
    "co": "dac-ta",
@@ -3366,7 +3446,7 @@
    "ghi_nguon": "戦艦オスリャービャ PD"
   },
   {
-   "id": "S169",
+   "id": "S173",
    "neo": "132:26",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3386,7 +3466,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S170",
+   "id": "S174",
    "neo": "133",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3406,7 +3486,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S171",
+   "id": "S175",
    "neo": "134",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3426,7 +3506,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S172",
+   "id": "S176",
    "neo": "135",
    "nguon": "anh:knyaz-suvorov",
    "co": "trung",
@@ -3446,7 +3526,7 @@
    "ghi_nguon": "戦艦クニャージ・スヴォーロフ PD"
   },
   {
-   "id": "S173",
+   "id": "S177",
    "neo": "135:23",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3466,7 +3546,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S174",
+   "id": "S178",
    "neo": "136",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3486,7 +3566,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S175",
+   "id": "S179",
    "neo": "137",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3506,7 +3586,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S176",
+   "id": "S180",
    "neo": "138",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3526,7 +3606,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S177",
+   "id": "S181",
    "neo": "139",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3546,7 +3626,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S178",
+   "id": "S182",
    "neo": "140",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3566,7 +3646,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S179",
+   "id": "S183",
    "neo": "141",
    "nguon": "the:gaiyo",
    "co": "dac-ta",
@@ -3586,7 +3666,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S180",
+   "id": "S184",
    "neo": "141:25",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3606,7 +3686,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S181",
+   "id": "S185",
    "neo": "142",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3626,7 +3706,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S182",
+   "id": "S186",
    "neo": "143",
    "nguon": "anh:oslyabya",
    "co": "toan",
@@ -3646,7 +3726,7 @@
    "ghi_nguon": "戦艦オスリャービャ PD"
   },
   {
-   "id": "S183",
+   "id": "S187",
    "neo": "143:22",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3666,7 +3746,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S184",
+   "id": "S188",
    "neo": "144",
    "nguon": "anh:oslyabya",
    "co": "can",
@@ -3686,7 +3766,7 @@
    "ghi_nguon": "戦艦オスリャービャ PD"
   },
   {
-   "id": "S185",
+   "id": "S189",
    "neo": "144:23",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3706,7 +3786,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S186",
+   "id": "S190",
    "neo": "145",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3726,7 +3806,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S187",
+   "id": "S191",
    "neo": "146",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -3746,7 +3826,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S188",
+   "id": "S192",
    "neo": "146:32",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -3766,7 +3846,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S189",
+   "id": "S193",
    "neo": "147",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3786,7 +3866,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S190",
+   "id": "S194",
    "neo": "148",
    "nguon": "anh:oslyabya",
    "co": "dac-ta",
@@ -3806,7 +3886,7 @@
    "ghi_nguon": "戦艦オスリャービャ PD"
   },
   {
-   "id": "S191",
+   "id": "S195",
    "neo": "149",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3826,7 +3906,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S192",
+   "id": "S196",
    "neo": "150",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3846,7 +3926,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S193",
+   "id": "S197",
    "neo": "151",
    "nguon": "anh:knyaz-suvorov",
    "co": "trung",
@@ -3866,7 +3946,7 @@
    "ghi_nguon": "戦艦クニャージ・スヴォーロフ PD"
   },
   {
-   "id": "S194",
+   "id": "S198",
    "neo": "152",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3886,7 +3966,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S195",
+   "id": "S199",
    "neo": "153",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -3906,7 +3986,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S196",
+   "id": "S200",
    "neo": "154",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3926,7 +4006,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S197",
+   "id": "S201",
    "neo": "155",
    "nguon": "anh:knyaz-suvorov",
    "co": "toan",
@@ -3946,7 +4026,7 @@
    "ghi_nguon": "戦艦クニャージ・スヴォーロフ PD"
   },
   {
-   "id": "S198",
+   "id": "S202",
    "neo": "155:21",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3966,7 +4046,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S199",
+   "id": "S203",
    "neo": "156",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -3986,7 +4066,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S200",
+   "id": "S204",
    "neo": "157",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4006,7 +4086,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S201",
+   "id": "S205",
    "neo": "158",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -4026,7 +4106,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S202",
+   "id": "S206",
    "neo": "159",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -4046,7 +4126,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S203",
+   "id": "S207",
    "neo": "159:21",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -4066,7 +4146,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S204",
+   "id": "S208",
    "neo": "160",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -4086,7 +4166,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S205",
+   "id": "S209",
    "neo": "160:24",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -4106,7 +4186,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S206",
+   "id": "S210",
    "neo": "161",
    "nguon": "anh:borodino",
    "co": "can",
@@ -4126,7 +4206,7 @@
    "ghi_nguon": "戦艦ボロジノ PD"
   },
   {
-   "id": "S207",
+   "id": "S211",
    "neo": "162",
    "nguon": "anh:knyaz-suvorov",
    "co": "dac-ta",
@@ -4146,7 +4226,7 @@
    "ghi_nguon": "戦艦クニャージ・スヴォーロフ PD"
   },
   {
-   "id": "S208",
+   "id": "S212",
    "neo": "163",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -4166,7 +4246,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S209",
+   "id": "S213",
    "neo": "164",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -4186,7 +4266,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S210",
+   "id": "S214",
    "neo": "165",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -4206,7 +4286,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S211",
+   "id": "S215",
    "neo": "166",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -4226,7 +4306,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S212",
+   "id": "S216",
    "neo": "167",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4246,7 +4326,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S213",
+   "id": "S217",
    "neo": "168",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -4266,7 +4346,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S214",
+   "id": "S218",
    "neo": "169",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4286,7 +4366,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S215",
+   "id": "S219",
    "neo": "170",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4306,7 +4386,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S216",
+   "id": "S220",
    "neo": "171",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -4326,7 +4406,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S217",
+   "id": "S221",
    "neo": "172",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4346,7 +4426,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S218",
+   "id": "S222",
    "neo": "172:22",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4366,7 +4446,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S219",
+   "id": "S223",
    "neo": "173",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4386,7 +4466,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S220",
+   "id": "S224",
    "neo": "174",
    "nguon": "ban-do:tjifa",
    "co": "dac-ta",
@@ -4406,7 +4486,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S221",
+   "id": "S225",
    "neo": "175",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4426,7 +4506,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S222",
+   "id": "S226",
    "neo": "176",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4446,7 +4526,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S223",
+   "id": "S227",
    "neo": "177",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4466,7 +4546,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S224",
+   "id": "S228",
    "neo": "178",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4486,7 +4566,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S225",
+   "id": "S229",
    "neo": "179",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4506,7 +4586,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S226",
+   "id": "S230",
    "neo": "180",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4526,7 +4606,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S227",
+   "id": "S231",
    "neo": "180:23",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4546,7 +4626,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S228",
+   "id": "S232",
    "neo": "181",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4566,7 +4646,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S229",
+   "id": "S233",
    "neo": "182",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4586,7 +4666,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S230",
+   "id": "S234",
    "neo": "183",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4606,7 +4686,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S231",
+   "id": "S235",
    "neo": "184",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4626,7 +4706,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S232",
+   "id": "S236",
    "neo": "185",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4646,7 +4726,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S233",
+   "id": "S237",
    "neo": "186",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4666,7 +4746,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S234",
+   "id": "S238",
    "neo": "187",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4686,7 +4766,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S235",
+   "id": "S239",
    "neo": "187:25",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4706,7 +4786,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S236",
+   "id": "S240",
    "neo": "188",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4726,7 +4806,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S237",
+   "id": "S241",
    "neo": "189",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4746,7 +4826,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S238",
+   "id": "S242",
    "neo": "190",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4766,7 +4846,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S239",
+   "id": "S243",
    "neo": "190:27",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4786,7 +4866,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S240",
+   "id": "S244",
    "neo": "191",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4806,7 +4886,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S241",
+   "id": "S245",
    "neo": "192",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4826,7 +4906,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S242",
+   "id": "S246",
    "neo": "193",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4846,7 +4926,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S243",
+   "id": "S247",
    "neo": "194",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4866,7 +4946,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S244",
+   "id": "S248",
    "neo": "195",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4886,7 +4966,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S245",
+   "id": "S249",
    "neo": "195:24",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4906,7 +4986,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S246",
+   "id": "S250",
    "neo": "196",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4926,7 +5006,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S247",
+   "id": "S251",
    "neo": "196:22",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4946,7 +5026,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S248",
+   "id": "S252",
    "neo": "197",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -4966,7 +5046,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S249",
+   "id": "S253",
    "neo": "198",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -4986,7 +5066,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S250",
+   "id": "S254",
    "neo": "198:22",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -5006,7 +5086,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S251",
+   "id": "S255",
    "neo": "199",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -5026,7 +5106,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S252",
+   "id": "S256",
    "neo": "199:21",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -5046,7 +5126,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S253",
+   "id": "S257",
    "neo": "200",
    "nguon": "ban-do:tjifa",
    "co": "dac-ta",
@@ -5066,7 +5146,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S254",
+   "id": "S258",
    "neo": "200:30",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -5086,7 +5166,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S255",
+   "id": "S259",
    "neo": "201",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5106,7 +5186,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S256",
+   "id": "S260",
    "neo": "201:22",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5126,7 +5206,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S257",
+   "id": "S261",
    "neo": "202",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -5146,7 +5226,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S258",
+   "id": "S262",
    "neo": "202:34",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -5166,7 +5246,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S259",
+   "id": "S263",
    "neo": "203",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5186,7 +5266,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S260",
+   "id": "S264",
    "neo": "204",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5206,7 +5286,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S261",
+   "id": "S265",
    "neo": "205",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5226,7 +5306,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S262",
+   "id": "S266",
    "neo": "206",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5246,7 +5326,7 @@
    "ghi_nguon": "Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S263",
+   "id": "S267",
    "neo": "207",
    "nguon": "anh:rozhestvensky",
    "co": "trung",
@@ -5266,7 +5346,7 @@
    "ghi_nguon": "ロジェストヴェンスキー 1904 PD"
   },
   {
-   "id": "S264",
+   "id": "S268",
    "neo": "207:21",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5286,7 +5366,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S265",
+   "id": "S269",
    "neo": "208",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5306,7 +5386,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S266",
+   "id": "S270",
    "neo": "209",
    "nguon": "the:gaiyo",
    "co": "dac-ta",
@@ -5326,7 +5406,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S267",
+   "id": "S271",
    "neo": "210",
    "nguon": "ban-do:yoru",
    "co": "ban-do",
@@ -5346,7 +5426,7 @@
    "ghi_nguon": "Đồ họa minh họa · Nguồn: JACAR, 国立国会図書館"
   },
   {
-   "id": "S268",
+   "id": "S272",
    "neo": "211",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5366,7 +5446,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S269",
+   "id": "S273",
    "neo": "212",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5386,7 +5466,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S270",
+   "id": "S274",
    "neo": "213",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5406,7 +5486,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S271",
+   "id": "S275",
    "neo": "213:25",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5426,7 +5506,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S272",
+   "id": "S276",
    "neo": "214",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5446,7 +5526,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S273",
+   "id": "S277",
    "neo": "215",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5466,7 +5546,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S274",
+   "id": "S278",
    "neo": "215:24",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5486,7 +5566,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S275",
+   "id": "S279",
    "neo": "216",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5506,7 +5586,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S276",
+   "id": "S280",
    "neo": "217",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5526,7 +5606,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S277",
+   "id": "S281",
    "neo": "218",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5546,7 +5626,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S278",
+   "id": "S282",
    "neo": "219",
    "nguon": "ban-do:tjifa",
    "co": "dac-ta",
@@ -5566,7 +5646,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S279",
+   "id": "S283",
    "neo": "219:22",
    "nguon": "ban-do:tjifa",
    "co": "ban-do",
@@ -5586,7 +5666,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S280",
+   "id": "S284",
    "neo": "220",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5606,7 +5686,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S281",
+   "id": "S285",
    "neo": "221",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5626,7 +5706,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S282",
+   "id": "S286",
    "neo": "222",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5646,7 +5726,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S283",
+   "id": "S287",
    "neo": "223",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5666,7 +5746,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S284",
+   "id": "S288",
    "neo": "223:27",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5686,7 +5766,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S285",
+   "id": "S289",
    "neo": "224",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5706,7 +5786,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S286",
+   "id": "S290",
    "neo": "225",
    "nguon": "ban-do:tsuigeki",
    "co": "ban-do",
@@ -5726,7 +5806,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S287",
+   "id": "S291",
    "neo": "226",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5746,7 +5826,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S288",
+   "id": "S292",
    "neo": "226:25",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5766,7 +5846,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S289",
+   "id": "S293",
    "neo": "227",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5786,7 +5866,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S290",
+   "id": "S294",
    "neo": "227:27",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5806,7 +5886,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S291",
+   "id": "S295",
    "neo": "228",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5826,7 +5906,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S292",
+   "id": "S296",
    "neo": "228:28",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5846,7 +5926,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S293",
+   "id": "S297",
    "neo": "229",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5866,7 +5946,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S294",
+   "id": "S298",
    "neo": "230",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5886,7 +5966,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S295",
+   "id": "S299",
    "neo": "231",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5906,7 +5986,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S296",
+   "id": "S300",
    "neo": "231:32",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5926,7 +6006,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S297",
+   "id": "S301",
    "neo": "232",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -5946,7 +6026,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S298",
+   "id": "S302",
    "neo": "233",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5966,7 +6046,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S299",
+   "id": "S303",
    "neo": "234",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -5986,7 +6066,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S300",
+   "id": "S304",
    "neo": "235",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -6006,7 +6086,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S301",
+   "id": "S305",
    "neo": "235:27",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -6026,7 +6106,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S302",
+   "id": "S306",
    "neo": "236",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -6046,7 +6126,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S303",
+   "id": "S307",
    "neo": "237",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -6066,7 +6146,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S304",
+   "id": "S308",
    "neo": "237:23",
    "nguon": "ban-do:sekai",
    "co": "ban-do",
@@ -6086,7 +6166,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S305",
+   "id": "S309",
    "neo": "238",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -6106,7 +6186,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S306",
+   "id": "S310",
    "neo": "239",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -6126,7 +6206,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S307",
+   "id": "S311",
    "neo": "240",
    "nguon": "the:gaiyo",
    "co": "dac-ta",
@@ -6146,7 +6226,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S308",
+   "id": "S312",
    "neo": "240:25",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -6166,7 +6246,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S309",
+   "id": "S313",
    "neo": "241",
    "nguon": "the:gaiyo",
    "co": "the",
@@ -6186,7 +6266,7 @@
    "ghi_nguon": "Đồ họa minh họa"
   },
   {
-   "id": "S310",
+   "id": "S314",
    "neo": "242",
    "nguon": "the:gaiyo",
    "co": "the",

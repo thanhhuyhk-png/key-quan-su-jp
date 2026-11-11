@@ -92,8 +92,8 @@
 **Máy kiểm thích ứng cho kênh Nhật** (sửa từ máy kiểm tập mẫu): tách câu theo KÝ TỰ (tiếng Nhật không dấu cách), tốc độ 300 ký tự/phút; nguồn chính thống Nhật (JACAR, 国立国会図書館, NARA, Wikipedia); loại hình anh/the/ban-do/can-tim; bỏ luật riêng VN (vnmap Hoàng Sa, Karmen, pháo 105, 3D sân khấu VN); giữ guard luật cứng bản đồ VN (chặn nếu lỡ nhắc Việt Nam/Biển Đông) + chặn tả máu + bắt số kanji không nguồn.
 
 **Kết quả:**
-- 310 cảnh, 1,533 s (25:33), 12.1 cảnh/phút (trong 10–20)
-- Mở đầu trailer cinema: 20.3 cảnh/phút (cắt nhanh, 2 cảnh/câu, theo yêu cầu user)
+- 314 cảnh, 1,533 s (25:33), 12.3 cảnh/phút (trong 10–20)
+- Mở đầu trailer cinema: 23.4 cảnh/phút (câu 1-6 chia 3 → 2.0s/cảnh; câu 1-2 giữ 2 vì quá ngắn, sàn 1.3s)
 - Theo kiểu: the 157, ban-do 128, anh 25
 - Tư liệu thật 25 cảnh; hạng A?/B dài nhất 3.4 s (trần 5 s ✓)
 - Mọi chương ≥ 9 cảnh/phút, ≥ 1 đặc tả ✓
