@@ -5,6 +5,7 @@
 - **Nội dung:** Bản đồ chiến thuật animation + chân dung tư liệu thật + AI voice tiếng Nhật (Kokoro hoặc ElevenLabs, chưa chọn); ngôi kể thứ ba; mọi số liệu, ngày, địa danh có nguồn trong sổ số liệu từng tập
 - **Thời lượng:** 20–30 phút; số tiếng lời đọc = thời lượng × tốc độ giọng (đo thật ở P4, ghi lại sau)
 - **Ảnh bìa:** theo `kenh/thumbnail-chuan.md`
+- **Đoạn mở (0:00–~1:00) — hình ảnh kiểu trailer cinema** (người dùng chốt 2026-11-11): chuyển cảnh NHANH, nhiều cảnh ngắn, nhịp dồn, sống động. P3 (`goha-ls-phan-canh`) cắt cảnh dày ở hook; vẫn giữ luật kit (cấm ảnh AI người thật, mọi cảnh có nguồn, trần 5s tư liệu hạng B). Hook văn bản theo Hook DNA ở `kenh/hoc-shu/so-tay-van-phong.md` mục 7.
 - **Phải xoay vòng: cấu trúc kể.** Hai tập liền nhau không dùng cùng cấu trúc S.
 
 ## Cấu trúc kể (S1–S5)

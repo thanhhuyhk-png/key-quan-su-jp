@@ -196,3 +196,25 @@ Preview chủ đề tập sau (1 câu).
 ---
 
 *Phân tích bởi Claude Code · Phiên 2026-11-10 · Chỉ đo khuôn, không chép câu chữ nguồn.*
+
+
+---
+
+## 7. Hook DNA đã chốt (từ EP001, 2026-11-11) — người dùng thích, dùng lại mọi tập
+
+Rút DNA từ 4 hook Model Link (203高地, マレー沖海戦, WW2, Tsushima 9h). **Chép cơ chế, KHÔNG chép nội dung/ảnh.**
+
+**5 gen DNA:**
+1. Nghịch lý nhỏ↔lớn đập tức thì (~8 giây): một cái NHỎ quyết định một cái KHỔNG LỒ
+2. Con số gây lệch nhận thức → buộc não hỏi "sao có thể?"
+3. Câu hỏi trung tâm = CHÍNH nghịch lý đó (không phải câu hỏi rời)
+4. Cinematic tease: hứa câu trả lời nằm ở đâu
+5. Góc nhìn phi truyền thống: vào từ điểm bất ngờ, KHÔNG từ chỗ ai cũng mở
+
+**Khuôn hook chuẩn của kênh (EP001 mẫu):**
+- Câu 1-3: nêu nghịch lý thuần số (vd わずか4ノット → 21隻撃沈)
+- Câu 4-6: con số lệch nhận thức thứ 2 (vd 20門 > 16門 mà bên nhiều pháo全滅)
+- Câu 7-9: câu hỏi trung tâm = nghịch lý (なぜ…のか？) + tease câu trả lời (答えは「T字」にある)
+- Đẩy câu hỏi trung tâm < 45 giây
+
+**CẤM:** không mở bằng ảnh/góc đã có ở video đối thủ cùng đề tài (vd 信濃丸 sương mù của 硝煙+日本史再審). Mỗi tập tìm MỘT nghịch lý thuần số RIÊNG đúng thương hiệu 地図と論理.
