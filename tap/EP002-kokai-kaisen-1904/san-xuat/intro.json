@@ -1,0 +1,56 @@
+{
+ "intro_khung": 240,
+ "fps": 24,
+ "dur_s": 10.0,
+ "beats": [
+  {
+   "scene": "black",
+   "t0": 0.0,
+   "t1": 0.6,
+   "txt": ""
+  },
+  {
+   "scene": "sea",
+   "t0": 0.6,
+   "t1": 1.8,
+   "txt": "6対4"
+  },
+  {
+   "scene": "line",
+   "t0": 1.8,
+   "t1": 3.0,
+   "txt": "沈没 0隻"
+  },
+  {
+   "scene": "guns",
+   "t0": 3.0,
+   "t1": 4.1,
+   "txt": "一発の砲弾"
+  },
+  {
+   "scene": "route",
+   "t0": 4.1,
+   "t1": 5.3,
+   "txt": ""
+  },
+  {
+   "scene": "tjifa",
+   "t0": 5.3,
+   "t1": 6.4,
+   "txt": "午後6時40分ごろ"
+  },
+  {
+   "scene": "fire",
+   "t0": 6.4,
+   "t1": 7.3,
+   "txt": "日没まで あと1時間20分"
+  },
+  {
+   "scene": "title",
+   "t0": 7.3,
+   "t1": 10.0,
+   "txt": ""
+  }
+ ],
+ "ghi_chu": "Mọi mốc phim của tập LÙI intro_khung khung. Clip thật bỏ vào --clips/<scene>.*"
+}

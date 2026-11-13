@@ -1,0 +1,37 @@
+# Ngưỡng cho rieng/tools/kiem-nhip-hinh.py (của người dùng, sửa thoải mái).
+# Mỗi luật vi phạm = CHẶN (mã 1), trừ mục [canh_bao].
+
+# Loại cảnh tính là «hình thật» (ảnh tư liệu, clip hiện trường / AI mô phỏng)
+kieu_that = ["anh", "clip"]
+# Loại cảnh bản đồ / bối cảnh 3D
+kieu_ban_do = ["ban-do"]
+
+[dung_lai]
+clip_toi_da = 2          # một clip dùng tối đa 2 lần trong cả tập
+clip_cach_giay = 180     # hai lần dùng một clip cách nhau ≥ 3 phút
+anh_toi_da = 3           # một ảnh tư liệu tối đa 3 lần (rieng/ghi-de.md 11/11)
+anh_cach_giay = 60       # cách nhau ≥ 60 s
+the_toi_da = 1           # thẻ chữ / đồ thị: đúng 1 lần
+# Bản đồ 3D: nới 13/11/2026 cho tập 20–30 phút (luật gốc viết cho tập 12,5 phút, chương ~2 phút).
+# Nhãn góc của cảnh bản đồ phải là góc máy THẬT khi dựng (EP003: cần máy dựng đổi góc theo nhãn).
+cap_ban_do_goc_toi_da = 3   # một cặp [bản đồ/bối cảnh 3D + góc máy] tối đa 3 lần cả tập (gốc: 2)
+ban_do_moi_chuong = 3       # trần sàn: một bản đồ được ít nhất 3 cảnh trong một chương
+ban_do_moi_phut_chuong = 1.5   # trần theo độ dài chương: 1,5 cảnh mỗi phút của chương (gốc ≈ 3 cảnh / 2 phút)
+boi_canh_moi_phut = 0.5     # số bản đồ/bối cảnh 3D khác nhau ≥ 0,5 mỗi phút phim (tập 22 phút cần ≥ 11)
+
+[dong_chay]
+khoang_khong_that_giay = 15   # khoảng dài nhất không có hình thật
+ty_le_that_min = 0.35         # tỉ lệ cảnh hình thật trên tổng số cảnh
+ty_le_that_max = 0.60         # (luật gốc 45 %; kênh này chuẩn Peleliu nhiều tư liệu nên để rộng)
+cam_lien_cung_co = true       # hai cảnh hình thật liền nhau không cùng cỡ cảnh
+
+[kho]
+tai_san_moi_phut = 3.5        # số ảnh + clip KHÁC NHAU mỗi phút phim (luật gốc 40–50 / 12,5 phút)
+
+[nhip]
+canh_moi_phut = 12            # cả tập
+canh_moi_phut_chuong = 10     # mỗi chương (chỉ cảnh báo)
+
+[lap_hinh]                    # chỉ chạy khi có --hinh <thư mục mp4 từng cảnh>
+nguong_hash = 0.10            # hai khung giữa cảnh coi là «giống» khi khác nhau ≤ 10 % số bit dHash
+ty_le_lap_max = 0.30          # tối đa 30 % số cảnh trông giống một cảnh trước đó
