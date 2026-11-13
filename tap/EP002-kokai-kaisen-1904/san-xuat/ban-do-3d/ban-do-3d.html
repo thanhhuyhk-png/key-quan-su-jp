@@ -1,0 +1,321 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<script type="importmap">{"imports":{"three":"../../../../template/node_modules/three/build/three.module.js","three/addons/":"../../../../template/node_modules/three/examples/jsm/"}}</script>
+<style>
+@font-face{font-family:NSJ;font-weight:700;src:url("../../../../template/fonts/NotoSerifJP-Bold.ttf")}
+@font-face{font-family:NSJ;font-weight:400;src:url("../../../../template/fonts/NotoSerifJP-Regular.ttf")}
+html,body{margin:0;width:1920px;height:1080px;background:#111;overflow:hidden;font-family:NSJ,serif}
+#c{position:absolute;left:0;top:0}
+#hud{position:absolute;left:0;top:0;width:1920px;height:1080px;pointer-events:none;color:#f0e8d8}
+.goc{position:absolute;width:90px;height:90px;border:0 solid #cc2222}
+.tl{left:40px;top:40px;border-top-width:5px;border-left-width:5px}.tr{right:40px;top:40px;border-top-width:5px;border-right-width:5px}
+.bl{left:40px;bottom:40px;border-bottom-width:5px;border-left-width:5px}.br{right:40px;bottom:40px;border-bottom-width:5px;border-right-width:5px}
+#titulo{position:absolute;top:62px;left:0;width:100%;text-align:center;font-size:50px;font-weight:700;text-shadow:0 3px 14px #000}
+#phu{position:absolute;top:130px;left:0;width:100%;text-align:center;font-size:30px;color:#cfc8ba;text-shadow:0 2px 10px #000}
+.nhan{position:absolute;font-size:34px;font-weight:700;white-space:nowrap;transform:translate(-50%,-100%);text-shadow:0 2px 10px #000,0 0 3px #000}
+#nguon{position:absolute;right:70px;bottom:62px;font-size:24px;color:#cfc8ba;text-shadow:0 2px 8px #000}
+#chuthich{position:absolute;left:70px;bottom:62px;font-size:28px;text-shadow:0 2px 8px #000;line-height:1.5}
+#chuthich i{display:inline-block;width:0;height:0;border-left:11px solid transparent;border-right:11px solid transparent;border-bottom:20px solid;margin-right:12px}
+#so{position:absolute;left:0;width:100%;bottom:120px;text-align:center;font-size:54px;font-weight:700;text-shadow:0 4px 18px #000}
+#gio{position:absolute;right:130px;top:200px;font-size:54px;font-weight:700;text-shadow:0 3px 12px #000;text-align:right;display:none}
+#mt{position:absolute;right:130px;top:282px;width:430px;height:8px;background:#2b2b2b;display:none}
+#mt b{position:absolute;left:0;top:0;height:8px;background:#cc2222;width:0}
+#mt i{position:absolute;top:-8px;width:4px;height:24px;background:#f0e8d8}
+#mt span{position:absolute;top:22px;font-size:22px;color:#cfc8ba;white-space:nowrap}
+</style></head><body>
+<script>
+window.READY=false;window.SIZE='1920x1080';
+window.SHOT=window.SHOT||{shot:'koukai',duration:8};
+window.DURATION=window.SHOT.scene||window.SHOT.duration;
+</script>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="hud"><div class="goc tl"></div><div class="goc tr"></div><div class="goc bl"></div><div class="goc br"></div>
+<div id="titulo"></div><div id="phu"></div><div id="gio"></div><div id="mt"><b></b><i></i><span style="right:0">日没 午後8時ごろ</span></div><div id="so"></div><div id="labels"></div>
+<div id="chuthich"><div style="color:#e0583f"><i style="color:#e0583f"></i>連合艦隊</div><div style="color:#9aa3ad"><i style="color:#9aa3ad"></i>旅順艦隊</div></div>
+<div id="nguon">作図(概略) ・ 地形: Natural Earth</div></div>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const S=window.SHOT, W=1920,H=1080, DUR=S.duration, VAR=S.var||0;
+const K=Math.cos(34.5*Math.PI/180);
+const E=(lon,lat,y=0)=>new THREE.Vector3((lon-130)*K,y,-(lat-34.5));      // lon,lat → thế giới
+const V3=(e,n,y=0)=>new THREE.Vector3(e,y,-n);                          // toạ độ bản đồ (e,n)
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const smooth=(x)=>{x=clamp(x);return x*x*(3-2*x);};
+const ease=(x)=>{x=clamp(x);return 1-Math.pow(1-x,3);};
+const lerp=(a,b,k)=>a+(b-a)*k;
+const lerpV=(a,b,k)=>a.clone().lerp(b,k);
+
+const r=new THREE.WebGLRenderer({canvas:document.getElementById('c'),antialias:true,preserveDrawingBuffer:true});
+r.setPixelRatio(1);r.setSize(W,H,false);
+const sc=new THREE.Scene();sc.background=new THREE.Color(0x111111);sc.fog=new THREE.FogExp2(0x111111,0.42);
+const cam=new THREE.PerspectiveCamera(38,W/H,0.01,400);
+const hemi=new THREE.HemisphereLight(0xd8dee6,0x2a2a2a,1.15);sc.add(hemi);
+const dl=new THREE.DirectionalLight(0xfff3e0,1.5);dl.position.set(-2,3,1.2);sc.add(dl);
+
+// ---------- nền: biển, lưới, đất ----------
+const sea=new THREE.Mesh(new THREE.PlaneGeometry(900,500),new THREE.MeshBasicMaterial({color:0x15171a}));
+sea.rotation.x=-Math.PI/2;sea.position.y=-0.002;sc.add(sea);
+const gridTs=new THREE.GridHelper(14,70,0x2a2a29,0x202020);gridTs.position.y=0.0005;sc.add(gridTs);
+const gridW=new THREE.GridHelper(600,60,0x2a2a29,0x1d1d1d);gridW.position.y=0.0005;gridW.position.z=-20;sc.add(gridW);
+const landM=new THREE.MeshStandardMaterial({color:0x33373d,roughness:.95,metalness:0,flatShading:true});
+const edgeM=new THREE.LineBasicMaterial({color:0x7a828c});
+function buildLand(data,depth){
+  const g=new THREE.Group();
+  for(const ring of data.vong){
+    try{
+      const sh=new THREE.Shape(ring.map(([lo,la])=>new THREE.Vector2((lo-130)*K,la-34.5)));
+      const geo=new THREE.ExtrudeGeometry(sh,{depth,bevelEnabled:false});geo.rotateX(-Math.PI/2);
+      g.add(new THREE.Mesh(geo,landM));
+      g.add(new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(ring.map(([lo,la])=>new THREE.Vector3((lo-130)*K,depth+0.0008,-(la-34.5)))),edgeM));
+    }catch(e){}
+  }
+  sc.add(g);return g;
+}
+const LAND=await (await fetch('world-land.json')).json();
+const landTs=buildLand(LAND,0.025);
+const landW=buildLand(LAND,0.12);
+// ---------- Biển Đông: Hoàng Sa, Trường Sa là của Việt Nam (luật cứng của kit), không đường lưỡi bò ----------
+const bienDong=new THREE.Group();
+function dao(lon,lat,r){const m=new THREE.Mesh(new THREE.CylinderGeometry(r,r,0.14,10),landM);m.position.copy(E(lon,lat,0.07));bienDong.add(m);
+  const e=new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints([...Array(21)].map((_,i)=>{const a=i/20*Math.PI*2;return new THREE.Vector3(m.position.x+Math.cos(a)*r,0.145,m.position.z+Math.sin(a)*r);})),edgeM);bienDong.add(e);}
+[[111.6,16.5],[112.2,16.9],[112.6,16.3],[111.9,16.2]].forEach(([lo,la])=>dao(lo,la,0.42));
+[[114.2,10.1],[114.9,9.7],[113.7,8.8],[115.6,10.4],[111.9,8.7],[114.4,11.0],[112.9,9.9]].forEach(([lo,la])=>dao(lo,la,0.4));
+sc.add(bienDong);
+
+// ---------- tàu (Meshy) ----------
+const gl=new GLTFLoader();
+const load=(u)=>new Promise((res,rej)=>gl.load(u,g=>res(g.scene),undefined,rej));
+const BB=await load('tau-thiet-giap.glb'), TB=await load('tau-phong-loi.glb'), CR=await load('tau-tuan-duong.glb'), AX=await load('tau-chuyen-dung.glb');
+const MAU={nhat:0xcc2222,nga:0x9aa3ad};
+function ship(kind,mau,len){const src=kind==='tb'?TB:kind==='cr'?CR:kind==='ax'?AX:BB;const m=src.clone(true);
+  m.traverse(o=>{if(o.isMesh)o.material=new THREE.MeshStandardMaterial({color:MAU[mau],roughness:.75,metalness:.1,flatShading:true});});
+  const sc0=len/0.96;m.scale.setScalar(sc0);m.position.y=0.02*(len/0.15);
+  const g=new THREE.Group();g.add(m);g.visible=false;sc.add(g);return g;}
+const ships=(n,kind,mau,len)=>[...Array(n)].map(()=>ship(kind,mau,len));
+// hạm đội Nga hỗn hợp: thiết giáp ở đầu, tuần dương rồi tàu chuyên dụng ở cuối hàng
+const shipsRu=(n,len)=>[...Array(n)].map((_,i)=>ship(i>=n-1&&n>=5?'ax':i>=n-2&&n>=5?'cr':'bb','nga',len));
+function put(g,x,z,hd,y=0){g.visible=true;g.position.set(x,y,z);g.rotation.y=hd;}           // hd = góc (rad) trong mặt phẳng bản đồ (e→n)
+function putP(g,p,lift=0){put(g,p[0],-p[1],p[2],lift);}
+
+// ---------- nhãn HTML bám theo vị trí 3D ----------
+const lblBox=document.getElementById('labels');
+const labels=[];
+function label(text,color,fn,vis){const d=document.createElement('div');d.className='nhan';d.textContent=text;d.style.color=color;lblBox.appendChild(d);labels.push({d,fn,vis});return d;}
+function labelFree(text,color,pos,size){const d=document.createElement('div');d.className='nhan';d.textContent=text;d.style.color=color;d.style.fontSize=size+'px';lblBox.appendChild(d);labels.push({d,free:true,fn:()=>pos,vis:()=>cfg.mode==='world'?1:0});}
+function updLabels(t,k){for(const l of labels){const a=l.vis?l.vis(t,k):1;const p=l.fn(t,k);if(!p||a<=0){l.d.style.opacity=0;continue;}
+  const v=p.clone().project(cam);if(v.z>1){l.d.style.opacity=0;continue;}
+  if(l.free){if(Math.abs(v.x)>0.92||Math.abs(v.y)>0.9){l.d.style.opacity=0;continue;}l.d.style.left=((v.x*0.5+0.5)*W)+'px';l.d.style.top=((1-(v.y*0.5+0.5))*H)+'px';l.d.style.opacity=a;continue;}
+  const x=Math.min(W-150,Math.max(150,(v.x*0.5+0.5)*W)),y=Math.min(H-170,Math.max(cfg.mode==='world'?215:330,(1-(v.y*0.5+0.5))*H));
+  l.d.style.left=x+'px';l.d.style.top=y+'px';l.d.style.opacity=a;}}
+
+labelFree('Biển Đông','#9aa3ad',E(115.5,13.6,0.3),26);
+labelFree('Hoàng Sa (Việt Nam)','#f0e8d8',E(113.9,18.6,0.3),22);
+labelFree('Trường Sa (Việt Nam)','#f0e8d8',E(114.6,7.4,0.3),22);
+// ---------- vệt nước / đường ----------
+function trail(){const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.BufferAttribute(new Float32Array(40*3),3));geo.setAttribute('color',new THREE.BufferAttribute(new Float32Array(40*3),3));const l=new THREE.Line(geo,new THREE.LineBasicMaterial({vertexColors:true,transparent:true}));l.frustumCulled=false;l.visible=false;sc.add(l);return l;}
+function setTrail(l,fn,s,col,step=0.012){l.visible=true;const pos=l.geometry.attributes.position,cl=l.geometry.attributes.color;for(let i=0;i<40;i++){const p=fn(s-(39-i)*step);pos.setXYZ(i,p[0],0.012,-p[1]);const f=Math.pow(i/39,1.6)*0.9;cl.setXYZ(i,0.07+(col[0]-0.07)*f,0.07+(col[1]-0.07)*f,0.07+(col[2]-0.07)*f);}pos.needsUpdate=true;cl.needsUpdate=true;}
+function tube(points,radius,color,opacity=1){const c=new THREE.CatmullRomCurve3(points,false,'centripetal');const geo=new THREE.TubeGeometry(c,Math.max(40,points.length*24),radius,5,false);
+  const m=new THREE.Mesh(geo,new THREE.MeshBasicMaterial({color,transparent:true,opacity}));m.frustumCulled=false;sc.add(m);m.userData.total=geo.index.count;m.userData.curve=c;return m;}
+function drawTube(m,u){m.geometry.setDrawRange(0,Math.floor(m.userData.total*clamp(u)/3)*3);}
+const mkRing=(color)=>{const m=new THREE.Mesh(new THREE.RingGeometry(0.97,1,64),new THREE.MeshBasicMaterial({color,transparent:true,opacity:0,side:THREE.DoubleSide,depthWrite:false}));m.rotation.x=-Math.PI/2;m.visible=false;sc.add(m);return m;};
+function ringAt(m,x,z,rad,op){m.visible=op>0.01;m.position.set(x,0.03,z);m.scale.setScalar(Math.max(0.001,rad));m.material.opacity=op;}
+function cone(color,op){const m=new THREE.Mesh(new THREE.BufferGeometry(),new THREE.MeshBasicMaterial({color,transparent:true,opacity:op,side:THREE.DoubleSide,depthWrite:false,blending:THREE.AdditiveBlending}));m.visible=false;m.frustumCulled=false;sc.add(m);return m;}
+function setTri(m,a,b,c,op){m.visible=true;m.geometry.setFromPoints([a,b,c]);m.geometry.computeVertexNormals();m.material.opacity=op;}
+
+// đường đi thẳng
+const lineP=(A,B)=>{const h=Math.atan2(B[1]-A[1],B[0]-A[0]);return (s)=>[A[0]+Math.cos(h)*s,A[1]+Math.sin(h)*s,h];};
+const toMap=(lon,lat)=>[(lon-130)*K,lat-34.5];
+// hạm đội Nhật: thẳng → quay trái 180° → thẳng
+function uTurn(A,B,R,L3){const h0=Math.atan2(B[1]-A[1],B[0]-A[0]);const L1=Math.hypot(B[0]-A[0],B[1]-A[1]),ARC=Math.PI*R;const C=[B[0]-Math.sin(h0)*R,B[1]+Math.cos(h0)*R];
+  return {C,L1,at(s){if(s<=L1)return [A[0]+Math.cos(h0)*s,A[1]+Math.sin(h0)*s,h0];
+    if(s<=L1+ARC){const a=(s-L1)/R,th=h0-Math.PI/2+a;return [C[0]+Math.cos(th)*R,C[1]+Math.sin(th)*R,h0+a];}
+    const h1=h0+Math.PI,P=[C[0]+Math.cos(h0+Math.PI/2)*R,C[1]+Math.sin(h0+Math.PI/2)*R],d=s-L1-ARC;return [P[0]+Math.cos(h1)*d,P[1]+Math.sin(h1)*d,h1];}};}
+
+// ---------- các cú máy EP002 黄海海戦 1904 ----------
+const cfg={tieu_de:'',phu:'',fog:0.42,exp:1.15,mode:'ts',legend:true,so:false,gio:null,gio_nhan:''};
+let upd=()=>{},camf=()=>{};
+const LON=(d)=>THREE.MathUtils.degToRad(d);
+function orbit(tgt,dist,pitchDeg,azDeg,){const p=THREE.MathUtils.degToRad(pitchDeg),a=THREE.MathUtils.degToRad(azDeg);
+  cam.position.set(tgt.x+dist*Math.cos(p)*Math.sin(a),tgt.y+dist*Math.sin(p),tgt.z+dist*Math.cos(p)*Math.cos(a));cam.lookAt(tgt);}
+const SH={};
+const GAP=0.34, DEG=Math.PI/180;
+const SUN=[5,20]; // thanh mặt trời: 5h → 20h (日没 午後8時ごろ)
+// đường đi: thẳng L1, rồi cung tròn bán kính R quay dth rad (dth>0 trái, <0 phải), rồi thẳng
+function turnPath(A,h0,L1,R,dth){const sg=dth>=0?1:-1,arc=R*Math.abs(dth);
+  const B=[A[0]+Math.cos(h0)*L1,A[1]+Math.sin(h0)*L1],C=[B[0]-Math.sin(h0)*R*sg,B[1]+Math.cos(h0)*R*sg],th0=h0-sg*Math.PI/2;
+  const at=(s)=>{if(s<=L1)return [A[0]+Math.cos(h0)*s,A[1]+Math.sin(h0)*s,h0];
+    if(s<=L1+arc){const a=(s-L1)/R*sg,th=th0+a;return [C[0]+Math.cos(th)*R,C[1]+Math.sin(th)*R,h0+a];}
+    const h1=h0+dth,thE=th0+dth,P=[C[0]+Math.cos(thE)*R,C[1]+Math.sin(thE)*R],d=s-L1-arc;return [P[0]+Math.cos(h1)*d,P[1]+Math.sin(h1)*d,h1];};
+  return at;}
+const straight=(A,h)=>(s)=>[A[0]+Math.cos(h)*s,A[1]+Math.sin(h)*s,h];
+// giao điểm hai đường thẳng (A1+s*d1, A2+u*d2) → [s,u]
+function inter(A1,h1,A2,h2){const d1=[Math.cos(h1),Math.sin(h1)],d2=[Math.cos(h2),Math.sin(h2)],det=d1[0]*(-d2[1])-d1[1]*(-d2[0]);
+  const bx=A2[0]-A1[0],by=A2[1]-A1[1];return [(bx*(-d2[1])-by*(-d2[0]))/det,(d1[0]*by-d1[1]*bx)/det];}
+const fleet=(gs,path,s,gap=GAP)=>gs.forEach((g,i)=>putP(g,path(s-i*gap)));
+const japFleet=()=>[...ships(4,'bb','nhat',0.23),...ships(2,'cr','nhat',0.2)];
+const rusFleet=()=>[...ships(6,'bb','nga',0.23)];
+const rusFleet4=()=>[...ships(4,'bb','nga',0.15),...ships(1,'cr','nga',0.13)];
+const wlabel=(tx,col,fn,vis)=>label(tx,col,fn,vis||(()=>1));
+const above=(g,dy=0.16)=>()=>g.position.clone().add(new THREE.Vector3(0,dy,0));
+function fire(gs,tgt,kk,op=0.4){return gs.map(()=>cone(0xe0583f,op));}
+
+// 1) 黄海: ウラジオストクへの突破経路 (world)
+SH['koukai']=()=>{cfg.mode='world';cfg.fog=0.0016;cfg.tieu_de='黄海 ・ ウラジオストクへの突破';cfg.phu='旅順 → 黄海 → 対馬海峡 → ウラジオストク';
+  const wp=[[121.25,38.8],[122.7,37.5],[125.0,35.5],[128.2,34.4],[130.0,35.2],[131.2,38.4],[131.9,43.1]];
+  const pts=wp.map(([lo,la])=>E(lo,la,0.3)),tb=tube(pts,0.09,0x9aa3ad,0.95),curve=tb.userData.curve;
+  const pin=[['旅順',0,'#f0e8d8',0.1],['対馬海峡',4,'#cfc8ba',0.55],['ウラジオストク',6,'#f0e8d8',0.7]];
+  pin.forEach(([tx,i,col,k0])=>{const p=pts[i];wlabel(tx,col,()=>p.clone().add(new THREE.Vector3(i===0?-0.9:0,0.9,0)),(t,k)=>smooth((k-k0+0.1)*8));
+    const d=new THREE.Mesh(new THREE.SphereGeometry(0.2,12,8),new THREE.MeshBasicMaterial({color:i===0?0xcc2222:0xf0e8d8}));d.position.copy(p);sc.add(d);});
+  wlabel('山東半島','#cfc8ba',()=>E(118.9,36.2,0.6),(t,k)=>smooth((k-0.05)*6));
+  const ru=ships(4,'bb','nga',1.0);const ja=[...ships(3,'bb','nhat',0.75),...ships(2,'cr','nhat',0.6)];
+  wlabel('連合艦隊','#e0583f',()=>E(125.3,37.6,1.0),(t,k)=>smooth((k-0.1)*6));
+  upd=(t,k)=>{const u=ease(clamp(k*1.1));drawTube(tb,u);
+    const sh=(i)=>{const uu=Math.max(0,u-i*0.045),p=curve.getPointAt(Math.min(0.999,uu)),q=curve.getPointAt(Math.min(0.999,uu+0.004));put(ru[i],p.x,p.z,Math.atan2(-(q.z-p.z),q.x-p.x),0.3);};
+    ru.forEach((g,i)=>sh(i));
+    const c0=toMap(122.6,37.3);ja.forEach((g,i)=>put(g,c0[0]+0.55*i,-(c0[1]-0.2*i),0.1,0.3));};
+  camf=(t,k)=>{const u=ease(clamp(k*1.1)),p=curve.getPointAt(Math.min(0.999,Math.max(0.02,u)));orbit(new THREE.Vector3(p.x*0.6+E(126,38,0).x*0.4,0,p.z*0.6+E(126,38,0).z*0.4),lerp(17,13,smooth(k)),58,10+30*k+VAR*18);};
+};
+
+// 2) 旅順口: 包囲と港内砲撃 (8月)
+SH['ryojun']=()=>{cfg.mode='ts';cfg.fog=0.14;cfg.tieu_de='旅順口';cfg.phu='陸から第三軍が包囲 ・ 大孤山から港内を砲撃';
+  const T=toMap(121.2,38.75),ru=ships(6,'bb','nga',0.15),ja=ships(4,'bb','nhat',0.17);
+  const arcPts=[...Array(15)].map((_,i)=>{const a=lerp(-0.1,Math.PI+0.1,i/14);return V3(T[0]+0.15+Math.cos(a)*0.9,T[1]+0.3+Math.sin(a)*0.6,0.03);});
+  const siege=tube(arcPts,0.012,0xe0583f,0.9),dk=V3(T[0]+0.85,T[1]+0.12,0.05);
+  const dkM=new THREE.Mesh(new THREE.SphereGeometry(0.035,12,8),new THREE.MeshBasicMaterial({color:0xe0583f}));dkM.position.copy(dk);sc.add(dkM);
+  const shell=cone(0xe0583f,0.5);
+  label('旅順港','#f0e8d8',()=>V3(T[0]-0.45,T[1]-0.1,0.12),(t,k)=>smooth((k-0.05)*6));
+  label('第三軍 包囲','#e0583f',()=>arcPts[2].clone().add(new THREE.Vector3(0,0.1,0)),(t,k)=>smooth((k-0.25)*6));
+  label('大孤山','#e0583f',()=>dkM.position.clone().add(new THREE.Vector3(0,0.1,0)),(t,k)=>smooth((k-0.4)*6));
+  label('連合艦隊','#e0583f',()=>ja[0].position.clone().add(new THREE.Vector3(0,0.14,0)),(t,k)=>smooth((k-0.2)*6));
+  upd=(t,k)=>{ru.forEach((g,i)=>put(g,T[0]-0.3+0.22*(i%3)+0.015*Math.sin(k*DUR*0.8+i),-(T[1]-0.3-0.2*Math.floor(i/3)),0.6+0.3*(i%2),0));
+    ja.forEach((g,i)=>put(g,T[0]-0.45+0.32*i,-(T[1]-1.0-0.06*i),0.1,0));
+    drawTube(siege,ease(k*1.6));const a=dkM.position.clone(),b=V3(T[0]-0.05,T[1]-0.25,0.02);
+    setTri(shell,a,b.clone().add(new THREE.Vector3(-0.03,0,0)),b.clone().add(new THREE.Vector3(0.03,0,0)),(0.2+0.25*Math.sin(k*DUR*7))*smooth((k-0.4)*5));};
+  camf=(t,k)=>orbit(V3(T[0]+0.25,T[1]-0.2),lerp(2.3,1.8,smooth(k)),lerp(60,52,smooth(k)),lerp(8,-10,smooth(k))+VAR*10);
+};
+
+// 2b) 旅順: 12月 28センチ榴弾砲
+SH['ryojun12']=()=>{cfg.mode='ts';cfg.fog=0.14;cfg.tieu_de='旅順港 ・ 12月5日〜';cfg.phu='203高地の陥落のあと 28センチ榴弾砲が港内を砲撃';
+  const T=toMap(121.2,38.75),ru=ships(5,'bb','nga',0.15);
+  const hw=V3(T[0]+0.7,T[1]+0.6,0.05),hwM=new THREE.Mesh(new THREE.SphereGeometry(0.035,12,8),new THREE.MeshBasicMaterial({color:0xe0583f}));hwM.position.copy(hw);sc.add(hwM);
+  const arcs=ru.map(()=>cone(0xe0583f,0.5));
+  label('28センチ榴弾砲','#e0583f',()=>hw.clone().add(new THREE.Vector3(0,0.1,0)),(t,k)=>smooth((k-0.1)*6));
+  label('旅順港','#f0e8d8',()=>V3(T[0]-0.45,T[1]-0.1,0.12),(t,k)=>smooth((k-0.05)*6));
+  upd=(t,k)=>{ru.forEach((g,i)=>{const sink=smooth((k-0.15-i*0.1)*2.2);put(g,T[0]-0.3+0.22*(i%3),-(T[1]-0.3-0.2*Math.floor(i/3)),0.6+0.3*(i%2),-0.06*sink);g.rotation.z=0.5*sink;});
+    arcs.forEach((c,i)=>{const b=ru[i].position.clone();b.y=0.02;setTri(c,hw,b.clone().add(new THREE.Vector3(-0.02,0,0)),b.clone().add(new THREE.Vector3(0.02,0,0)),(0.1+0.12*Math.sin(k*DUR*6+i))*smooth((k-0.1-i*0.1)*6));});};
+  camf=(t,k)=>orbit(V3(T[0]+0.25,T[1]-0.1),lerp(2.3,1.8,smooth(k)),lerp(58,50,smooth(k)),lerp(8,-10,smooth(k))+VAR*10);
+};
+
+// 3) 第一の砲撃戦: 旅順艦隊が連合艦隊の後尾を抜ける (13時すぎ)
+SH['kosen1']=()=>{cfg.mode='ts';cfg.fog=0.16;cfg.tieu_de='午後1時すぎ ・ 最初の砲撃戦';cfg.phu='旅順艦隊が連合艦隊の後尾を抜ける';cfg.gio=[13.0,13.5];cfg.gio_nhan='午後1時すぎ';
+  const ja=japFleet(),ru=rusFleet(),O=toMap(122.7,37.7);
+  const AJ=[O[0]-1.1,O[1]-0.3],hJ=22*DEG,AR=[O[0]-0.5,O[1]+0.95],hR=-38*DEG,I=inter(AJ,hJ,AR,hR),VJ=0.2,VR=0.17,tC=0.5*DUR,nJ=ja.length;
+  const sJc=I[0]+0.25+(nJ-1)*GAP,L1=sJc+VJ*0.5,pJ=turnPath(AJ,hJ,L1,0.28,-60*DEG),pR=straight(AR,hR);
+  const Ip=[AJ[0]+Math.cos(hJ)*I[0],AJ[1]+Math.sin(hJ)*I[0]];
+  const cones=ja.slice(0,4).map(()=>cone(0xe0583f,0.35));
+  label('連合艦隊','#e0583f',above(ja[0]),()=>1);label('旅順艦隊','#9aa3ad',above(ru[0]),()=>1);
+  label('後尾を抜ける','#f0e8d8',()=>V3(Ip[0]-0.35,Ip[1]+0.35,0.22),(t,k)=>smooth((k-0.45)*8)*smooth((0.95-k)*6));
+  upd=(t,k)=>{const tt=k*DUR;fleet(ja,pJ,sJc+VJ*(tt-tC));ru.forEach((g,i)=>putP(g,pR(I[1]+VR*(tt-tC)-i*GAP)));
+    const tg=ru[0].position.clone();tg.y=0.06;cones.forEach((c,i)=>{const s=ja[i].position.clone();s.y=0.08;const w=0.025;setTri(c,s,tg.clone().add(new THREE.Vector3(-w,0,0)),tg.clone().add(new THREE.Vector3(w,0,0)),(0.1+0.1*Math.sin(tt*9+i))*smooth((k-0.15)*6)*(1-smooth((k-0.7)*6)));});};
+  camf=(t,k)=>orbit(V3(Ip[0]+0.35,Ip[1]-0.2),lerp(2.5,2.0,smooth(k)),lerp(50,44,smooth(k)),lerp(12,32,smooth(k))+VAR*14);
+};
+
+// 4) 午後の追跡
+SH['tsuigeki']=()=>{cfg.mode='ts';cfg.fog=0.13;cfg.tieu_de='午後の追跡';cfg.phu='日没までの時間と、追う側・追われる側の速さ';cfg.gio=[13.6,17.4];cfg.gio_nhan='午後';
+  const ja=japFleet(),ru=rusFleet(),O=toMap(124.2,36.4);
+  const hR=-28*DEG,AR=[O[0]-1.5,O[1]+0.9],nL=[-Math.sin(hR),Math.cos(hR)],pR=straight(AR,hR),pJ=straight([AR[0]+nL[0]*0.55,AR[1]+nL[1]*0.55],hR);
+  const VR=0.14,VJ=0.145;
+  label('連合艦隊','#e0583f',above(ja[0]),()=>1);label('旅順艦隊','#9aa3ad',above(ru[0]),()=>1);
+  upd=(t,k)=>{const tt=k*DUR;fleet(ja,pJ,0.7+VJ*tt*1.0);fleet(ru,pR,1.9+VR*tt*0.75);};
+  camf=(t,k)=>{const a=ru[0].position,b=ja[0].position;orbit(lerpV(a,b,0.5).setY(0),lerp(2.6,2.1,smooth(k)),lerp(46,40,smooth(k)),lerp(12,32,smooth(k))+VAR*14);};
+};
+
+// 5) 第二の砲撃戦 (午後5時半すぎ)
+SH['kosen2']=()=>{cfg.mode='ts';cfg.fog=0.15;cfg.tieu_de='午後5時半すぎ ・ 二度目の砲撃戦';cfg.phu='距離が縮まる（海外資料: 6〜7キロ）';cfg.gio=[17.5,18.6];cfg.gio_nhan='午後5時半すぎ';cfg.so=true;
+  const ja=japFleet(),ru=rusFleet(),O=toMap(125.0,36.0),hh=-30*DEG;
+  const AR=[O[0]-1.2,O[1]+0.75],AJ=[AR[0]-0.15+Math.sin(hh)*0.9*0,AR[1]+0.2+0.95],pR=straight(AR,hh),pJ=straight([AR[0]-0.55,AR[1]+0.95],hh);
+  const cones=ja.slice(0,4).map(()=>cone(0xe0583f,0.35));
+  label('連合艦隊','#e0583f',above(ja[0]),()=>1);label('旅順艦隊','#9aa3ad',above(ru[0]),()=>1);
+  upd=(t,k)=>{const tt=k*DUR,V=0.15;const off=lerp(1.35,0.8,smooth(k));
+    ru.forEach((g,i)=>putP(g,pR(1.3+V*tt-i*GAP)));
+    ja.forEach((g,i)=>{const p=pJ(0.95+V*1.04*tt-i*GAP);p[0]+=Math.sin(-hh)*0*1;putP(g,[p[0]+(Math.sin(hh))*(off-0.8)*0.5,p[1]-(Math.cos(hh))*(off-0.8)*0.5,p[2]]);});
+    const tg=ru[1].position.clone();tg.y=0.06;cones.forEach((c,i)=>{const s=ja[i].position.clone();s.y=0.08;setTri(c,s,tg.clone().add(new THREE.Vector3(-0.025,0,0)),tg.clone().add(new THREE.Vector3(0.025,0,0)),(0.12+0.1*Math.sin(tt*12+i))*smooth((k-0.1)*6));});
+    document.getElementById('so').textContent='6〜7km（海外資料）';};
+  camf=(t,k)=>orbit(lerpV(ru[1].position,ja[1].position,0.5).setY(0),lerp(2.3,1.9,smooth(k)),lerp(44,38,smooth(k)),lerp(15,35,smooth(k))+VAR*14);
+};
+
+// 6) 旗艦の急旋回、艦列が崩れる (午後6時40分ごろ)
+SH['senkai']=()=>{cfg.mode='ts';cfg.fog=0.15;cfg.tieu_de='午後6時40分ごろ ・ 一発のあと';cfg.phu='旗艦の舵が左に固定され、艦列が崩れる';cfg.gio=[18.62,18.85];cfg.gio_nhan='午後6時40分ごろ';
+  const ja=japFleet(),ru=rusFleet(),O=toMap(125.4,35.7),hh=-30*DEG;
+  const AR=[O[0]-1.35,O[1]+0.75],tHit=0.32*DUR,V=0.15,Lh=1.45+V*tHit;
+  const paths=ru.map((g,i)=>turnPath(AR,hh,Lh-i*GAP+ (i>0?-0.09*i:0),0.16+0.02*(i%2),(i===0?1:0.55+0.09*i)*(i===0?150*DEG:120*DEG)));
+  const pJ=straight([AR[0]-0.45,AR[1]+0.95],hh);
+  const ring=mkRing(0xf0e8d8),cones=ja.slice(0,4).map(()=>cone(0xe0583f,0.35));
+  label('連合艦隊','#e0583f',above(ja[0]),()=>1);label('旅順艦隊','#9aa3ad',above(ru[2]),(t,k)=>1-smooth((k-0.5)*5));
+  label('旗艦 ツェサレーヴィチ','#9aa3ad',above(ru[0],0.2),(t,k)=>smooth((k-0.28)*8));
+  label('舵が左に固定','#f0e8d8',()=>ru[0].position.clone().add(new THREE.Vector3(0.1,0.34,0)),(t,k)=>smooth((k-0.4)*8));
+  label('艦列が崩れる','#f0e8d8',()=>ru[3].position.clone().add(new THREE.Vector3(0,0.28,0)),(t,k)=>smooth((k-0.62)*8));
+  upd=(t,k)=>{const tt=k*DUR;ru.forEach((g,i)=>putP(g,paths[i](1.2+V*tt-i*GAP*(i===0?0:1))));
+    ja.forEach((g,i)=>putP(g,pJ(0.9+V*1.02*tt-i*GAP)));
+    const kk=clamp((k-0.3)/0.25);ringAt(ring,ru[0].position.x,ru[0].position.z,0.05+kk*0.35,(1-kk)*0.8*(k>0.3?1:0));
+    const tg=ru[0].position.clone();tg.y=0.06;cones.forEach((c,i)=>{const s=ja[i].position.clone();s.y=0.08;setTri(c,s,tg.clone().add(new THREE.Vector3(-0.022,0,0)),tg.clone().add(new THREE.Vector3(0.022,0,0)),(0.1+0.1*Math.sin(tt*10+i))*smooth(k*6)*(1-smooth((k-0.45)*5)));});};
+  camf=(t,k)=>orbit(lerpV(lerpV(ru[0].position,ru[3].position,0.4),ja[1].position,0.35).setY(0),lerp(2.4,1.95,smooth(k)),lerp(48,42,smooth(k)),lerp(12,34,smooth(k))+VAR*14);
+};
+
+// 7) 四分五裂: レトヴィザンの突進、旅順への帰還 (日没へ)
+SH['sanran']=()=>{cfg.mode='ts';cfg.fog=0.15;cfg.tieu_de='隊形の崩れたあと';cfg.phu='レトヴィザンが突進 ・ 次席指揮官が旅順への帰還を決める';cfg.gio=[18.85,20.0];cfg.gio_nhan='日没へ';
+  const ja=japFleet(),ru=rusFleet(),O=toMap(125.2,35.6);
+  const A0=[[O[0]-0.2,O[1]+0.1],[O[0]-0.05,O[1]-0.1],[O[0]-0.35,O[1]+0.25],[O[0]-0.55,O[1]+0.35],[O[0]-0.7,O[1]+0.45],[O[0]-0.85,O[1]+0.55]];
+  const H0=[150*DEG,40*DEG,125*DEG,140*DEG,135*DEG,145*DEG];
+  const sp=[0.1,0.17,0.12,0.14,0.13,0.13];
+  const arrows=[];const mk=(c)=>{const a=new THREE.ArrowHelper(new THREE.Vector3(1,0,0),new THREE.Vector3(),0.4,c,0.06,0.04);a.visible=false;sc.add(a);return a;};
+  const aRet=mk(0xe0583f),aRtn=mk(0x9aa3ad);
+  const pJ=straight([O[0]-0.5,O[1]-0.7],10*DEG);
+  label('レトヴィザン 突進','#f0e8d8',()=>ru[1].position.clone().add(new THREE.Vector3(0,0.26,0)),(t,k)=>smooth((k-0.25)*7));
+  label('旅順へ','#cfc8ba',()=>ru[3].position.clone().add(new THREE.Vector3(0,0.28,0)),(t,k)=>smooth((k-0.5)*7));
+  label('連合艦隊','#e0583f',above(ja[5]),()=>1);
+  upd=(t,k)=>{const tt=k*DUR;ru.forEach((g,i)=>{const turn=smooth((k-0.15-i*0.03)*2);const h=lerp(i===0?H0[0]:150*DEG,H0[i],turn);
+      putP(g,[A0[i][0]+Math.cos(h)*sp[i]*tt,A0[i][1]+Math.sin(h)*sp[i]*tt,h]);});
+    ja.forEach((g,i)=>putP(g,pJ(0.9+0.14*tt-i*GAP)));
+    const r=ru[1].position,q=ru[3].position;aRet.visible=aRtn.visible=true;
+    aRet.position.set(r.x,0.1,r.z);aRet.setDirection(new THREE.Vector3(Math.cos(H0[1]),0,-Math.sin(H0[1])));aRet.setLength(0.38,0.06,0.04);
+    aRtn.position.set(q.x,0.1,q.z);aRtn.setDirection(new THREE.Vector3(Math.cos(H0[3]),0,-Math.sin(H0[3])));aRtn.setLength(0.38,0.06,0.04);};
+  camf=(t,k)=>orbit(lerpV(lerpV(ru[1].position,ru[4].position,0.5),ja[2].position,0.3).setY(0),lerp(2.6,2.1,smooth(k)),lerp(50,44,smooth(k)),lerp(12,34,smooth(k))+VAR*14);
+};
+
+// 8) 中立港へ逃れた艦 (旅順 → 青島 / 上海 / サイゴン)
+SH['churitsu']=()=>{cfg.mode='world';cfg.fog=0.0016;cfg.tieu_de='逃れた艦の行き先';cfg.phu='青島（ドイツ租借地） ・ 上海 ・ サイゴン（仏領インドシナ）';cfg.legend=false;
+  const P0=[121.25,38.8],dst=[['青島（ドイツ租借地）',120.3,36.1,'#f0e8d8',[[121.25,38.8],[122.0,37.4],[120.9,36.4],[120.3,36.1]]],['上海',121.5,31.2,'#f0e8d8',[[121.25,38.8],[123.2,36.3],[123.4,32.5],[121.9,31.3],[121.5,31.2]]],
+    ['サイゴン（仏領インドシナ）',106.7,10.8,'#f0e8d8',[[121.25,38.8],[123.5,34],[121.6,27],[118.5,21],[115.5,16.5],[111.2,12.0],[107.5,10.4],[106.7,10.8]]]];
+  const tbs=dst.map(([n,lo,la,c,w])=>tube(w.map(([a,b])=>E(a,b,0.3)),0.12,0x9aa3ad,0.95));
+  const o=E(P0[0],P0[1],0.4);label('旅順','#f0e8d8',()=>o.clone().add(new THREE.Vector3(1.4,1.1,0)),(t,k)=>smooth((k-0.05)*8));
+  dst.forEach(([n,lo,la,c],i)=>{const p=E(lo,la,0.4);const d=new THREE.Mesh(new THREE.SphereGeometry(0.28,12,8),new THREE.MeshBasicMaterial({color:0xf0e8d8}));d.position.copy(p);sc.add(d);
+    label(n,c,()=>p.clone().add(new THREE.Vector3(i===0?-7.2:i===1?2.8:0,1.1,0)),(t,k)=>smooth((k-0.2-i*0.18)*7));});
+  upd=(t,k)=>{tbs.forEach((m,i)=>drawTube(m,ease(clamp((k-0.1-i*0.2)*1.8))));};
+  camf=(t,k)=>orbit(E(113.5,22.5,0),lerp(54,48,smooth(k)),lerp(62,58,smooth(k)),lerp(-4,8,smooth(k))+VAR*8);
+};
+
+// 9) 蔚山沖 (8/14) とノヴィークの航跡 (8/20)
+SH['ulsan']=()=>{cfg.mode='world';cfg.fog=0.0016;cfg.tieu_de='8月14日 蔚山沖 ・ 8月20日 コルサコフ';cfg.phu='第2艦隊がウラジオストク艦隊を破る ・ ノヴィークは日本列島を回り込む';cfg.legend=false;
+  const wp=[[121.25,38.8],[122.5,35.2],[124.8,31.6],[129.0,30.1],[134.0,32.0],[139.2,34.0],[142.2,37.5],[143.6,41.4],[145.5,43.8],[144.8,46.0],[143.0,46.6]];
+  const tb=tube(wp.map(([a,b])=>E(a,b,0.3)),0.1,0x9aa3ad,0.95),curve=tb.userData.curve,ring=mkRing(0xe0583f);
+  const ul=E(129.5,35.5,0.4),ko=E(143.0,46.6,0.4),rt=E(121.25,38.8,0.4);
+  [ul,ko,rt].forEach((p,i)=>{const d=new THREE.Mesh(new THREE.SphereGeometry(0.26,12,8),new THREE.MeshBasicMaterial({color:i===0?0xcc2222:0xf0e8d8}));d.position.copy(p);sc.add(d);});
+  label('蔚山沖（8月14日）','#e0583f',()=>ul.clone().add(new THREE.Vector3(-3.2,1.1,0)),(t,k)=>smooth((k-0.08)*7));
+  label('コルサコフ（8月20日）','#f0e8d8',()=>ko.clone().add(new THREE.Vector3(-1.5,1.1,0)),(t,k)=>smooth((k-0.7)*8));
+  label('旅順','#f0e8d8',()=>rt.clone().add(new THREE.Vector3(0,1.1,0)),(t,k)=>smooth((k-0.05)*8));
+  upd=(t,k)=>{drawTube(tb,ease(clamp((k-0.15)*1.25)));const kk=((k*1.6)%1);ringAt(ring,ul.x,ul.z,0.2+kk*2.2,(1-kk)*0.8*(k>0.08?1:0));};
+  camf=(t,k)=>orbit(E(135,39,0),lerp(30,26,smooth(k)),lerp(58,52,smooth(k)),lerp(-2,10,smooth(k))+VAR*10);
+};
+
+(SH[S.shot]||SH['koukai'])();
+const el={t:document.getElementById('titulo'),p:document.getElementById('phu'),hud:document.getElementById('hud'),so:document.getElementById('so'),lg:document.getElementById('chuthich')};
+el.t.textContent=S.tieu_de||cfg.tieu_de;el.p.textContent=S.phu||cfg.phu;el.lg.style.display=cfg.legend?'block':'none';
+sc.fog.density=cfg.fog;if(!cfg.so)el.so.style.display='none';
+landTs.visible=cfg.mode==='ts';landW.visible=cfg.mode==='world';gridTs.visible=cfg.mode==='ts';gridW.visible=cfg.mode==='world';
+const SD=S.scene||DUR,K0=S.k0||0,K1=(S.k1===undefined?1:S.k1);
+const gioE=document.getElementById('gio'),mtE=document.getElementById('mt');if(cfg.gio){gioE.style.display='block';mtE.style.display='block';gioE.textContent=cfg.gio_nhan;}
+window.renderFrame=(t)=>{const k=K0+(K1-K0)*Math.min(1,t/SD);upd(t,k);camf(t,k);if(cfg.gio){const g=lerp(cfg.gio[0],cfg.gio[1],k),f=(g-SUN[0])/(SUN[1]-SUN[0]);mtE.querySelector('b').style.width=(f*100)+'%';mtE.querySelector('i').style.left=(f*100)+'%';}cam.updateMatrixWorld();r.render(sc,cam);updLabels(t,k);el.hud.style.opacity=smooth(t/0.6);return null;};
+await document.fonts.load('700 40px NSJ','敵前大回頭連合艦隊');await document.fonts.ready;
+window.renderFrame(0);window.READY=true;
+</script></body></html>

@@ -1,0 +1,19 @@
+nhom	muc_do	pham_vi	mau	ly_do	thay_bang
+tuc_tiu	CHAN	tat_ca	(死ね|くたばれ|ぶっ殺|殺してやる|クソ野郎|くそ野郎|糞野郎|ふざけんな|(?<![A-Za-z])fuck\w*|f\*ck)	Chửi tục mạnh: tiêu đề, bìa bị tắt quảng cáo; trong lời đọc dùng nhiều cũng bị hạn chế	Bỏ
+tuc_tiu	CANH	tat_ca	(クソ|くそ|畜生|ちくしょう|馬鹿野郎|バカ野郎|てめえ|てめぇ|(?<![A-Za-z])(shit|bitch|damn)(?![A-Za-z]))	Chửi tục vừa: trong tiêu đề, bìa thì bị hạn chế quảng cáo	Bỏ, hoặc chỉ để trong câu trích có nguồn
+miet_thi	CHAN	tat_ca	(ジャップ|(?<![A-Za-z])Japs?(?![A-Za-z])|露助|ロスケ|毛唐|チャンコロ|チョン(?![トコボマ])|不逞鮮人|鮮人|土人|黄色い猿|イエローモンキー|小日本|日本鬼子|鬼子)	Lăng mạ dân tộc: tắt quảng cáo, có thể bị gỡ	ロシア軍、ロシア艦隊、日本軍 (gọi đúng tên quốc gia, quân đội)
+miet_thi	CANH	tat_ca	(鬼畜米英|鬼畜|支那|シナ人|倭寇|倭人|敵兵ども|露探)	Từ tuyên truyền hoặc miệt thị thời chiến (luat-noi-dung mục 1): chỉ để trong câu trích có nguồn	ロシア軍、連合国軍、米軍、清国 (theo thời kỳ)
+miet_thi	CANH	tat_ca	(東郷|乃木|山本|伊東|ロジェストヴェンスキー|ネボガトフ|ステッセル|三笠|スヴォーロフ)(さん|君|くん)	Không dùng さん/君 cho nhân vật lịch sử trong lời đọc trang trọng (luat-noi-dung mục 3)	Chức vụ + tên: 連合艦隊司令長官 東郷平八郎大将
+phu_nhan	CHAN	tat_ca	(南京.{0,20}(でっち上げ|なかった|虚構|捏造|幻|まぼろし|嘘)|(でっち上げ|捏造|虚構).{0,12}南京|慰安婦.{0,15}(なかった|捏造|嘘|でっち上げ)|(731|七三一).{0,15}(なかった|捏造|嘘))	Phủ nhận thảm kịch: vi phạm chính sách YouTube, mất kiếm tiền cả kênh	Bỏ; nêu sự kiện có nguồn, ghi 諸説あり nếu số liệu chưa thống nhất
+phu_nhan	CANH	tat_ca	(原爆.{0,12}(英断|正しかった|必要だった|当然)|(英断|正しかった).{0,10}原爆)	Khen quyết định ném bom nguyên tử (luat-noi-dung mục 1)	Nêu quyết định chính trị từ nhiều góc, không khen hoặc lên án phiến diện
+bao_luc	CHAN	tieu_de	(血みどろ|血まみれ|血の海|死体|遺体|屍|惨殺|虐殺|殺戮|斬首|無修正|ノーカット|閲覧注意|グロ(?![ーバ])|R-?18|18禁|モザイクなし|ぼかしなし)	Tiêu đề, bìa gợi máu me hoặc «không che»: dấu hiệu cố ý gây sốc, bị hạn chế hoặc tắt quảng cáo	Nói kết quả quân sự: 壊滅、全滅、沈没、損害
+bao_luc	CANH	tat_ca	(虐殺|惨殺|殺戮|血の海|血しぶき|血まみれ|血みどろ|死体|屍|遺体の山|阿鼻叫喚|地獄絵図|凄惨|惨状|断末魔|焼け死|焼き殺|焼死|丸焼き|黒焦げ|蒸し焼き|内臓|はらわた|斬首|首を斬|手足が吹き飛|肉片|腐乱|蛆|のた打ち|のたうち)	Trong lời đọc chỉ được nếu có ngữ cảnh giáo dục và không tả chi tiết thương tích; tiêu đề, bìa thì tránh (kit B.2)	Kể sự kiện, con số có nguồn, không tả vết thương, không tả cách chết
+giat_tit	CANH	tieu_de	(衝撃|驚愕|戦慄|絶句|震撼|ヤバすぎ|ヤバい|ありえない|恐怖の|閲覧注意|知らないと損|誰も知らない)	Giật tít (bộ lọc mục C.5): tiêu đề, bìa, 2 dòng đầu mô tả	Câu hỏi 「なぜ…か」、「全貌」、nghịch lý; phải trả lời được trong phim
+tinh_duc	CANH	tat_ca	(レイプ|強姦|性暴力|性奴隷|売春|慰安所|AV女優|エロ)	Xâm hại tình dục, nội dung tình dục: chỉ nhắc một câu, không mô tả (bộ lọc mục C.6)	Một câu trung tính có nguồn, hoặc bỏ
+tu_sat	CANH	tat_ca	(自殺|自決|割腹|切腹|首を吊)	Tự sát: chỉ nhắc thoáng, không mô tả (bộ lọc mục C.6)	Một câu trung tính; không tả cách
+ton_vinh	CANH	tat_ca	(聖戦|皇軍|玉砕|散華|英霊|殉国|無敵|不敗神話|神国|大和魂|八紘一宇)	Từ tôn vinh hoặc tuyên truyền thời chiến: chỉ trong câu trích có nguồn (Violent Extremism, NHK §7)	Mô tả trung tính: 戦死、全滅、決戦
+ton_vinh	CANH	tieu_de	(旭日旗|日の丸の栄光|英雄)	Tiêu đề, bìa không đặt 旭日旗 làm trọng tâm; «英雄» dễ thành ca ngợi (luat-noi-dung mục 5)	Nói kết quả và nghịch lý
+nhan_vat	CANH	tat_ca	(裕仁|今上天皇|令和天皇|徳仁)	Gọi tên riêng Nhật Hoàng, hoặc nhắc người còn sống (luat-noi-dung mục 1, 3)	昭和天皇 / 明治天皇 / 天皇陛下 (theo thời kỳ)
+thoi_su	CANH	tat_ca	(ウクライナ|ガザ|ハマス|イスラエル軍|台湾有事)	Chiến sự đang diễn ra: không làm đề tài, không dùng từ khoá thời sự kéo view (bộ lọc mục C.9)	Bỏ
+ban_do	CANH	tat_ca	(竹島|独島|尖閣|釣魚島|千島|北方領土|択捉|国後|歯舞|色丹)	Địa danh tranh chấp: ghi theo luat-noi-dung mục 4, kèm chú thích 領有権に諸説あり khi làm chủ đề	Ghi tên Nhật, thêm chú thích, không vẽ ranh giới hiện đại
+anh_chung	CHAN	tieu_de	(?i)(?<![a-z])(uncensored|18\+|nsfw|gore)(?![a-z])	Tiêu đề kiểu «không che» bị hạn chế	Bỏ

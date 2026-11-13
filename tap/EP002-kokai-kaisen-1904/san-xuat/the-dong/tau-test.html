@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8">
+<script type="importmap">{"imports":{"three":"../../../../template/node_modules/three/build/three.module.js","three/addons/":"../../../../template/node_modules/three/examples/jsm/"}}</script>
+<style>html,body{margin:0;background:#111;overflow:hidden}</style></head><body>
+<script>window.READY=false;window.SIZE='1920x1080';window.DURATION=6;</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const W=1920,H=1080;
+const r=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
+r.setSize(W,H);r.setPixelRatio(1);document.body.appendChild(r.domElement);
+const sc=new THREE.Scene();sc.background=new THREE.Color(0x111111);sc.fog=new THREE.FogExp2(0x111111,0.55);
+const cam=new THREE.PerspectiveCamera(32,W/H,0.01,50);
+sc.add(new THREE.HemisphereLight(0xcfd6de,0x222222,1.1));
+const dl=new THREE.DirectionalLight(0xffffff,1.6);dl.position.set(2,3,1.5);sc.add(dl);
+const sea=new THREE.GridHelper(8,64,0x333333,0x1f1f1f);sea.position.y=-0.2;sc.add(sea);
+const grp=new THREE.Group();sc.add(grp);
+function mat(c){return new THREE.MeshStandardMaterial({color:c,roughness:.8,metalness:.05,flatShading:true});}
+const L=new GLTFLoader();
+function load(u){return new Promise((res,rej)=>L.load(u,g=>res(g.scene),undefined,rej));}
+const [a,b]=await Promise.all([load('tau-thiet-giap.glb'),load('tau-phong-loi.glb')]);
+function tint(o,c){o.traverse(m=>{if(m.isMesh){m.material=mat(c);}});return o;}
+tint(a,0xcc2222);tint(b,0x9aa3ad);
+a.position.set(-0.6,0,0);b.position.set(0.7,0,0.2);
+grp.add(a);grp.add(b);
+window.renderFrame=(t)=>{
+  const ang=t*0.6;cam.position.set(Math.cos(ang)*2.4,0.9,Math.sin(ang)*2.4);cam.lookAt(0,0,0);
+  r.render(sc,cam);return null;};
+window.renderFrame(0);window.READY=true;
+</script></body></html>
